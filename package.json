@@ -1,0 +1,27 @@
+{
+  "name": "masterpieceapparel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vite.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephMorales28/MasterpieceApparel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JosephMorales28/MasterpieceApparel/issues"
+  },
+  "homepage": "https://github.com/JosephMorales28/MasterpieceApparel#readme",
+  "dependencies": {
+    "vite": "^8.0.16"
+  }
+}
