@@ -1,4 +1,8 @@
+@use 'scss/color.scss' as c;
 *,html{
-   background-color: #f8f9fa;
-   color:#343a40;
+   background-color: c.$htmlbg;
+   color:c.$htmlcolor;
+   margin:0;
+   padding:0;
+   scroll-behavior: smooth;
 }
