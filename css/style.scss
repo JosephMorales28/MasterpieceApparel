@@ -12,44 +12,90 @@ html, body {
 * {
   box-sizing: border-box;
 }
-header{
-    position:relative;
-    margin:0;
-    z-index: 1;
-    nav {
-       display: flex;
-       justify-content: space-between;
-       width: 100%;
-       background-color: c.$navbg;
-       position:fixed;
-       #logo {
-          padding: 2rem;
-          background-color: transparent;
-        }
-        ul {
-           display: flex;
-           gap: 1rem;
-           background-color: transparent;
-           li {
-              display: inline-block;
-              list-style-type: none;
-              padding: 1rem;
-              background-color: transparent;
-              text-transform: uppercase;
-            }
-            li:last-child{
-               display: none;
-            }
-            @media screen and (max-width:400px){
-                  li{
-                     display:none;
-                  }
-                  li:last-child{
-                     display: inline-block;
-                  }
-            }
-        }
+header {
+  position: relative;
+  margin: 0;
+  z-index: 1;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: c.$navbg;
+    position: fixed;
+
+    #logo {
+      padding: 2rem;
+      background-color: transparent;
     }
+
+    ul {
+      display: flex;
+      background-color: transparent;
+
+      li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 1rem;
+        background-color: transparent;
+        text-transform: uppercase;
+
+        // dropdown container
+        ul {
+          display: none;
+          position: absolute;
+          top: 100%;
+          right: 0;
+          background: #f8f9fa;
+          width: auto;
+          padding:0;
+          flex-direction: column;
+
+          li {
+            display: block;
+            background: #f8f9fa;
+            text-align: center;
+            border:1px solid black;
+            &:hover {
+              background: c.$navbg;
+            }
+          }
+        }
+
+        &:hover > ul {
+          display: flex;
+        }
+      }
+
+      // Desktop: show all items inline
+      li:last-child {
+        display: none; // hide ☰ toggle on desktop
+      }
+
+      // Mobile breakpoint
+      @media screen and (max-width: 400px) {
+        // hide all top-level items except menu toggle
+        > li {
+          display: none;
+        }
+
+        // show ☰ toggle
+        > li:last-child {
+          display: inline-block;
+          cursor: pointer;
+          position: relative;
+
+          ul {
+            display: none;
+          }
+
+          &:hover > ul {
+            display: flex;
+          }
+        }
+      }
+    }
+  }
 }
 
 main {
@@ -57,6 +103,7 @@ main {
   padding:1rem;
   margin:5rem;
   border: 1px solid black;
+  width:1350px;
   h1 {
     font-size: 7rem;
   }
@@ -66,6 +113,7 @@ main {
       position: absolute;
       margin:5rem;
       border: 1px solid black;
+      width:auto;
       h1{
          font-size: 2rem;
        }
