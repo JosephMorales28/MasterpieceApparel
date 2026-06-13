@@ -40,7 +40,7 @@ header{
             li:last-child{
                display: none;
             }
-            @media screen and (max-width:600px){
+            @media screen and (max-width:300px){
                   li{
                      display:none;
                   }
@@ -57,7 +57,7 @@ main {
   padding:1rem;
   margin:5rem auto;
   margin-left:clamp(20px,25vw,80px);
-  width:clamp(500px,100vw,1350px);
+  width:clamp(300px,100vw,1350px);
   border: 1px solid black;
 
   h1 {
