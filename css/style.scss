@@ -12,10 +12,13 @@ html, body {
 * {
   box-sizing: border-box;
 }
+body{
+  padding-top: 0px;
+}
 header {
-  position: relative;
+  position: fixed;
   margin: 0;
-  z-index: 1;
+  z-index: 1000;
 
   nav {
     display: flex;
@@ -46,7 +49,7 @@ header {
           position: absolute;
           top: 100%;
           right: -15px;
-          background: #f8f9fa;
+          background: c.$htmlbg;
           width: 155px;
           padding:0;
           flex-direction: column;
@@ -99,23 +102,24 @@ header {
 }
 
 main {
-  position: absolute;  
+  position: static;  
   padding:1rem;
-  margin:5rem;
-  border: 1px solid black;
-  width:1350px;
+  padding-top:70px;
+  background-color: c.$navbg;
   h1 {
-    font-size: 7rem;
+    font-size: 4rem;
+    text-align: left;
+    width:800px;
   }
 }
 @media screen and (max-width:400px){
    main {
-      position: absolute;
-      margin:5rem;
-      border: 1px solid black;
-      width:auto;
+      position: static;
+      padding-top:70px;
       h1{
          font-size: 2rem;
+         text-align: left;
+         width:300px;
        }
     }
 }
