@@ -1,14 +1,5 @@
-[diff ="webp"]
-   textconv = identify  -verbose
-
-[diff ="avif"]
-   textconv = avifinfo
-
-[diff ="webm"]
-   textconv = ffprobe -show_streams -show_format -v quiet
-
-[diff ="metadata"]
-    textconv = exiftool -Author -Copyright
+[diff "image"]
+    textconv = exiftool -a -u -g1
 
 [diff "video"]
     textconv = ffprobe -show_streams -show_format -v quiet

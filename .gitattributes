@@ -7,7 +7,7 @@
 *.scss text eol=lf
 
 # custom diff
-*.jpg diff=metadata
+*.jpg diff=image
 *.jpeg diff=image
 *.png diff=image
 *.webp diff=image
@@ -17,4 +17,3 @@
 *.mp4 filter=lfs diff=video merge=lfs -text
 *.mov filter=lfs diff=video merge=lfs -text
 *.wav filter=lfs diff=video merge=lfs -text
-
