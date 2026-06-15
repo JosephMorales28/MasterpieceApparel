@@ -7,7 +7,7 @@
 *.scss text eol=lf
 
 # custom diff
-*.jpg diff=image
+*.jpg diff=exiftool
 *.jpeg diff=image
 *.png diff=image
 *.webp diff=image

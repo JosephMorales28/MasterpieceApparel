@@ -7,8 +7,8 @@
 [diff ="webm"]
    textconv = ffprobe -show_streams -show_format -v quiet
 
-[diff "image"]
-    textconv = "C:/Program Files/exiftool/exiftool.exe" -a -u -g1
+[diff "exiftool"]
+    textconv = exiftool
 
 [diff "video"]
     textconv = ffprobe -show_streams -show_format -v quiet
