@@ -11,7 +11,7 @@
     textconv = identify -verbose
 
 [diff "image"]
-    textconv = exiftool
-    
+    textconv = exiftool -a -u -gl
+
 [diff "video"]
     textconv = ffprobe -show_streams -show_format -v quiet
