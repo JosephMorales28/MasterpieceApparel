@@ -7,11 +7,11 @@
 *.scss text eol=lf
 
 # custom diff
-*.jpg filter=lfs diff=image merge=lfs
-*.jpeg filter=lfs diff=image merge=lfs
-*.png filter=lfs diff=image merge=lfs
-*.webp filter=lfs diff=image merge=lfs
-*.avif filter=lfs diff=image merge=lfs
+*.jpg diff=image
+*.jpeg diff=image
+*.png diff=image
+*.webp diff=image
+*.avif diff=image
 
 *.webm filter=lfs diff=video merge=lfs -text
 *.mp4 filter=lfs diff=video merge=lfs -text
