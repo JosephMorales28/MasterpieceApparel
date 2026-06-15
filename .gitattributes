@@ -1,0 +1,20 @@
+*text=auto
+
+# Web code consistency
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.scss text eol=lf
+
+# custom diff
+*.jpg diff=image
+*.jpeg diff=image
+*.png diff=image
+*.webp diff=image
+*.avif diff=image
+
+*.webm diff=video
+*.mp4 diff=video
+*.mov diff=video
+*.wav diff=video
+

@@ -1,0 +1,14 @@
+[diff ="webp"]
+   textconv = identify  -verbose
+
+[diff ="avif"]
+   textconv = avifinfo
+
+[diff ="webm"]
+   textconv = ffprobe -show_streams -show_format -v quiet
+
+[diff "image"]
+    textconv = identify -verbose
+
+[diff "video"]
+    textconv = ffprobe -show_streams -show_format -v quiet
