@@ -8,10 +8,11 @@
    textconv = ffprobe -show_streams -show_format -v quiet
 
 [diff "image"]
-    textconv = identify -verbose
-
-[diff "image"]
-    textconv = exiftool -a -u -gl
+    textconv = "C:/Program Files/exiftool/exiftool.exe" -a -u -g1
 
 [diff "video"]
     textconv = ffprobe -show_streams -show_format -v quiet
+
+[lfs]
+    diff = false
+
