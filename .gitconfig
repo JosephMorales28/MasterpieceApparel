@@ -1,5 +1,6 @@
 [diff "image"]
-    textconv = exiftool -a -u -g1
+    textconv = exiftool -a -u -g1 -G -H
+    binary = true
 
 [diff "video"]
     textconv = ffprobe -show_streams -show_format -v quiet
