@@ -7,8 +7,8 @@
 [diff ="webm"]
    textconv = ffprobe -show_streams -show_format -v quiet
 
-[diff "exiftool"]
-    textconv = exiftool
+[diff ="metadata"]
+    textconv = exiftool -Author -Copyright
 
 [diff "video"]
     textconv = ffprobe -show_streams -show_format -v quiet
