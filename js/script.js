@@ -1,4 +1,5 @@
 import {exp_header} from '../js/header.js';
-import { exp_main } from './main.js';
+import {exp_main} from './main.js';
+import {exp_aside} from './aside.js';
 
-document.getElementById('app').innerHTML=exp_header()+exp_main();
+document.getElementById('app').innerHTML=exp_header()+exp_main()+exp_aside();
