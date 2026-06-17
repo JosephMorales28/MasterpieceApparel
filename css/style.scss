@@ -1,8 +1,13 @@
 @use 'scss/color.scss' as c;
+@use 'scss/font.scss'as f;
+
+@each $name,$value in f.$font-size{
+    .font-size-#{$name}{font-size: $value;}
+}
 
 html, body {
-  background-color: c.$htmlbg;
-  color: c.$htmlcolor;
+  background-color: map-get(c.$colors,'white-80');
+  color: map-get(c.$colors,'black-50');
   margin: 0;
   padding: 0;
   height: 100%;
@@ -24,7 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: c.$navbg;
+    background-color: map-get(c.$colors, green-50 );
     position: fixed;
 
     #logo {
@@ -49,18 +54,19 @@ header {
           position: absolute;
           top: 100%;
           right: -15px;
-          background: c.$htmlbg;
+          background: map-get(c.$colors, white-80);
           width: 155px;
           padding:0;
           flex-direction: column;
 
           li {
             display: block;
-            background: #f8f9fa;
+            background: map-get(c.$colors, white-80);
             text-align: center;
-            border:1px solid black;
+            border:1px solid map-get(c.$colors, black-100);
             &:hover {
-              background: c.$navbg;
+              color:map-get(c.$colors, white-80 );
+              background-color: map-get(c.$colors, black-50);
             }
           }
         }
@@ -105,9 +111,9 @@ main {
   position: static;  
   padding:1rem;
   padding-top:70px;
-  background-color: c.$navbg;
+  background-color: map-get(c.$colors,green-50);
   h1 {
-    font-size: 4rem;
+    font-size: map-get(f.$font-size, 13);
     text-align: left;
     width:800px;
   }
@@ -117,7 +123,7 @@ main {
       position: static;
       padding-top:70px;
       h1{
-         font-size: 2rem;
+         font-size: map-get(f.$font-size, 5 );
          text-align: left;
          width:300px;
        }
