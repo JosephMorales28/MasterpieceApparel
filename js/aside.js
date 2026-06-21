@@ -3,7 +3,7 @@ export function exp_aside(){
        const title="Products";
        return`
             <aside>
-               <h1>${title}</h1>
+               <h1 class=font-size-13>${title}</h1>
             </aside> 
             `;
     }

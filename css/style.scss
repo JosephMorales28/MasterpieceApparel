@@ -1,5 +1,6 @@
 @use 'scss/color.scss' as c;
 @use 'scss/font.scss'as f;
+@use 'scss/spacing.scss' as sp;
 
 @each $name,$value in f.$font-size{
     .font-size-#{$name}{font-size: $value;}
@@ -128,4 +129,19 @@ main {
          width:300px;
        }
     }
+}
+article{
+   position:static;
+   padding: 2rem;
+   .milestone{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 0;
+   }
+}
+
+aside{
+  position: static;
+  padding: 2rem;
 }
