@@ -3,8 +3,8 @@ export function exp_article(){
        const title="Milestones";
        const milestone=[
                         {
-                            fb_followers:1,
-                            rb_followers:24,
+                            fb_followers:24,
+                            rb_followers:1,
                             fb_views:1129,
                             rb_favorites:9
                         }
