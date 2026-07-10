@@ -150,6 +150,18 @@ article{
     }
    }
 }
+@media screen and (max-width:400px){
+  article{
+    position:static;
+    padding:2rem;
+    .milestone{
+      display: grid;
+      grid-template-columns: repeat(1fr);
+      gap:0;
+      width:800px;
+    }
+  }
+}
 
 aside{
   position: static;
