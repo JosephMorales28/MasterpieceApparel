@@ -85,12 +85,12 @@ header {
       // Mobile breakpoint
       @media screen and (max-width: 400px) {
         // hide all top-level items except menu toggle
-        > li {
+        nav ul > li {
           display: none;
         }
 
         // show ☰ toggle
-        > li:last-child {
+        nav ul > li:last-child {
           display: inline-block;
           cursor: pointer;
           position: relative;
@@ -101,6 +101,10 @@ header {
 
           &:hover > ul {
             display: flex;
+            flex-direction: column;
+            position: absolute;
+            right: 0;
+            top:100%;
           }
         }
       }
@@ -114,10 +118,9 @@ main {
   padding-top:70px;
   background-color: map-get(c.$colors,green-50);
   h1 {
-    padding:map-get(sp.$spacing,5);
     font-size: map-get(f.$font-size, 13);
     text-align: left;
-    width:1000px;
+    width:800px;
   }
 }
 @media screen and (max-width:400px){
