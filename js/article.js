@@ -3,10 +3,10 @@ export function exp_article(){
        const title="Milestones";
        const milestone=[
                         {
-                            fb_followers:24,
-                            rb_followers:1,
-                            fb_views:1129,
-                            rb_favorites:9
+                            fb_followers:28,
+                            rb_followers:2,
+                            fb_views:2120,
+                            rb_favorites:10
                         }
        ];
        const article_view=milestone.map(milestones =>`
