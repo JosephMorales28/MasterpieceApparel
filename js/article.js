@@ -27,7 +27,7 @@ export function exp_article(){
        ).join("");
        return`
             <article>
-               <h1 class= font-size-13>${title}</h1>
+               <h1>${title}</h1>
                ${article_view}
             </article> 
             `;
