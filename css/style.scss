@@ -141,9 +141,10 @@ article{
     gap: 0;
     width:800px;
     div{
-      border: 1px solid map-get(c.$colors,green-20);
+      border: 5px solid map-get(c.$colors,green-100);
       border-radius: 10px;
       padding:map-get(sp.$spacing,2);
+      background-color: map-get(c.$colors,green-100);
     }
    }
 }
