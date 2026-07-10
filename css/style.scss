@@ -128,6 +128,7 @@ main {
          font-size: map-get(f.$font-size, 5 );
          text-align: left;
          width:300px;
+         padding:0;
        }
     }
 }
@@ -140,6 +141,7 @@ article{
     text-align: center;
     gap: 0;
     width:800px;
+    
     div{
       border: 5px solid map-get(c.$colors,green-100);
       border-radius: 10px;
