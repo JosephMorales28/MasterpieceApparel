@@ -143,21 +143,29 @@ article{
     .menwear{
       margin:0 auto;
       padding:0 auto;
-      display:flex;
-      justify-content: space-between;
+      padding-left: 4.5rem;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      row-gap: 40px;
+      column-gap: 20px;
+
       img{
         width:350px;
         height:500px;
       }
       .menwear-card{
+        border:1px solid black;
+        width:350px;
         h2{
           color:map-get(c.$colors,black-50);
           padding:10px;
+          padding-top:30px;
         }
         button{
           border:0 solid transparent;
           background-color: map-get(c.$colors, green-50);
           padding:10px;
+          margin:10px;
         }
         button.btnred{
           border: 0 solid transparent;
