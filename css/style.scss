@@ -140,6 +140,32 @@ article{
     h1{
       font-size: map-get(f.$font-size,13);
     }
+    .menwear{
+      margin:0 auto;
+      padding:0 auto;
+      display:flex;
+      justify-content: space-between;
+      img{
+        width:350px;
+        height:500px;
+      }
+      .menwear-card{
+        h2{
+          color:map-get(c.$colors,black-50);
+          padding:10px;
+        }
+        button{
+          border:0 solid transparent;
+          background-color: map-get(c.$colors, green-50);
+          padding:10px;
+        }
+        button.btnred{
+          border: 0 solid transparent;
+          background-color: map-get(c.$colors,red-50);
+          padding:10px;
+        }
+      }
+    }
 }
 @media screen and (max-width:400px){
   article{
