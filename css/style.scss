@@ -85,7 +85,7 @@ header {
   }
 }
       // Mobile breakpoint
-@media screen and (max-width: 400px) {
+/*@media screen and (max-width: 400px) {
         // hide all top-level items except menu toggle
         ul > li {
           display: none;
@@ -110,11 +110,11 @@ header {
           }
         }
       }
-
+*/
 main {
   position: static;  
-  padding:1rem;
-  padding-top:70px;
+  padding:2rem;
+  padding-top:300px;
   background-color: map-get(c.$colors,green-50);
   h1 {
     font-size: map-get(f.$font-size, 13);
@@ -125,9 +125,9 @@ main {
 @media screen and (max-width:400px){
    main {
       position: static;
-      padding-top:70px;
+      padding-top:150px;
       h1{
-         font-size: map-get(f.$font-size, 4 );
+         font-size: map-get(f.$font-size,4);
          text-align: left;
          width:300px;
          padding:0;
@@ -137,35 +137,16 @@ main {
 article{
    position:static;
    padding: 2rem;
-   .milestone{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    gap: 0;
-    width:800px;
     h1{
       font-size: map-get(f.$font-size,13);
     }
-    div{
-      border: 5px solid map-get(c.$colors,green-100);
-      border-radius: 10px;
-      padding:map-get(sp.$spacing,2);
-      background-color: map-get(c.$colors,green-100);
-    }
-   }
 }
 @media screen and (max-width:400px){
   article{
     position:static;
     padding:2rem;
     h1{
-      font-size: map-get(f.$font-size,9);
-    }
-    .milestone{
-      display: grid;
-      grid-template-columns: repeat(1fr);
-      gap:0;
-      width:800px;
+      font-size: map-get(f.$font-size,7);
     }
   }
 }
