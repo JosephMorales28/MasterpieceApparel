@@ -81,11 +81,13 @@ header {
       li:last-child {
         display: none; // hide ☰ toggle on desktop
       }
-
+    }
+  }
+}
       // Mobile breakpoint
-      @media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
         // hide all top-level items except menu toggle
-        nav ul > li {
+        ul > li {
           display: none;
         }
 
@@ -108,9 +110,6 @@ header {
           }
         }
       }
-    }
-  }
-}
 
 main {
   position: static;  
@@ -128,7 +127,7 @@ main {
       position: static;
       padding-top:70px;
       h1{
-         font-size: map-get(f.$font-size, 5 );
+         font-size: map-get(f.$font-size, 4 );
          text-align: left;
          width:300px;
          padding:0;
