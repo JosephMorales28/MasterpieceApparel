@@ -1,6 +1,6 @@
 export function exp_header(){
     
-    const pages=['ndex.html','about.html','shop.html','servie.html','contact.html'];
+    const pages=['index.html','about.html','shop.html','servie.html','contact.html'];
     const path=window.location.pathname;
     const isMatch=path==="/" || pages.some(page=>path.endsWith(page));
 
