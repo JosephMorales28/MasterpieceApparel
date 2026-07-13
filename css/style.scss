@@ -114,8 +114,35 @@ header {
 main {
   position: static;  
   padding:2rem;
-  padding-top:300px;
+  margin:0;
   background-color: map-get(c.$colors,green-50);
+  div{
+    padding-top:2rem;
+    background-color: map-get(c.$colors,black-50);
+    color:map-get(c.$colors,white-80);
+    overflow-x: hidden;
+    ul{
+      list-style-type: none;
+      display: flex;
+      animation: spin 20s infinite linear;
+      justify-items: center;
+      flex-wrap: nowrap;
+      white-space: nowrap;
+      width:max-content;
+      li{
+        display: inline-block;
+        padding:2rem 2rem;
+      }
+    }
+    @keyframes spin {
+      from{
+           transform:translateX(0);
+      }
+      to{
+           transform:translateX(-50%);
+        }
+    }
+  }
   h1 {
     font-size: map-get(f.$font-size, 13);
     text-align: left;
