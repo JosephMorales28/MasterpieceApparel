@@ -188,6 +188,12 @@ article{
           padding:10px;
           padding-top:30px;
         }
+        p{
+          color:map-get(c.$colors,black-50);
+          opacity: .8;
+          margin-top: -30px;
+          padding:10px;
+        }
         button{
           border:0 solid transparent;
           background-color: map-get(c.$colors, green-50);

@@ -11,6 +11,7 @@ export function exp_article(){
                              <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
+                                 <p>by:Joseph Morales</p>
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
                         </picture>
@@ -19,6 +20,7 @@ export function exp_article(){
                              <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
+                                 <p>by:Joseph Morales</p>
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
                         </picture>
@@ -27,6 +29,7 @@ export function exp_article(){
                              <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
+                                 <p>by:Joseph Morales</p>
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
                         </picture>
@@ -35,6 +38,7 @@ export function exp_article(){
                              <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
+                                 <p>by:Joseph Morales</p>
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
                         </picture>
@@ -43,6 +47,7 @@ export function exp_article(){
                              <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
+                                 <p>by:Joseph Morales</p>
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
                         </picture>
@@ -51,6 +56,7 @@ export function exp_article(){
                              <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
+                                 <p>by:Joseph Morales</p>
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
                         </picture>
@@ -59,6 +65,7 @@ export function exp_article(){
                              <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
+                                 <p>by:Joseph Morales</p>
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
                         </picture>
@@ -67,6 +74,7 @@ export function exp_article(){
                              <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
+                                 <p>by:Joseph Morales</p>
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
                         </picture>
