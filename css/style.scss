@@ -124,7 +124,7 @@ main {
     ul{
       list-style-type: none;
       display: flex;
-      animation: spin 20s infinite linear;
+      animation: spin 25s infinite linear;
       justify-items: center;
       flex-wrap: nowrap;
       white-space: nowrap;
@@ -144,22 +144,11 @@ main {
     }
   }
   h1 {
+    padding-top:150px;
     font-size: map-get(f.$font-size, 13);
     text-align: left;
     width:800px;
   }
-}
-@media screen and (max-width:400px){
-   main {
-      position: static;
-      padding-top:150px;
-      h1{
-         font-size: map-get(f.$font-size,4);
-         text-align: left;
-         width:300px;
-         padding:0;
-       }
-    }
 }
 article{
    position:static;
@@ -221,4 +210,10 @@ article{
 aside{
   position: static;
   padding: 2rem;
+}
+
+footer{
+  position: static;
+  background-color: map-get(c.$colors,green-50);
+  padding:2rem;
 }
