@@ -1,2 +1,11 @@
-User-Agent:*
-Allow: /
+# Allow Googlebot
+User-agent: Googlebot
+Disallow:
+
+# Allow Bingbot
+User-agent: Bingbot
+Disallow:
+
+# Block all other user agents
+User-agent: *
+Disallow: /
