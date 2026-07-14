@@ -34,8 +34,17 @@ header {
     position: fixed;
 
     #logo {
-      padding: 2rem;
+      padding-left:2rem;
       background-color: transparent;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      gap:10px;
+      img{
+        width:35px;
+        height:35px;
+        background-color: transparent;
+      }
     }
 
     ul {

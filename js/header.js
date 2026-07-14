@@ -9,7 +9,9 @@ export function exp_header(){
              return`
                    <header>
                    <nav>
-                        <div id="logo">MASTERPIECEAPPAREL</div>
+                        <div id="logo">
+                           <img src="/img/masterpieceapparelicon.svg" alt="masterpiece apparel logo" loading ="lazy" fetchpriority="high"/>  MASTERPIECEAPPAREL
+                        </div>
                         <ul>
                             ${nav.map(item =>`<li>${item}</li>`).join('')}
                             <li>&#9776;
