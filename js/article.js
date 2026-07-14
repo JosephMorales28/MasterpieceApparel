@@ -62,18 +62,18 @@ export function exp_article(){
                         </picture>
 
                         <picture>
-                             <img src="/img/menwear.webp" alt="I don't fish for food i fish for vibes T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/masterpiece-DeepSeaMonster.webp" alt="Deep Sea Monster T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
-                                 <h2> I don't fish for food I fish for vibes</h2>
+                                 <h2> Deep Sea Monster T shirt</h2>
                                  <p>${creator}</p>
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
                         </picture>
 
                         <picture>
-                             <img src="/img/menwear.webp" alt="I don't fish for food i fish for vibes T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/masterpiece-SupportMyShop.webp" alt="Support My Shop T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
-                                 <h2> I don't fish for food I fish for vibes</h2>
+                                 <h2>Support My Shop T shirt</h2>
                                  <p>${creator}</p>
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
