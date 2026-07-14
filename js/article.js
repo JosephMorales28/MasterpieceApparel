@@ -1,6 +1,6 @@
 export function exp_article(){
     if(window.location.pathname==="/"|| window.location.pathname.endsWith("index.html")){
-       const title="Mens Wear";
+       const title="Unisex Wear";
        const creator="by: Joseph Morales";
        /*--const menImg=[
                      {
