@@ -44,7 +44,7 @@ export function exp_article(){
                <div class="menwear">
                         
                         <picture>
-                             <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/menwear.webp" alt="I don't fish for food i fish for vibes T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
                                  <p>${creator}</p>
@@ -53,7 +53,7 @@ export function exp_article(){
                         </picture>
 
                         <picture>
-                             <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/menwear.webp" alt="I don't fish for food i fish for vibes T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
                                  <p>${creator}</p>
@@ -62,7 +62,7 @@ export function exp_article(){
                         </picture>
 
                         <picture>
-                             <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/menwear.webp" alt="I don't fish for food i fish for vibes T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
                                  <p>${creator}</p>
@@ -71,7 +71,7 @@ export function exp_article(){
                         </picture>
 
                         <picture>
-                             <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/menwear.webp" alt="I don't fish for food i fish for vibes T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
                                  <p>${creator}</p>
@@ -80,7 +80,7 @@ export function exp_article(){
                         </picture>
                   
                         <picture>
-                             <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/menwear.webp" alt="I don't fish for food i fish for vibes T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
                                  <p>${creator}</p>
@@ -89,7 +89,7 @@ export function exp_article(){
                         </picture>
 
                         <picture>
-                             <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/menwear.webp" alt="I don't fish for food i fish for vibes T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
                                  <p>${creator}</p>
@@ -98,7 +98,7 @@ export function exp_article(){
                         </picture>
 
                         <picture>
-                             <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/menwear.webp" alt="I don't fish for food i fish for vibes T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
                                  <p>${creator}</p>
@@ -107,7 +107,7 @@ export function exp_article(){
                         </picture>
 
                         <picture>
-                             <img src="/img/menwear.webp" alt="classic tshirt" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/menwear.webp" alt="I don't fish for food i fish for vibes T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
                                  <p>${creator}</p>
