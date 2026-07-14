@@ -40,6 +40,7 @@ header {
       justify-content: space-between;
       align-items: center;
       gap:10px;
+      @include f.font-robotoslab;
       img{
         width:35px;
         height:35px;
@@ -58,6 +59,7 @@ header {
         padding: 1rem;
         background-color: transparent;
         text-transform: uppercase;
+        @include f.font-robotoslab-regular;
         // dropdown container
         ul {
           display: none;
@@ -74,6 +76,7 @@ header {
             background: map-get(c.$colors, white-80);
             text-align: center;
             border:1px solid map-get(c.$colors, black-100);
+            @include f.font-robotoslab-regular;
             &:hover {
               color:map-get(c.$colors, white-80 );
               background-color: map-get(c.$colors, black-50);
@@ -160,6 +163,7 @@ main {
     font-size: map-get(f.$font-size, 13);
     text-align: left;
     width:800px;
+    @include f.font-robotoslab;
   }
 }
 article{
@@ -167,6 +171,7 @@ article{
    padding: 2rem;
     h1{
       font-size: map-get(f.$font-size,13);
+      @include f.font-robotoslab;
     }
     .menwear{
       margin:0 auto;
@@ -188,6 +193,7 @@ article{
           color:map-get(c.$colors,black-50);
           padding:10px;
           padding-top:30px;
+          @include f.font-robotoslab-regular;
         }
         p{
           color:map-get(c.$colors,black-50);
@@ -224,10 +230,12 @@ article{
 aside{
   position: static;
   padding: 2rem;
+  @include f.font-robotoslab;
 }
 
 footer{
   position: static;
   background-color: map-get(c.$colors,green-50);
   padding:2rem;
+  @include f.font-robotoslab-regular;
 }
