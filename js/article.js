@@ -78,6 +78,42 @@ export function exp_article(){
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
                         </picture>
+
+                        <picture>
+                             <img src="/img/masterpiece-trailwalker.webp" alt="TrailwalkerT shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
+                             <div class="menwear-card">
+                                 <h2>Support Trailwalker T shirt</h2>
+                                 <p>${creator}</p>
+                                 <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
+                             </div>
+                        </picture>
+
+                        <picture>
+                             <img src="/img/masterpiece-lost in space no3.webp" alt="lost in space no.3 T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
+                             <div class="menwear-card">
+                                 <h2>Support Lost in Space no.3 T shirt</h2>
+                                 <p>${creator}</p>
+                                 <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
+                             </div>
+                        </picture>
+
+                        <picture>
+                             <img src="/img/masterpice-quintessa.webp" alt="Quintessa T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
+                             <div class="menwear-card">
+                                 <h2>Quintessa T shirt</h2>
+                                 <p>${creator}</p>
+                                 <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
+                             </div>
+                        </picture>
+
+                        <picture>
+                             <img src="/img/masterpiece-gildark.webp" alt="Gildark T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
+                             <div class="menwear-card">
+                                 <h2>Gildark T shirt</h2>
+                                 <p>${creator}</p>
+                                 <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
+                             </div>
+                        </picture>
                </div>
             </article> 
             `;
