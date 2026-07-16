@@ -8,4 +8,8 @@ export function exp_aside(){
             `;
     }
     return "";
+    if (window.location.pathname==="/" || window.location.pathname.endsWith("/about.html")){
+
+    }
+    return"";
 }
