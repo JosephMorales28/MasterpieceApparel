@@ -5,15 +5,15 @@ export function exp_header(){
     const isMatch=path==="/" || pages.some(page=>path.endsWith(page));
 
     if (isMatch){
-        const nav=['home','about','shop','service','contact'];
+        const nav=['about','shop','service','blog','contact'];
              return`
                    <header>
                    <nav>
                         <div id="logo">
-                           <img src="/img/masterpieceapparelicon.svg" alt="masterpiece apparel logo" loading ="lazy" fetchpriority="high"/>
+                           <a href="index.html"><img src="/img/masterpieceapparelicon.svg" alt="masterpiece apparel logo" loading ="lazy" fetchpriority="high"/></a>
                         </div>
                         <ul>
-                            ${nav.map(item =>`<li>${item}</li>`).join('')}
+                            ${nav.map(item =>`<li><a href="/${item}.html">${item}</a></li>`).join('')}
                             <li>&#9776;
                             <ul>
                                ${nav.map(item =>`<li>${item}</li>`).join('')}
