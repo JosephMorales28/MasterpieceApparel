@@ -13,7 +13,7 @@ export function exp_header(){
                            <a href="index.html"><img src="/img/masterpieceapparelicon.svg" alt="masterpiece apparel logo" loading ="lazy" fetchpriority="high"/></a>
                         </div>
                         <ul>
-                            ${nav.map(item =>`<li><a href="${item}.html">${item}</a></li>`).join('')}
+                            ${nav.map(item =>`<li><a href="/${item}.html">${item}</a></li>`).join('')}
                             <li>&#9776;
                             <ul>
                                ${nav.map(item =>`<li>${item}</li>`).join('')}
