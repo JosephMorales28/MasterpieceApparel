@@ -42,7 +42,27 @@
     },
     {
       "rewrites": [
-        { "source": "/(.*)", "destination": "/$1.html" }
+        { "source": "/about", "destination": "/about.html" }
+     ]
+    },
+    {
+      "rewrites": [
+        { "source": "/shop", "destination": "/shop.html" }
+     ]
+    },
+    {
+      "rewrites": [
+        { "source": "/service", "destination": "/service.html" }
+     ]
+    },
+    {
+      "rewrites": [
+        { "source": "/blog", "destination": "/blog.html" }
+     ]
+    },
+    {
+      "rewrites": [
+        { "source": "/contact", "destination": "/contact.html" }
      ]
     }
   ]
