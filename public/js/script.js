@@ -1,8 +1,8 @@
-import {exp_header} from './header.js';
-import {exp_main} from './main.js';
-import {exp_article} from './article.js';
-import {exp_aside} from './aside.js';
-import {exp_footer} from './footer.js';
+import {exp_header} from './header.js?v=20260716';
+import {exp_main} from './main.js?v=20260716';
+import {exp_article} from './article.js?v=20260716';
+import {exp_aside} from './aside.js?v=20260716';
+import {exp_footer} from './footer.js?v=20260716';
 
 const supportedPages=['about','shop','service','blog','contact'];
 const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() || 'home';
