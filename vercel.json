@@ -39,32 +39,13 @@
       "headers": [
         { "key": "Content-Type", "value": "application/javascript" }
       ]
-    },
-    {
-      "rewrites": [
-        { "source": "/about", "destination": "/about.html" }
-     ]
-    },
-    {
-      "rewrites": [
-        { "source": "/shop", "destination": "/shop.html" }
-     ]
-    },
-    {
-      "rewrites": [
-        { "source": "/service", "destination": "/service.html" }
-     ]
-    },
-    {
-      "rewrites": [
-        { "source": "/blog", "destination": "/blog.html" }
-     ]
-    },
-    {
-      "rewrites": [
-        { "source": "/contact", "destination": "/contact.html" }
-     ]
     }
+  ],
+  "rewrites": [
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/shop", "destination": "/shop.html" },
+    { "source": "/service", "destination": "/service.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/contact", "destination": "/contact.html" }
   ]
 }
-
