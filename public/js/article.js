@@ -1,5 +1,5 @@
-export function exp_article(){
-    if(window.location.pathname==="/"|| window.location.pathname.endsWith("index.html")){
+export function exp_article(page){
+    if(page==='home'){
        const title="Unisex Wear";
        const creator="by: Joseph Morales";
        /*--const menImg=[
@@ -119,20 +119,4 @@ export function exp_article(){
             `;
     }
     return "";
-    if (window.location.pathname==="/" || window.location.pathname.endsWith("/about.html")){
-
-    }
-    return"";
-    if (window.location.pathname==="/" || window.location.pathname.endsWith("/shop.html")){
-    }
-    return"";
-    if (window.location.pathname==="/" || window.location.pathname.endsWith("/service.html")){
-    }
-    return"";
-    if (window.location.pathname==="/" || window.location.pathname.endsWith("/blog.html")){
-    }
-    return"";
-    if (window.location.pathname==="/" || window.location.pathname.endsWith("/contact.html")){
-    }
-    return"";
 }

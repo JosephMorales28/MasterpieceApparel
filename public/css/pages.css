@@ -1,0 +1,14 @@
+main.page-content{min-height:calc(100vh - 67px);padding:7rem 2rem 4rem;background-color:#f8f9fa}
+.page-content__inner{max-width:800px;margin:0 auto}
+.page-content__lead{font-size:1.5rem;font-weight:700}
+.page-content__inner h1{padding-top:0;width:auto;font-size:3.5rem}
+.page-content__inner p{font-family:"RobotoSlab-Regular",sans-serif;font-size:1.125rem;line-height:1.7}
+header nav ul li a[aria-current=page]{color:#f8f9fa}
+
+@media screen and (max-width:700px){
+    header nav #logo{padding-left:1rem}
+    header nav ul{margin:0;padding-left:0}
+    header nav ul li{padding:.75rem .5rem;font-size:.75rem}
+    .page-content__inner h1{font-size:2.5rem}
+    .page-content__lead{font-size:1.25rem}
+}
