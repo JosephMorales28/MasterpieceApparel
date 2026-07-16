@@ -9,3 +9,5 @@ Disallow:
 # Block all other user agents
 User-agent: *
 Disallow: /
+
+Sitemap: https://masterpiece-apparel.vercel.app/sitemap.xml
