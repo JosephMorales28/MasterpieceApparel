@@ -8,11 +8,11 @@ Allow:/
 
 # Allow Bingbot
 User-agent: Bingbot
-Disallow:
+Allow:
 
 #Allow DuckDuckGo
 User-agent:DuckDuckBot
-Disallow:/
+Allow:/
 
 #Allow GPT
 User-agent:GPTBot
@@ -34,8 +34,5 @@ Allow:/
 User-agent:AppleBot-Extended
 Allow:/
 
-# Block all other user agents
-User-agent: *
-Disallow: /
 
 Sitemap: https://masterpiece-apparel.vercel.app/sitemap.xml
