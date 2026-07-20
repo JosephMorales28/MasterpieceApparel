@@ -1,6 +1,10 @@
 # Allow Googlebot
 User-agent: Googlebot
-Disallow:
+Allow: /
+
+#Allow Google Extend
+User-Agent:Google-Extended
+Allow:/
 
 # Allow Bingbot
 User-agent: Bingbot
@@ -9,6 +13,26 @@ Disallow:
 #Allow DuckDuckGo
 User-agent:DuckDuckBot
 Disallow:/
+
+#Allow GPT
+User-agent:GPTBot
+Allow:/
+
+#Allow Open AI
+User-agent:OAI-SearchBot
+Allow:/
+
+#Allow ChatGPT
+User-agent:ChatGPT-User
+Allow:/
+
+#Allow AppleBot
+User-agent:AppleBot
+Allow:/
+
+#Allow Apple Extended
+User-agent:AppleBot-Extended
+Allow:/
 
 # Block all other user agents
 User-agent: *
