@@ -233,6 +233,18 @@ article{
     }
   }
 }
+.main_about{
+   position:static;
+   padding-left:35rem;
+   background-color: map-get(c.$colors, white-80);
+
+   img{
+    width:700px;
+    height:350px;
+    margin-top:1rem;
+    border:1px solid black;
+   }
+}
 
 aside{
   position: static;

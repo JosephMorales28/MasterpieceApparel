@@ -46,6 +46,17 @@ export function exp_main(page){
             </main>
         `;
     }
+    if(page==='about'){
+       const about=pageContent[page]; 
+       return `<main class="main_about">
+                     <h1>${about.title}</h1>
+                     <p>${about.description}</p>
+                     ${about.details.map(detail=>`<p>${detail}</p>`).join('')}
+
+                     <img src="/img/joseph.webp" alt="joseph profile" loading="lazy" fetchpriority="high">
+               </main>   
+              `;
+    }
 
     const content=pageContent[page];
     return`
