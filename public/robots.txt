@@ -35,4 +35,127 @@ User-agent:AppleBot-Extended
 Allow:/
 
 
+#Disallow all Vulnerabilities User-Agent
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: curl
+Disallow: /
+
+User-agent: libwww
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: WinHTTrack
+Disallow: /
+
+User-agent: sqlmap
+Disallow: /
+
+User-agent: Nmap
+Disallow: /
+
+User-agent: Nikto
+Disallow: /
+
+User-agent: Nessus
+Disallow: /
+
+User-agent: OpenVAS
+Disallow: /
+
+User-agent: Acunetix
+Disallow: /
+
+User-agent: ZGrab
+Disallow: /
+
+User-agent: masscan
+Disallow: /
+
+User-agent: w3af
+Disallow: /
+
+User-agent: Arachni
+Disallow: /
+
+User-agent: dirbuster
+Disallow: /
+
+User-agent: gobuster
+Disallow: /
+
+User-agent: feroxbuster
+Disallow: /
+User-agent: Scrapy
+Disallow: /
+
+User-agent: Python-urllib
+Disallow: /
+
+User-agent: python-requests
+Disallow: /
+
+User-agent: Java
+Disallow: /
+
+User-agent: okhttp
+Disallow: /
+
+User-agent: Go-http-client
+Disallow: /
+
+User-agent: aiohttp
+Disallow: /
+
+User-agent: Mechanize
+Disallow: /
+
+User-agent: PhantomJS
+Disallow: /
+
+User-agent: HeadlessChrome
+Disallow: /
+
 Sitemap: https://masterpiece-apparel.vercel.app/sitemap.xml
