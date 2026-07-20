@@ -6,6 +6,10 @@ Disallow:
 User-agent: Bingbot
 Disallow:
 
+#Allow DuckDuckGo
+User-agent:DuckDuckBot
+Disallow:/
+
 # Block all other user agents
 User-agent: *
 Disallow: /
