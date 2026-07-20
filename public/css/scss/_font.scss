@@ -28,7 +28,7 @@ $font-size:(
 @font-face {
     font-family: 'RobotoSlab-Regular';
     src: url('font/RobotoSlab-Regular.woff') format("woff");
-    font-weight: 300;
+    font-weight: 400;
     font-display: swap;
 }
 @mixin font-robotoslab {
@@ -38,5 +38,6 @@ $font-size:(
 
 @mixin font-robotoslab-regular{
     font-family: 'RobotoSlab-Regular',sans-serif;
-    font-weight: 300;
+    font-weight: 400;
+    font-style: normal;
 }
