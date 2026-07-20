@@ -2,6 +2,7 @@ const pageContent={
     about:{
         title:'About Masterpiece Apparel',
         description:'Masterpiece Apparel is an independent apparel brand bringing original illustrations to everyday wear.',
+        paragraph:"I'm Joseph Morales a graphic designer and web developer from Philippines. I build this site for my small business ecommerce my products are shirts apparel, accesories and more. I hope you like and buy my products thank you.",
         details:['Every design starts with an idea and is made to help you express your own style.','We create graphic apparel and accessories with creativity, quality, and individuality in mind.']
     },
     shop:{
@@ -54,6 +55,7 @@ export function exp_main(page){
                      ${about.details.map(detail=>`<p>${detail}</p>`).join('')}
 
                      <img src="/img/joseph.webp" alt="joseph profile" loading="lazy" fetchpriority="high">
+                     <p>${about.paragraph}</p>
                </main>   
               `;
     }

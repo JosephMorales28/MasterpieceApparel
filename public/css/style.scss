@@ -244,6 +244,10 @@ article{
     margin-top:1rem;
     border:1px solid black;
    }
+   p{
+    width:700px;
+    @include f.font-robotoslab-regular;
+   }
 }
 
 aside{
