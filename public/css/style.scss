@@ -173,6 +173,24 @@ main {
     @include f.font-robotoslab;
   }
 }
+
+.main_about{
+   position:static;
+   padding-left:35rem;
+   background-color: map-get(c.$colors, white-80);
+
+   img{
+    width:700px;
+    height:350px;
+    margin-top:1rem;
+    border:1px solid black;
+   }
+   p{
+    width:700px;
+    @include f.font-robotoslab-regular;
+   }
+}
+
 article{
    position:static;
    padding: 2rem;
@@ -233,27 +251,56 @@ article{
     }
   }
 }
-.main_about{
-   position:static;
-   padding-left:35rem;
-   background-color: map-get(c.$colors, white-80);
-
-   img{
-    width:700px;
-    height:350px;
-    margin-top:1rem;
-    border:1px solid black;
-   }
-   p{
-    width:700px;
-    @include f.font-robotoslab-regular;
-   }
-}
 
 aside{
   position: static;
   padding: 2rem;
   @include f.font-robotoslab;
+
+  .productaccessories{
+      margin:0 auto;
+      padding:0 auto;
+      padding-left: 4.5rem;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      row-gap: 40px;
+      column-gap: 20px;
+
+      .product_card{
+        border: 1px solid black;
+        width:350px;
+        
+        img{
+           width:350px;
+           height:500px;
+        }
+        h2{
+          color:map-get(c.$colors,black-50);
+          padding:10px;
+          padding-top:30px;
+          @include f.font-robotoslab-regular;
+        }
+        p{
+          color:map-get(c.$colors,black-50);
+          opacity: .8;
+          margin-top: -30px;
+          padding:10px;
+          font-family: monospace;
+          font-weight: 500;
+        }
+        button{
+          border:0 solid transparent;
+          background-color: map-get(c.$colors, green-50);
+          padding:10px;
+          margin:10px;
+        }
+        button.btnred{
+          border: 0 solid transparent;
+          background-color: map-get(c.$colors,red-50);
+          padding:10px;
+        }
+      }
+  }
 }
 
 footer{
