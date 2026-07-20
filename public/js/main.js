@@ -53,8 +53,10 @@ export function exp_main(page){
                      <h1>${about.title}</h1>
                      <p>${about.description}</p>
                      ${about.details.map(detail=>`<p>${detail}</p>`).join('')}
-
-                     <img src="/img/joseph.webp" alt="joseph profile" loading="lazy" fetchpriority="high">
+                     <picture>
+                        <source srcset="/img/joseph.webp" type="image/webp"/>
+                        <img src="/img/joseph.webp" alt="joseph profile" loading="lazy" fetchpriority="high">
+                     </picture>
                      <p>${about.paragraph}</p>
                </main>   
               `;
