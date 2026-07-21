@@ -54,10 +54,7 @@ export function exp_main(page){
                      <p>${about.description}</p>
                      ${about.details.map(detail=>`<p>${detail}</p>`).join('')}
                      <h1>Founder of Masterpiece Apparel</h1>
-                     <picture>
-                        <source srcset="/img/joseph.webp" type="image/webp"/>
-                        <img src="/img/joseph.webp" alt="joseph profile" loading="lazy" fetchpriority="high">
-                     </picture>
+                        <img src="/img/joseph.webp 700w" sizes="(max-width:800px)700px" alt="joseph profile" loading="lazy" fetchpriority="high">
                      <p>${about.paragraph}</p>
                </main>   
               `;

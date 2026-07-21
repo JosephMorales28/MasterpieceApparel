@@ -17,7 +17,7 @@ export function exp_aside(page){
                             creator:"Joseph Morales"
                         },
                         {                        
-                            image:"/img/products/masterpiece- independenceday.webp",
+                            image:"/img/products/masterpiece-independenceday.webp",
                             alt:"masterpiece-independence day poster",
                             loading:"lazy",
                             fetchpriority:"high",
@@ -31,10 +31,7 @@ export function exp_aside(page){
                 <div class="productaccessories">
                     ${productImg.map(products => `
                         <div class="product_card">
-                            <picture>
-                                <source srcset="${products.image}" type="image/webp"/>
-                                <img src="${products.image}" alt="${products.alt}" loading="${products.loading}" fetchpriority="${products.fetchpriority}"/>
-                            </picture>
+                                <img src="${products.image}" srcset="${products.image} 350w" sizes="(max-width:360px)350px" alt="${products.alt}" loading="${products.loading}" fetchpriority="${products.fetchpriority}"/>
                             <h2>${products.imgtitle}</h2>
                             <p>${products.creator}</p>
                             <button>View Full Details</button>
