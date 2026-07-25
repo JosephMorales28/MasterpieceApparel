@@ -24,6 +24,9 @@ const pageContent={
         title:'Contact Masterpiece Apparel',
         description:'Have a question, collaboration idea, or feedback? We would love to hear from you.',
         details:['Connect with Masterpiece Apparel on Facebook and Instagram for updates and messages.','Facebook: masterpieceapparelbyjoseph','Instagram: masterpieceapparelbyjoseph']
+    },
+    idontfishforfoodifishforvibes:{
+        title:"I don't fish for food I fish for vibes"
     }
 };
 
@@ -60,6 +63,15 @@ export function exp_main(page){
                     <p>${about.paragraph}</p>
                </main>   
               `;
+    }
+    if(page==="idontfishforfoodifishforvibes"){
+        const idontfishforfoodifishforvibes=pageContent[page];
+        return`
+              <main class="page_idontfishforfoodifishforvibes">
+                 <h1>${idontfishforfoodifishforvibes.title}</h1>
+
+              </main>
+        `;
     }
 
     const content=pageContent[page];
