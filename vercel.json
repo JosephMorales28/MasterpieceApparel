@@ -40,6 +40,7 @@
     { "source": "/shop", "destination": "/shop.html" },
     { "source": "/service", "destination": "/service.html" },
     { "source": "/blog", "destination": "/blog.html" },
-    { "source": "/contact", "destination": "/contact.html" }
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/pages/idontfishforfoodifishforvibes", "destination": "/idontfishforfoodifishforvibes.html" }
   ]
 }
