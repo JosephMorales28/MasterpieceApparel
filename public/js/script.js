@@ -1,8 +1,8 @@
-import {exp_header} from './header.js?v=20260716';
-import {exp_main} from './main.js?v=20260716';
-import {exp_article} from './article.js?v=20260716';
-import {exp_aside} from './aside.js?v=20260716';
-import {exp_footer} from './footer.js?v=20260716';
+import {exp_header} from './components/header.js?v=20260716';
+import {exp_main} from './components/main.js?v=20260716';
+import {exp_article} from './components/article.js?v=20260716';
+import {exp_aside} from './components/aside.js?v=20260716';
+import {exp_footer} from './components/footer.js?v=20260716';
 
 const supportedPages=['about','shop','service','blog','contact','idontfishforfoodifishforvibes'];
 const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() || 'home';
