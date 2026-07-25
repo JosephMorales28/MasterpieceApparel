@@ -30,58 +30,86 @@ const pageContent={
     }
 };
 
-export function exp_main(page){
-    if(page==='home'){
-        const mainHero='Get our new shirt release and buy now on Masterpiece Apparel and enjoy a discount.';
-        return`
-            <main>
-                <div>
-                    <ul>
-                        <li>July 14, 2026</li>
-                        <li>New shirt release has officially landed today!</li>
-                        <li>Masterpiece-Deep Sea Monster (Essential Shirt)</li>
-                        <li>Only at $30.69</li>
-                        <li>Enjoy Discount 20%-30% Off valid until July 15, 2026</li>
-                        <li>Order and Buy now at Redbubble Store</li>
-                        <li>Follow us on Facebook and Instagram - Facebook: facebook.com/masterpieceapparelbyjoseph - Instagram: instagram.com/masterpieceapparelbyjoseph</li>
-                    </ul>
-                </div>
-                <h1>${mainHero}</h1>
-            </main>
-        `;
-    }
-    if(page==='about'){
-       const about=pageContent[page]; 
-       return `<main class="main_about">
-                     <h1>${about.title}</h1>
-                     <p>${about.description}</p>
-                     ${about.details.map(detail=>`<p>${detail}</p>`).join('')}
-                     <h1>Founder of Masterpiece Apparel</h1>
-                         <picture>
-                            <img src="/img/joseph.webp" srcset="/img/joseph.webp 700w" sizes="(max-width:800px)700px" alt="joseph profile" loading="lazy" fetchpriority="high">
-                         </picture> 
+export function exp_main(page) {
+    switch (page) {
+
+        case 'home': {
+            const mainHero = 'Get our new shirt release and buy now on Masterpiece Apparel and enjoy a discount.';
+
+            return `
+                <main>
+                    <div>
+                        <ul>
+                            <li>July 14, 2026</li>
+                            <li>New shirt release has officially landed today!</li>
+                            <li>Masterpiece-Deep Sea Monster (Essential Shirt)</li>
+                            <li>Only at $30.69</li>
+                            <li>Enjoy Discount 20%-30% Off valid until July 15, 2026</li>
+                            <li>Order and Buy now at Redbubble Store</li>
+                            <li>Follow us on Facebook and Instagram - Facebook: facebook.com/masterpieceapparelbyjoseph - Instagram: instagram.com/masterpieceapparelbyjoseph</li>
+                        </ul>
+                    </div>
+                    <h1>${mainHero}</h1>
+                </main>
+            `;
+        }
+
+        case 'about': {
+            const about = pageContent[page];
+
+            return `
+                <main class="main_about">
+                    <h1>${about.title}</h1>
+                    <p>${about.description}</p>
+                    ${about.details.map(detail => `<p>${detail}</p>`).join('')}
+                    <h1>Founder of Masterpiece Apparel</h1>
+                    <picture>
+                        <img
+                            src="/img/joseph.webp"
+                            srcset="/img/joseph.webp 700w"
+                            sizes="(max-width:800px)700px"
+                            alt="Joseph profile"
+                            loading="lazy"
+                            fetchpriority="high"
+                        >
+                    </picture>
                     <p>${about.paragraph}</p>
-               </main>   
-              `;
-    }
-    if(page==="idontfishforfoodifishforvibes"){
-        const idontfishforfoodifishforvibes=pageContent[page];
-        return`
-              <main class="page_idontfishforfoodifishforvibes">
-                 <h1>${idontfishforfoodifishforvibes.title}</h1>
+                </main>
+            `;
+        }
 
-              </main>
-        `;
-    }
+        case 'idontfishforfoodifishforvibes': {
+            const fishing = pageContent[page];
 
-    const content=pageContent[page];
-    return`
-        <main class="page-content">
-            <section class="page-content__inner">
-                <h1>${content.title}</h1>
-                <p class="page-content__lead">${content.description}</p>
-                ${content.details.map(detail=>`<p>${detail}</p>`).join('')}
-            </section>
-        </main>
-    `;
+            return `
+                <main class="page_idontfishforfoodifishforvibes">
+                    <h1>${fishing.title}</h1>
+                </main>
+            `;
+        }
+
+        default: {
+            const content = pageContent[page];
+
+            if (!content) {
+                return `
+                    <main class="page-content">
+                        <section class="page-content__inner">
+                            <h1>404 - Page Not Found</h1>
+                        </section>
+                    </main>
+                `;
+            }
+
+            return `
+                <main class="page-content">
+                    <section class="page-content__inner">
+                        <h1>${content.title}</h1>
+                        <p class="page-content__lead">${content.description}</p>
+                        ${content.details.map(detail => `<p>${detail}</p>`).join('')}
+                    </section>
+                </main>
+            `;
+        }
+    }
 }
