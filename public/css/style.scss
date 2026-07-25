@@ -233,6 +233,11 @@ article{
           background-color: map-get(c.$colors, green-50);
           padding:10px;
           margin:10px;
+
+          a{
+            text-decoration: none;
+            color:map-get(c.$colors,black-50);
+          }
         }
         button.btnred{
           border: 0 solid transparent;

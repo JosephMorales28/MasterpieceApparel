@@ -47,7 +47,7 @@ export function exp_article(page){
                              <div class="menwear-card">
                                  <h2> I don't fish for food I fish for vibes</h2>
                                  <p>${creator}</p>
-                                 <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
+                                 <button><a href="/pages/idontfishforfoodifishforvibes.html">View Full Details</a></button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
                              </picture>
                              
