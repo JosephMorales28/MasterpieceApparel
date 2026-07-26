@@ -97,7 +97,7 @@ export function exp_article(page){
                              </picture>
                              
                              <picture>
-                             <img src="/img/masterpiece-quintessa.webp" srcset="/img/masterpice-quintessa.webp 350w" sizes="(max-width:360px)350px" alt="Quintessa T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/masterpiece-quintessa.webp" srcset="/img/masterpiece-quintessa.webp 350w" sizes="(max-width:360px)350px" alt="Quintessa T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2>Quintessa T shirt</h2>
                                  <p>${creator}</p>
