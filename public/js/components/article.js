@@ -97,7 +97,7 @@ export function exp_article(page){
                              </picture>
                              
                              <picture>
-                             <img src="/img/masterpice-quintessa.webp" srcset="/img/masterpice-quintessa.webp 350w" sizes="(max-width:360px)350px" alt="Quintessa T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
+                             <img src="/img/masterpiece-quintessa.webp" srcset="/img/masterpice-quintessa.webp 350w" sizes="(max-width:360px)350px" alt="Quintessa T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
                              <div class="menwear-card">
                                  <h2>Quintessa T shirt</h2>
                                  <p>${creator}</p>
@@ -112,6 +112,7 @@ export function exp_article(page){
                                  <p>${creator}</p>
                                  <button>View Full Details</button> <button class="btnred">Add on Redbubble Cart</button>
                              </div>
+                             </picture>
                </div>
             </article> 
             `;

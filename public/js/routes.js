@@ -1,4 +1,4 @@
-import { homePage } from './pages/home.js';
+import { homePage } from './pages/home/home.js';
 import { aboutPage } from './pages/about.js';
 import { shopPage } from './pages/shop.js';
 import { servicePage } from './pages/service.js';

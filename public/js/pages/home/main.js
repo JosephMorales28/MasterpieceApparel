@@ -1,4 +1,4 @@
-export function homePage(){
+export function homeMain(){
             
     const mainHero = 'Get our new shirt release and buy now on Masterpiece Apparel and enjoy a discount.';
     const mainlist=[
