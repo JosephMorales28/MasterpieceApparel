@@ -19,20 +19,23 @@ html, body {
   box-sizing: border-box;
 }
 body{
-  padding-top: 0px;
+  padding-top: 80px;
 }
 header {
   position: fixed;
-  margin: 0;
+  top: 0;
+  left:0;
   z-index: 1000;
+  width:100%;
+  height:80px;
 
   nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: map-get(c.$colors, green-50 );
     position: fixed;
-
+    background-color: map-get(c.$colors,white-80);
+    opacity:.8;
     #logo {
       padding-left:2rem;
       background-color: transparent;
@@ -49,57 +52,38 @@ header {
     }
 
     ul {
-      display: flex;
-      background-color: transparent;
-      margin-right:10px;
-      
+      border: 0 solid transparent;
+      border-radius: 15px;
+      align-items: center;
+      justify-content: center;
+      padding:10px;
+      @include f.font-robotoslab-regular;
       li {
         display: inline-block;
         list-style-type: none;
-        padding: 1rem;
-        background-color: transparent;
         text-transform: uppercase;
         @include f.font-robotoslab-regular;
-        // dropdown container
-        ul {
-          display: none;
-          position: absolute;
-          top: 100%;
-          right: -15px;
-          background: map-get(c.$colors, white-80);
-          width: 155px;
-          padding:0;
-          flex-direction: column;
-
-          li {
-            display: block;
-            background: map-get(c.$colors, white-80);
-            text-align: center;
-            border:1px solid map-get(c.$colors, black-100);
-            @include f.font-robotoslab-regular;
-            &:hover {
-              color:map-get(c.$colors, white-80 );
-              background-color: map-get(c.$colors, black-50);
-            }
-          }
-        }
-
-        &:hover > ul {
-          display: flex;
-        }
       }
       li a{
         text-decoration: none;
         color:map-get(c.$colors,black-50);
+        border:0 solid transparent;
+        border-radius: 10px;
+        padding:10px;
+        @include f.font-robotoslab-regular;
       }
       li a:hover{
-        color:map-get(c.$colors,white-80);
+        color:map-get(c.$colors,black-50);
         transition: 10ms ease-in-out;
+        background-color: map-get(c.$colors,green-50);
+        padding:10px;
+        @include f.font-robotoslab-regular;
       }
-      // Desktop: show all items inline
-      li:last-child {
-        display: none; // hide ☰ toggle on desktop
-      }
+    }
+    #City{
+      padding:10px;
+      padding-right:2rem;
+      @include f.font-robotoslab-regular;
     }
   }
 }
@@ -130,65 +114,43 @@ header {
         }
       }
 */
-main {
-  position: static;  
-  padding:2rem;
-  margin:0;
-  background-color: map-get(c.$colors,green-50);
-  div{
-    padding-top:2rem;
-    background-color: map-get(c.$colors,black-50);
-    color:map-get(c.$colors,white-80);
-    overflow-x: hidden;
-    ul{
-      list-style-type: none;
-      display: flex;
-      animation: spin 25s infinite linear;
-      justify-items: center;
-      flex-wrap: nowrap;
-      white-space: nowrap;
-      width:max-content;
-      li{
-        display: inline-block;
-        padding:2rem 2rem;
-        font-family: monospace;
-        font-weight: 500;
-        font-size: map-get(f.$font-size,3);
+main{
+   position:relative;
+   padding:2rem;
+   margin:0 auto;
+
+.main_hero{
+  border:0 solid transparent;
+     img{
+        width:1832px;
+        height:800px;
+        border:0px solid transparent;
+        border-radius: 10px;
       }
-    }
-    @keyframes spin {
-      from{
-           transform:translateX(0);
-      }
-      to{
-           transform:translateX(-50%);
-        }
-    }
-  }
-  h1 {
-    padding-top:150px;
-    font-size: map-get(f.$font-size, 13);
-    text-align: left;
-    width:800px;
-    @include f.font-robotoslab;
-  }
+     h1 {
+       padding-top:20px;
+       font-size: map-get(f.$font-size, 13);
+       text-align: left;
+       width:800px;
+       @include f.font-robotoslab;
+     }
 }
-
 .main_about{
-   position:static;
-   padding-left:35rem;
-   background-color: map-get(c.$colors, white-80);
+     position:static;
+     padding-left:35rem;
+     background-color: map-get(c.$colors, white-80);
 
-   img{
-    width:700px;
-    height:350px;
-    margin-top:1rem;
-    border:1px solid black;
-   }
-   p{
-    width:700px;
-    @include f.font-robotoslab-regular;
-   }
+     img{
+       width:700px;
+       height:350px;
+       margin-top:1rem;
+       border:1px solid black;
+      }
+     p{
+       width:700px;
+       @include f.font-robotoslab-regular;
+     }
+}
 }
 
 article{
@@ -211,7 +173,7 @@ article{
         border:1px solid transparent;
         border-radius: 15px;
         width:350px;
-        height:660px;
+        height: 670px;
         box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         img{
             width:350px;
@@ -225,6 +187,14 @@ article{
           padding:10px;
           padding-top:-20px;
           @include f.font-robotoslab-regular;
+          code{
+             background-color: map-get(c.$colors,green-50);
+             border:0 solid transparent;
+             border-radius: 10px;
+             top:20px;
+             font-size: 0.75rem;
+             padding:5px;
+          }
         }
         p{
           color:map-get(c.$colors,black-50);
@@ -245,7 +215,7 @@ article{
         }
       }
     }
-}
+  }
 @media screen and (max-width:400px){
   article{
     position:static;

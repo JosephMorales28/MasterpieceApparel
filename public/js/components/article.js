@@ -10,7 +10,7 @@ export function exp_article(page){
                              <div class="menwear-card">
                                 <picture>
                                     <img src="/img/masterpiece-idontfishforfoodifishforvibes.webp" srcset="/img/masterpiece-idontfishforfoodifishforvibes.webp 328w" sizes="(max-width:330px)328px" alt="I don't fish for food i fish for vibes T shirt- by Masterpiece Apparel" loading="lazy" fetchpriority="high"/>
-                                    <h2> I don't fish for food I fish for vibes</h2>
+                                    <h2> I don't fish for food I fish for vibes <code>New</code></h2>
                                     <p>${creator}</p>
                                     <a href="/pages/idontfishforfoodifishforvibes">View Full Details</a> <a>Add on Redbubble</a>
                                 </picture>

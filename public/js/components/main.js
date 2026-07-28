@@ -38,18 +38,10 @@ export function exp_main(page) {
 
             return `
                 <main>
-                    <div>
-                        <ul>
-                            <li>July 14, 2026</li>
-                            <li>New shirt release has officially landed today!</li>
-                            <li>Masterpiece-Deep Sea Monster (Essential Shirt)</li>
-                            <li>Only at $30.69</li>
-                            <li>Enjoy Discount 20%-30% Off valid until July 15, 2026</li>
-                            <li>Order and Buy now at Redbubble Store</li>
-                            <li>Follow us on Facebook and Instagram - Facebook: facebook.com/masterpieceapparelbyjoseph - Instagram: instagram.com/masterpieceapparelbyjoseph</li>
-                        </ul>
+                    <div class="main_hero">
+                       <img src="/img/menwear.webp"/>
+                       <h1>${mainHero}</h1>
                     </div>
-                    <h1>${mainHero}</h1>
                 </main>
             `;
         }
@@ -58,7 +50,8 @@ export function exp_main(page) {
             const about = pageContent[page];
 
             return `
-                <main class="main_about">
+                <main>
+                    <div class="main_about">
                     <h1>${about.title}</h1>
                     <p>${about.description}</p>
                     ${about.details.map(detail => `<p>${detail}</p>`).join('')}
@@ -74,6 +67,7 @@ export function exp_main(page) {
                         >
                     </picture>
                     <p>${about.paragraph}</p>
+                    </div>
                 </main>
             `;
         }
