@@ -3,8 +3,8 @@ export function homeArticle(){
 
     const product=[
                           {
-                            image:"/img/menwear.webp",
-                            srcset:"/img/menwear.webp 350w",
+                            image:"/img/masterpiece-idontfishforfoodifishforvibes.webp",
+                            srcset:"/img/masterpiece-idontfishforfoodifishforvibes.webp 350w",
                             sizes:"(max-width:360px) 350px",
                             alt:"I don't fish for food i fish for vibes t-shirt by Masterpiece Apparel",
                             title:"I don't fish for food i fish for vibes",
