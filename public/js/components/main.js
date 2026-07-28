@@ -40,7 +40,7 @@ export function exp_main(page) {
                 <main>
                     <div class="main_hero">
                        <img src="/img/menwear.webp"/>
-                       <h1>${mainHero}</h1>
+                       <img src="/img/menwear.webp"/>
                     </div>
                 </main>
             `;
