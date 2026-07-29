@@ -19,7 +19,7 @@ html, body {
   box-sizing: border-box;
 }
 body{
-  padding-top: 80px;
+  padding-top: 95px;
 }
 header {
   position: fixed;
@@ -57,12 +57,16 @@ header {
       align-items: center;
       justify-content: center;
       padding:10px;
-      @include f.font-robotoslab-regular;
+      /*--@include f.font-robotoslab-regular;--*/
+      font-family: monospace;
+      font-size: map-get(f.$font-size,3);
       li {
         display: inline-block;
         list-style-type: none;
         text-transform: uppercase;
-        @include f.font-robotoslab-regular;
+        /*--@include f.font-robotoslab-regular;--*/
+        font-family: monospace;
+        font-size: map-get(f.$font-size,3);
       }
       li a{
         text-decoration: none;
@@ -70,20 +74,26 @@ header {
         border:0 solid transparent;
         border-radius: 10px;
         padding:10px;
-        @include f.font-robotoslab-regular;
+        /*--@include f.font-robotoslab-regular;--*/
+        font-family: monospace;
+        font-size: map-get(f.$font-size,3);
       }
       li a:hover{
         color:map-get(c.$colors,black-50);
         transition: 10ms ease-in-out;
         background-color: map-get(c.$colors,green-50);
         padding:10px;
-        @include f.font-robotoslab-regular;
+        /*--@include f.font-robotoslab-regular;--*/
+        font-family: monospace;
+        font-size: map-get(f.$font-size,3);
       }
     }
     #City{
       padding:10px;
       padding-right:2rem;
-      @include f.font-robotoslab-regular;
+      /*--@include f.font-robotoslab-regular;--*/
+      font-family: monospace;
+      font-size: map-get(f.$font-size,3);
     }
   }
 }
@@ -114,30 +124,64 @@ header {
         }
       }
 */
-main{
-   position:relative;
-   padding:2rem;
-   margin:0 auto;
+main {
+  position: relative;
+  padding: 2rem;
+  margin: 0 auto;
+  border:1px solid transparent;
 
-.main_hero{
-  border:0 solid transparent;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-     img{
-        width:916px;
-        height:800px;
-        border:0px solid transparent;
-        border-radius: 10px;
+  .main_hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0;
+    gap: 0;
+
+    div {
+      position: relative; // REQUIRED anchor
+      margin:0;
+      padding:0;
+      img {
+        width: 916px;
+        height: 850px;
+        display:block;
       }
-     h1 {
-       padding-top:20px;
-       font-size: map-get(f.$font-size, 13);
-       text-align: left;
-       width:916px;
-       @include f.font-robotoslab;
-     }
+
+      .bottom-left-text {
+        position: absolute;
+        bottom: 50px;
+        left: 20px;
+        color: white;
+
+        p{
+          background-color: map-get(c.$colors,white-80);
+          color : map-get(c.$colors,black-50);
+          font-family: monospace;
+          font-weight: bold;
+          font-size: map-get(f.$font-size,1);
+          text-transform: uppercase;
+          padding:10px;
+          box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        span{
+          background-color: map-get(c.$colors,white-80);
+          color : map-get(c.$colors,black-50);
+          font-family: monospace;
+          font-weight: 800;
+          font-size:.75rem;
+          text-transform: uppercase;
+          padding:10px;
+          box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+      }
+
+      .bottom-right-text {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        color: white;
+      }
+    }
+  }
 }
 .main_about{
      position:static;
@@ -154,7 +198,6 @@ main{
        width:700px;
        @include f.font-robotoslab-regular;
      }
-}
 }
 
 article{
