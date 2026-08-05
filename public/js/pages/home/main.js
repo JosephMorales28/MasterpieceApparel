@@ -1,23 +1,36 @@
 export function homeMain(){
-            
-    const mainHero = 'Get our new shirt release and buy now on Masterpiece Apparel and enjoy a discount.';
-    const mainlist=[
-                            'July 14, 2026',
-                            'New shirt release has officially landed today!',
-                            'Masterpiece-Deep Sea Monster (Essential Shirt)',
-                            'Only at $30.69',
-                            'Enjoy Discount 20%-30% Off valid until July 15, 2026',
-                            'Order and Buy now at Redbubble Store',
-                            'Follow us on Facebook and Instagram - Facebook: facebook.com/masterpieceapparelbyjoseph - Instagram: instagram.com/masterpieceapparelbyjoseph'
-                    ];
-    return `
+   return `
             <main>
-                <div>
-                    <ul>
-                        ${mainlist.map(mainlisting=>`<li>${mainlisting}</li>`).join('')}
-                    </ul>
+                <div class="main_hero">
+                    <div>
+                           <img src="./img/part2.avif" data-width="916" data-height="850" alt="I don't fish for food i fish for vibes." loading="lazy" fetchpriority="high" decoding="async"/>
+                           <div class="bottom-left-text">
+                              <p>I don't fish for food I fish for vibes </p>
+                              <span>Essential shirt</span>
+                           </div>
+                    </div>
+                    <div>
+                           <img src="./img/part3.avif" data-width="916" data-height="850" alt="Lost in Space No.3" loading="lazy" fetchpriority="high" decoding="async"/>
+                           <div class="bottom-left-text">
+                              <p>Lost in Space No.3</p>
+                              <span>Essential shirt</span>
+                           </div>
+                    </div>
+                    <div>
+                           <img src="./img/part4.avif" data-width="916" data-height="850" alt="Doggo RPG: Fetch of Destiny" loading="lazy" fetchpriority="high" decoding="async"/>
+                           <div class="bottom-left-text">
+                              <p>Doggo RPG: Fetch of Destiny </p>
+                              <span>Essential shirt</span>
+                           </div>
+                    </div>
+                    <div>
+                           <img src="./img/part5.avif" data-width="916" data-height="850" alt="Swordfish" loading="lazy" fetchpriority="high" decoding="async"/>
+                           <div class="bottom-left-text">
+                              <p>Swordfish</p>
+                              <span>Hoodie</span>
+                           </div>
+                    </div>
                 </div>
-                <h1>${mainHero}</h1>
             </main>
         `;
 }

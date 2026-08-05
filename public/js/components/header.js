@@ -3,9 +3,12 @@ export function exp_header(page){
 
     return`
         <header>
+            <div class="MonthSales">
+                 August 8,2026 Discount Sales Soon!
+            </div>
             <nav>
                 <div id="logo">
-                    <a href="/" aria-label="Masterpiece Apparel home"><img src="/img/masterpieceapparelicon.svg" alt="Masterpiece Apparel logo" loading="lazy" fetchpriority="high"/></a>
+                    <a href="/" aria-label="Masterpiece Apparel home"><img src="/img/masterpieceapparelicon.svg" alt="Masterpiece Apparel logo" fetchpriority="high"/></a>
                 </div>
                 <ul>
                     ${nav.map(item =>`<li><a href="/${item}"${page===item ? ' aria-current="page" ' : ''}>${item}</a></li>`).join('')}

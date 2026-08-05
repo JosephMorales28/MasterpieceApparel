@@ -19,7 +19,7 @@ html, body {
   box-sizing: border-box;
 }
 body{
-  padding-top: 95px;
+  padding-top: 150px;
 }
 header {
   position: fixed;
@@ -28,14 +28,18 @@ header {
   z-index: 1000;
   width:100%;
   height:80px;
-
+  .MonthSales{
+    background-color: map-get(c.$colors,black-80);
+    color:map-get(c.$colors,white-80 );
+    padding:2rem;
+    font-family: monospace;
+  }
   nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
     position: fixed;
     background-color: map-get(c.$colors,white-80);
-    opacity:.8;
     #logo {
       padding-left:2rem;
       background-color: transparent;
@@ -97,43 +101,14 @@ header {
     }
   }
 }
-      // Mobile breakpoint
-/*@media screen and (max-width: 400px) {
-        // hide all top-level items except menu toggle
-        ul > li {
-          display: none;
-        }
-
-        // show ☰ toggle
-        ul > li:last-child {
-          display: inline-block;
-          cursor: pointer;
-          position: relative;
-
-          ul {
-            display: none;
-          }
-
-          &:hover > ul {
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            right: 0;
-            top:100%;
-          }
-        }
-      }
-*/
 main {
   position: relative;
   padding: 2rem;
   margin: 0 auto;
-  border:1px solid transparent;
-
+  border-top: .75px solid gray;
   .main_hero {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 0;
     gap: 0;
 
     div {
@@ -141,8 +116,8 @@ main {
       margin:0;
       padding:0;
       img {
-        width: 916px;
-        height: 850px;
+        width: attr(data-width, px);
+        height: attr(data-height, px);
         display:block;
       }
 
@@ -182,95 +157,129 @@ main {
       }
     }
   }
-}
-.main_about{
-     position:static;
-     padding-left:35rem;
-     background-color: map-get(c.$colors, white-80);
-
-     img{
-       width:700px;
-       height:350px;
-       margin-top:1rem;
-       border:1px solid black;
-      }
-     p{
-       width:700px;
-       @include f.font-robotoslab-regular;
-     }
-}
-
-article{
-   position:static;
-   padding: 2rem;
+  #aboutmain{
     h1{
-      font-size: map-get(f.$font-size,13);
       @include f.font-robotoslab;
+      color: map-get(c.$colors,black-80);
     }
-    .menwear{
-      margin:0 auto;
-      padding:0 auto;
-      padding-left: 4.5rem;
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
-      row-gap: 40px;
-      column-gap: 20px;
-
-      .menwear-card{
-        border:1px solid transparent;
-        border-radius: 15px;
-        width:350px;
-        height: 670px;
-        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        img{
-            width:350px;
-            height:478px;
-            padding:10px;
-            border:1px solid transparent;
-            border-radius: 20px;
-        }
-        h2{
-          color:map-get(c.$colors,black-50);
-          padding:10px;
-          padding-top:-20px;
-          @include f.font-robotoslab-regular;
-          code{
-             background-color: map-get(c.$colors,green-50);
-             border:0 solid transparent;
-             border-radius: 10px;
-             top:20px;
-             font-size: 0.75rem;
-             padding:5px;
-          }
-        }
-        p{
-          color:map-get(c.$colors,black-50);
-          opacity: .8;
-          margin-top: -30px;
-          padding:10px;
-          font-family: monospace;
-          font-weight: 500;
-        }
-        a{
-            text-decoration: none;
-            color:map-get(c.$colors,black-50);            
-            border:0 solid transparent;
-            background-color: map-get(c.$colors, green-50);
-            padding:10px;
-            margin:10px;
-            width:100%;
-        }
+    p{
+      font-family: monospace;
+      font-size: map-get(f.$font-size,1 );
+    }
+    ul{
+      list-style-type: none;
+      font-family: monospace;
+    }
+  }
+}
+section{
+  border-top: .75px solid gray;
+  h1{
+    padding:map-get(sp.$spacing,5);
+    color:map-get(c.$colors, black-80 );
+    @include f.font-robotoslab;
+  }
+  .homesection{
+    padding:map-get(sp.$spacing,5);
+    color:map-get(c.$colors, white-80 );
+    @include f.font-robotoslab;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    .clientcard{
+      width:att(data-width px);
+      padding: 1rem;
+      background-color: map-get(c.$colors,white-80 );
+      color:map-get(c.$colors,black-50);
+      position: relative;
+      box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      p{
+        color:map-get(c.$colors,green-50);
+        font-size: x-large;
+      }
+      span{
+        color:gray;
+        font-size: 0.75rem;
+        top:70px;
+        position: absolute;
+      }
+      .section_comment{
+        color: map-get(c.$colors,black-80);
+        margin-bottom:20px;
+        font-size: 1rem;
       }
     }
   }
-@media screen and (max-width:400px){
-  article{
-    position:static;
-    padding:2rem;
-    h1{
-      font-size: map-get(f.$font-size,7);
+}
+article{
+   padding:2rem;
+   border-top: .75px solid gray;
+   h1{
+    color:map-get(c.$colors, black-80);
+    @include f.font-robotoslab;
+   }
+   .products{
+    display:flex;
+    gap:10px;
+    overflow-y:hidden;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    position: relative;
+    a{
+      text-decoration: none;
+      position:relative;
+      box-sizing: border-box;
+      img{
+          width:500px;
+          height:auto;
+          display:block;
+       }
+       p{
+        color:map-get(c.$colors, black-80);
+        text-transform: uppercase;
+        @include f.font-robotoslab;
+        font-weight: bold;
+        padding:1rem;
+        font-size: 1.5rem;
+       }
+       span{
+        color:gray;
+        text-transform: uppercase;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: x-small;
+        bottom: 1rem;
+        padding:1rem;
+        position: absolute;
+       }
     }
-  }
+    a:hover{
+      padding:0;
+       img{
+          width:500px;
+          height:auto;
+          box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       }
+       p{
+        color:map-get(c.$colors, black-80);
+        text-transform: uppercase;
+        @include f.font-robotoslab;
+        font-weight: bold;
+        font-size: 1.5rem;
+       }
+       span{
+        color:gray;
+        text-transform: uppercase;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: x-small;
+       }
+    }
+    a:hover img {
+        transform: scale(1.02);
+        transition: transform .8s ease-in-out;
+    }
+   }
 }
 
 aside{
@@ -327,6 +336,40 @@ aside{
 footer{
   position: static;
   background-color: map-get(c.$colors,green-50);
-  padding:2rem;
-  @include f.font-robotoslab-regular;
+  padding:3rem;
+  font-family: monospace;
+  display: flex;
+  justify-content: space-between;
+  font-size: map-get(f.$font-size,3);
+
+  #footerlogo{
+    p{
+      max-width:500px;
+    }
+  }
+
+  #footermenu{
+    ul{
+      list-style-type: none;
+      text-transform: uppercase;
+    }
+  }
+  #footershop{
+    ul{
+      list-style-type: none;
+      text-transform: uppercase;
+    }
+  }
+  #footerPolicy{
+    ul{
+      list-style-type: none;
+      text-transform: uppercase;
+    }
+  }
+  #footersocialmedia{
+    ul{
+      list-style-type: none;
+      text-transform: uppercase;
+    }
+  }
 }

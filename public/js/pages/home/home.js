@@ -1,9 +1,7 @@
-import { homeMain } from "./main";
-import { homeArticle } from "./article";
+import { homeMain } from "./main.js";
+import { homeArticle } from "./article.js";
+import { homeSection} from "./section.js";
 
 export function homePage(){
-     return 
-           homeMain(),
-
-           homeArticle()
+     return homeMain()+homeSection()+ homeArticle();
 }
