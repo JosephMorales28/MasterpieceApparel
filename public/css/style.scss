@@ -158,6 +158,8 @@ main {
     }
   }
   #aboutmain{
+    margin:0 auto;
+    width:1200px;
     h1{
       @include f.font-robotoslab;
       color: map-get(c.$colors,black-80);
@@ -173,7 +175,6 @@ main {
   }
 }
 section{
-  border-top: .75px solid gray;
   h1{
     padding:map-get(sp.$spacing,5);
     color:map-get(c.$colors, black-80 );
@@ -207,6 +208,45 @@ section{
         color: map-get(c.$colors,black-80);
         margin-bottom:20px;
         font-size: 1rem;
+      }
+    }
+  }
+  .aboutFounder{
+    margin:0 auto;
+    padding:0 auto;
+    width:1200px;
+    display: flex;
+    justify-content:flex-start;
+    gap:20px;
+    .aboutFounderImg{
+      padding:2rem;
+      img{
+        width:350px;
+        height:500px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+      }
+    }
+    .aboutFounderInfo{
+      padding:2rem;
+      position:relative;
+      h1{
+      color:map-get(c.$colors,green-20);
+      font-size: map-get(f.$font-size,9);
+      @include f.font-robotoslab;
+      padding:0;
+      }
+      span{
+        font-family: monospace;
+        background-color: map-get(c.$colors,green-50);
+        border:0 solid transparent;
+        border-radius:15px;
+        padding:.5rem;
+        position: absolute;
+        top:8.25rem;
+      }
+      p{
+        padding-top:2rem;
+        font-family: monospace;
       }
     }
   }
