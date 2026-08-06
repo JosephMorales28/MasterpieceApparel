@@ -155,7 +155,7 @@ main {
         right: 20px;
         color: white;
       }
-    }
+    }    
   }
   #aboutmain{
     margin:0 auto;
@@ -164,13 +164,12 @@ main {
       @include f.font-robotoslab;
       color: map-get(c.$colors,black-80);
     }
+    img{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    }
     p{
       font-family: monospace;
       font-size: map-get(f.$font-size,1 );
-    }
-    ul{
-      list-style-type: none;
-      font-family: monospace;
     }
   }
 }
@@ -248,6 +247,87 @@ section{
         padding-top:2rem;
         font-family: monospace;
       }
+      .aboutsocmed{
+        margin:0;
+        ul{
+          list-style-type: none;
+          li{
+            display: inline-block;
+            img{
+              display: inline-block;
+              width:50px;
+              height:50px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .whatwedo{
+    margin:0 auto;
+    width:1200px;
+    padding:2rem;
+    h1{
+      padding:0;
+    }
+    .aboutwhatwedolist{
+      display: flex;
+      justify-content: space-between;
+      width:1125px;
+      gap:20px;
+      font-family: monospace;
+      p{
+        padding:2rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    }
+    .aboutwhatwedolist :hover{
+        background-color: map-get(c.$colors,green-50);
+        transition:all 0.6s ease-in-out;
+    }
+  }
+  .Ourjourney{
+    margin:0 auto;
+    width:1200px;
+    padding:2rem;
+    h1{
+      padding:0;
+    }
+    .timeline{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      width:1125px;
+      gap:20px;
+      div{
+        background-color: map-get(c.$colors,black-50);
+        position:relative;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        h1{
+          color:map-get(c.$colors,white-80);
+          position: absolute;
+          bottom:-20px;
+          right:20px;
+          font-size: 4rem;
+          opacity:0.5;
+        }
+        p{
+          position:relative;
+          padding:2rem;
+          z-index:1;
+          font-family: monospace;
+          color:map-get(c.$colors,white-80);
+        }
+      }
+    }
+  }
+  .OurMission{
+    margin:0 auto;
+    width:1200px;
+    position:relative;
+    p{
+      padding:2rem;
+      position:absolute;
+      top:40px;
     }
   }
 }
