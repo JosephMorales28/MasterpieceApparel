@@ -172,6 +172,14 @@ main {
       font-size: map-get(f.$font-size,1 );
     }
   }
+  #shopmain{
+    margin:0 auto;
+    width:1200px;
+    h1{
+      @include f.font-robotoslab;
+      color: map-get(c.$colors,black-80);
+    }
+  }
 }
 section{
   h1{

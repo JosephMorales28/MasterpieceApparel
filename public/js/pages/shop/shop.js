@@ -1,3 +1,5 @@
+import { shopMain } from "./shopmain.js";
+
 export function shopPage(){
-    return``;
+    return shopMain();
 }
