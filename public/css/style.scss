@@ -179,6 +179,33 @@ main {
       @include f.font-robotoslab;
       color: map-get(c.$colors,black-80);
     }
+    form{
+      padding:2rem;
+      :is(input[type=text],input[type=submit]){
+        border:0;
+        border-radius: 1rem;
+        outline:none;
+      }
+      input[type=text]{
+        background-image: url("../img/icons8-search-30.png");
+        background-repeat: no-repeat;
+        background-position: 1rem center; // adjust icon placement
+        background-size: 20px;            // scale icon if needed
+        padding: 1rem 1rem 1rem 3rem;
+        width:900px;
+        box-sizing: border-box;
+        transition:0.5s,box-shadow 0.5s;
+      }
+      input[type=text]:focus{
+        border:1px solid map-get(c.$colors, green-50);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      input[type=submit]{
+        padding:1rem;
+        width:225px;
+        background-color: map-get(c.$colors, green-50);
+      }
+    }
   }
 }
 section{
