@@ -209,15 +209,15 @@ main {
   }
 }
 section{
-  h1{
+  :is(h1,.homesection){
     padding:map-get(sp.$spacing,5);
-    color:map-get(c.$colors, black-80 );
     @include f.font-robotoslab;
   }
+  h1{
+    color:map-get(c.$colors, black-80 );
+  }
   .homesection{
-    padding:map-get(sp.$spacing,5);
     color:map-get(c.$colors, white-80 );
-    @include f.font-robotoslab;
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap:10px;
@@ -232,14 +232,15 @@ section{
         color:map-get(c.$colors,green-20);
         font-size: x-large;
       }
-      span{
+      :is(span,.section_comment){
         color:map-get(c.$colors, black-80 );
+      }
+      span{
         font-size: 0.75rem;
         top:70px;
         position: absolute;
       }
       .section_comment{
-        color: map-get(c.$colors,black-80);
         margin-bottom:20px;
         font-size: 1rem;
       }
@@ -252,8 +253,10 @@ section{
     display: flex;
     justify-content:flex-start;
     gap:20px;
-    .aboutFounderImg{
+    :is(.aboutFounderImg,.aboutFounderInfo){
       padding:2rem;
+    }
+    .aboutFounderImg{
       img{
         width:350px;
         height:500px;
@@ -261,7 +264,6 @@ section{
       }
     }
     .aboutFounderInfo{
-      padding:2rem;
       position:relative;
       h1{
       color:map-get(c.$colors,green-20);
@@ -269,8 +271,10 @@ section{
       @include f.font-robotoslab;
       padding:0;
       }
-      span{
+      :is(span,p){
         font-family: monospace;
+      }
+      span{
         background-color: map-get(c.$colors,green-50);
         border:0 solid transparent;
         border-radius:15px;
@@ -280,7 +284,6 @@ section{
       }
       p{
         padding-top:2rem;
-        font-family: monospace;
       }
       .aboutsocmed{
         margin:0;
@@ -298,10 +301,12 @@ section{
       }
     }
   }
-  .whatwedo{
+  :is(.whatwedo,.Ourjourney){
     margin:0 auto;
     width:1200px;
     padding:2rem;
+  }
+  .whatwedo{
     h1{
       padding:0;
     }
@@ -322,9 +327,6 @@ section{
     }
   }
   .Ourjourney{
-    margin:0 auto;
-    width:1200px;
-    padding:2rem;
     h1{
       padding:0;
     }
@@ -502,26 +504,7 @@ footer{
       max-width:500px;
     }
   }
-
-  #footermenu{
-    ul{
-      list-style-type: none;
-      text-transform: uppercase;
-    }
-  }
-  #footershop{
-    ul{
-      list-style-type: none;
-      text-transform: uppercase;
-    }
-  }
-  #footerPolicy{
-    ul{
-      list-style-type: none;
-      text-transform: uppercase;
-    }
-  }
-  #footersocialmedia{
+  &:has(#footermenu,#footershop,#footerPolicy,#footersocialmedia){
     ul{
       list-style-type: none;
       text-transform: uppercase;
