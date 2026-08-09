@@ -1,6 +1,5 @@
 export function homeSection(){
     const sectionpage="What Our Buyer Says";
-    const datawidth=350;
     const clientcard=[
                       {
                          name:"John Smith",
@@ -23,7 +22,7 @@ export function homeSection(){
                <h1>${sectionpage}</h1>
                <div class="homesection">
                    ${clientcard.map(item=>`
-                        <div class="clientcard" data-width="${datawidth}">
+                        <div class="clientcard">
                            <div>
                               <p>${item.name}</p>
                               <span>${item.socialmed}</span>

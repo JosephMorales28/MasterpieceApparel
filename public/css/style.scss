@@ -116,8 +116,8 @@ main {
       margin:0;
       padding:0;
       img {
-        width: attr(data-width, px);
-        height: attr(data-height, px);
+        width: 916px;
+        height: 850px;
         display:block;
       }
 
@@ -182,7 +182,7 @@ main {
         background-position: 1rem center; // adjust icon placement
         background-size: 20px;            // scale icon if needed
         padding: 1rem 1rem 1rem 3rem;
-        width:900px;
+        width:min(900px,100%);
         box-sizing: border-box;
         transition:0.5s,box-shadow 0.5s;
       }
@@ -212,7 +212,7 @@ section{
     grid-template-columns: repeat(3,1fr);
     gap:10px;
     .clientcard{
-      width:att(data-width px);
+      width:350px;
       padding: 1rem;
       background-color: map-get(c.$colors,white-80 );
       color:map-get(c.$colors,black-50);

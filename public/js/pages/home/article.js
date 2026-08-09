@@ -107,7 +107,7 @@ export function homeArticle(){
                    ${product.map((item,index)=>`
                       <a href="#">
                       <div>
-                        <img src="${item.image}" srcset="${item.srcset}" size="${item.sizes}" alt="${item.alt}" loading="${index===0 ? "eager":"lazy"}" fetchpriority="${index===0 ? "auto" : "high"}" decoding="async"/>
+                        <img src="${item.image}" srcset="${item.srcset}" sizes="${item.sizes}" alt="${item.alt}" loading="${index===0 ? "eager":"lazy"}" fetchpriority="${index===0 ? "auto" : "high"}" decoding="async"/>
                         <p>${item.title}</p>
                         <span>${item.creator}</span>
                       </div>
@@ -120,7 +120,7 @@ export function homeArticle(){
                    ${product.map((item,index)=>`
                       <a href="#">
                       <div>
-                        <img src="${item.image}" srcset="${item.srcset}" size="${item.sizes}" alt="${item.alt}" loading="${index===0 ? "eager":"lazy"}" fetchpriority="${index===0 ? "auto" : "high"}" decoding="async"/>
+                        <img src="${item.image}" srcset="${item.srcset}" sizes="${item.sizes}" alt="${item.alt}" loading="${index===0 ? "eager":"lazy"}" fetchpriority="${index===0 ? "auto" : "high"}" decoding="async"/>
                         <p>${item.title}</p>
                         <span>${item.creator}</span>
                       </div>
