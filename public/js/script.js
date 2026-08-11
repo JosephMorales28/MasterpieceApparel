@@ -9,14 +9,6 @@ const page=pageName==='index' || pageName==='home' ? 'home' : supportedPages.inc
 
 const render=routes[page];
 
-navigation.addEventListener("navigate", (event) => {
-  console.log("Navigate:", event.destination.url);
-});
-
-document.addEventListener("visibilitychange", () => {
-  console.log("Visibility:", document.visibilityState);
-});
-
 const app = document.getElementById("app");
 
 app.replaceChildren();
@@ -29,6 +21,3 @@ app.insertAdjacentHTML(
     exp_footer(page)
   ].join("")
 );
-
-console.log(page);
-console.log(render());

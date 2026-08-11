@@ -2,7 +2,7 @@
 User-agent: Googlebot
 Allow: /
 
-#Allow Google Extend
+# Allow Google Extend
 User-agent: Google-Extended
 Allow: /
 
@@ -10,31 +10,31 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-#Allow DuckDuckGo
+# Allow DuckDuckGo
 User-agent: DuckDuckBot
 Allow: /
 
-#Allow GPT
+# Allow GPT
 User-agent: GPTBot
 Allow: /
 
-#Allow Open AI
+# Allow Open AI
 User-agent: OAI-SearchBot
 Allow: /
 
-#Allow ChatGPT
+# Allow ChatGPT
 User-agent: ChatGPT-User
 Allow: /
 
-#Allow AppleBot
+# Allow AppleBot
 User-agent: Applebot
 Allow: /
 
-#Allow Apple Extended
+# Allow Apple Extended
 User-agent: AppleBot-Extended
 Allow: /
 
-#Allow Brave
+# Allow Brave
 User-agent: Bravebot
 Allow : /
 
@@ -42,7 +42,8 @@ User-agent: *
 Allow: /
 
 
-#Disallow all Vulnerabilities User-Agent
+# Restrict selected crawlers and automated clients
+
 User-agent: AhrefsBot
 Disallow: /
 
