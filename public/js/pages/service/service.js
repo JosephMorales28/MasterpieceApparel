@@ -1,3 +1,7 @@
 export function servicePage(){
-    return ``;
+    return `
+         <main>
+         <h1>This is Service</h1>
+         </main>
+         `;
 }

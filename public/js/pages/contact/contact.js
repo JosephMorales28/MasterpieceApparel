@@ -1,3 +1,7 @@
 export function contactPage(){
-    return ``;
+    return `
+         <main>
+            <h1>Contact Me for more Info:</h1>
+         </main>
+    `;
 }

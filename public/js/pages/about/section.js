@@ -1,7 +1,7 @@
 export function aboutSection(){
 
     const img=[{
-                image:"./img/josephlatest.webp",
+                image:"./img/josephlatest.avif",
                 alt:"joseph morales founder of masterpiece apparel"
               }];
 
