@@ -36,7 +36,7 @@ Allow: /
 
 # Allow Brave
 User-agent: Bravebot
-Allow : /
+Allow: /
 
 User-agent: *
 Allow: /

@@ -7,7 +7,7 @@ const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() 
 const pageName=lastPathSegment.replace(/\.html$/, '');
 const page=pageName==='index' || pageName==='home' ? 'home' : supportedPages.includes(pageName) ? pageName : 'home';
 
-const render=routes[page];
+const render=routes[page] ?? routes.home;//change the routes.home to routes.notfoundPage if 404 page is created
 
 const app = document.getElementById("app");
 
