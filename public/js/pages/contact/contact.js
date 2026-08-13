@@ -1,7 +1,5 @@
+import { contactMain } from "./main.js";
+
 export function contactPage(){
-    return `
-         <main>
-            <h1>Contact Me for more Info:</h1>
-         </main>
-    `;
+    return contactMain();
 }

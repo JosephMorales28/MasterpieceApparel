@@ -151,10 +151,10 @@ main {
       }
     }    
   }
-  :is(#aboutmain,#shopmain,#blogmain){
+  :is(#aboutmain,#shopmain,#blogmain,#contactmain){
     margin:0 auto;
     width:min(1200px, 100%);
-    h1{
+    :is(h1,h2,h3){
       @include f.font-robotoslab;
       color: map-get(c.$colors,black-80);
     }
@@ -199,9 +199,17 @@ main {
       }
     }
   }
-  #blogmain{
+  :is(#blogmain,#contactmain){
     p{
       font-family: monospace;
+    }
+  }
+  #contactmain{
+    a{
+      text-decoration: none;
+      @include f.font-robotoslab;
+      font-weight: bold;
+      color:map-get(c.$colors,black-80);
     }
   }
 }
