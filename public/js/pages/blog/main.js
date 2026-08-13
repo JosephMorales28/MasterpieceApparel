@@ -1,13 +1,18 @@
 class Blog{
-    constructor(name, description){
+    constructor(name, description,image,loading,priority){
         this.name=name;
         this.description=description;
+        this.image=image;
+        this.loading=loading;
+        this.priority=priority;
     }
     getInfo(){
         return`
               <main>
-              <h1>${this.name}</h1>
-              <p>${this.description}</p>
+                 <div id="blogmain">
+                    <h1>${this.name}</h1>
+                    <p>${this.description}</p>
+                 </div>
               </main>
               `;
     }
