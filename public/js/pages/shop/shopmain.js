@@ -3,10 +3,10 @@ export function shopMain(){
       <main>
         <div id="shopmain">
         <h1>Masterpiece Apparel Shop</h1>
-        <form>
            <input type="text" placeholder="Search" id="placeholder">
-           <input type="submit" value="Search">
-        </form>
+           <button type="button" id="searchbtn">Search</button>
+        </div>
+        <div id="shopproduct">
         </div>
       </main>
     `;

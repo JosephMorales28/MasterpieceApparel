@@ -171,7 +171,6 @@ main {
     }
   }
   #shopmain{
-    form{
       padding:2rem;
       :is(input[type=text],input[type=submit]){
         border:0;
@@ -192,12 +191,13 @@ main {
         border:1px solid map-get(c.$colors, green-50);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
-      input[type=submit]{
+      button[type=button]{
         padding:1rem;
         width:225px;
         background-color: map-get(c.$colors, green-50);
+        border:0 solid transparent;
+        border-radius: 1rem;
       }
-    }
   }
   :is(#blogmain,#contactmain){
     p{

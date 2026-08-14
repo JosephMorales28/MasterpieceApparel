@@ -1,6 +1,7 @@
-import {exp_header} from './components/header.js';
-import{routes} from './routes.js';
-import {exp_footer} from './components/footer.js';
+import { exp_header } from './components/header.js';
+import{ routes } from './routes.js';
+import { exp_footer } from './components/footer.js';
+import { shopSearch } from './pages/shop/shopsearch.js';
 
 const supportedPages=['about','shop','service','blog','contact','idontfishforfoodifishforvibes'];
 const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() || 'home';
@@ -11,8 +12,6 @@ const render=routes[page] ?? routes.home;//change the routes.home to routes.notf
 
 const app = document.getElementById("app");
 
-app.replaceChildren();
-
 app.insertAdjacentHTML(
   "beforeend",
   [
@@ -21,3 +20,7 @@ app.insertAdjacentHTML(
     exp_footer(page)
   ].join("")
 );
+
+if (page==="shop"){
+    shopSearch();
+}
