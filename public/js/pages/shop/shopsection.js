@@ -69,6 +69,30 @@ export function shopSection(search=""){
                 1,
                 "Goal Keeper Gone Bananas Monkey Soccer Madness",
                 "Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup."
+        ),
+        new ImageProduct(
+                "./img/Lightning Paw Striker.webp",
+                "Lightning Paw Striker",
+                1,
+                1,
+                "Lightning Paw Striker",
+                "Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup."
+        ),
+        new ImageProduct(
+                "./img/Hound of Thunder.webp",
+                "Hound of Thunder",
+                1,
+                1,
+                "Hound of Thunder",
+                "Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup."
+        ),
+        new ImageProduct(
+                "./img/Stormfield Striker.webp",
+                "Stormfield Striker",
+                1,
+                1,
+                "Stormfield Striker",
+                "Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup."
         )
     ]
     
