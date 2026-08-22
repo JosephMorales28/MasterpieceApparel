@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": "idontfishforfoodifishforvibes",
+      "name": "I Don't Fish for Food I Fish For Vibes",
+      "image": "/img/idontfish.avif",
+      "imageAlt": "A fluffy cat fishing by a pond",
+      "creator": "Joseph Morales",
+      "price": {
+        "currency": "USD",
+        "amount": 30.69
+      },
+      "details": "Bring adventure and humor to your wardrobe with this anime-style fluffy cat fishing scene! Featuring a beige-brown long-haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw.",
+      "type": "Unisex T-Shirt",
+      "material": "100% Cotton",
+      "printType": "DTG",
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "Extra Large",
+        "XXL",
+        "XXXL"
+      ],
+      "prices": {
+        "redbubble": 26.07,
+        "etsy": null
+      }
+    }
+  ]
+}

@@ -151,7 +151,7 @@ main {
       }
     }    
   }
-  :is(#aboutmain,#shopmain,#blogmain,#contactmain,#idontfish_main){
+  :is(#aboutmain,#shopmain,#blogmain,#contactmain,#product_main){
     margin:0 auto;
     width:min(1200px, 100%);
     :is(h1,h2,h3){
@@ -212,46 +212,46 @@ main {
       color:map-get(c.$colors,black-80);
     }
   }
-  #idontfish_main{
-  .idontfish_flex{
-     display: flex;
-     justify-content:flex-start;
-     flex-wrap: wrap;
-     gap:20px;
-     :is(p,strong){
-      font-family: monospace;
-     }
-     img{
-        width:600px;
-        height:600px;
+  #product_main{
+  .production_flex{
+      display: flex;
+      justify-content:flex-start;
+      flex-wrap: wrap;
+      gap:20px;
+      :is(p,strong){
+          font-family: monospace;
         }
-     p{
-      width:500px;
-     }
-     strong{
-        font-size:map-get(f.$font-size,7 );
-        color:map-get(c.$colors, green-50 );
+      img{
+         width:600px;
+         height:600px;
         }
-     }
-     h4{
-      @include f.font-robotoslab;
-      text-transform: uppercase;
-     }
-     button{
-      display:inline-block;
-      border:0 solid transparent;
-      padding:calc(1*2rem);
-      gap:10px;
-      color:map-get(c.$colors,white-80 );
-      font-family: monospace;
-      margin-right: 1rem;
-      width:250px;
-     }
-     .redbubble_btn{
-       background-color: map-get(c.$colors,red-80 );
-     }
-     .etsy_btn{
-       background-color: map-get(c.$colors,orange-90 );
+      p{
+        width:500px;
+      }
+      strong{
+          font-size:map-get(f.$font-size,7 );
+          color:map-get(c.$colors, green-50 );
+        }
+      }
+      h4{
+        @include f.font-robotoslab;
+        text-transform: uppercase;
+      }
+      button{
+         display:inline-block;
+         border:0 solid transparent;
+         padding:calc(1*2rem);
+         gap:10px;
+         color:map-get(c.$colors,white-80 );
+         font-family: monospace;
+         margin-right: 1rem;
+         width:250px;
+      }
+      .redbubble_btn{
+          background-color: map-get(c.$colors,red-80 );
+      }
+      .etsy_btn{
+          background-color: map-get(c.$colors,orange-90 );
      }
   }
 }

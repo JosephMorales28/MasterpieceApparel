@@ -8,7 +8,7 @@ class ImageMainProduct{
 
     getImageMainProduct(){
         return `
-                <img src="${this.image}" alt= "${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
+                <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
                `
     }
 }
@@ -27,8 +27,8 @@ export function idontfish_main(){
     const idontfishHTML=imagemain_product.map(imageMP=>imageMP.getImageMainProduct()).join('');
 
     return `<main>
-              <div id="idontfish_main">
-                 <div class="idontfish_flex">
+              <div id="product_main">
+                 <div class="production_flex">
                     <div>
                         ${idontfishHTML}
                     </div>
