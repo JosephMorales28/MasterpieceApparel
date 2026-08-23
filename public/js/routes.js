@@ -5,6 +5,7 @@ import { servicePage } from './pages/service/service.js';
 import { blogPage } from './pages/blog/blog.js';
 import { contactPage } from './pages/contact/contact.js';
 import { idontfishforfood } from './pages/idontfishforfoodifishforvibes/idontfishforfoodifishforvibes.js';
+import { deepsea } from './pages/DeepSeaMonster/deepseamonster.js';
 
 export const routes = {
     home: homePage,
@@ -13,6 +14,7 @@ export const routes = {
     service: servicePage,
     blog: blogPage,
     contact:contactPage,
-    idontfishforfoodifishforvibes:idontfishforfood
+    idontfishforfoodifishforvibes:idontfishforfood,
+    deepseamonster:deepsea
 
 };

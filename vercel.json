@@ -41,6 +41,7 @@
     { "source": "/service", "destination": "/service.html" },
     { "source": "/blog", "destination": "/blog.html" },
     { "source": "/contact", "destination": "/contact.html" },
-    { "source": "/idontfishforfoodifishforvibes", "destination": "/idontfishforfoodifishforvibes.html" }
+    { "source": "/idontfishforfoodifishforvibes", "destination": "/idontfishforfoodifishforvibes.html" },
+    { "source": "/deepseamonster", "destination": "/deepseamonster.html" }
   ]
 }
