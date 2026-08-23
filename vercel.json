@@ -42,6 +42,7 @@
     { "source": "/blog", "destination": "/blog.html" },
     { "source": "/contact", "destination": "/contact.html" },
     { "source": "/idontfishforfoodifishforvibes", "destination": "/idontfishforfoodifishforvibes.html" },
+    { "source": "/classicshirt", "destination": "/idontfishforfoodifishforvibes/classicshirt.html" },
     { "source": "/deepseamonster", "destination": "/deepseamonster.html" }
   ]
 }
