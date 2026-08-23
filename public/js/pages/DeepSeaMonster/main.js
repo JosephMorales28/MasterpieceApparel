@@ -12,7 +12,7 @@ class ImageMainProduct{
                `
     }
 }
-export function idontfish_main(){
+export function deepsea_main(){
     
     const imagemain_product=[
         new ImageMainProduct(
@@ -24,10 +24,10 @@ export function idontfish_main(){
     ];
 
     const productinfo={
-        name:"I Don't Fish for food I fish for vibes </br> (Essential Shirt)",
+        name:"Deep Sea Monster </br>(Essential Shirt)",
         creator:"Joseph Morales",
         Price: 30.69,
-        details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
+        details:"Dive into the abyss with this Deep Sea Monster artwork a colossal Kraken rising from storm‑tossed waves. Its glowing eyes, razor‑sharp teeth, and curling tentacles crush a doomed ship beneath a fiery moon. The arced, cracked lettering “DEEP SEA” and “MONSTER” frame the creature in a bold, mythic composition perfect for dark‑fantasy fans, ocean explorers, and streetwear collectors.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -44,7 +44,7 @@ export function idontfish_main(){
         }
     };
     
-    const idontfishHTML=imagemain_product.map(imageMP=>imageMP.getImageMainProduct()).join('');
+    const deepseaHTML=imagemain_product.map(imageMP=>imageMP.getImageMainProduct()).join('');
     
     const productinfoHTML=`
         <h1>${productinfo.name}</h1>
@@ -58,11 +58,12 @@ export function idontfish_main(){
         <p>${productinfo.size.s}, ${productinfo.size.m}, ${productinfo.size.l}, ${productinfo.size.xl}, ${productinfo.size.xxl}, ${productinfo.size.xxxl}</p>
         `;
 
-    return `<main>
+    return `
+            <main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${idontfishHTML}
+                        ${deepseaHTML}
                     </div>
                     <div>
                          ${productinfoHTML}

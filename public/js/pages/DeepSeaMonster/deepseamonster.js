@@ -1,3 +1,4 @@
+import { deepsea_main } from "./main.js";
 export function deepsea(){
-    return ``;
+    return deepsea_main();
 }
