@@ -35,6 +35,7 @@
       ]
     }
   ],
+  "cleanUrls":true,
   "rewrites": [
     { "source": "/about", "destination": "/about.html" },
     { "source": "/shop", "destination": "/shop.html" },
@@ -43,6 +44,7 @@
     { "source": "/contact", "destination": "/contact.html" },
     { "source": "/idontfishforfoodifishforvibes", "destination": "/idontfishforfoodifishforvibes.html" },
     { "source": "/classicshirt", "destination": "/js/pages/idontfishforfoodifishforvibes/classicshirt.html" },
+    { "source": "/idontfishforfoodifishforvibes/classicshirt", "destination": "/js/pages/idontfishforfoodifishforvibes/classicshirt.html" },
     { "source": "/deepseamonster", "destination": "/deepseamonster.html" }
   ]
 }

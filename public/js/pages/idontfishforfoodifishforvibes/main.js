@@ -32,7 +32,7 @@ export function idontfish_main(){
     
     const imagemain_product=[
         new ImageMainProduct(
-            "./img/idontfish.webp",
+            "/img/idontfish.webp",
             "i don't fish for food i fish for vibes",
             0,
             0
@@ -96,8 +96,8 @@ export function classic_main(){
    
     const classic_mainproduct=[
         new ClassicMainProduct(
-            "./img/idontfish.webp",
-            "i don't fish for food i fish for vibes",
+            "/img/idontfish.webp",
+            "i don't fish for food i fish for vibes -classic shirt",
             0,
             0
         )
