@@ -28,6 +28,21 @@ class ClassicMainProduct{
     }
 }
 
+class PremiumMainProduct{
+    constructor(image,alt,loading,priority){
+        this.image=image;
+        this.alt=alt;
+        this.loading=loading;
+        this.priority=priority;
+    }
+
+    getPremiumMainProduct(){
+        return `
+                <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
+               `
+    }
+}
+
 export function idontfish_main(){
     
     const imagemain_product=[
@@ -149,6 +164,70 @@ export function classic_main(){
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $27.20</button>
+                         <button class="etsy_btn">Etsy Price: Not Available</button>
+                    </div>
+              </div>
+            </main>
+           `;
+}
+
+export function premium_main(){
+   
+    const premium_mainproduct=[
+        new PremiumMainProduct(
+            "/img/idontfish.webp",
+            "i don't fish for food i fish for vibes - Premium shirt",
+            0,
+            0
+        )
+    ];
+
+    const premiuminfo={
+        name:"I Don't Fish for food I fish for vibes </br> (Premium Shirt)",
+        creator:"Joseph Morales",
+        Price: 46.35,
+        details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
+        type:"Unisex, T-Shirts",
+        fabric: "100% cotton",
+        printtype:{
+            dtf:"DTF",
+            quality:"High Quality Image" 
+        },
+        size:{
+            s:"Small",
+            m:"Medium",
+            l:"Large",
+            xl:"Extra Large",
+            xxl:"XXL",
+            xxxl:"XXXL"
+        }
+    };
+
+    const premium_mainHTML=premium_mainproduct.map(premium_MainProducts=>premium_MainProducts.getPremiumMainProduct()).join('')
+    
+    const premiuminfoHTML=`
+        <h1>${premiuminfo.name}</h1>
+        <p>Created by : ${premiuminfo.creator}</p>
+        <strong>$ ${premiuminfo.Price.toFixed(2)}</strong>
+        <h4>Details</h4>
+        <p>${premiuminfo.details}</p>
+        <h4>Type:</h4>
+        <p>${premiuminfo.type} are ${premiuminfo.fabric}</p>
+        <h4>Size Available</h4>
+        <p>${premiuminfo.size.s}, ${premiuminfo.size.m}, ${premiuminfo.size.l}, ${premiuminfo.size.xl}, ${premiuminfo.size.xxl}, ${premiuminfo.size.xxxl}</p>
+        `;
+
+    return `<main>
+              <div id="product_main">
+                 <div class="production_flex">
+                    <div>
+                        ${premium_mainHTML}
+                    </div>
+                    <div>
+                         ${premiuminfoHTML}
+
+                         <h4>Price Avaiable at:</h4>
+                         <button class="redbubble_btn">Redbubble Price: $46.35</button>
                          <button class="etsy_btn">Etsy Price: Not Available</button>
                     </div>
               </div>

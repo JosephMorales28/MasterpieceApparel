@@ -36,10 +36,15 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://masterpiece-apparel.vercel.app/idontfishforfoodifishforvibes/classic</loc>
+    <loc>https://masterpiece-apparel.vercel.app/idontfishforfoodifishforvibes/classicshirt</loc>
     <lastmod>2026-08-23</lastmod>
     <priority>0.6</priority>
-  </url
+  </url>
+  <url>
+    <loc>https://masterpiece-apparel.vercel.app/idontfishforfoodifishforvibes/premiumshirt</loc>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.6</priority>
+  </url>
   <url>
     <loc>https://masterpiece-apparel.vercel.app/deepseamonster</loc>
     <lastmod>2026-08-23</lastmod>

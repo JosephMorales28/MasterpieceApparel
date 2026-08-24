@@ -67,16 +67,16 @@
 
   "rewrites": [
     {
-      "source": "/classicshirt",
-      "destination": "/js/pages/idontfishforfoodifishforvibes/classicshirt"
-    },
-    {
       "source": "/idontfishforfoodifishforvibes/classicshirt",
       "destination": "/js/pages/idontfishforfoodifishforvibes/classicshirt"
     },
     {
       "source": "/idontfishforfoodifishforvibes",
       "destination": "/idontfishforfoodifishforvibes"
+    },
+    {
+      "source": "/idontfishforfoodifishforvibes/premiumshirt",
+      "destination": "/idontfishforfoodifishforvibes/premiumshirt"
     },
     {
       "source": "/about",
