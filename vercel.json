@@ -1,5 +1,4 @@
 {
-  "cleanUrls": true,
 
   "headers": [
     {
@@ -68,39 +67,39 @@
   "rewrites": [
     {
       "source": "/idontfishforfoodifishforvibes/classicshirt",
-      "destination": "/js/pages/idontfishforfoodifishforvibes/classicshirt"
+      "destination": "/js/pages/idontfishforfoodifishforvibes/classicshirt.html"
     },
     {
       "source": "/idontfishforfoodifishforvibes",
-      "destination": "/idontfishforfoodifishforvibes"
+      "destination": "/idontfishforfoodifishforvibes.html"
     },
     {
       "source": "/idontfishforfoodifishforvibes/premiumshirt",
-      "destination": "/idontfishforfoodifishforvibes/premiumshirt"
+      "destination": "/idontfishforfoodifishforvibes/premiumshirt.html"
     },
     {
       "source": "/about",
-      "destination": "/about"
+      "destination": "/about.html"
     },
     {
       "source": "/shop",
-      "destination": "/shop"
+      "destination": "/shop.html"
     },
     {
       "source": "/service",
-      "destination": "/service"
+      "destination": "/service.html"
     },
     {
       "source": "/blog",
-      "destination": "/blog"
+      "destination": "/blog.html"
     },
     {
       "source": "/contact",
-      "destination": "/contact"
+      "destination": "/contact.html"
     },
     {
       "source": "/deepseamonster",
-      "destination": "/deepseamonster"
+      "destination": "/deepseamonster.html"
     }
   ]
 }
