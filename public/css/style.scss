@@ -271,7 +271,7 @@ main {
       flex-wrap: wrap;
       justify-content:flex-start;
       flex-direction: row;
-      gap:10px;
+      gap:20px;
       img{
          width: 600px;
          height:600px;
@@ -293,7 +293,7 @@ main {
       flex-wrap: wrap;
       justify-content:flex-start;
       flex-direction: row;
-      gap:10px;
+      gap:20px;
       img{
          width: 600px;
          height:600px;
@@ -315,7 +315,7 @@ main {
       flex-wrap: wrap;
       justify-content:flex-start;
       flex-direction: row;
-      gap:10px;
+      gap:20px;
       img{
          width: 600px;
          height:600px;
@@ -510,6 +510,38 @@ section{
       padding:2rem;
       position:absolute;
       top:40px;
+    }
+  }
+  #sectiongallery{
+    margin: 0 auto;
+    width:min(1220px, 100%);
+    padding-bottom: 10px;
+    h1{
+      padding:0;
+      @include f.font-robotoslab;
+      color: map-get(c.$colors,black-80);
+    }
+    .sectiongallery_flex {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       gap: 10px;
+       overflow-x: scroll;
+       overflow-y: hidden;
+       padding-bottom: 10px;
+       img {
+          flex: 0 0 400px;
+          width: 400px;
+          height: 600px;
+        }
+        p{
+          font-family: monospace;
+          color:map-get(c.$colors,black-80 );
+        }
+        a{
+          text-decoration: none;
+          color: map-get(c.$colors, black-80 );
+        }
     }
   }
 }
