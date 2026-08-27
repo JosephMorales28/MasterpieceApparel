@@ -27,7 +27,7 @@ export function idontfish_section(){
             0,
             0,
             "Classic Shirt",
-            "/pages/idontfishforfoodifishforvibes/classicshirt"
+            "/idontfishforfoodifishforvibes/classicshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -35,7 +35,7 @@ export function idontfish_section(){
             0,
             0,
             "Premium Shirt",
-            "/pages/idontfishforfoodifishforvibes/premiumshirt"
+            "/idontfishforfoodifishforvibes/premiumshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
