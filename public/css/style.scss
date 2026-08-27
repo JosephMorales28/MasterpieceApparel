@@ -288,7 +288,29 @@ main {
     p{
       font-family: monospace;
     }
-    .gallery_flex{
+    .classic_gallery_flex{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content:flex-start;
+      flex-direction: row;
+      gap:10px;
+      img{
+         width: 600px;
+         height:600px;
+      }
+    }
+}
+#premiumgallery{
+    margin:0 auto;
+    width:min(1220px, 100%);
+    h1{
+      @include f.font-robotoslab;
+      color: map-get(c.$colors,black-80);
+    }
+    p{
+      font-family: monospace;
+    }
+    .premium_gallery_flex{
       display:flex;
       flex-wrap: wrap;
       justify-content:flex-start;

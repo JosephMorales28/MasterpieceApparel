@@ -274,3 +274,23 @@ export function premium_main(){
             </main>
            `;
 }
+
+export function premium_gallery(){
+
+    const premiumgallery={
+        img: "/img/gallery1.webp",
+        alt:"i dont fish for food i fish for vibes"
+    }
+    return `
+          <div id="premiumgallery">
+              <h1>Image Product</h1>
+              <div class="premium_gallery_flex">
+                 <img src="${premiumgallery.img}" alt="${premiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${premiumgallery.img}" alt="${premiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${premiumgallery.img}" alt="${premiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${premiumgallery.img}" alt="${premiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              </div>
+          </div>
+    `;
+
+}
