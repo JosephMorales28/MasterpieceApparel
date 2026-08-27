@@ -107,6 +107,25 @@ export function idontfish_main(){
            `;
 }
 
+export function main_gallery(){
+
+    const gallery={
+        img: "./img/gallery1.webp",
+        alt:"i dont fish for food i fish for vibes"
+    }
+    return `
+          <div id="maingallery">
+              <h1>Image Product</h1>
+              <div class="gallery_flex">
+                 <img src="${gallery.img}" alt="${gallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${gallery.img}" alt="${gallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${gallery.img}" alt="${gallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${gallery.img}" alt="${gallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              </div>
+          </div>
+    `;
+
+}
 export function classic_main(){
    
     const classic_mainproduct=[

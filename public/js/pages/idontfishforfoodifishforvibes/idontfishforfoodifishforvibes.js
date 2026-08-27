@@ -1,5 +1,5 @@
-import { idontfish_main } from "./main.js";
+import { idontfish_main, main_gallery } from "./main.js";
 
 export function idontfishforfood(){
-    return idontfish_main();
+    return idontfish_main()+main_gallery();
 }
