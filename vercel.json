@@ -74,6 +74,10 @@
       "destination": "/js/pages/idontfishforfoodifishforvibes/premiumshirt"
     },
     {
+      "source": "/idontfishforfoodifishforvibes/oversizedshirt",
+      "destination": "/js/pages/idontfishforfoodifishforvibes/oversizedshirt"
+    },
+    {
       "source": "/idontfishforfoodifishforvibes",
       "destination": "/idontfishforfoodifishforvibes"
     },

@@ -43,6 +43,21 @@ class PremiumMainProduct{
     }
 }
 
+class OversizedMainProduct{
+    constructor(image,alt,loading,priority){
+        this.image=image;
+        this.alt=alt;
+        this.loading=loading;
+        this.priority=priority;
+    }
+
+    getOversizedMainProduct(){
+        return`
+              <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
+        `
+    }
+}
+
 export function idontfish_main(){
     
     const imagemain_product=[
@@ -289,6 +304,90 @@ export function premium_gallery(){
                  <img src="${premiumgallery.img}" alt="${premiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  <img src="${premiumgallery.img}" alt="${premiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  <img src="${premiumgallery.img}" alt="${premiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              </div>
+          </div>
+    `;
+
+}
+
+export function oversized_main(){
+
+    const oversizedmain_product=[
+        new OversizedMainProduct(
+            "/img/idontfish.webp",
+            "i don't fish for food i fish for vibes",
+            0,
+            0
+        )
+    ];
+
+    const oversizedinfo={
+        name:"I Don't Fish for food I fish for vibes </br> (Oversized Shirt)",
+        creator:"Joseph Morales",
+        Price: 37.00,
+        details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
+        type:"Unisex, T-Shirts",
+        fabric: "100% cotton",
+        printtype:{
+            dtf:"DTF",
+            quality:"High Quality Image" 
+        },
+        size:{
+            s:"Small",
+            m:"Medium",
+            l:"Large",
+            xl:"Extra Large",
+            xxl:"XXL",
+            xxxl:"XXXL"
+        }
+    };
+
+    const oversizedHTML=oversizedmain_product.map(oversizedMP=>oversizedMP.getOversizedMainProduct()).join('');
+
+    const oversizedinfoHTML=`
+        <h1>${oversizedinfo.name}</h1>
+        <p>Created by : ${oversizedinfo.creator}</p>
+        <strong>$ ${oversizedinfo.Price.toFixed(2)}</strong>
+        <h4>Details</h4>
+        <p>${oversizedinfo.details}</p>
+        <h4>Type:</h4>
+        <p>${oversizedinfo.type} are ${oversizedinfo.fabric}</p>
+        <h4>Size Available</h4>
+        <p>${oversizedinfo.size.s}, ${oversizedinfo.size.m}, ${oversizedinfo.size.l}, ${oversizedinfo.size.xl}, ${oversizedinfo.size.xxl}, ${oversizedinfo.size.xxxl}</p>
+        `;
+
+    return `<main>
+              <div id="product_main">
+                 <div class="production_flex">
+                    <div>
+                        ${oversizedHTML}
+                    </div>
+                    <div>
+                         ${oversizedinfoHTML}
+
+                         <h4>Price Avaiable at:</h4>
+                         <button class="redbubble_btn">Redbubble Price: $27.75</button>
+                         <button class="etsy_btn">Etsy Price: Not Available</button>
+                    </div>
+              </div>
+            </main>
+           `;
+}
+
+export function oversized_gallery(){
+
+    const oversizedgallery={
+        img: "/img/gallery1.webp",
+        alt:"i dont fish for food i fish for vibes"
+    }
+    return `
+          <div id="oversizedgallery">
+              <h1>Image Product</h1>
+              <div class="oversized_gallery_flex">
+                 <img src="${oversizedgallery.img}" alt="${oversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${oversizedgallery.img}" alt="${oversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${oversizedgallery.img}" alt="${oversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${oversizedgallery.img}" alt="${oversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
               </div>
           </div>
     `;

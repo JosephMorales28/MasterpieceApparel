@@ -42,7 +42,8 @@ export function idontfish_section(){
             "oversizedshirt",
             0,
             0,
-            "Oversized Shirt"
+            "Oversized Shirt",
+            "/idontfishforfoodifishforvibes/oversizedshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
