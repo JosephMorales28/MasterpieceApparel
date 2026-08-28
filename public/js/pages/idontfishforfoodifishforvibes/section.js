@@ -50,14 +50,8 @@ export function idontfish_section(){
             "sweatshirt",
             0,
             0,
-            "Sweat Shirt"
-        ),
-        new ImageSectionProduct(
-            "/img/gallery1.webp",
-            "lightweight sweatshirt",
-            0,
-            0,
-            "lightweight Sweat Shirt"
+            "Sweat Shirt",
+            "/idontfishforfoodifishforvibes/sweatshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

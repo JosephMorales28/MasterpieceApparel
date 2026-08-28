@@ -9,6 +9,7 @@ import { deepsea } from './pages/DeepSeaMonster/deepseamonster.js';
 import { classic } from './pages/idontfishforfoodifishforvibes/classic.js';
 import { premiummain } from './pages/idontfishforfoodifishforvibes/premium.js';
 import { oversized } from './pages/idontfishforfoodifishforvibes/oversized.js';
+import { sweatshirt } from './pages/idontfishforfoodifishforvibes/sweatshirt.js';
 
 export const routes = {
     home: homePage,
@@ -21,6 +22,6 @@ export const routes = {
     classicshirt:classic,
     deepseamonster:deepsea,
     premiumshirt:premiummain,
-    oversizedshirt:oversized
-
+    oversizedshirt:oversized,
+    sweatshirt
 };

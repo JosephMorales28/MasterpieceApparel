@@ -58,6 +58,21 @@ class OversizedMainProduct{
     }
 }
 
+class SweatshirtMainProduct{
+    constructor(image,alt,loading,priority){
+        this.image=image;
+        this.alt=alt;
+        this.loading=loading;
+        this.priority=priority;
+    }
+
+    getSweatMainProduct(){
+        return`
+              <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
+        `
+    }
+}
+
 export function idontfish_main(){
     
     const imagemain_product=[
@@ -391,5 +406,87 @@ export function oversized_gallery(){
               </div>
           </div>
     `;
+}
 
+export function sweatshirt_main(){
+
+    const sweatshirtmain_product=[
+        new SweatshirtMainProduct(
+            "/img/idontfish.webp",
+            "i don't fish for food i fish for vibes",
+            0,
+            0
+        )
+    ];
+
+    const sweatshirtinfo={
+        name:"I Don't Fish for food I fish for vibes </br> (Sweat Shirt)",
+        creator:"Joseph Morales",
+        Price: 48.00,
+        details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
+        type:"Unisex, T-Shirts",
+        fabric: "100% cotton",
+        printtype:{
+            dtf:"DTF",
+            quality:"High Quality Image" 
+        },
+        size:{
+            s:"Small",
+            m:"Medium",
+            l:"Large",
+            xl:"Extra Large",
+            xxl:"XXL",
+            xxxl:"XXXL"
+        }
+    };
+
+    const sweatshirtHTML=sweatshirtmain_product.map(sweatshirtMP=>sweatshirtMP.getSweatMainProduct()).join('');
+
+    const sweatshirtinfoHTML=`
+        <h1>${sweatshirtinfo.name}</h1>
+        <p>Created by : ${sweatshirtinfo.creator}</p>
+        <strong>$ ${sweatshirtinfo.Price.toFixed(2)}</strong>
+        <h4>Details</h4>
+        <p>${sweatshirtinfo.details}</p>
+        <h4>Type:</h4>
+        <p>${sweatshirtinfo.type} are ${sweatshirtinfo.fabric}</p>
+        <h4>Size Available</h4>
+        <p>${sweatshirtinfo.size.s}, ${sweatshirtinfo.size.m}, ${sweatshirtinfo.size.l}, ${sweatshirtinfo.size.xl}, ${sweatshirtinfo.size.xxl}, ${sweatshirtinfo.size.xxxl}</p>
+        `;
+
+    return `<main>
+              <div id="product_main">
+                 <div class="production_flex">
+                    <div>
+                        ${sweatshirtHTML}
+                    </div>
+                    <div>
+                         ${sweatshirtinfoHTML}
+
+                         <h4>Price Avaiable at:</h4>
+                         <button class="redbubble_btn">Redbubble Price: $38.40</button>
+                         <button class="etsy_btn">Etsy Price: Not Available</button>
+                    </div>
+              </div>
+            </main>
+           `;
+}
+
+export function sweatshirt_gallery(){
+
+    const sweatshirtgallery={
+        img: "/img/gallery1.webp",
+        alt:"i dont fish for food i fish for vibes"
+    }
+    return `
+          <div id="sweatshirtgallery">
+              <h1>Image Product</h1>
+              <div class="sweatshirt_gallery_flex">
+                 <img src="${sweatshirtgallery.img}" alt="${sweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${sweatshirtgallery.img}" alt="${sweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${sweatshirtgallery.img}" alt="${sweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${sweatshirtgallery.img}" alt="${sweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 </div>
+          </div>
+    `;
 }

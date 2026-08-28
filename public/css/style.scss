@@ -347,6 +347,29 @@ main {
     }
 }
 
+#sweatshirtgallery{
+    margin:0 auto;
+    width:min(1220px, 100%);
+    h1{
+      @include f.font-robotoslab;
+      color: map-get(c.$colors,black-80);
+    }
+    p{
+      font-family: monospace;
+    }
+    .sweatshirt_gallery_flex{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content:flex-start;
+      flex-direction: row;
+      gap:20px;
+      img{
+         width: 600px;
+         height:600px;
+      }
+    }
+}
+
 section{
   :is(h1,.homesection){
     padding:map-get(sp.$spacing,5);
