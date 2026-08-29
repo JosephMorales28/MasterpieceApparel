@@ -11,6 +11,7 @@ import { premiummain } from './pages/idontfishforfoodifishforvibes/premium.js';
 import { oversized } from './pages/idontfishforfoodifishforvibes/oversized.js';
 import { sweatshirt } from './pages/idontfishforfoodifishforvibes/sweatshirt.js';
 import { premiumoversizedhoodiemain } from './pages/idontfishforfoodifishforvibes/premiumoversizedhoodie.js';
+import { lightweighthoodiemain } from './pages/idontfishforfoodifishforvibes/lightweighthoodie.js';
 
 export const routes = {
     home: homePage,
@@ -25,5 +26,6 @@ export const routes = {
     premiumshirt:premiummain,
     oversizedshirt:oversized,
     sweatshirt,
-    premiumoversizedhoodie:premiumoversizedhoodiemain
+    premiumoversizedhoodie:premiumoversizedhoodiemain,
+    lightweighthoodie:lightweighthoodiemain
 };

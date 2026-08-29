@@ -66,7 +66,8 @@ export function idontfish_section(){
             "Lightweight Hoodie",
             0,
             0,
-            "Lightweight Hoodie"
+            "Lightweight Hoodie",
+            "/idontfishforfoodifishforvibes/lightweighthoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

@@ -88,6 +88,21 @@ class PremiumOversizedHoodieMainProduct{
     }
 }
 
+class LightweightHoodieMainProduct{
+    constructor(image,alt,loading,priority){
+        this.image=image;
+        this.alt=alt;
+        this.loading=loading;
+        this.priority=priority;
+    }
+
+    getLightweightHoodieMainProduct(){
+        return`
+              <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
+        `
+    }
+}
+
 export function idontfish_main(){
     
     const imagemain_product=[
@@ -518,7 +533,7 @@ export function premiumoversizedhoodie_main(){
     ];
 
     const premiumoversizedhoodieinfo={
-        name:"I Don't Fish for food I fish for vibes </br> (Sweat Shirt)",
+        name:"I Don't Fish for food I fish for vibes </br> ( Premium Oversized Hoodie )",
         creator:"Joseph Morales",
         Price: 68.00,
         details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
@@ -584,6 +599,89 @@ export function premiumoversizedhoodie_gallery(){
                  <img src="${premiumoversizedhoodiegallery.img}" alt="${premiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  <img src="${premiumoversizedhoodiegallery.img}" alt="${premiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  <img src="${premiumoversizedhoodiegallery.img}" alt="${premiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              </div>
+          </div>
+    `;
+}
+
+export function lightweighthoodie_main(){
+
+    const lightweighthoodiemain_product=[
+        new LightweightHoodieMainProduct(
+            "/img/idontfish.webp",
+            "i don't fish for food i fish for vibes",
+            0,
+            0
+        )
+    ];
+
+    const lightweighthoodieinfo={
+        name:"I Don't Fish for food I fish for vibes </br> (Lightweight Hoodie)",
+        creator:"Joseph Morales",
+        Price: 62.21,
+        details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
+        type:"Unisex, T-Shirts",
+        fabric: "100% cotton",
+        printtype:{
+            dtf:"DTF",
+            quality:"High Quality Image" 
+        },
+        size:{
+            s:"Small",
+            m:"Medium",
+            l:"Large",
+            xl:"Extra Large",
+            xxl:"XXL",
+            xxxl:"XXXL"
+        }
+    };
+
+    const lightweighthoodieHTML=lightweighthoodiemain_product.map(lightweighthoodieMP=>lightweighthoodieMP.getLightweightHoodieMainProduct()).join('');
+
+    const lightweighthoodieinfoHTML=`
+        <h1>${lightweighthoodieinfo.name}</h1>
+        <p>Created by : ${lightweighthoodieinfo.creator}</p>
+        <strong>$ ${lightweighthoodieinfo.Price.toFixed(2)}</strong>
+        <h4>Details</h4>
+        <p>${lightweighthoodieinfo.details}</p>
+        <h4>Type:</h4>
+        <p>${lightweighthoodieinfo.type} are ${lightweighthoodieinfo.fabric}</p>
+        <h4>Size Available</h4>
+        <p>${lightweighthoodieinfo.size.s}, ${lightweighthoodieinfo.size.m}, ${lightweighthoodieinfo.size.l}, ${lightweighthoodieinfo.size.xl}, ${lightweighthoodieinfo.size.xxl}, ${lightweighthoodieinfo.size.xxxl}</p>
+        `;
+
+    return `<main>
+              <div id="product_main">
+                 <div class="production_flex">
+                    <div>
+                        ${lightweighthoodieHTML}
+                    </div>
+                    <div>
+                         ${lightweighthoodieinfoHTML}
+
+                         <h4>Price Avaiable at:</h4>
+                         <button class="redbubble_btn">Redbubble Price: $49.76</button>
+                         <button class="etsy_btn">Etsy Price: Not Available</button>
+                    </div>
+              </div>
+            </main>
+           `;
+}
+
+export function lightweighthoodie_gallery(){
+
+    const lightweighthoodiegallery={
+        img: "/img/gallery1.webp",
+        alt:"i dont fish for food i fish for vibes"
+    }
+    return `
+          <div id="lightweighthoodiegallery">
+              <h1>Image Product</h1>
+              <div class="lightweighthoodie_gallery_flex">
+                 <img src="${lightweighthoodiegallery.img}" alt="${lightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightweighthoodiegallery.img}" alt="${lightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightweighthoodiegallery.img}" alt="${lightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightweighthoodiegallery.img}" alt="${lightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
               </div>
           </div>
     `;
