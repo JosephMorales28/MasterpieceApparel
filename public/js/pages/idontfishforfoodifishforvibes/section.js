@@ -58,7 +58,8 @@ export function idontfish_section(){
             "Premium Oversized Hoodie",
             0,
             0,
-            "Premium Oversized Hoodie"
+            "Premium Oversized Hoodie",
+            "/idontfishforfoodifishforvibes/premiumoversizedhoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

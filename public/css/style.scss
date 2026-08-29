@@ -256,7 +256,7 @@ main {
   }
 }
 
-#maingallery{
+:is(#maingallery,#classicgallery,#premiumgallery,#oversizedgallery,#sweatshirtgallery,#premiumoversizedhoodiegallery){
     margin:0 auto;
     width:min(1220px, 100%);
     h1{
@@ -266,7 +266,7 @@ main {
     p{
       font-family: monospace;
     }
-    .gallery_flex{
+    :is(.gallery_flex,.classic_gallery_flex,.premium_gallery_flex,.oversized_gallery_flex,.sweatshirt_gallery_flex,.premiumoversizedhoodie_gallery_flex){
       display:flex;
       flex-wrap: wrap;
       justify-content:flex-start;
@@ -277,98 +277,7 @@ main {
          height:600px;
       }
     }
-}
-#classicgallery{
-    margin:0 auto;
-    width:min(1220px, 100%);
-    h1{
-      @include f.font-robotoslab;
-      color: map-get(c.$colors,black-80);
-    }
-    p{
-      font-family: monospace;
-    }
-    .classic_gallery_flex{
-      display:flex;
-      flex-wrap: wrap;
-      justify-content:flex-start;
-      flex-direction: row;
-      gap:20px;
-      img{
-         width: 600px;
-         height:600px;
-      }
-    }
-}
-
-#premiumgallery{
-    margin:0 auto;
-    width:min(1220px, 100%);
-    h1{
-      @include f.font-robotoslab;
-      color: map-get(c.$colors,black-80);
-    }
-    p{
-      font-family: monospace;
-    }
-    .premium_gallery_flex{
-      display:flex;
-      flex-wrap: wrap;
-      justify-content:flex-start;
-      flex-direction: row;
-      gap:20px;
-      img{
-         width: 600px;
-         height:600px;
-      }
-    }
-}
-
-#oversizedgallery{
-    margin:0 auto;
-    width:min(1220px, 100%);
-    h1{
-      @include f.font-robotoslab;
-      color: map-get(c.$colors,black-80);
-    }
-    p{
-      font-family: monospace;
-    }
-    .oversized_gallery_flex{
-      display:flex;
-      flex-wrap: wrap;
-      justify-content:flex-start;
-      flex-direction: row;
-      gap:20px;
-      img{
-         width: 600px;
-         height:600px;
-      }
-    }
-}
-
-#sweatshirtgallery{
-    margin:0 auto;
-    width:min(1220px, 100%);
-    h1{
-      @include f.font-robotoslab;
-      color: map-get(c.$colors,black-80);
-    }
-    p{
-      font-family: monospace;
-    }
-    .sweatshirt_gallery_flex{
-      display:flex;
-      flex-wrap: wrap;
-      justify-content:flex-start;
-      flex-direction: row;
-      gap:20px;
-      img{
-         width: 600px;
-         height:600px;
-      }
-    }
-}
+} 
 
 section{
   :is(h1,.homesection){

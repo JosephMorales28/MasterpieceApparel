@@ -82,6 +82,10 @@
       "destination": "/js/pages/idontfishforfoodifishforvibes/sweatshirt"
     },
     {
+      "source": "/idontfishforfoodifishforvibes/premiumoversizedhoodie",
+      "destination": "/js/pages/idontfishforfoodifishforvibes/premiumoversizedhoodie"
+    },
+    {
       "source": "/idontfishforfoodifishforvibes",
       "destination": "/idontfishforfoodifishforvibes"
     },

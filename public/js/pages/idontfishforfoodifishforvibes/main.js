@@ -73,6 +73,21 @@ class SweatshirtMainProduct{
     }
 }
 
+class PremiumOversizedHoodieMainProduct{
+    constructor(image,alt,loading,priority){
+        this.image=image;
+        this.alt=alt;
+        this.loading=loading;
+        this.priority=priority;
+    }
+
+    getPremiumOversizedHoodieMainProduct(){
+        return`
+              <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
+        `
+    }
+}
+
 export function idontfish_main(){
     
     const imagemain_product=[
@@ -487,6 +502,89 @@ export function sweatshirt_gallery(){
                  <img src="${sweatshirtgallery.img}" alt="${sweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  <img src="${sweatshirtgallery.img}" alt="${sweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
+          </div>
+    `;
+}
+
+export function premiumoversizedhoodie_main(){
+
+    const premiumoversizedhoodiemain_product=[
+        new PremiumOversizedHoodieMainProduct(
+            "/img/idontfish.webp",
+            "i don't fish for food i fish for vibes",
+            0,
+            0
+        )
+    ];
+
+    const premiumoversizedhoodieinfo={
+        name:"I Don't Fish for food I fish for vibes </br> (Sweat Shirt)",
+        creator:"Joseph Morales",
+        Price: 68.00,
+        details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
+        type:"Unisex, T-Shirts",
+        fabric: "100% cotton",
+        printtype:{
+            dtf:"DTF",
+            quality:"High Quality Image" 
+        },
+        size:{
+            s:"Small",
+            m:"Medium",
+            l:"Large",
+            xl:"Extra Large",
+            xxl:"XXL",
+            xxxl:"XXXL"
+        }
+    };
+
+    const premiumoversizedhoodieHTML=premiumoversizedhoodiemain_product.map(premiumoversizedhoodieMP=>premiumoversizedhoodieMP.getPremiumOversizedHoodieMainProduct()).join('');
+
+    const premiumoversizedhoodieinfoHTML=`
+        <h1>${premiumoversizedhoodieinfo.name}</h1>
+        <p>Created by : ${premiumoversizedhoodieinfo.creator}</p>
+        <strong>$ ${premiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
+        <h4>Details</h4>
+        <p>${premiumoversizedhoodieinfo.details}</p>
+        <h4>Type:</h4>
+        <p>${premiumoversizedhoodieinfo.type} are ${premiumoversizedhoodieinfo.fabric}</p>
+        <h4>Size Available</h4>
+        <p>${premiumoversizedhoodieinfo.size.s}, ${premiumoversizedhoodieinfo.size.m}, ${premiumoversizedhoodieinfo.size.l}, ${premiumoversizedhoodieinfo.size.xl}, ${premiumoversizedhoodieinfo.size.xxl}, ${premiumoversizedhoodieinfo.size.xxxl}</p>
+        `;
+
+    return `<main>
+              <div id="product_main">
+                 <div class="production_flex">
+                    <div>
+                        ${premiumoversizedhoodieHTML}
+                    </div>
+                    <div>
+                         ${premiumoversizedhoodieinfoHTML}
+
+                         <h4>Price Avaiable at:</h4>
+                         <button class="redbubble_btn">Redbubble Price: $40.80</button>
+                         <button class="etsy_btn">Etsy Price: Not Available</button>
+                    </div>
+              </div>
+            </main>
+           `;
+}
+
+export function premiumoversizedhoodie_gallery(){
+
+    const premiumoversizedhoodiegallery={
+        img: "/img/gallery1.webp",
+        alt:"i dont fish for food i fish for vibes"
+    }
+    return `
+          <div id="premiumoversizedhoodiegallery">
+              <h1>Image Product</h1>
+              <div class="premiumoversizedhoodie_gallery_flex">
+                 <img src="${premiumoversizedhoodiegallery.img}" alt="${premiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${premiumoversizedhoodiegallery.img}" alt="${premiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${premiumoversizedhoodiegallery.img}" alt="${premiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${premiumoversizedhoodiegallery.img}" alt="${premiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              </div>
           </div>
     `;
 }
