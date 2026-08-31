@@ -103,6 +103,21 @@ class LightweightHoodieMainProduct{
     }
 }
 
+class PremiumOversizedSweatshirtMainProduct{
+    constructor(image,alt,loading,priority){
+        this.image=image;
+        this.alt=alt;
+        this.loading=loading;
+        this.priority=priority;
+    }
+
+    getPremiumOversizedSweatshirtMainProduct(){
+        return`
+              <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
+        `
+    }
+}
+
 export function idontfish_main(){
     
     const imagemain_product=[
@@ -683,6 +698,89 @@ export function lightweighthoodie_gallery(){
                  <img src="${lightweighthoodiegallery.img}" alt="${lightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  <img src="${lightweighthoodiegallery.img}" alt="${lightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
               </div>
+          </div>
+    `;
+}
+
+export function premiumoversizedsweatshirt_main(){
+
+    const premiumoversizedsweatshirtmain_product=[
+        new PremiumOversizedSweatshirtMainProduct(
+            "/img/idontfish.webp",
+            "i don't fish for food i fish for vibes",
+            0,
+            0
+        )
+    ];
+
+    const premiumoversizedsweatshirtinfo={
+        name:"I Don't Fish for food I fish for vibes </br> (Premium Oversized Sweatshirt)",
+        creator:"Joseph Morales",
+        Price: 62.00,
+        details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
+        type:"Unisex, T-Shirts",
+        fabric: "100% cotton",
+        printtype:{
+            dtf:"DTF",
+            quality:"High Quality Image" 
+        },
+        size:{
+            s:"Small",
+            m:"Medium",
+            l:"Large",
+            xl:"Extra Large",
+            xxl:"XXL",
+            xxxl:"XXXL"
+        }
+    };
+
+    const premiumoversizedsweatshirtHTML=premiumoversizedsweatshirtmain_product.map(premiumoversizedsweatshirtMP=>premiumoversizedsweatshirtMP.getPremiumOversizedSweatshirtMainProduct()).join('');
+
+    const premiumoversizedsweatshirtinfoHTML=`
+        <h1>${premiumoversizedsweatshirtinfo.name}</h1>
+        <p>Created by : ${premiumoversizedsweatshirtinfo.creator}</p>
+        <strong>$ ${premiumoversizedsweatshirtinfo.Price.toFixed(2)}</strong>
+        <h4>Details</h4>
+        <p>${premiumoversizedsweatshirtinfo.details}</p>
+        <h4>Type:</h4>
+        <p>${premiumoversizedsweatshirtinfo.type} are ${premiumoversizedsweatshirtinfo.fabric}</p>
+        <h4>Size Available</h4>
+        <p>${premiumoversizedsweatshirtinfo.size.s}, ${premiumoversizedsweatshirtinfo.size.m}, ${premiumoversizedsweatshirtinfo.size.l}, ${premiumoversizedsweatshirtinfo.size.xl}, ${premiumoversizedsweatshirtinfo.size.xxl}, ${premiumoversizedsweatshirtinfo.size.xxxl}</p>
+        `;
+
+    return `<main>
+              <div id="product_main">
+                 <div class="production_flex">
+                    <div>
+                        ${premiumoversizedsweatshirtHTML}
+                    </div>
+                    <div>
+                         ${premiumoversizedsweatshirtinfoHTML}
+
+                         <h4>Price Avaiable at:</h4>
+                         <button class="redbubble_btn">Redbubble Price: $37.20</button>
+                         <button class="etsy_btn">Etsy Price: Not Available</button>
+                    </div>
+              </div>
+            </main>
+           `;
+}
+
+export function premiumoversizedsweatshirt_gallery(){
+
+    const premiumoversizedsweatshirtgallery={
+        img: "/img/gallery1.webp",
+        alt:"i dont fish for food i fish for vibes"
+    }
+    return `
+          <div id="premiumoversizedsweatshirtgallery">
+              <h1>Image Product</h1>
+              <div class="premiumoversizedsweatshirt_gallery_flex">
+                 <img src="${premiumoversizedsweatshirtgallery.img}" alt="${premiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${premiumoversizedsweatshirtgallery.img}" alt="${premiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${premiumoversizedsweatshirtgallery.img}" alt="${premiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${premiumoversizedsweatshirtgallery.img}" alt="${premiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 </div>
           </div>
     `;
 }

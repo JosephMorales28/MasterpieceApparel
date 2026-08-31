@@ -90,6 +90,10 @@
       "destination": "/js/pages/idontfishforfoodifishforvibes/lightweighthoodie"
     },
     {
+      "source": "/idontfishforfoodifishforvibes/premiumoversizedsweatshirt",
+      "destination": "/js/pages/idontfishforfoodifishforvibes/premiumoversizedsweatshirt"
+    },
+    {
       "source": "/idontfishforfoodifishforvibes",
       "destination": "/idontfishforfoodifishforvibes"
     },

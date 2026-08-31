@@ -256,7 +256,7 @@ main {
   }
 }
 
-:is(#maingallery,#classicgallery,#premiumgallery,#oversizedgallery,#sweatshirtgallery,#premiumoversizedhoodiegallery,#lightweighthoodiegallery){
+:is(#maingallery,#classicgallery,#premiumgallery,#oversizedgallery,#sweatshirtgallery,#premiumoversizedhoodiegallery,#lightweighthoodiegallery,#premiumoversizedsweatshirtgallery){
     margin:0 auto;
     width:min(1220px, 100%);
     h1{
@@ -266,7 +266,7 @@ main {
     p{
       font-family: monospace;
     }
-    :is(.gallery_flex,.classic_gallery_flex,.premium_gallery_flex,.oversized_gallery_flex,.sweatshirt_gallery_flex,.premiumoversizedhoodie_gallery_flex,.lightweighthoodie_gallery_flex){
+    :is(.gallery_flex,.classic_gallery_flex,.premium_gallery_flex,.oversized_gallery_flex,.sweatshirt_gallery_flex,.premiumoversizedhoodie_gallery_flex,.lightweighthoodie_gallery_flex,.premiumoversizedsweatshirt_gallery_flex){
       display:flex;
       flex-wrap: wrap;
       justify-content:flex-start;

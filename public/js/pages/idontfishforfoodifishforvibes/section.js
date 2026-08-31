@@ -74,7 +74,8 @@ export function idontfish_section(){
             "Premium Oversized Sweatshirt",
             0,
             0,
-            "Premium Oversized Sweat Shirt"
+            "Premium Oversized Sweat Shirt",
+            "/idontfishforfoodifishforvibes/premiumoversizedsweatshirt"
         )
     ];
 
