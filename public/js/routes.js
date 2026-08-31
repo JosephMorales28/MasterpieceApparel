@@ -4,6 +4,7 @@ import { shopPage } from './pages/shop/shop.js';
 import { servicePage } from './pages/service/service.js';
 import { blogPage } from './pages/blog/blog.js';
 import { contactPage } from './pages/contact/contact.js';
+import { notfoundpage }from './pages/404/notfoundpage.js';
 import { idontfishforfood } from './pages/idontfishforfoodifishforvibes/idontfishforfoodifishforvibes.js';
 import { classic } from './pages/idontfishforfoodifishforvibes/classic.js';
 import { premiummain } from './pages/idontfishforfoodifishforvibes/premium.js';
@@ -22,6 +23,7 @@ export const routes = {
     service: servicePage,
     blog: blogPage,
     contact:contactPage,
+    notfoundpage,
     
     idontfishforfoodifishforvibes:idontfishforfood,
     classicshirt:classic,
