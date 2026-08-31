@@ -19,7 +19,7 @@ app.insertAdjacentHTML(
   [
     exp_header(page),
     render(),
-    exp_footer(page)
+    exp_footer()
   ].join("")
 );
 
