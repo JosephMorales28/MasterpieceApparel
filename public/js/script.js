@@ -5,7 +5,7 @@ import { shopSearch } from './pages/shop/shopsearch.js';
 
 const supportedPages=['about','shop','service','blog','contact',
                       'idontfishforfoodifishforvibes','classicshirt','premiumshirt','oversizedshirt','sweatshirt','premiumoversizedhoodie','lightweighthoodie','premiumoversizedsweatshirt',
-                      'deepseamonster'];
+                      'deepseamonster','deepseamonsterclassicshirt'];
 const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() || 'home';
 const pageName=lastPathSegment.replace(/\.html$/, '');
 const page=pageName==='index' || pageName==='home' ? 'home' : supportedPages.includes(pageName) ? pageName : 'home';

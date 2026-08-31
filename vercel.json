@@ -120,6 +120,10 @@
     {
       "source": "/deepseamonster",
       "destination": "/deepseamonster"
+    },
+    {
+      "source": "/DeepSeaMonster/deepseamonsterclassicshirt",
+      "destination": "/js/pages/DeepSeaMonster/deepseamonsterclassicshirt"
     }
   ]
 }
