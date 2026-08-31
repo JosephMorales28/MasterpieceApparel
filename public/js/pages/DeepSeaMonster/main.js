@@ -76,3 +76,22 @@ export function deepsea_main(){
             </main>
            `;
 }
+
+export function deepsea_gallery(){
+
+    const deepseagallery={
+        img: "/img/gallery1.webp",
+        alt:"i dont fish for food i fish for vibes"
+    }
+    return `
+          <div id="deepseagallery">
+              <h1>Image Product</h1>
+              <div class="deepsea_gallery_flex">
+                 <img src="${deepseagallery.img}" alt="${deepseagallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${deepseagallery.img}" alt="${deepseagallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${deepseagallery.img}" alt="${deepseagallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${deepseagallery.img}" alt="${deepseagallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 </div>
+          </div>
+    `;
+}
