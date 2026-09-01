@@ -124,6 +124,10 @@
     {
       "source": "/DeepSeaMonster/deepseamonsterclassicshirt",
       "destination": "/js/pages/DeepSeaMonster/deepseamonsterclassicshirt"
+    },
+    {
+      "source": "/DeepSeaMonster/deepseamonsterpremiumshirt",
+      "destination": "/js/pages/DeepSeaMonster/deepseamonsterpremiumshirt"
     }
   ]
 }
