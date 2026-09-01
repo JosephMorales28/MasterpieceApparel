@@ -16,6 +16,7 @@ import { premiumoversizedsweatshirt } from './pages/idontfishforfoodifishforvibe
 import { deepsea } from './pages/DeepSeaMonster/deepseamonster.js';
 import { deepseamonsterclassicmain } from './pages/DeepSeaMonster/deepseamonsterclassicshirt.js';
 import { deepseamonsterpremium } from './pages/DeepSeaMonster/deepseamonsterpremiumshirt.js';
+import { deepseamonsteroversized } from './pages/DeepSeaMonster/deepseamonsteroversizedshirt.js';
 
 export const routes = {
     home: homePage,
@@ -37,5 +38,6 @@ export const routes = {
 
     deepseamonster:deepsea,
     deepseamonsterclassicshirt: deepseamonsterclassicmain,
-    deepseamonsterpremiumshirt:deepseamonsterpremium
+    deepseamonsterpremiumshirt:deepseamonsterpremium,
+    deepseamonsteroversizedshirt:deepseamonsteroversized
 };

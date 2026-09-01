@@ -72,17 +72,22 @@
   </url>
   <url>
     <loc>https://masterpiece-apparel.vercel.app/deepseamonster</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://masterpiece-apparel.vercel.app/DeepSeaMonster/deepseamonsterclassicshirt</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://masterpiece-apparel.vercel.app/DeepSeaMonster/deepseamonsterpremium shirt</loc>
-    <lastmod>2026-08-28</lastmod>
+    <loc>https://masterpiece-apparel.vercel.app/DeepSeaMonster/deepseamonsterpremiumshirt</loc>
+    <lastmod>2026-09-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masterpiece-apparel.vercel.app/DeepSeaMonster/deepseamonsteroversizedshirt</loc>
+    <lastmod>2026-09-01</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>

@@ -43,6 +43,21 @@ class DeepSeaMonsterPremiumMainProduct{
     }
 }
 
+class DeepSeaMonsterOversizedMainProduct{
+    constructor(image,alt,loading,priority){
+        this.image=image;
+        this.alt=alt;
+        this.loading=loading;
+        this.priority=priority;
+    }
+
+    getDeepSeaMonsterOversizedMainProduct(){
+        return `
+                <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
+               `
+    }
+}
+
 export function deepsea_main(){
     
     const imagemain_product=[
@@ -290,6 +305,90 @@ export function deepseamonsterpremium_gallery(){
                  <img src="${deepseamonsterpremiumgallery.img}" alt="${deepseamonsterpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  <img src="${deepseamonsterpremiumgallery.img}" alt="${deepseamonsterpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  <img src="${deepseamonsterpremiumgallery.img}" alt="${deepseamonsterpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 </div>
+          </div>
+    `;
+}
+
+export function deepseamonsteroversized_main(){
+    
+    const deppseamonsteroversizedmain_product=[
+        new DeepSeaMonsterOversizedMainProduct(
+            "/img/idontfish.webp",
+            "Deep Sea Monster ",
+            0,
+            0
+        )
+    ];
+
+    const deepseamonsteroversizedinfo={
+        name:"Deep Sea Monster </br>(Oversized Shirt)",
+        creator:"Joseph Morales",
+        Price: 30.69,
+        details:"Dive into the abyss with this Deep Sea Monster artwork a colossal Kraken rising from storm‑tossed waves. Its glowing eyes, razor‑sharp teeth, and curling tentacles crush a doomed ship beneath a fiery moon. The arced, cracked lettering “DEEP SEA” and “MONSTER” frame the creature in a bold, mythic composition perfect for dark‑fantasy fans, ocean explorers, and streetwear collectors.",
+        type:"Unisex, T-Shirts",
+        fabric: "100% cotton",
+        printtype:{
+            dtf:"DTF",
+            quality:"High Quality Image" 
+        },
+        size:{
+            s:"Small",
+            m:"Medium",
+            l:"Large",
+            xl:"Extra Large",
+            xxl:"XXL",
+            xxxl:"XXXL"
+        }
+    };
+    
+    const deepseamonsteroversizedHTML=deppseamonsteroversizedmain_product.map(deepseamonsteroversizedMP=>deepseamonsteroversizedMP.getDeepSeaMonsterOversizedMainProduct()).join('');
+    
+    const deepseamonsteroversizedinfoHTML=`
+        <h1>${deepseamonsteroversizedinfo.name}</h1>
+        <p>Created by : ${deepseamonsteroversizedinfo.creator}</p>
+        <strong>$ ${deepseamonsteroversizedinfo.Price.toFixed(2)}</strong>
+        <h4>Details</h4>
+        <p>${deepseamonsteroversizedinfo.details}</p>
+        <h4>Type:</h4>
+        <p>${deepseamonsteroversizedinfo.type} are ${deepseamonsteroversizedinfo.fabric}</p>
+        <h4>Size Available</h4>
+        <p>${deepseamonsteroversizedinfo.size.s}, ${deepseamonsteroversizedinfo.size.m}, ${deepseamonsteroversizedinfo.size.l}, ${deepseamonsteroversizedinfo.size.xl}, ${deepseamonsteroversizedinfo.size.xxl}, ${deepseamonsteroversizedinfo.size.xxxl}</p>
+        `;
+
+    return `
+            <main>
+              <div id="product_main">
+                 <div class="production_flex">
+                    <div>
+                        ${deepseamonsteroversizedHTML}
+                    </div>
+                    <div>
+                         ${deepseamonsteroversizedinfoHTML}
+
+                         <h4>Price Avaiable at:</h4>
+                         <button class="redbubble_btn">Redbubble Price: $26.07</button>
+                         <button class="etsy_btn">Etsy Price: Not Available</button>
+                    </div>
+              </div>
+            </main>
+           `;
+}
+
+export function deepseamonsteroversized_gallery(){
+
+    const deepseamonsteroversizedgallery={
+        img: "/img/gallery1.webp",
+        alt:"Deep Sea Monster"
+    }
+    return `
+          <div id="deepseamonsteroversizedgallery">
+              <h1>Image Product</h1>
+              <div class="deepseamonsteroversized_gallery_flex">
+                 <img src="${deepseamonsteroversizedgallery.img}" alt="${deepseamonsteroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${deepseamonsteroversizedgallery.img}" alt="${deepseamonsteroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${deepseamonsteroversizedgallery.img}" alt="${deepseamonsteroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${deepseamonsteroversizedgallery.img}" alt="${deepseamonsteroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
