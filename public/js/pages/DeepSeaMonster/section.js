@@ -50,7 +50,8 @@ export function deepsea_section(){
             "sweatshirt",
             0,
             0,
-            "Sweat Shirt"
+            "Sweat Shirt",
+            "/DeepSeaMonster/deepseamonstersweatshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

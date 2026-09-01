@@ -257,7 +257,7 @@ main {
 }
 
 :is(#maingallery,#classicgallery,#premiumgallery,#oversizedgallery,#sweatshirtgallery,#premiumoversizedhoodiegallery,#lightweighthoodiegallery,#premiumoversizedsweatshirtgallery,
-   #deepseagallery,#deepseamonsterclassicgallery,#deepseamonsterpremiumgallery, #deepseamonsteroversizedgallery
+   #deepseagallery,#deepseamonsterclassicgallery,#deepseamonsterpremiumgallery, #deepseamonsteroversizedgallery, #deepseamonstersweatshirtgallery
    ){
     margin:0 auto;
     width:min(1220px, 100%);
@@ -269,7 +269,7 @@ main {
       font-family: monospace;
     }
     :is(.gallery_flex,.classic_gallery_flex,.premium_gallery_flex,.oversized_gallery_flex,.sweatshirt_gallery_flex,.premiumoversizedhoodie_gallery_flex,.lightweighthoodie_gallery_flex,.premiumoversizedsweatshirt_gallery_flex,
-       .deepsea_gallery_flex,.deepseamonsterclassic_gallery_flex,.deepseamonsterpremium_gallery_flex,.deepseamonsteroversized_gallery_flex
+       .deepsea_gallery_flex,.deepseamonsterclassic_gallery_flex,.deepseamonsterpremium_gallery_flex,.deepseamonsteroversized_gallery_flex,.deppseamonstersweatshirt_gallery_flex
       ){
       display:flex;
       flex-wrap: wrap;
