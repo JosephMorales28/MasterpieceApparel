@@ -59,6 +59,7 @@ export function deepsea_section(){
             0,
             0,
             "Premium Oversized Hoodie",
+            "/DeepSeaMonster/deepseamonsterpremiumoversizedhoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

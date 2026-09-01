@@ -73,6 +73,21 @@ class DeepSeaMonsterSweatShirtMainProduct{
     }
 }
 
+class DeepSeaMonsterPremiumOversizedHoodieMainProduct{
+    constructor(image,alt,loading,priority){
+        this.image=image;
+        this.alt=alt;
+        this.loading=loading;
+        this.priority=priority;
+    }
+
+    getDeepSeaMonsterPremiumOversizedHoodieMainProduct(){
+        return `
+                <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
+               `
+    }
+}
+
 export function deepsea_main(){
     
     const imagemain_product=[
@@ -488,6 +503,90 @@ export function deepseamonstersweatshirt_gallery(){
                  <img src="${deepseamonstersweatshirtgallery.img}" alt="${deepseamonstersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  <img src="${deepseamonstersweatshirtgallery.img}" alt="${deepseamonstersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  <img src="${deepseamonstersweatshirtgallery.img}" alt="${deepseamonstersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 </div>
+          </div>
+    `;
+}
+
+export function deepseamonsterpremiumoversizedhoodie_main(){
+    
+    const deppseamonsterpremiumoversizedhoodiemain_product=[
+        new DeepSeaMonsterPremiumOversizedHoodieMainProduct(
+            "/img/idontfish.webp",
+            "Deep Sea Monster ",
+            0,
+            0
+        )
+    ];
+
+    const deepseamonsterpremiumoversizedhoodieinfo={
+        name:"Deep Sea Monster </br>(Premium Oversized Hoodie)",
+        creator:"Joseph Morales",
+        Price: 30.69,
+        details:"Dive into the abyss with this Deep Sea Monster artwork a colossal Kraken rising from storm‑tossed waves. Its glowing eyes, razor‑sharp teeth, and curling tentacles crush a doomed ship beneath a fiery moon. The arced, cracked lettering “DEEP SEA” and “MONSTER” frame the creature in a bold, mythic composition perfect for dark‑fantasy fans, ocean explorers, and streetwear collectors.",
+        type:"Unisex, T-Shirts",
+        fabric: "100% cotton",
+        printtype:{
+            dtf:"DTF",
+            quality:"High Quality Image" 
+        },
+        size:{
+            s:"Small",
+            m:"Medium",
+            l:"Large",
+            xl:"Extra Large",
+            xxl:"XXL",
+            xxxl:"XXXL"
+        }
+    };
+    
+    const deepseamonsterpremiumoversizedhoodieHTML=deppseamonsterpremiumoversizedhoodiemain_product.map(deepseamonsterpremiumoversizedhoodieMP=>deepseamonsterpremiumoversizedhoodieMP.getDeepSeaMonsterPremiumOversizedHoodieMainProduct()).join('');
+    
+    const deepseamonsterpremiumoversizedhoodieinfoHTML=`
+        <h1>${deepseamonsterpremiumoversizedhoodieinfo.name}</h1>
+        <p>Created by : ${deepseamonsterpremiumoversizedhoodieinfo.creator}</p>
+        <strong>$ ${deepseamonsterpremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
+        <h4>Details</h4>
+        <p>${deepseamonsterpremiumoversizedhoodieinfo.details}</p>
+        <h4>Type:</h4>
+        <p>${deepseamonsterpremiumoversizedhoodieinfo.type} are ${deepseamonsterpremiumoversizedhoodieinfo.fabric}</p>
+        <h4>Size Available</h4>
+        <p>${deepseamonsterpremiumoversizedhoodieinfo.size.s}, ${deepseamonsterpremiumoversizedhoodieinfo.size.m}, ${deepseamonsterpremiumoversizedhoodieinfo.size.l}, ${deepseamonsterpremiumoversizedhoodieinfo.size.xl}, ${deepseamonsterpremiumoversizedhoodieinfo.size.xxl}, ${deepseamonsterpremiumoversizedhoodieinfo.size.xxxl}</p>
+        `;
+
+    return `
+            <main>
+              <div id="product_main">
+                 <div class="production_flex">
+                    <div>
+                        ${deepseamonsterpremiumoversizedhoodieHTML}
+                    </div>
+                    <div>
+                         ${deepseamonsterpremiumoversizedhoodieinfoHTML}
+
+                         <h4>Price Avaiable at:</h4>
+                         <button class="redbubble_btn">Redbubble Price: $26.07</button>
+                         <button class="etsy_btn">Etsy Price: Not Available</button>
+                    </div>
+              </div>
+            </main>
+           `;
+}
+
+export function deepseamonsterpremiumoversizedhoodie_gallery(){
+
+    const deepseamonsterpremiumoversizedhoodiegallery={
+        img: "/img/gallery1.webp",
+        alt:"Deep Sea Monster"
+    }
+    return `
+          <div id="deepseamonsterpremiumoversizedhoodiegallery">
+              <h1>Image Product</h1>
+              <div class="deepseamonsterpremiumoversizedhoodie_gallery_flex">
+                 <img src="${deepseamonsterpremiumoversizedhoodiegallery.img}" alt="${deepseamonsterpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${deepseamonsterpremiumoversizedhoodiegallery.img}" alt="${deepseamonsterpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${deepseamonsterpremiumoversizedhoodiegallery.img}" alt="${deepseamonsterpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${deepseamonsterpremiumoversizedhoodiegallery.img}" alt="${deepseamonsterpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
