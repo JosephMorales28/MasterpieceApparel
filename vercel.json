@@ -144,6 +144,10 @@
     {
       "source": "/DeepSeaMonster/deepseamonsterlightweighthoodie",
       "destination": "/js/pages/DeepSeaMonster/deepseamonsterlightweighthoodie"
+    },
+    {
+      "source": "/DeepSeaMonster/deepseamonsterpremiumoversizedsweatshirt",
+      "destination": "/js/pages/DeepSeaMonster/deepseamonsterpremiumoversizedsweatshirt"
     }
   ]
 }

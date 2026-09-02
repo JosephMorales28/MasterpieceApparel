@@ -18,7 +18,7 @@ class ImageSectionProduct{
     }
 }
 
-export function deepsea_section(){
+export function idontfish_section(){
 
     const imagesection_product=[
         new ImageSectionProduct(
@@ -27,7 +27,7 @@ export function deepsea_section(){
             0,
             0,
             "Classic Shirt",
-            "/DeepSeaMonster/deepseamonsterclassicshirt"
+            "/CelestialHareChaos/classicshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -35,7 +35,7 @@ export function deepsea_section(){
             0,
             0,
             "Premium Shirt",
-            "/DeepSeaMonster/deepseamonsterpremiumshirt"
+            "/CelestialHareChaos/premiumshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -43,7 +43,7 @@ export function deepsea_section(){
             0,
             0,
             "Oversized Shirt",
-            "/DeepSeaMonster/deepseamonsteroversizedshirt"
+            "/CelestialHareChaos/oversizedshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -51,7 +51,7 @@ export function deepsea_section(){
             0,
             0,
             "Sweat Shirt",
-            "/DeepSeaMonster/deepseamonstersweatshirt"
+            "/CelestialHareChaos/sweatshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -59,7 +59,7 @@ export function deepsea_section(){
             0,
             0,
             "Premium Oversized Hoodie",
-            "/DeepSeaMonster/deepseamonsterpremiumoversizedhoodie"
+            "/CelestialHareChaos/premiumoversizedhoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -67,7 +67,7 @@ export function deepsea_section(){
             0,
             0,
             "Lightweight Hoodie",
-            "/DeepSeaMonster/deepseamonsterlightweighthoodie"
+            "/CelestialHareChaos/lightweighthoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -75,7 +75,7 @@ export function deepsea_section(){
             0,
             0,
             "Premium Oversized Sweat Shirt",
-            "/DeepSeaMonster/deepseamonsterpremiumoversizedsweatshirt"
+            "/CelestialHareChaos/premiumoversizedsweatshirt"
         )
     ];
 
