@@ -43,7 +43,8 @@ export function shopSection(search=""){
                 "Celestial Hare Chaos",
                 1,
                 1,
-                "Celestial Hare Chaos",        
+                "Celestial Hare Chaos",
+                "./celestialharechaos"        
         ),
         new ImageProduct(
                 "./img/Shockwave Striker.webp",

@@ -148,6 +148,14 @@
     {
       "source": "/DeepSeaMonster/deepseamonsterpremiumoversizedsweatshirt",
       "destination": "/js/pages/DeepSeaMonster/deepseamonsterpremiumoversizedsweatshirt"
+    },
+    {
+      "source": "/celestialharechaos",
+      "destination": "/celestialharechaos"
+    },
+    {
+      "source": "/CelestialHareChaos/celestialharechaosclassicshirt",
+      "destination": "/js/pages/CelestialHareChaos/celestialharechaosclassicshirt"
     }
   ]
 }

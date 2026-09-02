@@ -1,6 +1,6 @@
-import { idontfish_main, main_gallery } from "./main.js";
-import { idontfish_section } from "./section.js";
+import { celestialharechaos_main, celestialharechaosmain_gallery } from "./main.js";
+import { celestialharechaos_section } from "./section.js";
 
-export function idontfishforfood(){
-    return idontfish_main()+main_gallery()+idontfish_section();
+export function celestialharechaosmain(){
+    return celestialharechaos_main() + celestialharechaosmain_gallery() + celestialharechaos_section();
 }

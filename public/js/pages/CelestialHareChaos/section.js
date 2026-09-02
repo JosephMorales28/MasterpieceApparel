@@ -18,7 +18,7 @@ class ImageSectionProduct{
     }
 }
 
-export function idontfish_section(){
+export function celestialharechaos_section(){
 
     const imagesection_product=[
         new ImageSectionProduct(
@@ -27,7 +27,7 @@ export function idontfish_section(){
             0,
             0,
             "Classic Shirt",
-            "/CelestialHareChaos/classicshirt"
+            "/CelestialHareChaos/celestialharechaosclassicshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
