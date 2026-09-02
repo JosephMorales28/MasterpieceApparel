@@ -18,7 +18,8 @@ import { deepseamonsterclassicmain } from './pages/DeepSeaMonster/deepseamonster
 import { deepseamonsterpremium } from './pages/DeepSeaMonster/deepseamonsterpremiumshirt.js';
 import { deepseamonsteroversized } from './pages/DeepSeaMonster/deepseamonsteroversizedshirt.js';
 import { deepseamonstersweatshirtmain } from './pages/DeepSeaMonster/deepseamonstersweatshirt.js';
-import { deepseamonsterpremiumoversizedhoodiemain } from './pages/DeepSeaMonster/deepseamonsterpremiumoversizedhoodie.js'; 
+import { deepseamonsterpremiumoversizedhoodiemain } from './pages/DeepSeaMonster/deepseamonsterpremiumoversizedhoodie.js';
+import { deepseamonsterlightweighthoodiemain } from './pages/DeepSeaMonster/deepseamonsterlightweighthoodie.js';
 
 export const routes = {
     home: homePage,
@@ -26,22 +27,23 @@ export const routes = {
     shop: shopPage,
     service: servicePage,
     blog: blogPage,
-    contact:contactPage,
+    contact: contactPage,
     notfoundpage,
     
-    idontfishforfoodifishforvibes:idontfishforfood,
-    classicshirt:classic,
-    premiumshirt:premiummain,
-    oversizedshirt:oversized,
+    idontfishforfoodifishforvibes: idontfishforfood,
+    classicshirt: classic,
+    premiumshirt: premiummain,
+    oversizedshirt: oversized,
     sweatshirt,
-    premiumoversizedhoodie:premiumoversizedhoodiemain,
-    lightweighthoodie:lightweighthoodiemain,
+    premiumoversizedhoodie: premiumoversizedhoodiemain,
+    lightweighthoodie: lightweighthoodiemain,
     premiumoversizedsweatshirt,
 
-    deepseamonster:deepsea,
+    deepseamonster: deepsea,
     deepseamonsterclassicshirt: deepseamonsterclassicmain,
-    deepseamonsterpremiumshirt:deepseamonsterpremium,
-    deepseamonsteroversizedshirt:deepseamonsteroversized,
-    deepseamonstersweatshirt:deepseamonstersweatshirtmain,
-    deepseamonsterpremiumoversizedhoodie:deepseamonsterpremiumoversizedhoodiemain
+    deepseamonsterpremiumshirt: deepseamonsterpremium,
+    deepseamonsteroversizedshirt: deepseamonsteroversized,
+    deepseamonstersweatshirt: deepseamonstersweatshirtmain,
+    deepseamonsterpremiumoversizedhoodie: deepseamonsterpremiumoversizedhoodiemain,
+    deepseamonsterlightweighthoodie: deepseamonsterlightweighthoodiemain
 };

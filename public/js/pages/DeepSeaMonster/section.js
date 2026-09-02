@@ -66,7 +66,8 @@ export function deepsea_section(){
             "Lightweight Hoodie",
             0,
             0,
-            "Lightweight Hoodie"
+            "Lightweight Hoodie",
+            "/DeepSeaMonster/deepseamonsterlightweighthoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
