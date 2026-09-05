@@ -35,7 +35,7 @@ export function celestialharechaos_section(){
             0,
             0,
             "Premium Shirt",
-            "/CelestialHareChaos/premiumshirt"
+            "/CelestialHareChaos/celestialharechaospremiumshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

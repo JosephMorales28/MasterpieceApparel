@@ -23,6 +23,7 @@ import { deepseamonsterlightweighthoodiemain } from './pages/DeepSeaMonster/deep
 import { deepseamonsterpremiumoversizedsweatshirtmain } from './pages/DeepSeaMonster/deepseamonsterpremiumoversizedsweatshirt.js';
 import { celestialharechaosmain } from './pages/CelestialHareChaos/CelestialHareChaos.js';
 import { celestialharechaosclassicmain } from './pages/CelestialHareChaos/celestialharechaosclassic.js';
+import { celestialharechaospremiummain } from './pages/CelestialHareChaos/premium.js';
 
 export const routes = {
     home: homePage,
@@ -52,5 +53,6 @@ export const routes = {
     deepseamonsterpremiumoversizedsweatshirt: deepseamonsterpremiumoversizedsweatshirtmain,
 
     celestialharechaos: celestialharechaosmain,
-    celestialharechaosclassicshirt: celestialharechaosclassicmain
+    celestialharechaosclassicshirt: celestialharechaosclassicmain,
+    celestialharechaospremiumshirt: celestialharechaospremiummain
 };

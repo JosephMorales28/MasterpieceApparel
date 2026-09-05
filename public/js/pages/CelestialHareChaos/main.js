@@ -28,7 +28,7 @@ class CelestialHareChaosClassicMainProduct{
     }
 }
 
-class PremiumMainProduct{
+class CelestialHareChaosPremiumMainProduct{
     constructor(image,alt,loading,priority){
         this.image=image;
         this.alt=alt;
@@ -36,7 +36,7 @@ class PremiumMainProduct{
         this.priority=priority;
     }
 
-    getPremiumMainProduct(){
+    getCelestialHareChaosPremiumMainProduct(){
         return `
                 <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
                `
@@ -286,19 +286,19 @@ export function celestialharechaosclassic_gallery(){
 
 }
 
-export function premium_main(){
+export function celestialharechaospremium_main(){
    
-    const premium_mainproduct=[
-        new PremiumMainProduct(
+    const celestialharechaospremium_mainproduct=[
+        new CelestialHareChaosPremiumMainProduct(
             "/img/idontfish.webp",
-            "i don't fish for food i fish for vibes - Premium shirt",
+            "Celestial Hare Chaos - Premium shirt",
             0,
             0
         )
     ];
 
-    const premiuminfo={
-        name:"I Don't Fish for food I fish for vibes </br> (Premium Shirt)",
+    const celestialharechaospremiuminfo={
+        name:"Celestial Hare Chaos </br> (Premium Shirt)",
         creator:"Joseph Morales",
         Price: 46.35,
         details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
@@ -318,28 +318,28 @@ export function premium_main(){
         }
     };
 
-    const premium_mainHTML=premium_mainproduct.map(premium_MainProducts=>premium_MainProducts.getPremiumMainProduct()).join('')
+    const celestialharechaospremium_mainHTML=celestialharechaospremium_mainproduct.map(celestialharechaospremium_MainProducts=>celestialharechaospremium_MainProducts.getCelestialHareChaosPremiumMainProduct()).join('')
     
-    const premiuminfoHTML=`
-        <h1>${premiuminfo.name}</h1>
-        <p>Created by : ${premiuminfo.creator}</p>
-        <strong>$ ${premiuminfo.Price.toFixed(2)}</strong>
+    const celestialharechaospremiuminfoHTML=`
+        <h1>${celestialharechaospremiuminfo.name}</h1>
+        <p>Created by : ${celestialharechaospremiuminfo.creator}</p>
+        <strong>$ ${celestialharechaospremiuminfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${premiuminfo.details}</p>
+        <p>${celestialharechaospremiuminfo.details}</p>
         <h4>Type:</h4>
-        <p>${premiuminfo.type} are ${premiuminfo.fabric}</p>
+        <p>${celestialharechaospremiuminfo.type} are ${celestialharechaospremiuminfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${premiuminfo.size.s}, ${premiuminfo.size.m}, ${premiuminfo.size.l}, ${premiuminfo.size.xl}, ${premiuminfo.size.xxl}, ${premiuminfo.size.xxxl}</p>
+        <p>${celestialharechaospremiuminfo.size.s}, ${celestialharechaospremiuminfo.size.m}, ${celestialharechaospremiuminfo.size.l}, ${celestialharechaospremiuminfo.size.xl}, ${celestialharechaospremiuminfo.size.xxl}, ${celestialharechaospremiuminfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${premium_mainHTML}
+                        ${celestialharechaospremium_mainHTML}
                     </div>
                     <div>
-                         ${premiuminfoHTML}
+                         ${celestialharechaospremiuminfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $46.35</button>
@@ -350,20 +350,20 @@ export function premium_main(){
            `;
 }
 
-export function premium_gallery(){
+export function celestialharechaospremium_gallery(){
 
-    const premiumgallery={
+    const celestialharechaospremiumgallery={
         img: "/img/gallery1.webp",
-        alt:"i dont fish for food i fish for vibes"
+        alt:"Celestial Hare Chaos"
     }
     return `
-          <div id="premiumgallery">
+          <div id="celestialharechaospremiumgallery">
               <h1>Image Product</h1>
-              <div class="premium_gallery_flex">
-                 <img src="${premiumgallery.img}" alt="${premiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${premiumgallery.img}" alt="${premiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${premiumgallery.img}" alt="${premiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${premiumgallery.img}" alt="${premiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="celestialharechaospremium_gallery_flex">
+                 <img src="${celestialharechaospremiumgallery.img}" alt="${celestialharechaospremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaospremiumgallery.img}" alt="${celestialharechaospremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaospremiumgallery.img}" alt="${celestialharechaospremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaospremiumgallery.img}" alt="${celestialharechaospremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
               </div>
           </div>
     `;
