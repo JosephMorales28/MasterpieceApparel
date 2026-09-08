@@ -25,6 +25,7 @@ import { celestialharechaosmain } from './pages/CelestialHareChaos/CelestialHare
 import { celestialharechaosclassicmain } from './pages/CelestialHareChaos/celestialharechaosclassic.js';
 import { celestialharechaospremiummain } from './pages/CelestialHareChaos/premium.js';
 import { celestialharechaosoversizedmain } from './pages/CelestialHareChaos/celestialharechaosoversized.js';
+import { celestialharechaossweatshirtmain } from './pages/CelestialHareChaos/celestialharechaossweatshirt.js';
 
 export const routes = {
     home: homePage,
@@ -56,5 +57,6 @@ export const routes = {
     celestialharechaos: celestialharechaosmain,
     celestialharechaosclassicshirt: celestialharechaosclassicmain,
     celestialharechaospremiumshirt: celestialharechaospremiummain,
-    celestialharechaosoversizedshirt: celestialharechaosoversizedmain
+    celestialharechaosoversizedshirt: celestialharechaosoversizedmain,
+    celestialharechaossweatshirt: celestialharechaossweatshirtmain
 };

@@ -58,7 +58,7 @@ class CelestialHareChaosOversizedMainProduct{
     }
 }
 
-class SweatshirtMainProduct{
+class CelestialHareChaosSweatshirtMainProduct{
     constructor(image,alt,loading,priority){
         this.image=image;
         this.alt=alt;
@@ -66,7 +66,7 @@ class SweatshirtMainProduct{
         this.priority=priority;
     }
 
-    getSweatMainProduct(){
+    getCelestialHareChaosSweatMainProduct(){
         return`
               <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
         `
@@ -453,19 +453,19 @@ export function celestialharechaosoversized_gallery(){
     `;
 }
 
-export function sweatshirt_main(){
+export function celestialharechaossweatshirt_main(){
 
-    const sweatshirtmain_product=[
-        new SweatshirtMainProduct(
+    const celestialharechaossweatshirtmain_product=[
+        new CelestialHareChaosSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "i don't fish for food i fish for vibes",
+            "Celestial Hare Chaos",
             0,
             0
         )
     ];
 
-    const sweatshirtinfo={
-        name:"I Don't Fish for food I fish for vibes </br> (Sweat Shirt)",
+    const celestialharechaossweatshirtinfo={
+        name:"Celestial Hare Chaos </br> (Sweat Shirt)",
         creator:"Joseph Morales",
         Price: 48.00,
         details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
@@ -485,28 +485,28 @@ export function sweatshirt_main(){
         }
     };
 
-    const sweatshirtHTML=sweatshirtmain_product.map(sweatshirtMP=>sweatshirtMP.getSweatMainProduct()).join('');
+    const celestialharechaossweatshirtHTML=celestialharechaossweatshirtmain_product.map(celestialharechaossweatshirtMP=>celestialharechaossweatshirtMP.getCelestialHareChaosSweatMainProduct()).join('');
 
-    const sweatshirtinfoHTML=`
-        <h1>${sweatshirtinfo.name}</h1>
-        <p>Created by : ${sweatshirtinfo.creator}</p>
-        <strong>$ ${sweatshirtinfo.Price.toFixed(2)}</strong>
+    const celestialharechaossweatshirtinfoHTML=`
+        <h1>${celestialharechaossweatshirtinfo.name}</h1>
+        <p>Created by : ${celestialharechaossweatshirtinfo.creator}</p>
+        <strong>$ ${celestialharechaossweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${sweatshirtinfo.details}</p>
+        <p>${celestialharechaossweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${sweatshirtinfo.type} are ${sweatshirtinfo.fabric}</p>
+        <p>${celestialharechaossweatshirtinfo.type} are ${celestialharechaossweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${sweatshirtinfo.size.s}, ${sweatshirtinfo.size.m}, ${sweatshirtinfo.size.l}, ${sweatshirtinfo.size.xl}, ${sweatshirtinfo.size.xxl}, ${sweatshirtinfo.size.xxxl}</p>
+        <p>${celestialharechaossweatshirtinfo.size.s}, ${celestialharechaossweatshirtinfo.size.m}, ${celestialharechaossweatshirtinfo.size.l}, ${celestialharechaossweatshirtinfo.size.xl}, ${celestialharechaossweatshirtinfo.size.xxl}, ${celestialharechaossweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${sweatshirtHTML}
+                        ${celestialharechaossweatshirtHTML}
                     </div>
                     <div>
-                         ${sweatshirtinfoHTML}
+                         ${celestialharechaossweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $38.40</button>
@@ -517,20 +517,20 @@ export function sweatshirt_main(){
            `;
 }
 
-export function sweatshirt_gallery(){
+export function celestialharechaossweatshirt_gallery(){
 
-    const sweatshirtgallery={
+    const celestialharechaossweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"i dont fish for food i fish for vibes"
+        alt:"celestial hare chaos"
     }
     return `
-          <div id="sweatshirtgallery">
+          <div id="celestialharechaossweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="sweatshirt_gallery_flex">
-                 <img src="${sweatshirtgallery.img}" alt="${sweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${sweatshirtgallery.img}" alt="${sweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${sweatshirtgallery.img}" alt="${sweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${sweatshirtgallery.img}" alt="${sweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="celestialharechaossweatshirt_gallery_flex">
+                 <img src="${celestialharechaossweatshirtgallery.img}" alt="${celestialharechaossweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaossweatshirtgallery.img}" alt="${celestialharechaossweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaossweatshirtgallery.img}" alt="${celestialharechaossweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaossweatshirtgallery.img}" alt="${celestialharechaossweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
