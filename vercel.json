@@ -160,6 +160,10 @@
     {
       "source": "/CelestialHareChaos/celestialharechaospremiumshirt",
       "destination": "/js/pages/CelestialHareChaos/celestialharechaospremiumshirt"
+    },
+    {
+      "source": "/CelestialHareChaos/celestialharechaosoversizedshirt",
+      "destination": "/js/pages/CelestialHareChaos/celestialharechaosoversizedshirt"
     }
   ]
 }
