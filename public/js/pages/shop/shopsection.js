@@ -52,6 +52,7 @@ export function shopSection(search=""){
                 1,
                 1,
                 "Shockwave Striker",
+                "./shockwavestriker"
         ),
         new ImageProduct(
                 "./img/Goal Bunny Frenzy Global Soccer Edition.webp",

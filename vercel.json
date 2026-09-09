@@ -180,6 +180,10 @@
     {
       "source": "/CelestialHareChaos/celestialharechaospremiumoversizedsweatshirt",
       "destination": "/js/pages/CelestialHareChaos/celestialharechaospremiumoversizedsweatshirt"
+    },
+    {
+      "source": "/shockwavestriker",
+      "destination": "/shockwavestriker"
     }
   ]
 }
