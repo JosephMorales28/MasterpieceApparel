@@ -172,6 +172,10 @@
     {
       "source": "/CelestialHareChaos/celestialharechaospremiumoversizedhoodie",
       "destination": "/js/pages/CelestialHareChaos/celestialharechaospremiumoversizedhoodie"
+    },
+    {
+      "source": "/CelestialHareChaos/celestialharechaoslightweighthoodie",
+      "destination": "/js/pages/CelestialHareChaos/celestialharechaoslightweighthoodie"
     }
   ]
 }
