@@ -59,7 +59,7 @@ export function celestialharechaos_section(){
             0,
             0,
             "Premium Oversized Hoodie",
-            "/CelestialHareChaos/premiumoversizedhoodie"
+            "/CelestialHareChaos/celestialharechaospremiumoversizedhoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

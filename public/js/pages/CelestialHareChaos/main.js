@@ -73,7 +73,7 @@ class CelestialHareChaosSweatshirtMainProduct{
     }
 }
 
-class PremiumOversizedHoodieMainProduct{
+class CelestialHareChaosPremiumOversizedHoodieMainProduct{
     constructor(image,alt,loading,priority){
         this.image=image;
         this.alt=alt;
@@ -81,7 +81,7 @@ class PremiumOversizedHoodieMainProduct{
         this.priority=priority;
     }
 
-    getPremiumOversizedHoodieMainProduct(){
+    getCelestialHareChaosPremiumOversizedHoodieMainProduct(){
         return`
               <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
         `
@@ -536,19 +536,19 @@ export function celestialharechaossweatshirt_gallery(){
     `;
 }
 
-export function premiumoversizedhoodie_main(){
+export function celestialharechaospremiumoversizedhoodie_main(){
 
-    const premiumoversizedhoodiemain_product=[
-        new PremiumOversizedHoodieMainProduct(
+    const celestialharechaospremiumoversizedhoodiemain_product=[
+        new CelestialHareChaosPremiumOversizedHoodieMainProduct(
             "/img/idontfish.webp",
-            "i don't fish for food i fish for vibes",
+            "Celestial Hare Chaos",
             0,
             0
         )
     ];
 
-    const premiumoversizedhoodieinfo={
-        name:"I Don't Fish for food I fish for vibes </br> ( Premium Oversized Hoodie )",
+    const celestialharechaospremiumoversizedhoodieinfo={
+        name:"Celestial Hare Chaos </br> ( Premium Oversized Hoodie )",
         creator:"Joseph Morales",
         Price: 68.00,
         details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
@@ -568,28 +568,28 @@ export function premiumoversizedhoodie_main(){
         }
     };
 
-    const premiumoversizedhoodieHTML=premiumoversizedhoodiemain_product.map(premiumoversizedhoodieMP=>premiumoversizedhoodieMP.getPremiumOversizedHoodieMainProduct()).join('');
+    const celestialharechaospremiumoversizedhoodieHTML=celestialharechaospremiumoversizedhoodiemain_product.map(celestialharechaospremiumoversizedhoodieMP=>celestialharechaospremiumoversizedhoodieMP.getCelestialHareChaosPremiumOversizedHoodieMainProduct()).join('');
 
-    const premiumoversizedhoodieinfoHTML=`
-        <h1>${premiumoversizedhoodieinfo.name}</h1>
-        <p>Created by : ${premiumoversizedhoodieinfo.creator}</p>
-        <strong>$ ${premiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
+    const celestialharechaospremiumoversizedhoodieinfoHTML=`
+        <h1>${celestialharechaospremiumoversizedhoodieinfo.name}</h1>
+        <p>Created by : ${celestialharechaospremiumoversizedhoodieinfo.creator}</p>
+        <strong>$ ${celestialharechaospremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${premiumoversizedhoodieinfo.details}</p>
+        <p>${celestialharechaospremiumoversizedhoodieinfo.details}</p>
         <h4>Type:</h4>
-        <p>${premiumoversizedhoodieinfo.type} are ${premiumoversizedhoodieinfo.fabric}</p>
+        <p>${celestialharechaospremiumoversizedhoodieinfo.type} are ${celestialharechaospremiumoversizedhoodieinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${premiumoversizedhoodieinfo.size.s}, ${premiumoversizedhoodieinfo.size.m}, ${premiumoversizedhoodieinfo.size.l}, ${premiumoversizedhoodieinfo.size.xl}, ${premiumoversizedhoodieinfo.size.xxl}, ${premiumoversizedhoodieinfo.size.xxxl}</p>
+        <p>${celestialharechaospremiumoversizedhoodieinfo.size.s}, ${celestialharechaospremiumoversizedhoodieinfo.size.m}, ${celestialharechaospremiumoversizedhoodieinfo.size.l}, ${celestialharechaospremiumoversizedhoodieinfo.size.xl}, ${celestialharechaospremiumoversizedhoodieinfo.size.xxl}, ${celestialharechaospremiumoversizedhoodieinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${premiumoversizedhoodieHTML}
+                        ${celestialharechaospremiumoversizedhoodieHTML}
                     </div>
                     <div>
-                         ${premiumoversizedhoodieinfoHTML}
+                         ${celestialharechaospremiumoversizedhoodieinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $40.80</button>
@@ -600,21 +600,21 @@ export function premiumoversizedhoodie_main(){
            `;
 }
 
-export function premiumoversizedhoodie_gallery(){
+export function celestialharechaospremiumoversizedhoodie_gallery(){
 
-    const premiumoversizedhoodiegallery={
+    const celestialharechaospremiumoversizedhoodiegallery={
         img: "/img/gallery1.webp",
-        alt:"i dont fish for food i fish for vibes"
+        alt:"celestial hare chaos"
     }
     return `
-          <div id="premiumoversizedhoodiegallery">
+          <div id="celestialharechaospremiumoversizedhoodiegallery">
               <h1>Image Product</h1>
-              <div class="premiumoversizedhoodie_gallery_flex">
-                 <img src="${premiumoversizedhoodiegallery.img}" alt="${premiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${premiumoversizedhoodiegallery.img}" alt="${premiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${premiumoversizedhoodiegallery.img}" alt="${premiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${premiumoversizedhoodiegallery.img}" alt="${premiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-              </div>
+              <div class="celestialharepremiumoversizedhoodie_gallery_flex">
+                 <img src="${celestialharechaospremiumoversizedhoodiegallery.img}" alt="${celestialharechaospremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaospremiumoversizedhoodiegallery.img}" alt="${celestialharechaospremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaospremiumoversizedhoodiegallery.img}" alt="${celestialharechaospremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaospremiumoversizedhoodiegallery.img}" alt="${celestialharechaospremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 </div>
           </div>
     `;
 }
