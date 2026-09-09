@@ -184,6 +184,10 @@
     {
       "source": "/shockwavestriker",
       "destination": "/shockwavestriker"
+    },
+    {
+      "source": "/ShockwaveStriker/shockwavestrikerclassicshirt",
+      "destination": "/js/pages/ShockwaveStriker/shockwavestrikerclassicshirt"
     }
   ]
 }

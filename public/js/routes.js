@@ -30,7 +30,7 @@ import { celestialharechaospremiumoversizedhoodiemain } from './pages/CelestialH
 import { celestialharechaoslightweighthoodiemain } from './pages/CelestialHareChaos/celestialharechaoslightweighthoodie.js';
 import { celestialharechaospremiumoversizedsweatshirtmain } from './pages/CelestialHareChaos/celestialharechaospremiumoversizedsweatshirt.js';
 import { shockwavestrikermain } from './pages/ShockwaveStriker/ShockwaveStriker.js';
-
+import { shockwavestrikerclassicmain } from './pages/ShockwaveStriker/shockwavestrikerclassic.js';
 
 export const routes = {
     home: homePage,
@@ -68,5 +68,6 @@ export const routes = {
     celestialharechaoslightweighthoodie: celestialharechaoslightweighthoodiemain,
     celestialharechaospremiumoversizedsweatshirt: celestialharechaospremiumoversizedsweatshirtmain,
 
-    shockwavestriker: shockwavestrikermain
+    shockwavestriker: shockwavestrikermain,
+    shockwavestrikerclassicshirt: shockwavestrikerclassicmain
 };
