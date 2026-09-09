@@ -75,7 +75,7 @@ export function celestialharechaos_section(){
             0,
             0,
             "Premium Oversized Sweat Shirt",
-            "/CelestialHareChaos/premiumoversizedsweatshirt"
+            "/CelestialHareChaos/celestialharechaospremiumoversizedsweatshirt"
         )
     ];
 

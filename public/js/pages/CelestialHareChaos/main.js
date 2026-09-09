@@ -103,7 +103,7 @@ class CelestialHareChaosLightweightHoodieMainProduct{
     }
 }
 
-class PremiumOversizedSweatshirtMainProduct{
+class CelestialHareChaosPremiumOversizedSweatshirtMainProduct{
     constructor(image,alt,loading,priority){
         this.image=image;
         this.alt=alt;
@@ -111,7 +111,7 @@ class PremiumOversizedSweatshirtMainProduct{
         this.priority=priority;
     }
 
-    getPremiumOversizedSweatshirtMainProduct(){
+    getCelestialHareChaosPremiumOversizedSweatshirtMainProduct(){
         return`
               <img src="${this.image}" alt="${this.alt}" loading="${this.loading===0 ? "eager" : "lazy"}" fetchpriority="${this.priority===0 ? "high" : "auto"}" decoding= "async"/>
         `
@@ -702,19 +702,19 @@ export function celestialharechaoslightweighthoodie_gallery(){
     `;
 }
 
-export function premiumoversizedsweatshirt_main(){
+export function celestialharechaospremiumoversizedsweatshirt_main(){
 
-    const premiumoversizedsweatshirtmain_product=[
-        new PremiumOversizedSweatshirtMainProduct(
+    const celestialharechaospremiumoversizedsweatshirtmain_product=[
+        new CelestialHareChaosPremiumOversizedSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "i don't fish for food i fish for vibes",
+            "Celestial Hare Chaos",
             0,
             0
         )
     ];
 
-    const premiumoversizedsweatshirtinfo={
-        name:"I Don't Fish for food I fish for vibes </br> (Premium Oversized Sweatshirt)",
+    const celestialharechaospremiumoversizedsweatshirtinfo={
+        name:"Celestial Hare Chaos </br> (Premium Oversized Sweatshirt)",
         creator:"Joseph Morales",
         Price: 62.00,
         details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
@@ -734,28 +734,28 @@ export function premiumoversizedsweatshirt_main(){
         }
     };
 
-    const premiumoversizedsweatshirtHTML=premiumoversizedsweatshirtmain_product.map(premiumoversizedsweatshirtMP=>premiumoversizedsweatshirtMP.getPremiumOversizedSweatshirtMainProduct()).join('');
+    const celestialharechaospremiumoversizedsweatshirtHTML=celestialharechaospremiumoversizedsweatshirtmain_product.map(celestialharechaospremiumoversizedsweatshirtMP=>celestialharechaospremiumoversizedsweatshirtMP.getCelestialHareChaosPremiumOversizedSweatshirtMainProduct()).join('');
 
-    const premiumoversizedsweatshirtinfoHTML=`
-        <h1>${premiumoversizedsweatshirtinfo.name}</h1>
-        <p>Created by : ${premiumoversizedsweatshirtinfo.creator}</p>
-        <strong>$ ${premiumoversizedsweatshirtinfo.Price.toFixed(2)}</strong>
+    const celestialharechaospremiumoversizedsweatshirtinfoHTML=`
+        <h1>${celestialharechaospremiumoversizedsweatshirtinfo.name}</h1>
+        <p>Created by : ${celestialharechaospremiumoversizedsweatshirtinfo.creator}</p>
+        <strong>$ ${celestialharechaospremiumoversizedsweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${premiumoversizedsweatshirtinfo.details}</p>
+        <p>${celestialharechaospremiumoversizedsweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${premiumoversizedsweatshirtinfo.type} are ${premiumoversizedsweatshirtinfo.fabric}</p>
+        <p>${celestialharechaospremiumoversizedsweatshirtinfo.type} are ${celestialharechaospremiumoversizedsweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${premiumoversizedsweatshirtinfo.size.s}, ${premiumoversizedsweatshirtinfo.size.m}, ${premiumoversizedsweatshirtinfo.size.l}, ${premiumoversizedsweatshirtinfo.size.xl}, ${premiumoversizedsweatshirtinfo.size.xxl}, ${premiumoversizedsweatshirtinfo.size.xxxl}</p>
+        <p>${celestialharechaospremiumoversizedsweatshirtinfo.size.s}, ${celestialharechaospremiumoversizedsweatshirtinfo.size.m}, ${celestialharechaospremiumoversizedsweatshirtinfo.size.l}, ${celestialharechaospremiumoversizedsweatshirtinfo.size.xl}, ${celestialharechaospremiumoversizedsweatshirtinfo.size.xxl}, ${celestialharechaospremiumoversizedsweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${premiumoversizedsweatshirtHTML}
+                        ${celestialharechaospremiumoversizedsweatshirtHTML}
                     </div>
                     <div>
-                         ${premiumoversizedsweatshirtinfoHTML}
+                         ${celestialharechaospremiumoversizedsweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $37.20</button>
@@ -766,20 +766,20 @@ export function premiumoversizedsweatshirt_main(){
            `;
 }
 
-export function premiumoversizedsweatshirt_gallery(){
+export function celestialharechaospremiumoversizedsweatshirt_gallery(){
 
-    const premiumoversizedsweatshirtgallery={
+    const celestialharechaospremiumoversizedsweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"i dont fish for food i fish for vibes"
+        alt:"celestial hare chaos"
     }
     return `
-          <div id="premiumoversizedsweatshirtgallery">
+          <div id="celestialharechaospremiumoversizedsweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="premiumoversizedsweatshirt_gallery_flex">
-                 <img src="${premiumoversizedsweatshirtgallery.img}" alt="${premiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${premiumoversizedsweatshirtgallery.img}" alt="${premiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${premiumoversizedsweatshirtgallery.img}" alt="${premiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${premiumoversizedsweatshirtgallery.img}" alt="${premiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="celestialharechaospremiumoversizedsweatshirt_gallery_flex">
+                 <img src="${celestialharechaospremiumoversizedsweatshirtgallery.img}" alt="${celestialharechaospremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaospremiumoversizedsweatshirtgallery.img}" alt="${celestialharechaospremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaospremiumoversizedsweatshirtgallery.img}" alt="${celestialharechaospremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialharechaospremiumoversizedsweatshirtgallery.img}" alt="${celestialharechaospremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
