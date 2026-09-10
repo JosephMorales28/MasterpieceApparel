@@ -188,6 +188,10 @@
     {
       "source": "/ShockwaveStriker/shockwavestrikerclassicshirt",
       "destination": "/js/pages/ShockwaveStriker/shockwavestrikerclassicshirt"
+    },
+    {
+      "source": "/ShockwaveStriker/shockwavestrikerpremiumshirt",
+      "destination": "/js/pages/ShockwaveStriker/shockwavestrikerpremiumshirt"
     }
   ]
 }

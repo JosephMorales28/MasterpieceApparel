@@ -35,7 +35,7 @@ export function shockwavestriker_section(){
             0,
             0,
             "Premium Shirt",
-            "/ShockwaveStriker/celestialharechaospremiumshirt"
+            "/ShockwaveStriker/shockwavestrikerpremiumshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

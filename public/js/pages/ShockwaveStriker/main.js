@@ -286,19 +286,19 @@ export function shockwavestrikerclassic_gallery(){
 
 }
 
-export function celestialharechaospremium_main(){
+export function shockwavestrikerpremium_main(){
    
-    const celestialharechaospremium_mainproduct=[
+    const shockwavestrikerpremium_mainproduct=[
         new ShockwaveStrikerPremiumMainProduct(
             "/img/idontfish.webp",
-            "Celestial Hare Chaos - Premium shirt",
+            "Shockwave Striker - Premium shirt",
             0,
             0
         )
     ];
 
-    const celestialharechaospremiuminfo={
-        name:"Celestial Hare Chaos </br> (Premium Shirt)",
+    const shockwavestrikerpremiuminfo={
+        name:"Shockwave Striker </br> (Premium Shirt)",
         creator:"Joseph Morales",
         Price: 46.35,
         details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
@@ -318,28 +318,28 @@ export function celestialharechaospremium_main(){
         }
     };
 
-    const celestialharechaospremium_mainHTML=celestialharechaospremium_mainproduct.map(celestialharechaospremium_MainProducts=>celestialharechaospremium_MainProducts.getShockwaveStrikerPremiumMainProduct()).join('')
+    const shockwavestrikerpremium_mainHTML=shockwavestrikerpremium_mainproduct.map(shockwavestrikerpremium_MainProducts=>shockwavestrikerpremium_MainProducts.getShockwaveStrikerPremiumMainProduct()).join('')
     
-    const celestialharechaospremiuminfoHTML=`
-        <h1>${celestialharechaospremiuminfo.name}</h1>
-        <p>Created by : ${celestialharechaospremiuminfo.creator}</p>
-        <strong>$ ${celestialharechaospremiuminfo.Price.toFixed(2)}</strong>
+    const shockwavestrikerpremiuminfoHTML=`
+        <h1>${shockwavestrikerpremiuminfo.name}</h1>
+        <p>Created by : ${shockwavestrikerpremiuminfo.creator}</p>
+        <strong>$ ${shockwavestrikerpremiuminfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${celestialharechaospremiuminfo.details}</p>
+        <p>${shockwavestrikerpremiuminfo.details}</p>
         <h4>Type:</h4>
-        <p>${celestialharechaospremiuminfo.type} are ${celestialharechaospremiuminfo.fabric}</p>
+        <p>${shockwavestrikerpremiuminfo.type} are ${shockwavestrikerpremiuminfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${celestialharechaospremiuminfo.size.s}, ${celestialharechaospremiuminfo.size.m}, ${celestialharechaospremiuminfo.size.l}, ${celestialharechaospremiuminfo.size.xl}, ${celestialharechaospremiuminfo.size.xxl}, ${celestialharechaospremiuminfo.size.xxxl}</p>
+        <p>${shockwavestrikerpremiuminfo.size.s}, ${shockwavestrikerpremiuminfo.size.m}, ${shockwavestrikerpremiuminfo.size.l}, ${shockwavestrikerpremiuminfo.size.xl}, ${shockwavestrikerpremiuminfo.size.xxl}, ${shockwavestrikerpremiuminfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${celestialharechaospremium_mainHTML}
+                        ${shockwavestrikerpremium_mainHTML}
                     </div>
                     <div>
-                         ${celestialharechaospremiuminfoHTML}
+                         ${shockwavestrikerpremiuminfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $46.35</button>
@@ -350,21 +350,21 @@ export function celestialharechaospremium_main(){
            `;
 }
 
-export function celestialharechaospremium_gallery(){
+export function shockwavestrikerpremium_gallery(){
 
-    const celestialharechaospremiumgallery={
+    const shockwavestrikerpremiumgallery={
         img: "/img/gallery1.webp",
-        alt:"Celestial Hare Chaos"
+        alt:"Shockwave Striker"
     }
     return `
-          <div id="celestialharechaospremiumgallery">
+          <div id="shockwavestrikerpremiumgallery">
               <h1>Image Product</h1>
-              <div class="celestialharechaospremium_gallery_flex">
-                 <img src="${celestialharechaospremiumgallery.img}" alt="${celestialharechaospremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${celestialharechaospremiumgallery.img}" alt="${celestialharechaospremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${celestialharechaospremiumgallery.img}" alt="${celestialharechaospremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${celestialharechaospremiumgallery.img}" alt="${celestialharechaospremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-              </div>
+              <div class="shockwavestrikerpremium_gallery_flex">
+                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 </div>
           </div>
     `;
 
