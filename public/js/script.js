@@ -7,7 +7,7 @@ const supportedPages=['about','shop','service','blog','contact',404,
                       'idontfishforfoodifishforvibes','classicshirt','premiumshirt','oversizedshirt','sweatshirt','premiumoversizedhoodie','lightweighthoodie','premiumoversizedsweatshirt',
                       'deepseamonster','deepseamonsterclassicshirt','deepseamonsterpremiumshirt','deepseamonsteroversizedshirt','deepseamonstersweatshirt','deepseamonsterpremiumoversizedhoodie','deepseamonsterlightweighthoodie','deepseamonsterpremiumoversizedsweatshirt',
                       'celestialharechaos','celestialharechaosclassicshirt','celestialharechaospremiumshirt','celestialharechaosoversizedshirt','celestialharechaossweatshirt','celestialharechaospremiumoversizedhoodie','celestialharechaoslightweighthoodie','celestialharechaospremiumoversizedsweatshirt',
-                      'shockwavestriker','shockwavestrikerclassicshirt','shockwavestrikerpremiumshirt'];
+                      'shockwavestriker','shockwavestrikerclassicshirt','shockwavestrikerpremiumshirt','shockwavestrikeroversizedshirt'];
 const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() || 'home';
 const pageName=lastPathSegment.replace(/\.html$/, '');
 const page=pageName==='index' || pageName==='home' ? 'home' : supportedPages.includes(pageName) ? pageName : 'notfoundpage';

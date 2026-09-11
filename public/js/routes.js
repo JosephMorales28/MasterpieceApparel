@@ -32,6 +32,7 @@ import { celestialharechaospremiumoversizedsweatshirtmain } from './pages/Celest
 import { shockwavestrikermain } from './pages/ShockwaveStriker/ShockwaveStriker.js';
 import { shockwavestrikerclassicmain } from './pages/ShockwaveStriker/shockwavestrikerclassic.js';
 import { shockwavestrikerpremiummain } from './pages/ShockwaveStriker/shockwavestrikerpremium.js';
+import { shockwavestrikeroversizedmain } from './pages/ShockwaveStriker/shockwavestrikeroversized.js';
 
 export const routes = {
     home: homePage,
@@ -71,5 +72,6 @@ export const routes = {
 
     shockwavestriker: shockwavestrikermain,
     shockwavestrikerclassicshirt: shockwavestrikerclassicmain,
-    shockwavestrikerpremiumshirt: shockwavestrikerpremiummain
+    shockwavestrikerpremiumshirt: shockwavestrikerpremiummain,
+    shockwavestrikeroversizedshirt: shockwavestrikeroversizedmain
 };

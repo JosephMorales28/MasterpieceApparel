@@ -192,6 +192,10 @@
     {
       "source": "/ShockwaveStriker/shockwavestrikerpremiumshirt",
       "destination": "/js/pages/ShockwaveStriker/shockwavestrikerpremiumshirt"
+    },
+    {
+      "source": "/ShockwaveStriker/shockwavestrikeroversizedshirt",
+      "destination": "/js/pages/ShockwaveStriker/shockwavestrikeroversizedshirt"
     }
   ]
 }
