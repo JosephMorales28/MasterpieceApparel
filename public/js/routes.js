@@ -33,6 +33,7 @@ import { shockwavestrikermain } from './pages/ShockwaveStriker/ShockwaveStriker.
 import { shockwavestrikerclassicmain } from './pages/ShockwaveStriker/shockwavestrikerclassic.js';
 import { shockwavestrikerpremiummain } from './pages/ShockwaveStriker/shockwavestrikerpremium.js';
 import { shockwavestrikeroversizedmain } from './pages/ShockwaveStriker/shockwavestrikeroversized.js';
+import { shockwavestrikersweatshirtmain } from './pages/ShockwaveStriker/shockwavestrikersweatshirt.js';
 
 export const routes = {
     home: homePage,
@@ -73,5 +74,6 @@ export const routes = {
     shockwavestriker: shockwavestrikermain,
     shockwavestrikerclassicshirt: shockwavestrikerclassicmain,
     shockwavestrikerpremiumshirt: shockwavestrikerpremiummain,
-    shockwavestrikeroversizedshirt: shockwavestrikeroversizedmain
+    shockwavestrikeroversizedshirt: shockwavestrikeroversizedmain,
+    shockwavestrikersweatshirt: shockwavestrikersweatshirtmain
 };

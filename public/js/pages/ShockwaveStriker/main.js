@@ -453,19 +453,19 @@ export function shockwavestrikeroversized_gallery(){
     `;
 }
 
-export function celestialharechaossweatshirt_main(){
+export function shockwavestrikersweatshirt_main(){
 
-    const celestialharechaossweatshirtmain_product=[
+    const shockwavestrikersweatshirtmain_product=[
         new ShockwaveStrikerSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "Celestial Hare Chaos",
+            "Shockwave Striker",
             0,
             0
         )
     ];
 
-    const celestialharechaossweatshirtinfo={
-        name:"Celestial Hare Chaos </br> (Sweat Shirt)",
+    const shockwavestrikersweatshirtinfo={
+        name:"Shockwave Striker </br> (Sweat Shirt)",
         creator:"Joseph Morales",
         Price: 48.00,
         details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
@@ -485,28 +485,28 @@ export function celestialharechaossweatshirt_main(){
         }
     };
 
-    const celestialharechaossweatshirtHTML=celestialharechaossweatshirtmain_product.map(celestialharechaossweatshirtMP=>celestialharechaossweatshirtMP.getShockwaveStrikerSweatMainProduct()).join('');
+    const shockwavestrikersweatshirtHTML=shockwavestrikersweatshirtmain_product.map(shockwavestrikersweatshirtMP=>shockwavestrikersweatshirtMP.getShockwaveStrikerSweatMainProduct()).join('');
 
-    const celestialharechaossweatshirtinfoHTML=`
-        <h1>${celestialharechaossweatshirtinfo.name}</h1>
-        <p>Created by : ${celestialharechaossweatshirtinfo.creator}</p>
-        <strong>$ ${celestialharechaossweatshirtinfo.Price.toFixed(2)}</strong>
+    const shockwavestrikersweatshirtinfoHTML=`
+        <h1>${shockwavestrikersweatshirtinfo.name}</h1>
+        <p>Created by : ${shockwavestrikersweatshirtinfo.creator}</p>
+        <strong>$ ${shockwavestrikersweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${celestialharechaossweatshirtinfo.details}</p>
+        <p>${shockwavestrikersweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${celestialharechaossweatshirtinfo.type} are ${celestialharechaossweatshirtinfo.fabric}</p>
+        <p>${shockwavestrikersweatshirtinfo.type} are ${shockwavestrikersweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${celestialharechaossweatshirtinfo.size.s}, ${celestialharechaossweatshirtinfo.size.m}, ${celestialharechaossweatshirtinfo.size.l}, ${celestialharechaossweatshirtinfo.size.xl}, ${celestialharechaossweatshirtinfo.size.xxl}, ${celestialharechaossweatshirtinfo.size.xxxl}</p>
+        <p>${shockwavestrikersweatshirtinfo.size.s}, ${shockwavestrikersweatshirtinfo.size.m}, ${shockwavestrikersweatshirtinfo.size.l}, ${shockwavestrikersweatshirtinfo.size.xl}, ${shockwavestrikersweatshirtinfo.size.xxl}, ${shockwavestrikersweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${celestialharechaossweatshirtHTML}
+                        ${shockwavestrikersweatshirtHTML}
                     </div>
                     <div>
-                         ${celestialharechaossweatshirtinfoHTML}
+                         ${shockwavestrikersweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $38.40</button>
@@ -517,20 +517,20 @@ export function celestialharechaossweatshirt_main(){
            `;
 }
 
-export function celestialharechaossweatshirt_gallery(){
+export function shockwavestrikersweatshirt_gallery(){
 
-    const celestialharechaossweatshirtgallery={
+    const shockwavestrikersweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"celestial hare chaos"
+        alt:"shockwave striker"
     }
     return `
-          <div id="celestialharechaossweatshirtgallery">
+          <div id="shockwavestrikersweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="celestialharechaossweatshirt_gallery_flex">
-                 <img src="${celestialharechaossweatshirtgallery.img}" alt="${celestialharechaossweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${celestialharechaossweatshirtgallery.img}" alt="${celestialharechaossweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${celestialharechaossweatshirtgallery.img}" alt="${celestialharechaossweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${celestialharechaossweatshirtgallery.img}" alt="${celestialharechaossweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="shockwavestrikersweatshirt_gallery_flex">
+                 <img src="${shockwavestrikersweatshirtgallery.img}" alt="${shockwavestrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${shockwavestrikersweatshirtgallery.img}" alt="${shockwavestrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${shockwavestrikersweatshirtgallery.img}" alt="${shockwavestrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${shockwavestrikersweatshirtgallery.img}" alt="${shockwavestrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
