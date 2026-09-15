@@ -67,7 +67,7 @@ export function shockwavestriker_section(){
             0,
             0,
             "Lightweight Hoodie",
-            "/ShockwaveStriker/celestialharechaoslightweighthoodie"
+            "/ShockwaveStriker/shockwavestrikerlightweighthoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

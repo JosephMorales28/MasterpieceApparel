@@ -35,6 +35,7 @@ import { shockwavestrikerpremiummain } from './pages/ShockwaveStriker/shockwaves
 import { shockwavestrikeroversizedmain } from './pages/ShockwaveStriker/shockwavestrikeroversized.js';
 import { shockwavestrikersweatshirtmain } from './pages/ShockwaveStriker/shockwavestrikersweatshirt.js';
 import { shockwavestrikerpremiumoversizedhoodiemain } from './pages/ShockwaveStriker/shockwavestrikerpremiumoversizedhoodie.js';
+import { shockwavestrikerlightweighthoodiemain } from './pages/ShockwaveStriker/shockwavestrikerlightweighthoodie.js';
 
 export const routes = {
     home: homePage,
@@ -77,5 +78,6 @@ export const routes = {
     shockwavestrikerpremiumshirt: shockwavestrikerpremiummain,
     shockwavestrikeroversizedshirt: shockwavestrikeroversizedmain,
     shockwavestrikersweatshirt: shockwavestrikersweatshirtmain,
-    shockwavestrikerpremiumoversizedhoodie: shockwavestrikerpremiumoversizedhoodiemain
+    shockwavestrikerpremiumoversizedhoodie: shockwavestrikerpremiumoversizedhoodiemain,
+    shockwavestrikerlightweighthoodie: shockwavestrikerlightweighthoodiemain
 };

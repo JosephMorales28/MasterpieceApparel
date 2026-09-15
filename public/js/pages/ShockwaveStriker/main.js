@@ -619,19 +619,19 @@ export function shockwavestrikerpremiumoversizedhoodie_gallery(){
     `;
 }
 
-export function celestialharechaoslightweighthoodie_main(){
+export function shockwavestrikerlightweighthoodie_main(){
 
-    const celestialharechaoslightweighthoodiemain_product=[
+    const shockwavestrikerlightweighthoodiemain_product=[
         new ShockwaveStrikerLightweightHoodieMainProduct(
             "/img/idontfish.webp",
-            "Celestial Hare Chaos",
+            "Shockwave Striker",
             0,
             0
         )
     ];
 
-    const celestialharechaoslightweighthoodieinfo={
-        name:"Celestial Hare Chaos </br> (Lightweight Hoodie)",
+    const shockwavestrikerlightweighthoodieinfo={
+        name:"Shockwave Striker </br> (Lightweight Hoodie)",
         creator:"Joseph Morales",
         Price: 62.21,
         details:"Bring adventure and humor to your wardrobe with this anime‑style fluffy cat fishing scene! Featuring a beige‑brown long‑haired cat in a blue fishing coat and sunglasses, sitting on a folding chair by the pond with rod in paw. To the left is a tackle table, to the right a blue cooler bag filled with freshly caught fish, and behind the cat sits a cozy camping car — the perfect outdoor setup.",
@@ -651,28 +651,28 @@ export function celestialharechaoslightweighthoodie_main(){
         }
     };
 
-    const celestialharechaoslightweighthoodieHTML=celestialharechaoslightweighthoodiemain_product.map(celestialharechaoslightweighthoodieMP=>celestialharechaoslightweighthoodieMP.getShockwaveStrikerLightweightHoodieMainProduct()).join('');
+    const shockwavestrikerlightweighthoodieHTML=shockwavestrikerlightweighthoodiemain_product.map(shockwavestrikerlightweighthoodieMP=>shockwavestrikerlightweighthoodieMP.getShockwaveStrikerLightweightHoodieMainProduct()).join('');
 
-    const celestialharechaoslightweighthoodieinfoHTML=`
-        <h1>${celestialharechaoslightweighthoodieinfo.name}</h1>
-        <p>Created by : ${celestialharechaoslightweighthoodieinfo.creator}</p>
-        <strong>$ ${celestialharechaoslightweighthoodieinfo.Price.toFixed(2)}</strong>
+    const shockwavestrikerlightweighthoodieinfoHTML=`
+        <h1>${shockwavestrikerlightweighthoodieinfo.name}</h1>
+        <p>Created by : ${shockwavestrikerlightweighthoodieinfo.creator}</p>
+        <strong>$ ${shockwavestrikerlightweighthoodieinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${celestialharechaoslightweighthoodieinfo.details}</p>
+        <p>${shockwavestrikerlightweighthoodieinfo.details}</p>
         <h4>Type:</h4>
-        <p>${celestialharechaoslightweighthoodieinfo.type} are ${celestialharechaoslightweighthoodieinfo.fabric}</p>
+        <p>${shockwavestrikerlightweighthoodieinfo.type} are ${shockwavestrikerlightweighthoodieinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${celestialharechaoslightweighthoodieinfo.size.s}, ${celestialharechaoslightweighthoodieinfo.size.m}, ${celestialharechaoslightweighthoodieinfo.size.l}, ${celestialharechaoslightweighthoodieinfo.size.xl}, ${celestialharechaoslightweighthoodieinfo.size.xxl}, ${celestialharechaoslightweighthoodieinfo.size.xxxl}</p>
+        <p>${shockwavestrikerlightweighthoodieinfo.size.s}, ${shockwavestrikerlightweighthoodieinfo.size.m}, ${shockwavestrikerlightweighthoodieinfo.size.l}, ${shockwavestrikerlightweighthoodieinfo.size.xl}, ${shockwavestrikerlightweighthoodieinfo.size.xxl}, ${shockwavestrikerlightweighthoodieinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${celestialharechaoslightweighthoodieHTML}
+                        ${shockwavestrikerlightweighthoodieHTML}
                     </div>
                     <div>
-                         ${celestialharechaoslightweighthoodieinfoHTML}
+                         ${shockwavestrikerlightweighthoodieinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $49.76</button>
@@ -683,20 +683,20 @@ export function celestialharechaoslightweighthoodie_main(){
            `;
 }
 
-export function celestialharechaoslightweighthoodie_gallery(){
+export function shockwavestrikerlightweighthoodie_gallery(){
 
-    const celestialharechaoslightweighthoodiegallery={
+    const shockwavestrikerlightweighthoodiegallery={
         img: "/img/gallery1.webp",
-        alt:"celestial hare chaos"
+        alt:"Shockwave Striker"
     }
     return `
-          <div id="celestialharechaoslightweighthoodiegallery">
+          <div id="shockwavestrikerlightweighthoodiegallery">
               <h1>Image Product</h1>
-              <div class="celestialharechaoslightweighthoodie_gallery_flex">
-                 <img src="${celestialharechaoslightweighthoodiegallery.img}" alt="${celestialharechaoslightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${celestialharechaoslightweighthoodiegallery.img}" alt="${celestialharechaoslightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${celestialharechaoslightweighthoodiegallery.img}" alt="${celestialharechaoslightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${celestialharechaoslightweighthoodiegallery.img}" alt="${celestialharechaoslightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="shockwavestrikerlightweighthoodie_gallery_flex">
+                 <img src="${shockwavestrikerlightweighthoodiegallery.img}" alt="${shockwavestrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${shockwavestrikerlightweighthoodiegallery.img}" alt="${shockwavestrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${shockwavestrikerlightweighthoodiegallery.img}" alt="${shockwavestrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${shockwavestrikerlightweighthoodiegallery.img}" alt="${shockwavestrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
