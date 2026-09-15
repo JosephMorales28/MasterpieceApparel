@@ -75,7 +75,7 @@ export function shockwavestriker_section(){
             0,
             0,
             "Premium Oversized Sweat Shirt",
-            "/ShockwaveStriker/celestialharechaospremiumoversizedsweatshirt"
+            "/ShockwaveStriker/shockwavestrikerpremiumoversizedsweatshirt"
         )
     ];
 

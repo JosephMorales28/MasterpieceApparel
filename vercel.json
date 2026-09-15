@@ -208,6 +208,10 @@
     {
       "source": "/ShockwaveStriker/shockwavestrikerlightweighthoodie",
       "destination": "/js/pages/ShockwaveStriker/shockwavestrikerlightweighthoodie"
+    },
+    {
+      "source": "/ShockwaveStriker/shockwavestrikerpremiumoversizedsweatshirt",
+      "destination": "/js/pages/ShockwaveStriker/shockwavestrikerpremiumoversizedsweatshirt"
     }
   ]
 }
