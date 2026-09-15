@@ -59,7 +59,7 @@ export function shockwavestriker_section(){
             0,
             0,
             "Premium Oversized Hoodie",
-            "/ShockwaveStriker/celestialharechaospremiumoversizedhoodie"
+            "/ShockwaveStriker/shockwavestrikerpremiumoversizedhoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

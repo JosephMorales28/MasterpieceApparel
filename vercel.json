@@ -200,6 +200,10 @@
     {
       "source": "/ShockwaveStriker/shockwavestrikersweatshirt",
       "destination": "/js/pages/ShockwaveStriker/shockwavestrikersweatshirt"
+    },
+    {
+      "source": "/ShockwaveStriker/shockwavestrikerpremiumoversizedhoodie",
+      "destination": "/js/pages/ShockwaveStriker/shockwavestrikerpremiumoversizedhoodie"
     }
   ]
 }
