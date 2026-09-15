@@ -212,6 +212,10 @@
     {
       "source": "/ShockwaveStriker/shockwavestrikerpremiumoversizedsweatshirt",
       "destination": "/js/pages/ShockwaveStriker/shockwavestrikerpremiumoversizedsweatshirt"
+    },
+    {
+      "source": "/goalbunnyfrenzy",
+      "destination": "/goalbunnyfrenzy"
     }
   ]
 }

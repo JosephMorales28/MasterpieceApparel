@@ -26,19 +26,20 @@ if (!sourceName || !destinationName) {
 
 const projectRoot = path.join(__dirname, "..");
 
-const sourceDirectory = path.join(
+const pagesDirectory = path.join(
     projectRoot,
     "public",
     "js",
-    "pages",
+    "pages"
+);
+
+const sourceDirectory = path.join(
+    pagesDirectory,
     sourceName
 );
 
 const destinationDirectory = path.join(
-    projectRoot,
-    "public",
-    "js",
-    "pages",
+    pagesDirectory,
     destinationName
 );
 
@@ -67,7 +68,84 @@ if (fs.existsSync(destinationDirectory)) {
 }
 
 // ------------------------------------
-// COPY + TRANSFORM
+// RENAME CONTENT
+// ------------------------------------
+
+function renameContent(content) {
+
+    // Rename the full product name first.
+    content = content.replaceAll(
+        sourceName,
+        destinationName
+    );
+
+    // --------------------------------
+    // Export functions
+    // --------------------------------
+
+    content = content.replace(
+        new RegExp(
+            `export\\s+function\\s+${escapeRegExp(sourceName)}\\b`,
+            "g"
+        ),
+        `export function ${destinationName}`
+    );
+
+    // --------------------------------
+    // Regular functions
+    // --------------------------------
+
+    content = content.replace(
+        new RegExp(
+            `function\\s+${escapeRegExp(sourceName)}\\b`,
+            "g"
+        ),
+        `function ${destinationName}`
+    );
+
+    // --------------------------------
+    // Classes
+    // --------------------------------
+
+    const sourceClassName = toPascalCase(sourceName);
+    const destinationClassName = toPascalCase(destinationName);
+
+    content = content.replaceAll(
+        sourceClassName,
+        destinationClassName
+    );
+
+    return content;
+}
+
+// ------------------------------------
+// ESCAPE REGULAR EXPRESSIONS
+// ------------------------------------
+
+function escapeRegExp(value) {
+    return value.replace(
+        /[.*+?^${}()|[\]\\]/g,
+        "\\$&"
+    );
+}
+
+// ------------------------------------
+// PASCAL CASE
+// ------------------------------------
+
+function toPascalCase(value) {
+
+    return value
+        .split(/[-_\s]/)
+        .map(word =>
+            word.charAt(0).toUpperCase() +
+            word.slice(1)
+        )
+        .join("");
+}
+
+// ------------------------------------
+// CLONE DIRECTORY
 // ------------------------------------
 
 function cloneDirectory(source, destination) {
@@ -80,9 +158,13 @@ function cloneDirectory(source, destination) {
 
     for (const item of items) {
 
-        const sourcePath = path.join(source, item);
+        const sourcePath = path.join(
+            source,
+            item
+        );
 
-        // Rename product name inside filenames
+        // Rename the filename if it contains
+        // the old product name.
         const newItemName = item.replaceAll(
             sourceName,
             destinationName
@@ -95,6 +177,10 @@ function cloneDirectory(source, destination) {
 
         const stats = fs.statSync(sourcePath);
 
+        // --------------------------------
+        // DIRECTORY
+        // --------------------------------
+
         if (stats.isDirectory()) {
 
             cloneDirectory(
@@ -102,23 +188,52 @@ function cloneDirectory(source, destination) {
                 destinationPath
             );
 
-        } else {
+            continue;
+        }
+
+        // --------------------------------
+        // FILE
+        // --------------------------------
+
+        const extension = path.extname(
+            sourcePath
+        ).toLowerCase();
+
+        // Text/code files that we transform
+        const editableFiles = [
+            ".js",
+            ".mjs",
+            ".cjs",
+            ".json",
+            ".html",
+            ".css",
+            ".scss"
+        ];
+
+        if (editableFiles.includes(extension)) {
 
             let content = fs.readFileSync(
                 sourcePath,
                 "utf8"
             );
 
-            // Replace product identifier
-            content = content.replaceAll(
-                sourceName,
-                destinationName
+            content = renameContent(
+                content
             );
 
             fs.writeFileSync(
                 destinationPath,
                 content,
                 "utf8"
+            );
+
+        } else {
+
+            // Images, fonts, etc.
+            // are copied without modification.
+            fs.copyFileSync(
+                sourcePath,
+                destinationPath
             );
         }
     }
@@ -129,7 +244,9 @@ function cloneDirectory(source, destination) {
 // ------------------------------------
 
 console.log("");
-console.log("Cloning product...");
+console.log("====================================");
+console.log("       PRODUCT CLONER");
+console.log("====================================");
 console.log("");
 
 console.log(`Source:      ${sourceName}`);
@@ -141,10 +258,12 @@ cloneDirectory(
     destinationDirectory
 );
 
-console.log("✓ Product folder copied");
+console.log("✓ Folder created");
 console.log("✓ Files copied");
-console.log("✓ Folders copied");
+console.log("✓ Filenames renamed");
 console.log("✓ Product identifiers renamed");
+console.log("✓ Functions renamed");
+console.log("✓ Classes renamed");
 console.log("");
 
 console.log(

@@ -60,6 +60,7 @@ export function shopSection(search=""){
                 1,
                 1,
                 "Goal Bunny Frenzy Global Soccer Edition",
+                "./goalbunnyfrenzy"
         ),
         new ImageProduct(
                 "./img/Goal Keeper Gone Bananas Monkey Soccer Madness.webp",
