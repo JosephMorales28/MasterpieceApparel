@@ -192,7 +192,12 @@
   </url>
   <url>
     <loc>https://masterpiece-apparel.vercel.app/goalbunnyfrenzy</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masterpiece-apparel.vercel.app/GoalBunnyFrenzy/goalbunnyfrenzyclassicshirt</loc>
+    <lastmod>2026-09-16</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>
