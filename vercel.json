@@ -220,6 +220,10 @@
     {
       "source": "/GoalBunnyFrenzy/goalbunnyfrenzyclassicshirt",
       "destination": "/js/pages/GoalBunnyFrenzy/goalbunnyfrenzyclassicshirt"
+    },
+    {
+      "source": "/GoalBunnyFrenzy/goalbunnyfrenzypremiumshirt",
+      "destination": "/js/pages/GoalBunnyFrenzy/goalbunnyfrenzypremiumshirt"
     }
   ]
 }

@@ -286,19 +286,19 @@ export function goalbunnyfrenzyclassic_gallery(){
 
 }
 
-export function shockwavestrikerpremium_main(){
+export function goalbunnyfrenzypremium_main(){
    
-    const shockwavestrikerpremium_mainproduct=[
+    const goalbunnyfrenzypremium_mainproduct=[
         new GoalBunnyFrenzyPremiumMainProduct(
             "/img/idontfish.webp",
-            "Shockwave Striker - Premium shirt",
+            "Goal Bunny Frenzy Global Soccer Edition - Premium shirt",
             0,
             0
         )
     ];
 
-    const shockwavestrikerpremiuminfo={
-        name:"Shockwave Striker </br> (Premium Shirt)",
+    const goalbunnyfrenzypremiuminfo={
+        name:"Goal Bunny Frenzy </br> Global Soccer Edition </br> (Premium Shirt)",
         creator:"Joseph Morales",
         Price: 46.35,
         details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
@@ -318,28 +318,28 @@ export function shockwavestrikerpremium_main(){
         }
     };
 
-    const shockwavestrikerpremium_mainHTML=shockwavestrikerpremium_mainproduct.map(shockwavestrikerpremium_MainProducts=>shockwavestrikerpremium_MainProducts.getGoalBunnyFrenzyPremiumMainProduct()).join('')
+    const goalbunnyfrenzypremium_mainHTML=goalbunnyfrenzypremium_mainproduct.map(goalbunnyfrenzypremium_MainProducts=>goalbunnyfrenzypremium_MainProducts.getGoalBunnyFrenzyPremiumMainProduct()).join('')
     
-    const shockwavestrikerpremiuminfoHTML=`
-        <h1>${shockwavestrikerpremiuminfo.name}</h1>
-        <p>Created by : ${shockwavestrikerpremiuminfo.creator}</p>
-        <strong>$ ${shockwavestrikerpremiuminfo.Price.toFixed(2)}</strong>
+    const goalbunnyfrenzypremiuminfoHTML=`
+        <h1>${goalbunnyfrenzypremiuminfo.name}</h1>
+        <p>Created by : ${goalbunnyfrenzypremiuminfo.creator}</p>
+        <strong>$ ${goalbunnyfrenzypremiuminfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${shockwavestrikerpremiuminfo.details}</p>
+        <p>${goalbunnyfrenzypremiuminfo.details}</p>
         <h4>Type:</h4>
-        <p>${shockwavestrikerpremiuminfo.type} are ${shockwavestrikerpremiuminfo.fabric}</p>
+        <p>${goalbunnyfrenzypremiuminfo.type} are ${goalbunnyfrenzypremiuminfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${shockwavestrikerpremiuminfo.size.s}, ${shockwavestrikerpremiuminfo.size.m}, ${shockwavestrikerpremiuminfo.size.l}, ${shockwavestrikerpremiuminfo.size.xl}, ${shockwavestrikerpremiuminfo.size.xxl}, ${shockwavestrikerpremiuminfo.size.xxxl}</p>
+        <p>${goalbunnyfrenzypremiuminfo.size.s}, ${goalbunnyfrenzypremiuminfo.size.m}, ${goalbunnyfrenzypremiuminfo.size.l}, ${goalbunnyfrenzypremiuminfo.size.xl}, ${goalbunnyfrenzypremiuminfo.size.xxl}, ${goalbunnyfrenzypremiuminfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${shockwavestrikerpremium_mainHTML}
+                        ${goalbunnyfrenzypremium_mainHTML}
                     </div>
                     <div>
-                         ${shockwavestrikerpremiuminfoHTML}
+                         ${goalbunnyfrenzypremiuminfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $46.35</button>
@@ -350,20 +350,20 @@ export function shockwavestrikerpremium_main(){
            `;
 }
 
-export function shockwavestrikerpremium_gallery(){
+export function goalbunnyfrenzypremium_gallery(){
 
-    const shockwavestrikerpremiumgallery={
+    const goalbunnyfrenzypremiumgallery={
         img: "/img/gallery1.webp",
-        alt:"Shockwave Striker"
+        alt:"Goal Bunny Frenzy Global Soccer Edition"
     }
     return `
-          <div id="shockwavestrikerpremiumgallery">
+          <div id="goalbunnyfrenzypremiumgallery">
               <h1>Image Product</h1>
-              <div class="shockwavestrikerpremium_gallery_flex">
-                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="goalbunnyfrenzypremium_gallery_flex">
+                 <img src="${goalbunnyfrenzypremiumgallery.img}" alt="${goalbunnyfrenzypremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalbunnyfrenzypremiumgallery.img}" alt="${goalbunnyfrenzypremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalbunnyfrenzypremiumgallery.img}" alt="${goalbunnyfrenzypremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalbunnyfrenzypremiumgallery.img}" alt="${goalbunnyfrenzypremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
