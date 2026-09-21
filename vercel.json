@@ -240,6 +240,10 @@
     {
       "source": "/GoalBunnyFrenzy/goalbunnyfrenzylightweighthoodie",
       "destination": "/js/pages/GoalBunnyFrenzy/goalbunnyfrenzylightweighthoodie"
+    },
+    {
+      "source": "/GoalBunnyFrenzy/goalbunnyfrenzypremiumoversizedsweatshirt",
+      "destination": "/js/pages/GoalBunnyFrenzy/goalbunnyfrenzypremiumoversizedsweatshirt"
     }
   ]
 }
