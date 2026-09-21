@@ -67,7 +67,7 @@ export function goalbunnyfrenzy_section(){
             0,
             0,
             "Lightweight Hoodie",
-            "/GoalBunnyFrenzy/shockwavestrikerlightweighthoodie"
+            "/GoalBunnyFrenzy/goalbunnyfrenzylightweighthoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -75,7 +75,7 @@ export function goalbunnyfrenzy_section(){
             0,
             0,
             "Premium Oversized Sweat Shirt",
-            "/GoalBunnyFrenzy/shockwavestrikerpremiumoversizedsweatshirt"
+            "/GoalBunnyFrenzy/goalbunnyfrenzypremiumoversizedsweatshirt"
         )
     ];
 

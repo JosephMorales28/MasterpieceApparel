@@ -236,6 +236,10 @@
     {
       "source": "/GoalBunnyFrenzy/goalbunnyfrenzypremiumoversizedhoodie",
       "destination": "/js/pages/GoalBunnyFrenzy/goalbunnyfrenzypremiumoversizedhoodie"
+    },
+    {
+      "source": "/GoalBunnyFrenzy/goalbunnyfrenzylightweighthoodie",
+      "destination": "/js/pages/GoalBunnyFrenzy/goalbunnyfrenzylightweighthoodie"
     }
   ]
 }
