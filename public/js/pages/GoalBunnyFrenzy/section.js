@@ -51,7 +51,7 @@ export function goalbunnyfrenzy_section(){
             0,
             0,
             "Sweat Shirt",
-            "/GoalBunnyFrenzy/shockwavestrikersweatshirt"
+            "/GoalBunnyFrenzy/goalbunnyfrenzysweatshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
