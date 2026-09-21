@@ -133,7 +133,7 @@ export function goalbunnyfrenzy_main(){
         name:"Goal Bunny Frenzy </br> Global Soccer Edition </br> (Essential Shirt)",
         creator:"Joseph Morales",
         Price: 30.69,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"Unleash the madness of the pitch with this high‑energy rabbit goalkeeper design! Featuring a full‑body leap in painterly brush strokes, this fearless bunny dives mid‑air to snatch the ball with a grin that’s equal parts crazy and determined. Dressed in a vibrant orange‑to‑violet gradient kit with subtle crosshair patterns, the rabbit embodies both style and strength. The dynamic pose, international stadium backdrop, and bold colors make this artwork perfect for soccer fans, animal lovers, and anyone who thrives on playful chaos.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -217,7 +217,7 @@ export function goalbunnyfrenzyclassic_main(){
         name:"Goal Bunny Frenzy</br> Global Soccer Edition </br> (Classic Shirt)",
         creator:"Joseph Morales",
         Price: 32.00,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"Unleash the madness of the pitch with this high‑energy rabbit goalkeeper design! Featuring a full‑body leap in painterly brush strokes, this fearless bunny dives mid‑air to snatch the ball with a grin that’s equal parts crazy and determined. Dressed in a vibrant orange‑to‑violet gradient kit with subtle crosshair patterns, the rabbit embodies both style and strength. The dynamic pose, international stadium backdrop, and bold colors make this artwork perfect for soccer fans, animal lovers, and anyone who thrives on playful chaos.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -301,7 +301,7 @@ export function goalbunnyfrenzypremium_main(){
         name:"Goal Bunny Frenzy </br> Global Soccer Edition </br> (Premium Shirt)",
         creator:"Joseph Morales",
         Price: 46.35,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"Unleash the madness of the pitch with this high‑energy rabbit goalkeeper design! Featuring a full‑body leap in painterly brush strokes, this fearless bunny dives mid‑air to snatch the ball with a grin that’s equal parts crazy and determined. Dressed in a vibrant orange‑to‑violet gradient kit with subtle crosshair patterns, the rabbit embodies both style and strength. The dynamic pose, international stadium backdrop, and bold colors make this artwork perfect for soccer fans, animal lovers, and anyone who thrives on playful chaos.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -385,7 +385,7 @@ export function goalbunnyfrenzyoversized_main(){
         name:"Goal Bunny Frenzy </br>Global Soccer Edition </br> (Oversized Shirt)",
         creator:"Joseph Morales",
         Price: 37.00,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"Unleash the madness of the pitch with this high‑energy rabbit goalkeeper design! Featuring a full‑body leap in painterly brush strokes, this fearless bunny dives mid‑air to snatch the ball with a grin that’s equal parts crazy and determined. Dressed in a vibrant orange‑to‑violet gradient kit with subtle crosshair patterns, the rabbit embodies both style and strength. The dynamic pose, international stadium backdrop, and bold colors make this artwork perfect for soccer fans, animal lovers, and anyone who thrives on playful chaos.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -468,7 +468,7 @@ export function goalbunnyfrenzysweatshirt_main(){
         name:"Goal Bunny Frenzy </br>Global Soccer Edition </br> (Sweat Shirt)",
         creator:"Joseph Morales",
         Price: 48.00,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"Unleash the madness of the pitch with this high‑energy rabbit goalkeeper design! Featuring a full‑body leap in painterly brush strokes, this fearless bunny dives mid‑air to snatch the ball with a grin that’s equal parts crazy and determined. Dressed in a vibrant orange‑to‑violet gradient kit with subtle crosshair patterns, the rabbit embodies both style and strength. The dynamic pose, international stadium backdrop, and bold colors make this artwork perfect for soccer fans, animal lovers, and anyone who thrives on playful chaos.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -551,7 +551,7 @@ export function goalbunnyfrenzypremiumoversizedhoodie_main(){
         name:"Goal Bunny Frenzy</br> Global Soccer Edition </br> ( Premium Oversized Hoodie )",
         creator:"Joseph Morales",
         Price: 68.00,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"Unleash the madness of the pitch with this high‑energy rabbit goalkeeper design! Featuring a full‑body leap in painterly brush strokes, this fearless bunny dives mid‑air to snatch the ball with a grin that’s equal parts crazy and determined. Dressed in a vibrant orange‑to‑violet gradient kit with subtle crosshair patterns, the rabbit embodies both style and strength. The dynamic pose, international stadium backdrop, and bold colors make this artwork perfect for soccer fans, animal lovers, and anyone who thrives on playful chaos.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -634,7 +634,7 @@ export function goalbunnyfrenzylightweighthoodie_main(){
         name:"Goal Bunny Frenzy </br>Global Soccer Edition</br> (Lightweight Hoodie)",
         creator:"Joseph Morales",
         Price: 62.21,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"Unleash the madness of the pitch with this high‑energy rabbit goalkeeper design! Featuring a full‑body leap in painterly brush strokes, this fearless bunny dives mid‑air to snatch the ball with a grin that’s equal parts crazy and determined. Dressed in a vibrant orange‑to‑violet gradient kit with subtle crosshair patterns, the rabbit embodies both style and strength. The dynamic pose, international stadium backdrop, and bold colors make this artwork perfect for soccer fans, animal lovers, and anyone who thrives on playful chaos.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -717,7 +717,7 @@ export function goalbunnyfrenzypremiumoversizedsweatshirt_main(){
         name:"Goal Bunny Frenzy </br> Global Soccer Edition</br> (Premium Oversized Sweatshirt)",
         creator:"Joseph Morales",
         Price: 62.00,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"Unleash the madness of the pitch with this high‑energy rabbit goalkeeper design! Featuring a full‑body leap in painterly brush strokes, this fearless bunny dives mid‑air to snatch the ball with a grin that’s equal parts crazy and determined. Dressed in a vibrant orange‑to‑violet gradient kit with subtle crosshair patterns, the rabbit embodies both style and strength. The dynamic pose, international stadium backdrop, and bold colors make this artwork perfect for soccer fans, animal lovers, and anyone who thrives on playful chaos.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
