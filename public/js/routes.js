@@ -40,6 +40,7 @@ import { shockwavestrikerpremiumoversizedsweatshirtmain } from './pages/Shockwav
 import { goalbunnyfrenzymain } from './pages/GoalBunnyFrenzy/GoalBunnyFrenzy.js';
 import { goalbunnyfrenzyclassicmain } from './pages/GoalBunnyFrenzy/goalbunnyfrenzyclassic.js';
 import { goalbunnyfrenzypremiummain } from './pages/GoalBunnyFrenzy/goalbunnyfrenzypremium.js';
+import { goalbunnyfrenzyoversizedmain } from './pages/GoalBunnyFrenzy/goalbunnyfrenzyoversized.js';
 
 export const routes = {
     home: homePage,
@@ -88,5 +89,6 @@ export const routes = {
 
     goalbunnyfrenzy: goalbunnyfrenzymain,
     goalbunnyfrenzyclassicshirt: goalbunnyfrenzyclassicmain,
-    goalbunnyfrenzypremiumshirt: goalbunnyfrenzypremiummain
+    goalbunnyfrenzypremiumshirt: goalbunnyfrenzypremiummain,
+    goalbunnyfrenzyoversizedshirt: goalbunnyfrenzyoversizedmain
 };
