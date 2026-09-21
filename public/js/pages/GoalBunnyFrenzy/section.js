@@ -59,7 +59,7 @@ export function goalbunnyfrenzy_section(){
             0,
             0,
             "Premium Oversized Hoodie",
-            "/GoalBunnyFrenzy/shockwavestrikerpremiumoversizedhoodie"
+            "/GoalBunnyFrenzy/goalbunnyfrenzypremiumoversizedhoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

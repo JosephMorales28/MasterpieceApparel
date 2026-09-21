@@ -42,6 +42,7 @@ import { goalbunnyfrenzyclassicmain } from './pages/GoalBunnyFrenzy/goalbunnyfre
 import { goalbunnyfrenzypremiummain } from './pages/GoalBunnyFrenzy/goalbunnyfrenzypremium.js';
 import { goalbunnyfrenzyoversizedmain } from './pages/GoalBunnyFrenzy/goalbunnyfrenzyoversized.js';
 import { goalbunnyfrenzysweatshirtmain } from './pages/GoalBunnyFrenzy/goalbunnyfrenzysweatshirt.js';
+import { goalbunnyfrenzypremiumoversizedhoodiemain } from './pages/GoalBunnyFrenzy/goalbunnyfrenzypremiumoversizedhoodie.js';
 
 export const routes = {
     home: homePage,
@@ -92,5 +93,6 @@ export const routes = {
     goalbunnyfrenzyclassicshirt: goalbunnyfrenzyclassicmain,
     goalbunnyfrenzypremiumshirt: goalbunnyfrenzypremiummain,
     goalbunnyfrenzyoversizedshirt: goalbunnyfrenzyoversizedmain,
-    goalbunnyfrenzysweatshirt: goalbunnyfrenzysweatshirtmain
+    goalbunnyfrenzysweatshirt: goalbunnyfrenzysweatshirtmain,
+    goalbunnyfrenzypremiumoversizedhoodie: goalbunnyfrenzypremiumoversizedhoodiemain
 };

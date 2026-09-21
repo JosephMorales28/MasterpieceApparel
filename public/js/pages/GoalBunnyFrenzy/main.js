@@ -536,19 +536,19 @@ export function goalbunnyfrenzysweatshirt_gallery(){
     `;
 }
 
-export function shockwavestrikerpremiumoversizedhoodie_main(){
+export function goalbunnyfrenzypremiumoversizedhoodie_main(){
 
-    const shockwavestrikerpremiumoversizedhoodiemain_product=[
+    const goalbunnyfrenzypremiumoversizedhoodiemain_product=[
         new GoalBunnyFrenzyPremiumOversizedHoodieMainProduct(
             "/img/idontfish.webp",
-            "Shockwave Striker",
+            "Goal Bunny Frenzy Global Soccer Edition",
             0,
             0
         )
     ];
 
-    const shockwavestrikerpremiumoversizedhoodieinfo={
-        name:"Shockwave Striker </br> ( Premium Oversized Hoodie )",
+    const goalbunnyfrenzypremiumoversizedhoodieinfo={
+        name:"Goal Bunny Frenzy</br> Global Soccer Edition </br> ( Premium Oversized Hoodie )",
         creator:"Joseph Morales",
         Price: 68.00,
         details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
@@ -568,28 +568,28 @@ export function shockwavestrikerpremiumoversizedhoodie_main(){
         }
     };
 
-    const shockwavestrikerpremiumoversizedhoodieHTML=shockwavestrikerpremiumoversizedhoodiemain_product.map(shockwavestrikerpremiumoversizedhoodieMP=>shockwavestrikerpremiumoversizedhoodieMP.getGoalBunnyFrenzyPremiumOversizedHoodieMainProduct()).join('');
+    const goalbunnyfrenzypremiumoversizedhoodieHTML=goalbunnyfrenzypremiumoversizedhoodiemain_product.map(goalbunnyfrenzypremiumoversizedhoodieMP=>goalbunnyfrenzypremiumoversizedhoodieMP.getGoalBunnyFrenzyPremiumOversizedHoodieMainProduct()).join('');
 
-    const shockwavestrikerpremiumoversizedhoodieinfoHTML=`
-        <h1>${shockwavestrikerpremiumoversizedhoodieinfo.name}</h1>
-        <p>Created by : ${shockwavestrikerpremiumoversizedhoodieinfo.creator}</p>
-        <strong>$ ${shockwavestrikerpremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
+    const goalbunnyfrenzypremiumoversizedhoodieinfoHTML=`
+        <h1>${goalbunnyfrenzypremiumoversizedhoodieinfo.name}</h1>
+        <p>Created by : ${goalbunnyfrenzypremiumoversizedhoodieinfo.creator}</p>
+        <strong>$ ${goalbunnyfrenzypremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${shockwavestrikerpremiumoversizedhoodieinfo.details}</p>
+        <p>${goalbunnyfrenzypremiumoversizedhoodieinfo.details}</p>
         <h4>Type:</h4>
-        <p>${shockwavestrikerpremiumoversizedhoodieinfo.type} are ${shockwavestrikerpremiumoversizedhoodieinfo.fabric}</p>
+        <p>${goalbunnyfrenzypremiumoversizedhoodieinfo.type} are ${goalbunnyfrenzypremiumoversizedhoodieinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${shockwavestrikerpremiumoversizedhoodieinfo.size.s}, ${shockwavestrikerpremiumoversizedhoodieinfo.size.m}, ${shockwavestrikerpremiumoversizedhoodieinfo.size.l}, ${shockwavestrikerpremiumoversizedhoodieinfo.size.xl}, ${shockwavestrikerpremiumoversizedhoodieinfo.size.xxl}, ${shockwavestrikerpremiumoversizedhoodieinfo.size.xxxl}</p>
+        <p>${goalbunnyfrenzypremiumoversizedhoodieinfo.size.s}, ${goalbunnyfrenzypremiumoversizedhoodieinfo.size.m}, ${goalbunnyfrenzypremiumoversizedhoodieinfo.size.l}, ${goalbunnyfrenzypremiumoversizedhoodieinfo.size.xl}, ${goalbunnyfrenzypremiumoversizedhoodieinfo.size.xxl}, ${goalbunnyfrenzypremiumoversizedhoodieinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${shockwavestrikerpremiumoversizedhoodieHTML}
+                        ${goalbunnyfrenzypremiumoversizedhoodieHTML}
                     </div>
                     <div>
-                         ${shockwavestrikerpremiumoversizedhoodieinfoHTML}
+                         ${goalbunnyfrenzypremiumoversizedhoodieinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $40.80</button>
@@ -600,20 +600,20 @@ export function shockwavestrikerpremiumoversizedhoodie_main(){
            `;
 }
 
-export function shockwavestrikerpremiumoversizedhoodie_gallery(){
+export function goalbunnyfrenzypremiumoversizedhoodie_gallery(){
 
-    const shockwavestrikerpremiumoversizedhoodiegallery={
+    const goalbunnyfrenzypremiumoversizedhoodiegallery={
         img: "/img/gallery1.webp",
-        alt:"Shockwave Striker"
+        alt:"Goal Bunny Frenzy Global Soccer Edition"
     }
     return `
-          <div id="shockwavestrikerpremiumoversizedhoodiegallery">
+          <div id="goalbunnyfrenzypremiumoversizedhoodiegallery">
               <h1>Image Product</h1>
-              <div class="shockwavestrikerpremiumoversizedhoodie_gallery_flex">
-                 <img src="${shockwavestrikerpremiumoversizedhoodiegallery.img}" alt="${shockwavestrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerpremiumoversizedhoodiegallery.img}" alt="${shockwavestrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerpremiumoversizedhoodiegallery.img}" alt="${shockwavestrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerpremiumoversizedhoodiegallery.img}" alt="${shockwavestrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="goalbunnyfrenzypremiumoversizedhoodie_gallery_flex">
+                 <img src="${goalbunnyfrenzypremiumoversizedhoodiegallery.img}" alt="${goalbunnyfrenzypremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalbunnyfrenzypremiumoversizedhoodiegallery.img}" alt="${goalbunnyfrenzypremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalbunnyfrenzypremiumoversizedhoodiegallery.img}" alt="${goalbunnyfrenzypremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalbunnyfrenzypremiumoversizedhoodiegallery.img}" alt="${goalbunnyfrenzypremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;

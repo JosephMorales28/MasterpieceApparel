@@ -232,6 +232,10 @@
     {
       "source": "/GoalBunnyFrenzy/goalbunnyfrenzysweatshirt",
       "destination": "/js/pages/GoalBunnyFrenzy/goalbunnyfrenzysweatshirt"
+    },
+    {
+      "source": "/GoalBunnyFrenzy/goalbunnyfrenzypremiumoversizedhoodie",
+      "destination": "/js/pages/GoalBunnyFrenzy/goalbunnyfrenzypremiumoversizedhoodie"
     }
   ]
 }
