@@ -18,7 +18,7 @@ class ImageSectionProduct{
     }
 }
 
-export function shockwavestriker_section(){
+export function goalkeepergonebananas_section(){
 
     const imagesection_product=[
         new ImageSectionProduct(

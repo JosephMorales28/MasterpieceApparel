@@ -68,6 +68,7 @@ export function shopSection(search=""){
                 1,
                 1,
                 "Goal Keeper Gone Bananas Monkey Soccer Madness",
+                "./goalkeepergonebananas"
         ),
         new ImageProduct(
                 "./img/Lightning Paw Striker.webp",

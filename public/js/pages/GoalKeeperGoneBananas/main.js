@@ -118,19 +118,19 @@ class GoalKeeperGoneBananasPremiumOversizedSweatshirtMainProduct{
     }
 }
 
-export function shockwavestriker_main(){
+export function goalkeepergonebananas_main(){
     
-    const shockwavestrikermain_product=[
+    const goalkeepergonebananasmain_product=[
         new GoalKeeperGoneBananasMainProduct(
             "/img/idontfish.webp",
-            "Shockwave Striker",
+            "Goal Keeper gone Bananas Monkey Soccer Madness",
             0,
             0
         )
     ];
 
-    const shockwavestrikerinfo={
-        name:"Shockwave Striker </br> (Essential Shirt)",
+    const goalkeepergonebananasinfo={
+        name:"GoalKeeper Gone Bananas</br>Monkey Soccer Madness </br> (Essential Shirt)",
         creator:"Joseph Morales",
         Price: 30.69,
         details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
@@ -150,28 +150,28 @@ export function shockwavestriker_main(){
         }
     };
     
-    const shockwavestrikerHTML=shockwavestrikermain_product.map(shockwavestrikerMP=>shockwavestrikerMP.getGoalKeeperGoneBananasMainProduct()).join('');
+    const goalkeepergonebananasHTML=goalkeepergonebananasmain_product.map(goalkeepergonebananasMP=>goalkeepergonebananasMP.getGoalKeeperGoneBananasMainProduct()).join('');
     
-    const shockwavestrikerinfoHTML=`
-        <h1>${shockwavestrikerinfo.name}</h1>
-        <p>Created by : ${shockwavestrikerinfo.creator}</p>
-        <strong>$ ${shockwavestrikerinfo.Price.toFixed(2)}</strong>
+    const goalkeepergonebananasinfoHTML=`
+        <h1>${goalkeepergonebananasinfo.name}</h1>
+        <p>Created by : ${goalkeepergonebananasinfo.creator}</p>
+        <strong>$ ${goalkeepergonebananasinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${shockwavestrikerinfo.details}</p>
+        <p>${goalkeepergonebananasinfo.details}</p>
         <h4>Type:</h4>
-        <p>${shockwavestrikerinfo.type} are ${shockwavestrikerinfo.fabric}</p>
+        <p>${goalkeepergonebananasinfo.type} are ${goalkeepergonebananasinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${shockwavestrikerinfo.size.s}, ${shockwavestrikerinfo.size.m}, ${shockwavestrikerinfo.size.l}, ${shockwavestrikerinfo.size.xl}, ${shockwavestrikerinfo.size.xxl}, ${shockwavestrikerinfo.size.xxxl}</p>
+        <p>${goalkeepergonebananasinfo.size.s}, ${goalkeepergonebananasinfo.size.m}, ${goalkeepergonebananasinfo.size.l}, ${goalkeepergonebananasinfo.size.xl}, ${goalkeepergonebananasinfo.size.xxl}, ${goalkeepergonebananasinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${shockwavestrikerHTML}
+                        ${goalkeepergonebananasHTML}
                     </div>
                     <div>
-                         ${shockwavestrikerinfoHTML}
+                         ${goalkeepergonebananasinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $26.07</button>
@@ -182,20 +182,20 @@ export function shockwavestriker_main(){
            `;
 }
 
-export function shockwavestrikermain_gallery(){
+export function goalkeepergonebananasmain_gallery(){
 
-    const shockwavestrikergallery={
+    const goalkeepergonebananasgallery={
         img: "/img/gallery1.webp",
-        alt:"Shockwave Striker"
+        alt:"Goal Keeper Gone Bananas Monkey Soccer Madness"
     }
     return `
-          <div id="shockwavestrikergallery">
+          <div id="goalkeepergonebananasgallery">
               <h1>Image Product</h1>
-              <div class="shockwavestriker_gallery_flex">
-                 <img src="${shockwavestrikergallery.img}" alt="${shockwavestrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikergallery.img}" alt="${shockwavestrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikergallery.img}" alt="${shockwavestrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikergallery.img}" alt="${shockwavestrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="goalkeepergonebananas_gallery_flex">
+                 <img src="${goalkeepergonebananasgallery.img}" alt="${goalkeepergonebananasgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananasgallery.img}" alt="${goalkeepergonebananasgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananasgallery.img}" alt="${goalkeepergonebananasgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananasgallery.img}" alt="${goalkeepergonebananasgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;

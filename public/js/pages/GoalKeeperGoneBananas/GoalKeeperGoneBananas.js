@@ -1,6 +1,6 @@
-import { shockwavestriker_main, shockwavestrikermain_gallery } from "./main.js";
-import { shockwavestriker_section } from "./section.js";
+import { goalkeepergonebananas_main, goalkeepergonebananasmain_gallery } from "./main.js";
+import { goalkeepergonebananas_section } from "./section.js";
 
-export function shockwavestrikermain(){
-    return shockwavestriker_main() + shockwavestrikermain_gallery() + shockwavestriker_section();
+export function goalkeepergonebananasmain(){
+    return goalkeepergonebananas_main() + goalkeepergonebananasmain_gallery() + goalkeepergonebananas_section();
 }
