@@ -27,7 +27,7 @@ export function lightningpawstriker_section(){
             0,
             0,
             "Classic Shirt",
-            "/LightningPawStriker/goalkeepergonebananasclassicshirt"
+            "/LightningPawStriker/lightningpawstrikerclassicshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",

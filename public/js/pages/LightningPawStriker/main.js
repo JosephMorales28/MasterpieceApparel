@@ -202,19 +202,19 @@ export function lightningpawstrikermain_gallery(){
 
 }
 
-export function goalkeepergonebananasclassic_main(){
+export function lightningpawstrikerclassic_main(){
    
-    const goalkeepergonebananasclassic_mainproduct=[
+    const lightningpawstrikerclassic_mainproduct=[
         new LightningPawStrikerClassicMainProduct(
             "/img/idontfish.webp",
-            "GoalKeeper Gone Bananas Monkey Soccer Madness",
+            "Lightning Paw Striker",
             0,
             0
         )
     ];
 
-    const goalkeepergonebananasclassicinfo={
-        name:"Goal Keeper</br>Gone Bananas</br> Monkey Soccer Madness</br> (Classic Shirt)",
+    const lightningpawstrikerclassicinfo={
+        name:"Lightning Paw Striker</br>(Classic Shirt)",
         creator:"Joseph Morales",
         Price: 32.00,
         details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
@@ -234,28 +234,28 @@ export function goalkeepergonebananasclassic_main(){
         }
     };
 
-    const goalkeepergonebananasclassic_mainHTML=goalkeepergonebananasclassic_mainproduct.map(goalkeepergonebananasclassic_MainProducts=>goalkeepergonebananasclassic_MainProducts.getLightningPawStrikerClassicMainProduct()).join('')
+    const lightningpawstrikerclassic_mainHTML=lightningpawstrikerclassic_mainproduct.map(lightningpawstrikerclassic_MainProducts=>lightningpawstrikerclassic_MainProducts.getLightningPawStrikerClassicMainProduct()).join('')
     
-    const goalkeepergonebananasclassicinfoHTML=`
-        <h1>${goalkeepergonebananasclassicinfo.name}</h1>
-        <p>Created by : ${goalkeepergonebananasclassicinfo.creator}</p>
-        <strong>$ ${goalkeepergonebananasclassicinfo.Price.toFixed(2)}</strong>
+    const lightningpawstrikerclassicinfoHTML=`
+        <h1>${lightningpawstrikerclassicinfo.name}</h1>
+        <p>Created by : ${lightningpawstrikerclassicinfo.creator}</p>
+        <strong>$ ${lightningpawstrikerclassicinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${goalkeepergonebananasclassicinfo.details}</p>
+        <p>${lightningpawstrikerclassicinfo.details}</p>
         <h4>Type:</h4>
-        <p>${goalkeepergonebananasclassicinfo.type} are ${goalkeepergonebananasclassicinfo.fabric}</p>
+        <p>${lightningpawstrikerclassicinfo.type} are ${lightningpawstrikerclassicinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${goalkeepergonebananasclassicinfo.size.s}, ${goalkeepergonebananasclassicinfo.size.m}, ${goalkeepergonebananasclassicinfo.size.l}, ${goalkeepergonebananasclassicinfo.size.xl}, ${goalkeepergonebananasclassicinfo.size.xxl}, ${goalkeepergonebananasclassicinfo.size.xxxl}</p>
+        <p>${lightningpawstrikerclassicinfo.size.s}, ${lightningpawstrikerclassicinfo.size.m}, ${lightningpawstrikerclassicinfo.size.l}, ${lightningpawstrikerclassicinfo.size.xl}, ${lightningpawstrikerclassicinfo.size.xxl}, ${lightningpawstrikerclassicinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${goalkeepergonebananasclassic_mainHTML}
+                        ${lightningpawstrikerclassic_mainHTML}
                     </div>
                     <div>
-                         ${goalkeepergonebananasclassicinfoHTML}
+                         ${lightningpawstrikerclassicinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $27.20</button>
@@ -266,20 +266,20 @@ export function goalkeepergonebananasclassic_main(){
            `;
 }
 
-export function goalkeepergonebananasclassic_gallery(){
+export function lightningpawstrikerclassic_gallery(){
 
-    const goalkeepergonebananasclassicgallery={
+    const lightningpawstrikerclassicgallery={
         img: "/img/gallery1.webp",
-        alt:"Goal Keeper Gone Bananas Monkey Soccer Madness"
+        alt:"Lightning Paw Striker"
     }
     return `
-          <div id="goalkeepergonebananasclassicgallery">
+          <div id="lightningpawstrikerclassicgallery">
               <h1>Image Product</h1>
-              <div class="goalkeepergonebananasclassic_gallery_flex">
-                 <img src="${goalkeepergonebananasclassicgallery.img}" alt="${goalkeepergonebananasclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananasclassicgallery.img}" alt="${goalkeepergonebananasclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananasclassicgallery.img}" alt="${goalkeepergonebananasclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananasclassicgallery.img}" alt="${goalkeepergonebananasclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="lightningpawstrikerclassic_gallery_flex">
+                 <img src="${lightningpawstrikerclassicgallery.img}" alt="${lightningpawstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerclassicgallery.img}" alt="${lightningpawstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerclassicgallery.img}" alt="${lightningpawstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerclassicgallery.img}" alt="${lightningpawstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;

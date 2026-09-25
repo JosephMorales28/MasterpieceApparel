@@ -280,6 +280,10 @@
     {
       "source": "/lightningpawstriker",
       "destination": "/lightningpawstriker"
+    },
+    {
+      "source": "/LightningPawStriker/lightningpawstrikerclassicshirt",
+      "destination": "/js/pages/LightningPawStriker/lightningpawstrikerclassicshirt"
     }
   ]
 }
