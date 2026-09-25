@@ -133,7 +133,7 @@ export function goalkeepergonebananas_main(){
         name:"GoalKeeper Gone Bananas</br>Monkey Soccer Madness </br> (Essential Shirt)",
         creator:"Joseph Morales",
         Price: 30.69,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -217,7 +217,7 @@ export function goalkeepergonebananasclassic_main(){
         name:"Goal Keeper</br>Gone Bananas</br> Monkey Soccer Madness</br> (Classic Shirt)",
         creator:"Joseph Morales",
         Price: 32.00,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -301,7 +301,7 @@ export function goalkeepergonebananaspremium_main(){
         name:"GoalKeeper Gone Bananas</br>Monkey Soccer Madness</br> (Premium Shirt)",
         creator:"Joseph Morales",
         Price: 46.35,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -385,7 +385,7 @@ export function goalkeepergonebananasoversized_main(){
         name:"Goal Keeper Gone Bananas</br>Monkey Soccer Madness</br> (Oversized Shirt)",
         creator:"Joseph Morales",
         Price: 37.00,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -468,7 +468,7 @@ export function goalkeepergonebananassweatshirt_main(){
         name:"Goal Keeper Gone Bananas</br>Monkey Soccer Madness</br> (Sweat Shirt)",
         creator:"Joseph Morales",
         Price: 48.00,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -551,7 +551,7 @@ export function goalkeepergonebananaspremiumoversizedhoodie_main(){
         name:"Goal Keeper Gone Bananas</br>Monkey Soccer Madness</br>( Premium Oversized Hoodie )",
         creator:"Joseph Morales",
         Price: 68.00,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -634,7 +634,7 @@ export function goalkeepergonebananaslightweighthoodie_main(){
         name:"Goal Keeper Gone Bananas</br>Monkey Soccer Madness</br> (Lightweight Hoodie)",
         creator:"Joseph Morales",
         Price: 62.21,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -717,7 +717,7 @@ export function goalkeepergonebananaspremiumoversizedsweatshirt_main(){
         name:"Goal Keeper Gone Bananas</br>Monkey Soccer Madness</br>(Premium Oversized Sweatshirt)",
         creator:"Joseph Morales",
         Price: 62.00,
-        details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
+        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
