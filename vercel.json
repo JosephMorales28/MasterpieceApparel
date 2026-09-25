@@ -248,6 +248,10 @@
     {
       "source": "/goalkeepergonebananas",
       "destination": "/goalkeepergonebananas"
+    },
+    {
+      "source": "/GoalKeeperGoneBananas/goalkeepergonebananasclassicshirt",
+      "destination": "/js/pages/GoalKeeperGoneBananas/goalkeepergonebananasclassicshirt"
     }
   ]
 }

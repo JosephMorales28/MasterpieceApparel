@@ -202,19 +202,19 @@ export function goalkeepergonebananasmain_gallery(){
 
 }
 
-export function shockwavestrikerclassic_main(){
+export function goalkeepergonebananasclassic_main(){
    
-    const shockwavestrikerclassic_mainproduct=[
+    const goalkeepergonebananasclassic_mainproduct=[
         new GoalKeeperGoneBananasClassicMainProduct(
             "/img/idontfish.webp",
-            "Shockwave Striker - classic shirt",
+            "GoalKeeper Gone Bananas Monkey Soccer Madness",
             0,
             0
         )
     ];
 
-    const shockwavestrikerclassicinfo={
-        name:"Shockwave Striker </br> (Classic Shirt)",
+    const goalkeepergonebananasclassicinfo={
+        name:"Goal Keeper</br>Gone Bananas</br> Monkey Soccer Madness</br> (Classic Shirt)",
         creator:"Joseph Morales",
         Price: 32.00,
         details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
@@ -234,28 +234,28 @@ export function shockwavestrikerclassic_main(){
         }
     };
 
-    const shockwavestrikerclassic_mainHTML=shockwavestrikerclassic_mainproduct.map(shockwavestrikerclassic_MainProducts=>shockwavestrikerclassic_MainProducts.getGoalKeeperGoneBananasClassicMainProduct()).join('')
+    const goalkeepergonebananasclassic_mainHTML=goalkeepergonebananasclassic_mainproduct.map(goalkeepergonebananasclassic_MainProducts=>goalkeepergonebananasclassic_MainProducts.getGoalKeeperGoneBananasClassicMainProduct()).join('')
     
-    const shockwavestrikerclassicinfoHTML=`
-        <h1>${shockwavestrikerclassicinfo.name}</h1>
-        <p>Created by : ${shockwavestrikerclassicinfo.creator}</p>
-        <strong>$ ${shockwavestrikerclassicinfo.Price.toFixed(2)}</strong>
+    const goalkeepergonebananasclassicinfoHTML=`
+        <h1>${goalkeepergonebananasclassicinfo.name}</h1>
+        <p>Created by : ${goalkeepergonebananasclassicinfo.creator}</p>
+        <strong>$ ${goalkeepergonebananasclassicinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${shockwavestrikerclassicinfo.details}</p>
+        <p>${goalkeepergonebananasclassicinfo.details}</p>
         <h4>Type:</h4>
-        <p>${shockwavestrikerclassicinfo.type} are ${shockwavestrikerclassicinfo.fabric}</p>
+        <p>${goalkeepergonebananasclassicinfo.type} are ${goalkeepergonebananasclassicinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${shockwavestrikerclassicinfo.size.s}, ${shockwavestrikerclassicinfo.size.m}, ${shockwavestrikerclassicinfo.size.l}, ${shockwavestrikerclassicinfo.size.xl}, ${shockwavestrikerclassicinfo.size.xxl}, ${shockwavestrikerclassicinfo.size.xxxl}</p>
+        <p>${goalkeepergonebananasclassicinfo.size.s}, ${goalkeepergonebananasclassicinfo.size.m}, ${goalkeepergonebananasclassicinfo.size.l}, ${goalkeepergonebananasclassicinfo.size.xl}, ${goalkeepergonebananasclassicinfo.size.xxl}, ${goalkeepergonebananasclassicinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${shockwavestrikerclassic_mainHTML}
+                        ${goalkeepergonebananasclassic_mainHTML}
                     </div>
                     <div>
-                         ${shockwavestrikerclassicinfoHTML}
+                         ${goalkeepergonebananasclassicinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $27.20</button>
@@ -266,20 +266,20 @@ export function shockwavestrikerclassic_main(){
            `;
 }
 
-export function shockwavestrikerclassic_gallery(){
+export function goalkeepergonebananasclassic_gallery(){
 
-    const shockwavestrikerclassicgallery={
+    const goalkeepergonebananasclassicgallery={
         img: "/img/gallery1.webp",
-        alt:"Shockwave Striker"
+        alt:"Goal Keeper Gone Bananas Monkey Soccer Madness"
     }
     return `
-          <div id="shockwavestrikerclassicgallery">
+          <div id="goalkeepergonebananasclassicgallery">
               <h1>Image Product</h1>
-              <div class="shockwavestrikerclassic_gallery_flex">
-                 <img src="${shockwavestrikerclassicgallery.img}" alt="${shockwavestrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerclassicgallery.img}" alt="${shockwavestrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerclassicgallery.img}" alt="${shockwavestrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerclassicgallery.img}" alt="${shockwavestrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="goalkeepergonebananasclassic_gallery_flex">
+                 <img src="${goalkeepergonebananasclassicgallery.img}" alt="${goalkeepergonebananasclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananasclassicgallery.img}" alt="${goalkeepergonebananasclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananasclassicgallery.img}" alt="${goalkeepergonebananasclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananasclassicgallery.img}" alt="${goalkeepergonebananasclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;

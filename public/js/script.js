@@ -9,7 +9,7 @@ const supportedPages=['about','shop','service','blog','contact',404,
                       'celestialharechaos','celestialharechaosclassicshirt','celestialharechaospremiumshirt','celestialharechaosoversizedshirt','celestialharechaossweatshirt','celestialharechaospremiumoversizedhoodie','celestialharechaoslightweighthoodie','celestialharechaospremiumoversizedsweatshirt',
                       'shockwavestriker','shockwavestrikerclassicshirt','shockwavestrikerpremiumshirt','shockwavestrikeroversizedshirt','shockwavestrikersweatshirt','shockwavestrikerpremiumoversizedhoodie','shockwavestrikerlightweighthoodie','shockwavestrikerpremiumoversizedsweatshirt',
                       'goalbunnyfrenzy','goalbunnyfrenzyclassicshirt','goalbunnyfrenzypremiumshirt','goalbunnyfrenzyoversizedshirt','goalbunnyfrenzysweatshirt','goalbunnyfrenzypremiumoversizedhoodie','goalbunnyfrenzylightweighthoodie','goalbunnyfrenzypremiumoversizedsweatshirt',
-                      'goalkeepergonebananas'];
+                      'goalkeepergonebananas','goalkeepergonebananasclassicshirt'];
 const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() || 'home';
 const pageName=lastPathSegment.replace(/\.html$/, '');
 const page=pageName==='index' || pageName==='home' ? 'home' : supportedPages.includes(pageName) ? pageName : 'notfoundpage';
