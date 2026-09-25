@@ -67,7 +67,7 @@ export function goalkeepergonebananas_section(){
             0,
             0,
             "Lightweight Hoodie",
-            "/GoalKeeperGoneBananas/shockwavestrikerlightweighthoodie"
+            "/GoalKeeperGoneBananas/goalkeepergonebananaslightweighthoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
