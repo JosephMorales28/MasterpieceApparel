@@ -286,19 +286,19 @@ export function goalkeepergonebananasclassic_gallery(){
 
 }
 
-export function shockwavestrikerpremium_main(){
+export function goalkeepergonebananaspremium_main(){
    
-    const shockwavestrikerpremium_mainproduct=[
+    const goalkeepergonebananaspremium_mainproduct=[
         new GoalKeeperGoneBananasPremiumMainProduct(
             "/img/idontfish.webp",
-            "Shockwave Striker - Premium shirt",
+            "Goal Keeper Gone Bananas Monkey Soccer Madness - Premium shirt",
             0,
             0
         )
     ];
 
-    const shockwavestrikerpremiuminfo={
-        name:"Shockwave Striker </br> (Premium Shirt)",
+    const goalkeepergonebananaspremiuminfo={
+        name:"GoalKeeper Gone Bananas</br>Monkey Soccer Madness</br> (Premium Shirt)",
         creator:"Joseph Morales",
         Price: 46.35,
         details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
@@ -318,28 +318,28 @@ export function shockwavestrikerpremium_main(){
         }
     };
 
-    const shockwavestrikerpremium_mainHTML=shockwavestrikerpremium_mainproduct.map(shockwavestrikerpremium_MainProducts=>shockwavestrikerpremium_MainProducts.getGoalKeeperGoneBananasPremiumMainProduct()).join('')
+    const goalkeepergonebananaspremium_mainHTML=goalkeepergonebananaspremium_mainproduct.map(goalkeepergonebananaspremium_MainProducts=>goalkeepergonebananaspremium_MainProducts.getGoalKeeperGoneBananasPremiumMainProduct()).join('')
     
-    const shockwavestrikerpremiuminfoHTML=`
-        <h1>${shockwavestrikerpremiuminfo.name}</h1>
-        <p>Created by : ${shockwavestrikerpremiuminfo.creator}</p>
-        <strong>$ ${shockwavestrikerpremiuminfo.Price.toFixed(2)}</strong>
+    const goalkeepergonebananaspremiuminfoHTML=`
+        <h1>${goalkeepergonebananaspremiuminfo.name}</h1>
+        <p>Created by : ${goalkeepergonebananaspremiuminfo.creator}</p>
+        <strong>$ ${goalkeepergonebananaspremiuminfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${shockwavestrikerpremiuminfo.details}</p>
+        <p>${goalkeepergonebananaspremiuminfo.details}</p>
         <h4>Type:</h4>
-        <p>${shockwavestrikerpremiuminfo.type} are ${shockwavestrikerpremiuminfo.fabric}</p>
+        <p>${goalkeepergonebananaspremiuminfo.type} are ${goalkeepergonebananaspremiuminfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${shockwavestrikerpremiuminfo.size.s}, ${shockwavestrikerpremiuminfo.size.m}, ${shockwavestrikerpremiuminfo.size.l}, ${shockwavestrikerpremiuminfo.size.xl}, ${shockwavestrikerpremiuminfo.size.xxl}, ${shockwavestrikerpremiuminfo.size.xxxl}</p>
+        <p>${goalkeepergonebananaspremiuminfo.size.s}, ${goalkeepergonebananaspremiuminfo.size.m}, ${goalkeepergonebananaspremiuminfo.size.l}, ${goalkeepergonebananaspremiuminfo.size.xl}, ${goalkeepergonebananaspremiuminfo.size.xxl}, ${goalkeepergonebananaspremiuminfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${shockwavestrikerpremium_mainHTML}
+                        ${goalkeepergonebananaspremium_mainHTML}
                     </div>
                     <div>
-                         ${shockwavestrikerpremiuminfoHTML}
+                         ${goalkeepergonebananaspremiuminfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $46.35</button>
@@ -350,20 +350,20 @@ export function shockwavestrikerpremium_main(){
            `;
 }
 
-export function shockwavestrikerpremium_gallery(){
+export function goalkeepergonebananaspremium_gallery(){
 
-    const shockwavestrikerpremiumgallery={
+    const goalkeepergonebananaspremiumgallery={
         img: "/img/gallery1.webp",
-        alt:"Shockwave Striker"
+        alt:"Goal Keeper Gone Bananas Monkey Soccer Madness"
     }
     return `
-          <div id="shockwavestrikerpremiumgallery">
+          <div id="goalkeepergonebananaspremiumgallery">
               <h1>Image Product</h1>
-              <div class="shockwavestrikerpremium_gallery_flex">
-                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikerpremiumgallery.img}" alt="${shockwavestrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="goalkeepergonebananaspremium_gallery_flex">
+                 <img src="${goalkeepergonebananaspremiumgallery.img}" alt="${goalkeepergonebananaspremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananaspremiumgallery.img}" alt="${goalkeepergonebananaspremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananaspremiumgallery.img}" alt="${goalkeepergonebananaspremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananaspremiumgallery.img}" alt="${goalkeepergonebananaspremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
