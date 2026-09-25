@@ -75,7 +75,7 @@ export function goalkeepergonebananas_section(){
             0,
             0,
             "Premium Oversized Sweat Shirt",
-            "/GoalKeeperGoneBananas/shockwavestrikerpremiumoversizedsweatshirt"
+            "/GoalKeeperGoneBananas/goalkeepergonebananaspremiumoversizedsweatshirt"
         )
     ];
 
