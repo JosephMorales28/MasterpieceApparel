@@ -260,6 +260,10 @@
     {
       "source": "/GoalKeeperGoneBananas/goalkeepergonebananasoversizedshirt",
       "destination": "/js/pages/GoalKeeperGoneBananas/goalkeepergonebananasoversizedshirt"
+    },
+    {
+      "source": "/GoalKeeperGoneBananas/goalkeepergonebananassweatshirt",
+      "destination": "/js/pages/GoalKeeperGoneBananas/goalkeepergonebananassweatshirt"
     }
   ]
 }

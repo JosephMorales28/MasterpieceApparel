@@ -453,19 +453,19 @@ export function goalkeepergonebananasoversized_gallery(){
     `;
 }
 
-export function shockwavestrikersweatshirt_main(){
+export function goalkeepergonebananassweatshirt_main(){
 
-    const shockwavestrikersweatshirtmain_product=[
+    const goalkeepergonebananassweatshirtmain_product=[
         new GoalKeeperGoneBananasSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "Shockwave Striker",
+            "Goal Keeper Gone Bananas Monkey Soccer Madness",
             0,
             0
         )
     ];
 
-    const shockwavestrikersweatshirtinfo={
-        name:"Shockwave Striker </br> (Sweat Shirt)",
+    const goalkeepergonebananassweatshirtinfo={
+        name:"Goal Keeper Gone Bananas</br>Monkey Soccer Madness</br> (Sweat Shirt)",
         creator:"Joseph Morales",
         Price: 48.00,
         details:"Thunderstrike Panther – Electric Striker Energy Unleash the storm on the field with this electrifying full‑body black panther design. Dressed in a yellow‑to‑blue gradient drifit uniform patterned with sharp triangles, the panther launches a lightning‑charged kick that crackles with raw power. Painterly brushstrokes capture every muscle, spark, and motion as dirt and grass fly beneath its strike. The wild grin and fierce eyes radiate fearless confidence — perfect for athletes, dreamers, and fans who play with heart and chaos.",
@@ -485,28 +485,28 @@ export function shockwavestrikersweatshirt_main(){
         }
     };
 
-    const shockwavestrikersweatshirtHTML=shockwavestrikersweatshirtmain_product.map(shockwavestrikersweatshirtMP=>shockwavestrikersweatshirtMP.getGoalKeeperGoneBananasSweatMainProduct()).join('');
+    const goalkeepergonebananassweatshirtHTML=goalkeepergonebananassweatshirtmain_product.map(goalkeepergonebananassweatshirtMP=>goalkeepergonebananassweatshirtMP.getGoalKeeperGoneBananasSweatMainProduct()).join('');
 
-    const shockwavestrikersweatshirtinfoHTML=`
-        <h1>${shockwavestrikersweatshirtinfo.name}</h1>
-        <p>Created by : ${shockwavestrikersweatshirtinfo.creator}</p>
-        <strong>$ ${shockwavestrikersweatshirtinfo.Price.toFixed(2)}</strong>
+    const goalkeepergonebananassweatshirtinfoHTML=`
+        <h1>${goalkeepergonebananassweatshirtinfo.name}</h1>
+        <p>Created by : ${goalkeepergonebananassweatshirtinfo.creator}</p>
+        <strong>$ ${goalkeepergonebananassweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${shockwavestrikersweatshirtinfo.details}</p>
+        <p>${goalkeepergonebananassweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${shockwavestrikersweatshirtinfo.type} are ${shockwavestrikersweatshirtinfo.fabric}</p>
+        <p>${goalkeepergonebananassweatshirtinfo.type} are ${goalkeepergonebananassweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${shockwavestrikersweatshirtinfo.size.s}, ${shockwavestrikersweatshirtinfo.size.m}, ${shockwavestrikersweatshirtinfo.size.l}, ${shockwavestrikersweatshirtinfo.size.xl}, ${shockwavestrikersweatshirtinfo.size.xxl}, ${shockwavestrikersweatshirtinfo.size.xxxl}</p>
+        <p>${goalkeepergonebananassweatshirtinfo.size.s}, ${goalkeepergonebananassweatshirtinfo.size.m}, ${goalkeepergonebananassweatshirtinfo.size.l}, ${goalkeepergonebananassweatshirtinfo.size.xl}, ${goalkeepergonebananassweatshirtinfo.size.xxl}, ${goalkeepergonebananassweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${shockwavestrikersweatshirtHTML}
+                        ${goalkeepergonebananassweatshirtHTML}
                     </div>
                     <div>
-                         ${shockwavestrikersweatshirtinfoHTML}
+                         ${goalkeepergonebananassweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $38.40</button>
@@ -517,20 +517,20 @@ export function shockwavestrikersweatshirt_main(){
            `;
 }
 
-export function shockwavestrikersweatshirt_gallery(){
+export function goalkeepergonebananassweatshirt_gallery(){
 
-    const shockwavestrikersweatshirtgallery={
+    const goalkeepergonebananassweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"shockwave striker"
+        alt:"Goal Keeper Gone Bananas Monkey Soccer Madness"
     }
     return `
-          <div id="shockwavestrikersweatshirtgallery">
+          <div id="goalkeepergonebananassweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="shockwavestrikersweatshirt_gallery_flex">
-                 <img src="${shockwavestrikersweatshirtgallery.img}" alt="${shockwavestrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikersweatshirtgallery.img}" alt="${shockwavestrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikersweatshirtgallery.img}" alt="${shockwavestrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${shockwavestrikersweatshirtgallery.img}" alt="${shockwavestrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="goalkeepergonebananassweatshirt_gallery_flex">
+                 <img src="${goalkeepergonebananassweatshirtgallery.img}" alt="${goalkeepergonebananassweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananassweatshirtgallery.img}" alt="${goalkeepergonebananassweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananassweatshirtgallery.img}" alt="${goalkeepergonebananassweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${goalkeepergonebananassweatshirtgallery.img}" alt="${goalkeepergonebananassweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
