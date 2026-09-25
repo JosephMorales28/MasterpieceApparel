@@ -43,7 +43,7 @@ export function goalkeepergonebananas_section(){
             0,
             0,
             "Oversized Shirt",
-            "/GoalKeeperGoneBananas/shockwavestrikeroversizedshirt"
+            "/GoalKeeperGoneBananas/goalkeepergonebananasoversizedshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
