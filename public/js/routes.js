@@ -53,6 +53,7 @@ import { goalkeepergonebananassweatshirtmain } from './pages/GoalKeeperGoneBanan
 import { goalkeepergonebananaspremiumoversizedhoodiemain } from './pages/GoalKeeperGoneBananas/goalkeepergonebananaspremiumoversizedhoodie.js';
 import { goalkeepergonebananaslightweighthoodiemain } from './pages/GoalKeeperGoneBananas/goalkeepergonebananaslightweighthoodie.js';
 import{ goalkeepergonebananaspremiumoversizedsweatshirtmain } from './pages/GoalKeeperGoneBananas/goalkeepergonebananaspremiumoversizedsweatshirt.js';
+import { lightningpawstrikermain } from './pages/LightningPawStriker/LightningPawStriker.js';
 
 export const routes = {
     home: homePage,
@@ -115,5 +116,7 @@ export const routes = {
     goalkeepergonebananassweatshirt: goalkeepergonebananassweatshirtmain,
     goalkeepergonebananaspremiumoversizedhoodie: goalkeepergonebananaspremiumoversizedhoodiemain,
     goalkeepergonebananaslightweighthoodie: goalkeepergonebananaslightweighthoodiemain,
-    goalkeepergonebananaspremiumoversizedsweatshirt: goalkeepergonebananaspremiumoversizedsweatshirtmain
+    goalkeepergonebananaspremiumoversizedsweatshirt: goalkeepergonebananaspremiumoversizedsweatshirtmain,
+
+    lightningpawstriker: lightningpawstrikermain
 };

@@ -276,6 +276,10 @@
     {
       "source": "/GoalKeeperGoneBananas/goalkeepergonebananaspremiumoversizedsweatshirt",
       "destination": "/js/pages/GoalKeeperGoneBananas/goalkeepergonebananaspremiumoversizedsweatshirt"
+    },
+    {
+      "source": "/lightningpawstriker",
+      "destination": "/lightningpawstriker"
     }
   ]
 }

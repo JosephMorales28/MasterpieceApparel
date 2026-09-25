@@ -76,6 +76,7 @@ export function shopSection(search=""){
                 1,
                 1,
                 "Lightning Paw Striker",
+                "./lightningpawstriker"
         ),
         new ImageProduct(
                 "./img/Hound of Thunder.webp",
