@@ -35,7 +35,7 @@ export function lightningpawstriker_section(){
             0,
             0,
             "Premium Shirt",
-            "/LightningPawStriker/goalkeepergonebananaspremiumshirt"
+            "/LightningPawStriker/lightningpawstrikerpremiumshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -43,7 +43,7 @@ export function lightningpawstriker_section(){
             0,
             0,
             "Oversized Shirt",
-            "/LightningPawStriker/goalkeepergonebananasoversizedshirt"
+            "/LightningPawStriker/lightningpawstrikeroversizedshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -51,7 +51,7 @@ export function lightningpawstriker_section(){
             0,
             0,
             "Sweat Shirt",
-            "/LightningPawStriker/goalkeepergonebananassweatshirt"
+            "/LightningPawStriker/lightningpawstrikersweatshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -59,7 +59,7 @@ export function lightningpawstriker_section(){
             0,
             0,
             "Premium Oversized Hoodie",
-            "/LightningPawStriker/goalkeepergonebananaspremiumoversizedhoodie"
+            "/LightningPawStriker/lightningpawstrikerpremiumoversizedhoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -67,7 +67,7 @@ export function lightningpawstriker_section(){
             0,
             0,
             "Lightweight Hoodie",
-            "/LightningPawStriker/goalkeepergonebananaslightweighthoodie"
+            "/LightningPawStriker/lightningpawstrikerlightweighthoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -75,7 +75,7 @@ export function lightningpawstriker_section(){
             0,
             0,
             "Premium Oversized Sweat Shirt",
-            "/LightningPawStriker/goalkeepergonebananaspremiumoversizedsweatshirt"
+            "/LightningPawStriker/lightningpawstrikerpremiumoversizedsweatshirt"
         )
     ];
 

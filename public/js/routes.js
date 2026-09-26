@@ -55,6 +55,12 @@ import { goalkeepergonebananaslightweighthoodiemain } from './pages/GoalKeeperGo
 import{ goalkeepergonebananaspremiumoversizedsweatshirtmain } from './pages/GoalKeeperGoneBananas/goalkeepergonebananaspremiumoversizedsweatshirt.js';
 import { lightningpawstrikermain } from './pages/LightningPawStriker/LightningPawStriker.js';
 import { lightningpawstrikerclassicmain } from './pages/LightningPawStriker/lightningpawstrikerclassic.js';
+import { lightningpawstrikerpremiummain } from './pages/LightningPawStriker/lightpawstrikerpremium.js';
+import { lightningpawstrikeroversizedmain } from './pages/LightningPawStriker/lightningpawstrikeroversized.js';
+import { lightningpawstrikersweatshirtmain } from './pages/LightningPawStriker/lightningpawstrikersweatshirt.js';
+import { lightningpawstrikerpremiumoversizedhoodiemain } from './pages/LightningPawStriker/lightningpawstrikerpremiumoversizedhoodie.js'
+import { lightningpawstrikerlightweighthoodiemain } from './pages/LightningPawStriker/lightningpawstrikerlightweighthoodie.js';
+import { lightningpawstrikerpremiumoversizedsweatshirtmain } from './pages/LightningPawStriker/lightningpawstrikerpremiumoversizedsweatshirt.js';
 
 export const routes = {
     home: homePage,
@@ -120,5 +126,11 @@ export const routes = {
     goalkeepergonebananaspremiumoversizedsweatshirt: goalkeepergonebananaspremiumoversizedsweatshirtmain,
 
     lightningpawstriker: lightningpawstrikermain,
-    lightningpawstrikerclassicshirt: lightningpawstrikerclassicmain
+    lightningpawstrikerclassicshirt: lightningpawstrikerclassicmain,
+    lightningpawstrikerpremiumshirt: lightningpawstrikerpremiummain,
+    lightningpawstrikeroversizedshirt: lightningpawstrikeroversizedmain,
+    lightningpawstrikersweatshirt: lightningpawstrikersweatshirtmain,
+    lightningpawstrikerpremiumoversizedhoodie: lightningpawstrikerpremiumoversizedhoodiemain,
+    lightningpawstrikerlightweighthoodie: lightningpawstrikerlightweighthoodiemain,
+    lightningpawstrikerpremiumoversizedsweatshirt: lightningpawstrikerpremiumoversizedsweatshirtmain
 };

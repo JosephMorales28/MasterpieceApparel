@@ -133,7 +133,7 @@ export function lightningpawstriker_main(){
         name:"Lightning Paw Striker</br>(Essential Shirt)",
         creator:"Joseph Morales",
         Price: 30.69,
-        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
+        details:"Unleash the storm with Golden Blitz, a high‑energy digital artwork featuring a fearless Golden Retriever in full‑body action. Dressed in a navy‑blue and lime‑green drifit uniform patterned with blossom shapes, this electrified striker kicks the ball with lightning precision on an international soccer field. Painterly brush strokes capture every spark of motion — from the glowing eyes to the thunderous strike — making this piece perfect for athletes, dog lovers, and dreamers chasing their goals.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -217,7 +217,7 @@ export function lightningpawstrikerclassic_main(){
         name:"Lightning Paw Striker</br>(Classic Shirt)",
         creator:"Joseph Morales",
         Price: 32.00,
-        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
+        details:"Unleash the storm with Golden Blitz, a high‑energy digital artwork featuring a fearless Golden Retriever in full‑body action. Dressed in a navy‑blue and lime‑green drifit uniform patterned with blossom shapes, this electrified striker kicks the ball with lightning precision on an international soccer field. Painterly brush strokes capture every spark of motion — from the glowing eyes to the thunderous strike — making this piece perfect for athletes, dog lovers, and dreamers chasing their goals.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -286,22 +286,22 @@ export function lightningpawstrikerclassic_gallery(){
 
 }
 
-export function goalkeepergonebananaspremium_main(){
+export function lightningpawstrikerpremium_main(){
    
-    const goalkeepergonebananaspremium_mainproduct=[
+    const lightningpawstrikerpremium_mainproduct=[
         new LightningPawStrikerPremiumMainProduct(
             "/img/idontfish.webp",
-            "Goal Keeper Gone Bananas Monkey Soccer Madness - Premium shirt",
+            "lightning Paw Striker - Premium shirt",
             0,
             0
         )
     ];
 
-    const goalkeepergonebananaspremiuminfo={
-        name:"GoalKeeper Gone Bananas</br>Monkey Soccer Madness</br> (Premium Shirt)",
+    const lightningpawstrikerpremiuminfo={
+        name:"Lightning Paw Striker</br>(Premium Shirt)",
         creator:"Joseph Morales",
         Price: 46.35,
-        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
+        details:"Unleash the storm with Golden Blitz, a high‑energy digital artwork featuring a fearless Golden Retriever in full‑body action. Dressed in a navy‑blue and lime‑green drifit uniform patterned with blossom shapes, this electrified striker kicks the ball with lightning precision on an international soccer field. Painterly brush strokes capture every spark of motion — from the glowing eyes to the thunderous strike — making this piece perfect for athletes, dog lovers, and dreamers chasing their goals.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -318,28 +318,28 @@ export function goalkeepergonebananaspremium_main(){
         }
     };
 
-    const goalkeepergonebananaspremium_mainHTML=goalkeepergonebananaspremium_mainproduct.map(goalkeepergonebananaspremium_MainProducts=>goalkeepergonebananaspremium_MainProducts.getLightningPawStrikerPremiumMainProduct()).join('')
+    const lightningpawstrikerpremium_mainHTML=lightningpawstrikerpremium_mainproduct.map(lightningpawstrikerpremium_MainProducts=>lightningpawstrikerpremium_MainProducts.getLightningPawStrikerPremiumMainProduct()).join('')
     
-    const goalkeepergonebananaspremiuminfoHTML=`
-        <h1>${goalkeepergonebananaspremiuminfo.name}</h1>
-        <p>Created by : ${goalkeepergonebananaspremiuminfo.creator}</p>
-        <strong>$ ${goalkeepergonebananaspremiuminfo.Price.toFixed(2)}</strong>
+    const lightningpawstrikerpremiuminfoHTML=`
+        <h1>${lightningpawstrikerpremiuminfo.name}</h1>
+        <p>Created by : ${lightningpawstrikerpremiuminfo.creator}</p>
+        <strong>$ ${lightningpawstrikerpremiuminfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${goalkeepergonebananaspremiuminfo.details}</p>
+        <p>${lightningpawstrikerpremiuminfo.details}</p>
         <h4>Type:</h4>
-        <p>${goalkeepergonebananaspremiuminfo.type} are ${goalkeepergonebananaspremiuminfo.fabric}</p>
+        <p>${lightningpawstrikerpremiuminfo.type} are ${lightningpawstrikerpremiuminfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${goalkeepergonebananaspremiuminfo.size.s}, ${goalkeepergonebananaspremiuminfo.size.m}, ${goalkeepergonebananaspremiuminfo.size.l}, ${goalkeepergonebananaspremiuminfo.size.xl}, ${goalkeepergonebananaspremiuminfo.size.xxl}, ${goalkeepergonebananaspremiuminfo.size.xxxl}</p>
+        <p>${lightningpawstrikerpremiuminfo.size.s}, ${lightningpawstrikerpremiuminfo.size.m}, ${lightningpawstrikerpremiuminfo.size.l}, ${lightningpawstrikerpremiuminfo.size.xl}, ${lightningpawstrikerpremiuminfo.size.xxl}, ${lightningpawstrikerpremiuminfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${goalkeepergonebananaspremium_mainHTML}
+                        ${lightningpawstrikerpremium_mainHTML}
                     </div>
                     <div>
-                         ${goalkeepergonebananaspremiuminfoHTML}
+                         ${lightningpawstrikerpremiuminfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $46.35</button>
@@ -350,42 +350,42 @@ export function goalkeepergonebananaspremium_main(){
            `;
 }
 
-export function goalkeepergonebananaspremium_gallery(){
+export function lightningpawstrikerpremium_gallery(){
 
-    const goalkeepergonebananaspremiumgallery={
+    const lightningpawstrikerpremiumgallery={
         img: "/img/gallery1.webp",
-        alt:"Goal Keeper Gone Bananas Monkey Soccer Madness"
+        alt:"lightning Paw Striker"
     }
     return `
-          <div id="goalkeepergonebananaspremiumgallery">
+          <div id="lightningpawstrikerpremiumgallery">
               <h1>Image Product</h1>
-              <div class="goalkeepergonebananaspremium_gallery_flex">
-                 <img src="${goalkeepergonebananaspremiumgallery.img}" alt="${goalkeepergonebananaspremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaspremiumgallery.img}" alt="${goalkeepergonebananaspremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaspremiumgallery.img}" alt="${goalkeepergonebananaspremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaspremiumgallery.img}" alt="${goalkeepergonebananaspremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="lightningpawstrikerpremium_gallery_flex">
+                 <img src="${lightningpawstrikerpremiumgallery.img}" alt="${lightningpawstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerpremiumgallery.img}" alt="${lightningpawstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerpremiumgallery.img}" alt="${lightningpawstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerpremiumgallery.img}" alt="${lightningpawstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 
 }
 
-export function goalkeepergonebananasoversized_main(){
+export function lightningpawstrikeroversized_main(){
 
-    const goalkeepergonebananasoversizedmain_product=[
+    const lightningpawstrikeroversizedmain_product=[
         new LightningPawStrikerOversizedMainProduct(
             "/img/idontfish.webp",
-            "GoalKeeper Gone Bananas Monkey Soccer Madness",
+            "Lightning Paw Striker",
             0,
             0
         )
     ];
 
-    const goalkeepergonebananasoversizedinfo={
-        name:"Goal Keeper Gone Bananas</br>Monkey Soccer Madness</br> (Oversized Shirt)",
+    const lightningpawstrikeroversizedinfo={
+        name:"Lightning Paw Striker</br>(Oversized Shirt)",
         creator:"Joseph Morales",
         Price: 37.00,
-        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
+        details:"Unleash the storm with Golden Blitz, a high‑energy digital artwork featuring a fearless Golden Retriever in full‑body action. Dressed in a navy‑blue and lime‑green drifit uniform patterned with blossom shapes, this electrified striker kicks the ball with lightning precision on an international soccer field. Painterly brush strokes capture every spark of motion — from the glowing eyes to the thunderous strike — making this piece perfect for athletes, dog lovers, and dreamers chasing their goals.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -402,28 +402,28 @@ export function goalkeepergonebananasoversized_main(){
         }
     };
 
-    const goalkeepergonebananasoversizedHTML=goalkeepergonebananasoversizedmain_product.map(goalkeepergonebananasoversizedMP=>goalkeepergonebananasoversizedMP.getLightningPawStrikerOversizedMainProduct()).join('');
+    const lightningpawstrikeroversizedHTML=lightningpawstrikeroversizedmain_product.map(lightningpawstrikeroversizedMP=>lightningpawstrikeroversizedMP.getLightningPawStrikerOversizedMainProduct()).join('');
 
-    const goalkeepergonebananasoversizedinfoHTML=`
-        <h1>${goalkeepergonebananasoversizedinfo.name}</h1>
-        <p>Created by : ${goalkeepergonebananasoversizedinfo.creator}</p>
-        <strong>$ ${goalkeepergonebananasoversizedinfo.Price.toFixed(2)}</strong>
+    const lightningpawstrikeroversizedinfoHTML=`
+        <h1>${lightningpawstrikeroversizedinfo.name}</h1>
+        <p>Created by : ${lightningpawstrikeroversizedinfo.creator}</p>
+        <strong>$ ${lightningpawstrikeroversizedinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${goalkeepergonebananasoversizedinfo.details}</p>
+        <p>${lightningpawstrikeroversizedinfo.details}</p>
         <h4>Type:</h4>
-        <p>${goalkeepergonebananasoversizedinfo.type} are ${goalkeepergonebananasoversizedinfo.fabric}</p>
+        <p>${lightningpawstrikeroversizedinfo.type} are ${lightningpawstrikeroversizedinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${goalkeepergonebananasoversizedinfo.size.s}, ${goalkeepergonebananasoversizedinfo.size.m}, ${goalkeepergonebananasoversizedinfo.size.l}, ${goalkeepergonebananasoversizedinfo.size.xl}, ${goalkeepergonebananasoversizedinfo.size.xxl}, ${goalkeepergonebananasoversizedinfo.size.xxxl}</p>
+        <p>${lightningpawstrikeroversizedinfo.size.s}, ${lightningpawstrikeroversizedinfo.size.m}, ${lightningpawstrikeroversizedinfo.size.l}, ${lightningpawstrikeroversizedinfo.size.xl}, ${lightningpawstrikeroversizedinfo.size.xxl}, ${lightningpawstrikeroversizedinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${goalkeepergonebananasoversizedHTML}
+                        ${lightningpawstrikeroversizedHTML}
                     </div>
                     <div>
-                         ${goalkeepergonebananasoversizedinfoHTML}
+                         ${lightningpawstrikeroversizedinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $27.75</button>
@@ -434,41 +434,41 @@ export function goalkeepergonebananasoversized_main(){
            `;
 }
 
-export function goalkeepergonebananasoversized_gallery(){
+export function lightningpawstrikeroversized_gallery(){
 
-    const goalkeepergonebananasoversizedgallery={
+    const lightningpawstrikeroversizedgallery={
         img: "/img/gallery1.webp",
-        alt:"Goal Keeper Gone Bananas Monkey Soccer Madness"
+        alt:"Lightning Paw Striker"
     }
     return `
-          <div id="goalkeepergonebananasoversizedgallery">
+          <div id="lightningpawstrikeroversizedgallery">
               <h1>Image Product</h1>
-              <div class="goalkeepergonebananasoversized_gallery_flex">
-                 <img src="${goalkeepergonebananasoversizedgallery.img}" alt="${goalkeepergonebananasoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananasoversizedgallery.img}" alt="${goalkeepergonebananasoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananasoversizedgallery.img}" alt="${goalkeepergonebananasoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananasoversizedgallery.img}" alt="${goalkeepergonebananasoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="lightningpawstrikeroversized_gallery_flex">
+                 <img src="${lightningpawstrikeroversizedgallery.img}" alt="${lightningpawstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikeroversizedgallery.img}" alt="${lightningpawstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikeroversizedgallery.img}" alt="${lightningpawstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikeroversizedgallery.img}" alt="${lightningpawstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function goalkeepergonebananassweatshirt_main(){
+export function lightningpawstrikersweatshirt_main(){
 
-    const goalkeepergonebananassweatshirtmain_product=[
+    const lightningpawstrikersweatshirtmain_product=[
         new LightningPawStrikerSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "Goal Keeper Gone Bananas Monkey Soccer Madness",
+            "Lightning Paw Striker",
             0,
             0
         )
     ];
 
-    const goalkeepergonebananassweatshirtinfo={
-        name:"Goal Keeper Gone Bananas</br>Monkey Soccer Madness</br> (Sweat Shirt)",
+    const lightningpawstrikersweatshirtinfo={
+        name:"Lightning Paw Striker</br>(Sweat Shirt)",
         creator:"Joseph Morales",
         Price: 48.00,
-        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
+        details:"Unleash the storm with Golden Blitz, a high‑energy digital artwork featuring a fearless Golden Retriever in full‑body action. Dressed in a navy‑blue and lime‑green drifit uniform patterned with blossom shapes, this electrified striker kicks the ball with lightning precision on an international soccer field. Painterly brush strokes capture every spark of motion — from the glowing eyes to the thunderous strike — making this piece perfect for athletes, dog lovers, and dreamers chasing their goals.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -485,28 +485,28 @@ export function goalkeepergonebananassweatshirt_main(){
         }
     };
 
-    const goalkeepergonebananassweatshirtHTML=goalkeepergonebananassweatshirtmain_product.map(goalkeepergonebananassweatshirtMP=>goalkeepergonebananassweatshirtMP.getLightningPawStrikerSweatMainProduct()).join('');
+    const lightningpawstrikersweatshirtHTML=lightningpawstrikersweatshirtmain_product.map(lightningpawstrikersweatshirtMP=>lightningpawstrikersweatshirtMP.getLightningPawStrikerSweatMainProduct()).join('');
 
-    const goalkeepergonebananassweatshirtinfoHTML=`
-        <h1>${goalkeepergonebananassweatshirtinfo.name}</h1>
-        <p>Created by : ${goalkeepergonebananassweatshirtinfo.creator}</p>
-        <strong>$ ${goalkeepergonebananassweatshirtinfo.Price.toFixed(2)}</strong>
+    const lightningpawstrikersweatshirtinfoHTML=`
+        <h1>${lightningpawstrikersweatshirtinfo.name}</h1>
+        <p>Created by : ${lightningpawstrikersweatshirtinfo.creator}</p>
+        <strong>$ ${lightningpawstrikersweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${goalkeepergonebananassweatshirtinfo.details}</p>
+        <p>${lightningpawstrikersweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${goalkeepergonebananassweatshirtinfo.type} are ${goalkeepergonebananassweatshirtinfo.fabric}</p>
+        <p>${lightningpawstrikersweatshirtinfo.type} are ${lightningpawstrikersweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${goalkeepergonebananassweatshirtinfo.size.s}, ${goalkeepergonebananassweatshirtinfo.size.m}, ${goalkeepergonebananassweatshirtinfo.size.l}, ${goalkeepergonebananassweatshirtinfo.size.xl}, ${goalkeepergonebananassweatshirtinfo.size.xxl}, ${goalkeepergonebananassweatshirtinfo.size.xxxl}</p>
+        <p>${lightningpawstrikersweatshirtinfo.size.s}, ${lightningpawstrikersweatshirtinfo.size.m}, ${lightningpawstrikersweatshirtinfo.size.l}, ${lightningpawstrikersweatshirtinfo.size.xl}, ${lightningpawstrikersweatshirtinfo.size.xxl}, ${lightningpawstrikersweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${goalkeepergonebananassweatshirtHTML}
+                        ${lightningpawstrikersweatshirtHTML}
                     </div>
                     <div>
-                         ${goalkeepergonebananassweatshirtinfoHTML}
+                         ${lightningpawstrikersweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $38.40</button>
@@ -517,41 +517,41 @@ export function goalkeepergonebananassweatshirt_main(){
            `;
 }
 
-export function goalkeepergonebananassweatshirt_gallery(){
+export function lightningpawstrikersweatshirt_gallery(){
 
-    const goalkeepergonebananassweatshirtgallery={
+    const lightningpawstrikersweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"Goal Keeper Gone Bananas Monkey Soccer Madness"
+        alt:"Lightning Paw Striker"
     }
     return `
-          <div id="goalkeepergonebananassweatshirtgallery">
+          <div id="lightningpawstrikersweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="goalkeepergonebananassweatshirt_gallery_flex">
-                 <img src="${goalkeepergonebananassweatshirtgallery.img}" alt="${goalkeepergonebananassweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananassweatshirtgallery.img}" alt="${goalkeepergonebananassweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananassweatshirtgallery.img}" alt="${goalkeepergonebananassweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananassweatshirtgallery.img}" alt="${goalkeepergonebananassweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="lightningpawstrikersweatshirt_gallery_flex">
+                 <img src="${lightningpawstrikersweatshirtgallery.img}" alt="${lightningpawstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikersweatshirtgallery.img}" alt="${lightningpawstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikersweatshirtgallery.img}" alt="${lightningpawstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikersweatshirtgallery.img}" alt="${lightningpawstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function goalkeepergonebananaspremiumoversizedhoodie_main(){
+export function lightningpawstrikerpremiumoversizedhoodie_main(){
 
-    const goalkeepergonebananaspremiumoversizedhoodiemain_product=[
+    const lightningpawstrikerpremiumoversizedhoodiemain_product=[
         new LightningPawStrikerPremiumOversizedHoodieMainProduct(
             "/img/idontfish.webp",
-            "Goal Keeper Gone Bananas Monkey Soccer Madness",
+            "Lightning Paw Striker",
             0,
             0
         )
     ];
 
-    const goalkeepergonebananaspremiumoversizedhoodieinfo={
-        name:"Goal Keeper Gone Bananas</br>Monkey Soccer Madness</br>( Premium Oversized Hoodie )",
+    const lightningpawstrikerpremiumoversizedhoodieinfo={
+        name:"Lightning Paw Striker</br>( Premium Oversized Hoodie )",
         creator:"Joseph Morales",
         Price: 68.00,
-        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
+        details:"Unleash the storm with Golden Blitz, a high‑energy digital artwork featuring a fearless Golden Retriever in full‑body action. Dressed in a navy‑blue and lime‑green drifit uniform patterned with blossom shapes, this electrified striker kicks the ball with lightning precision on an international soccer field. Painterly brush strokes capture every spark of motion — from the glowing eyes to the thunderous strike — making this piece perfect for athletes, dog lovers, and dreamers chasing their goals.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -568,28 +568,28 @@ export function goalkeepergonebananaspremiumoversizedhoodie_main(){
         }
     };
 
-    const goalkeepergonebananaspremiumoversizedhoodieHTML=goalkeepergonebananaspremiumoversizedhoodiemain_product.map(goalkeepergonebananaspremiumoversizedhoodieMP=>goalkeepergonebananaspremiumoversizedhoodieMP.getLightningPawStrikerPremiumOversizedHoodieMainProduct()).join('');
+    const lightningpawstrikerpremiumoversizedhoodieHTML=lightningpawstrikerpremiumoversizedhoodiemain_product.map(lightningpawstrikerpremiumoversizedhoodieMP=>lightningpawstrikerpremiumoversizedhoodieMP.getLightningPawStrikerPremiumOversizedHoodieMainProduct()).join('');
 
-    const goalkeepergonebananaspremiumoversizedhoodieinfoHTML=`
-        <h1>${goalkeepergonebananaspremiumoversizedhoodieinfo.name}</h1>
-        <p>Created by : ${goalkeepergonebananaspremiumoversizedhoodieinfo.creator}</p>
-        <strong>$ ${goalkeepergonebananaspremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
+    const lightningpawstrikerpremiumoversizedhoodieinfoHTML=`
+        <h1>${lightningpawstrikerpremiumoversizedhoodieinfo.name}</h1>
+        <p>Created by : ${lightningpawstrikerpremiumoversizedhoodieinfo.creator}</p>
+        <strong>$ ${lightningpawstrikerpremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${goalkeepergonebananaspremiumoversizedhoodieinfo.details}</p>
+        <p>${lightningpawstrikerpremiumoversizedhoodieinfo.details}</p>
         <h4>Type:</h4>
-        <p>${goalkeepergonebananaspremiumoversizedhoodieinfo.type} are ${goalkeepergonebananaspremiumoversizedhoodieinfo.fabric}</p>
+        <p>${lightningpawstrikerpremiumoversizedhoodieinfo.type} are ${lightningpawstrikerpremiumoversizedhoodieinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${goalkeepergonebananaspremiumoversizedhoodieinfo.size.s}, ${goalkeepergonebananaspremiumoversizedhoodieinfo.size.m}, ${goalkeepergonebananaspremiumoversizedhoodieinfo.size.l}, ${goalkeepergonebananaspremiumoversizedhoodieinfo.size.xl}, ${goalkeepergonebananaspremiumoversizedhoodieinfo.size.xxl}, ${goalkeepergonebananaspremiumoversizedhoodieinfo.size.xxxl}</p>
+        <p>${lightningpawstrikerpremiumoversizedhoodieinfo.size.s}, ${lightningpawstrikerpremiumoversizedhoodieinfo.size.m}, ${lightningpawstrikerpremiumoversizedhoodieinfo.size.l}, ${lightningpawstrikerpremiumoversizedhoodieinfo.size.xl}, ${lightningpawstrikerpremiumoversizedhoodieinfo.size.xxl}, ${lightningpawstrikerpremiumoversizedhoodieinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${goalkeepergonebananaspremiumoversizedhoodieHTML}
+                        ${lightningpawstrikerpremiumoversizedhoodieHTML}
                     </div>
                     <div>
-                         ${goalkeepergonebananaspremiumoversizedhoodieinfoHTML}
+                         ${lightningpawstrikerpremiumoversizedhoodieinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $40.80</button>
@@ -600,41 +600,41 @@ export function goalkeepergonebananaspremiumoversizedhoodie_main(){
            `;
 }
 
-export function goalkeepergonebananaspremiumoversizedhoodie_gallery(){
+export function lightningpawstrikerpremiumoversizedhoodie_gallery(){
 
-    const goalkeepergonebananaspremiumoversizedhoodiegallery={
+    const lightningpawstrikerpremiumoversizedhoodiegallery={
         img: "/img/gallery1.webp",
-        alt:"Goal Keeper Gone Bananas Monkey Soccer Madness"
+        alt:"Lightning Paw Striker"
     }
     return `
-          <div id="goalkeepergonebananaspremiumoversizedhoodiegallery">
+          <div id="lightningpawstrikerpremiumoversizedhoodiegallery">
               <h1>Image Product</h1>
-              <div class="goalkeepergonebananaspremiumoversizedhoodie_gallery_flex">
-                 <img src="${goalkeepergonebananaspremiumoversizedhoodiegallery.img}" alt="${goalkeepergonebananaspremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaspremiumoversizedhoodiegallery.img}" alt="${goalkeepergonebananaspremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaspremiumoversizedhoodiegallery.img}" alt="${goalkeepergonebananaspremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaspremiumoversizedhoodiegallery.img}" alt="${goalkeepergonebananaspremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="lightningpawstrikerpremiumoversizedhoodie_gallery_flex">
+                 <img src="${lightningpawstrikerpremiumoversizedhoodiegallery.img}" alt="${lightningpawstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerpremiumoversizedhoodiegallery.img}" alt="${lightningpawstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerpremiumoversizedhoodiegallery.img}" alt="${lightningpawstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerpremiumoversizedhoodiegallery.img}" alt="${lightningpawstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function goalkeepergonebananaslightweighthoodie_main(){
+export function lightningpawstrikerlightweighthoodie_main(){
 
-    const goalkeepergonebananaslightweighthoodiemain_product=[
+    const lightningpawstrikerlightweighthoodiemain_product=[
         new LightningPawStrikerLightweightHoodieMainProduct(
             "/img/idontfish.webp",
-            "Goal Keeper Gone Bananas Monkey Soccer Madness",
+            "Lightning Paw Striker",
             0,
             0
         )
     ];
 
-    const goalkeepergonebananaslightweighthoodieinfo={
-        name:"Goal Keeper Gone Bananas</br>Monkey Soccer Madness</br> (Lightweight Hoodie)",
+    const lightningpawstrikerlightweighthoodieinfo={
+        name:"Lightning Paw Striker</br>(Lightweight Hoodie)",
         creator:"Joseph Morales",
         Price: 62.21,
-        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
+        details:"Unleash the storm with Golden Blitz, a high‑energy digital artwork featuring a fearless Golden Retriever in full‑body action. Dressed in a navy‑blue and lime‑green drifit uniform patterned with blossom shapes, this electrified striker kicks the ball with lightning precision on an international soccer field. Painterly brush strokes capture every spark of motion — from the glowing eyes to the thunderous strike — making this piece perfect for athletes, dog lovers, and dreamers chasing their goals.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -651,28 +651,28 @@ export function goalkeepergonebananaslightweighthoodie_main(){
         }
     };
 
-    const goalkeepergonebananaslightweighthoodieHTML=goalkeepergonebananaslightweighthoodiemain_product.map(goalkeepergonebananaslightweighthoodieMP=>goalkeepergonebananaslightweighthoodieMP.getLightningPawStrikerLightweightHoodieMainProduct()).join('');
+    const lightningpawstrikerlightweighthoodieHTML=lightningpawstrikerlightweighthoodiemain_product.map(lightningpawstrikerlightweighthoodieMP=>lightningpawstrikerlightweighthoodieMP.getLightningPawStrikerLightweightHoodieMainProduct()).join('');
 
-    const goalkeepergonebananaslightweighthoodieinfoHTML=`
-        <h1>${goalkeepergonebananaslightweighthoodieinfo.name}</h1>
-        <p>Created by : ${goalkeepergonebananaslightweighthoodieinfo.creator}</p>
-        <strong>$ ${goalkeepergonebananaslightweighthoodieinfo.Price.toFixed(2)}</strong>
+    const lightningpawstrikerlightweighthoodieinfoHTML=`
+        <h1>${lightningpawstrikerlightweighthoodieinfo.name}</h1>
+        <p>Created by : ${lightningpawstrikerlightweighthoodieinfo.creator}</p>
+        <strong>$ ${lightningpawstrikerlightweighthoodieinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${goalkeepergonebananaslightweighthoodieinfo.details}</p>
+        <p>${lightningpawstrikerlightweighthoodieinfo.details}</p>
         <h4>Type:</h4>
-        <p>${goalkeepergonebananaslightweighthoodieinfo.type} are ${goalkeepergonebananaslightweighthoodieinfo.fabric}</p>
+        <p>${lightningpawstrikerlightweighthoodieinfo.type} are ${lightningpawstrikerlightweighthoodieinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${goalkeepergonebananaslightweighthoodieinfo.size.s}, ${goalkeepergonebananaslightweighthoodieinfo.size.m}, ${goalkeepergonebananaslightweighthoodieinfo.size.l}, ${goalkeepergonebananaslightweighthoodieinfo.size.xl}, ${goalkeepergonebananaslightweighthoodieinfo.size.xxl}, ${goalkeepergonebananaslightweighthoodieinfo.size.xxxl}</p>
+        <p>${lightningpawstrikerlightweighthoodieinfo.size.s}, ${lightningpawstrikerlightweighthoodieinfo.size.m}, ${lightningpawstrikerlightweighthoodieinfo.size.l}, ${lightningpawstrikerlightweighthoodieinfo.size.xl}, ${lightningpawstrikerlightweighthoodieinfo.size.xxl}, ${lightningpawstrikerlightweighthoodieinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${goalkeepergonebananaslightweighthoodieHTML}
+                        ${lightningpawstrikerlightweighthoodieHTML}
                     </div>
                     <div>
-                         ${goalkeepergonebananaslightweighthoodieinfoHTML}
+                         ${lightningpawstrikerlightweighthoodieinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $49.76</button>
@@ -683,41 +683,41 @@ export function goalkeepergonebananaslightweighthoodie_main(){
            `;
 }
 
-export function goalkeepergonebananaslightweighthoodie_gallery(){
+export function lightningpawstrikerlightweighthoodie_gallery(){
 
-    const goalkeepergonebananaslightweighthoodiegallery={
+    const lightningpawstrikerlightweighthoodiegallery={
         img: "/img/gallery1.webp",
-        alt:"Goal Keeper Gone Bananas Monkey Soccer Madness"
+        alt:"Lightning Paw Striker"
     }
     return `
-          <div id="goalkeepergonebananaslightweighthoodiegallery">
+          <div id="lightningpawstrikerlightweighthoodiegallery">
               <h1>Image Product</h1>
-              <div class="goalkeepergonebananaslightweighthoodie_gallery_flex">
-                 <img src="${goalkeepergonebananaslightweighthoodiegallery.img}" alt="${goalkeepergonebananaslightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaslightweighthoodiegallery.img}" alt="${goalkeepergonebananaslightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaslightweighthoodiegallery.img}" alt="${goalkeepergonebananaslightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaslightweighthoodiegallery.img}" alt="${goalkeepergonebananaslightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="lightningpawstrikerlightweighthoodie_gallery_flex">
+                 <img src="${lightningpawstrikerlightweighthoodiegallery.img}" alt="${lightningpawstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerlightweighthoodiegallery.img}" alt="${lightningpawstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerlightweighthoodiegallery.img}" alt="${lightningpawstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerlightweighthoodiegallery.img}" alt="${lightningpawstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function goalkeepergonebananaspremiumoversizedsweatshirt_main(){
+export function lightningpawstrikerpremiumoversizedsweatshirt_main(){
 
-    const goalkeepergonebananaspremiumoversizedsweatshirtmain_product=[
+    const lightningpawstrikerpremiumoversizedsweatshirtmain_product=[
         new LightningPawStrikerPremiumOversizedSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "Goal Keeper Gone Bananas Monkey Soccer Madness",
+            "Lightning Paw Striker",
             0,
             0
         )
     ];
 
-    const goalkeepergonebananaspremiumoversizedsweatshirtinfo={
-        name:"Goal Keeper Gone Bananas</br>Monkey Soccer Madness</br>(Premium Oversized Sweatshirt)",
+    const lightningpawstrikerpremiumoversizedsweatshirtinfo={
+        name:"Lightning Paw Striker</br>(Premium Oversized Sweatshirt)",
         creator:"Joseph Morales",
         Price: 62.00,
-        details:"This wild, full‑body monkey goalkeeper leaps mid‑air in a painterly explosion of color and motion! Dressed in a vibrant orange‑to‑violet gradient drifit uniform patterned with crosshair shapes, he flexes a powerful catch under the blazing lights of an international soccer tournament. His crazy grin and fearless energy capture the thrill of the game — perfect for fans who live for the chaos of competition. Ideal for: soccer lovers, athletes, and anyone who plays with passion. Style: painterly brush strokes, dynamic motion, transparent background for crisp printing. Available on: T‑shirts, hoodies, stickers, and more — bring the madness to your gear!",
+        details:"Unleash the storm with Golden Blitz, a high‑energy digital artwork featuring a fearless Golden Retriever in full‑body action. Dressed in a navy‑blue and lime‑green drifit uniform patterned with blossom shapes, this electrified striker kicks the ball with lightning precision on an international soccer field. Painterly brush strokes capture every spark of motion — from the glowing eyes to the thunderous strike — making this piece perfect for athletes, dog lovers, and dreamers chasing their goals.",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -734,28 +734,28 @@ export function goalkeepergonebananaspremiumoversizedsweatshirt_main(){
         }
     };
 
-    const goalkeepergonebananaspremiumoversizedsweatshirtHTML=goalkeepergonebananaspremiumoversizedsweatshirtmain_product.map(goalkeepergonebananaspremiumoversizedsweatshirtMP=>goalkeepergonebananaspremiumoversizedsweatshirtMP.getLightningPawStrikerPremiumOversizedSweatshirtMainProduct()).join('');
+    const lightningpawstrikerpremiumoversizedsweatshirtHTML=lightningpawstrikerpremiumoversizedsweatshirtmain_product.map(lightningpawstrikerpremiumoversizedsweatshirtMP=>lightningpawstrikerpremiumoversizedsweatshirtMP.getLightningPawStrikerPremiumOversizedSweatshirtMainProduct()).join('');
 
-    const goalkeepergonebananaspremiumoversizedsweatshirtinfoHTML=`
-        <h1>${goalkeepergonebananaspremiumoversizedsweatshirtinfo.name}</h1>
-        <p>Created by : ${goalkeepergonebananaspremiumoversizedsweatshirtinfo.creator}</p>
-        <strong>$ ${goalkeepergonebananaspremiumoversizedsweatshirtinfo.Price.toFixed(2)}</strong>
+    const lightningpawstrikerpremiumoversizedsweatshirtinfoHTML=`
+        <h1>${lightningpawstrikerpremiumoversizedsweatshirtinfo.name}</h1>
+        <p>Created by : ${lightningpawstrikerpremiumoversizedsweatshirtinfo.creator}</p>
+        <strong>$ ${lightningpawstrikerpremiumoversizedsweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${goalkeepergonebananaspremiumoversizedsweatshirtinfo.details}</p>
+        <p>${lightningpawstrikerpremiumoversizedsweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${goalkeepergonebananaspremiumoversizedsweatshirtinfo.type} are ${goalkeepergonebananaspremiumoversizedsweatshirtinfo.fabric}</p>
+        <p>${lightningpawstrikerpremiumoversizedsweatshirtinfo.type} are ${lightningpawstrikerpremiumoversizedsweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${goalkeepergonebananaspremiumoversizedsweatshirtinfo.size.s}, ${goalkeepergonebananaspremiumoversizedsweatshirtinfo.size.m}, ${goalkeepergonebananaspremiumoversizedsweatshirtinfo.size.l}, ${goalkeepergonebananaspremiumoversizedsweatshirtinfo.size.xl}, ${goalkeepergonebananaspremiumoversizedsweatshirtinfo.size.xxl}, ${goalkeepergonebananaspremiumoversizedsweatshirtinfo.size.xxxl}</p>
+        <p>${lightningpawstrikerpremiumoversizedsweatshirtinfo.size.s}, ${lightningpawstrikerpremiumoversizedsweatshirtinfo.size.m}, ${lightningpawstrikerpremiumoversizedsweatshirtinfo.size.l}, ${lightningpawstrikerpremiumoversizedsweatshirtinfo.size.xl}, ${lightningpawstrikerpremiumoversizedsweatshirtinfo.size.xxl}, ${lightningpawstrikerpremiumoversizedsweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${goalkeepergonebananaspremiumoversizedsweatshirtHTML}
+                        ${lightningpawstrikerpremiumoversizedsweatshirtHTML}
                     </div>
                     <div>
-                         ${goalkeepergonebananaspremiumoversizedsweatshirtinfoHTML}
+                         ${lightningpawstrikerpremiumoversizedsweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $37.20</button>
@@ -766,20 +766,20 @@ export function goalkeepergonebananaspremiumoversizedsweatshirt_main(){
            `;
 }
 
-export function goalkeepergonebananaspremiumoversizedsweatshirt_gallery(){
+export function lightningpawstrikerpremiumoversizedsweatshirt_gallery(){
 
-    const goalkeepergonebananaspremiumoversizedsweatshirtgallery={
+    const lightningpawstrikerpremiumoversizedsweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"Goal Keeper Gone Bananas Monkey Soccer Madness"
+        alt:"Lightning Paw Striker"
     }
     return `
-          <div id="goalkeepergonebananaspremiumoversizedsweatshirtgallery">
+          <div id="lightningpawstrikerpremiumoversizedsweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="goalkeepergonebananaspremiumoversizedsweatshirt_gallery_flex">
-                 <img src="${goalkeepergonebananaspremiumoversizedsweatshirtgallery.img}" alt="${goalkeepergonebananaspremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaspremiumoversizedsweatshirtgallery.img}" alt="${goalkeepergonebananaspremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaspremiumoversizedsweatshirtgallery.img}" alt="${goalkeepergonebananaspremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${goalkeepergonebananaspremiumoversizedsweatshirtgallery.img}" alt="${goalkeepergonebananaspremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="lightningpawstrikerpremiumoversizedsweatshirt_gallery_flex">
+                 <img src="${lightningpawstrikerpremiumoversizedsweatshirtgallery.img}" alt="${lightningpawstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerpremiumoversizedsweatshirtgallery.img}" alt="${lightningpawstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerpremiumoversizedsweatshirtgallery.img}" alt="${lightningpawstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${lightningpawstrikerpremiumoversizedsweatshirtgallery.img}" alt="${lightningpawstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;

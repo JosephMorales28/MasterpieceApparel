@@ -284,6 +284,30 @@
     {
       "source": "/LightningPawStriker/lightningpawstrikerclassicshirt",
       "destination": "/js/pages/LightningPawStriker/lightningpawstrikerclassicshirt"
+    },
+    {
+      "source": "/LightningPawStriker/lightningpawstrikerpremiumshirt",
+      "destination": "/js/pages/LightningPawStriker/lightningpawstrikerpremiumshirt"
+    },
+    {
+      "source": "/LightningPawStriker/lightningpawstrikeroversizedshirt",
+      "destination": "/js/pages/LightningPawStriker/lightningpawstrikeroversizedshirt"
+    },
+    {
+      "source": "/LightningPawStriker/lightningpawstrikersweatshirt",
+      "destination": "/js/pages/LightningPawStriker/lightningpawstrikersweatshirt"
+    },
+    {
+      "source": "/LightningPawStriker/lightningpawstrikerpremiumoversizedhoodie",
+      "destination": "/js/pages/LightningPawStriker/lightningpawstrikerpremiumoversizedhoodie"
+    },
+    {
+      "source": "/LightningPawStriker/lightningpawstrikerlightweighthoodie",
+      "destination": "/js/pages/LightningPawStriker/lightningpawstrikerlightweighthoodie"
+    },
+    {
+      "source": "/LightningPawStriker/lightningpawstrikerpremiumoversizedsweatshirt",
+      "destination": "/js/pages/LightningPawStriker/lightningpawstrikerpremiumoversizedsweatshirt"
     }
   ]
 }
