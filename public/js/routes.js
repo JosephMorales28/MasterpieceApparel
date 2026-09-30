@@ -65,6 +65,7 @@ import { houndofthundermain } from './pages/HoundOfThunder/HoundOfThunder.js';
 import { houndofthunderclassicmain } from './pages/HoundOfThunder/houndofthunderclassic.js';
 import { houndofthunderpremiummain } from './pages/HoundOfThunder/houndofthunderpremium.js';
 import { houndofthunderoversizedmain } from './pages/HoundOfThunder/houndofthunderoversized.js';
+import { houndofthundersweatshirtmain } from './pages/HoundOfThunder/houndofthundersweatshirt.js';
 
 export const routes = {
     home: homePage,
@@ -141,5 +142,6 @@ export const routes = {
     houndofthunder: houndofthundermain,
     houndofthunderclassicshirt: houndofthunderclassicmain,
     houndofthunderpremiumshirt: houndofthunderpremiummain,
-    houndofthunderoversizedshirt: houndofthunderoversizedmain
+    houndofthunderoversizedshirt: houndofthunderoversizedmain,
+    houndofthundersweatshirt: houndofthundersweatshirtmain
 };
