@@ -320,6 +320,10 @@
     {
       "source": "/HoundOfThunder/houndofthunderpremiumshirt",
       "destination": "/js/pages/HoundOfThunder/houndofthunderpremiumshirt"
+    },
+    {
+      "source": "/HoundOfThunder/houndofthunderoversizedshirt",
+      "destination": "/js/pages/HoundOfThunder/houndofthunderoversizedshirt"
     }
   ]
 }
