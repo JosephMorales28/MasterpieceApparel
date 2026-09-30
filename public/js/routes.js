@@ -63,6 +63,7 @@ import { lightningpawstrikerlightweighthoodiemain } from './pages/LightningPawSt
 import { lightningpawstrikerpremiumoversizedsweatshirtmain } from './pages/LightningPawStriker/lightningpawstrikerpremiumoversizedsweatshirt.js';
 import { houndofthundermain } from './pages/HoundOfThunder/HoundOfThunder.js';
 import { houndofthunderclassicmain } from './pages/HoundOfThunder/houndofthunderclassic.js';
+import { houndofthunderpremiummain } from './pages/HoundOfThunder/houndofthunderpremium.js';
 
 export const routes = {
     home: homePage,
@@ -137,5 +138,6 @@ export const routes = {
     lightningpawstrikerpremiumoversizedsweatshirt: lightningpawstrikerpremiumoversizedsweatshirtmain,
 
     houndofthunder: houndofthundermain,
-    houndofthunderclassicshirt: houndofthunderclassicmain
+    houndofthunderclassicshirt: houndofthunderclassicmain,
+    houndofthunderpremiumshirt: houndofthunderpremiummain
 };
