@@ -312,6 +312,10 @@
     {
       "source": "/houndofthunder",
       "destination": "houndofthunder"
+    },
+    {
+      "source": "/HoundOfThunder/houndofthunderclassicshirt",
+      "destination": "/js/pages/HoundOfThunder/houndofthunderclassicshirt"
     }
   ]
 }
