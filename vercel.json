@@ -332,6 +332,10 @@
     {
       "source": "/HoundOfThunder/houndofthunderpremiumoversizedhoodie",
       "destination": "/js/pages/HoundOfThunder/houndofthunderpremiumoversizedhoodie"
+    },
+    {
+      "source": "/HoundOfThunder/houndofthunderlightweighthoodie",
+      "destination": "/js/pages/HoundOfThunder/houndofthunderlightweighthoodie"
     }
   ]
 }
