@@ -84,6 +84,7 @@ export function shopSection(search=""){
                 1,
                 1,
                 "Hound of Thunder",
+                "./houndofthunder"
         ),
         new ImageProduct(
                 "./img/Stormfield Striker.webp",

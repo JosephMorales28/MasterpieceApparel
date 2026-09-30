@@ -308,6 +308,10 @@
     {
       "source": "/LightningPawStriker/lightningpawstrikerpremiumoversizedsweatshirt",
       "destination": "/js/pages/LightningPawStriker/lightningpawstrikerpremiumoversizedsweatshirt"
+    },
+    {
+      "source": "/houndofthunder",
+      "destination": "houndofthunder"
     }
   ]
 }

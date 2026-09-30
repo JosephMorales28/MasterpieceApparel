@@ -10,7 +10,8 @@ const supportedPages=['about','shop','service','blog','contact',404,
                       'shockwavestriker','shockwavestrikerclassicshirt','shockwavestrikerpremiumshirt','shockwavestrikeroversizedshirt','shockwavestrikersweatshirt','shockwavestrikerpremiumoversizedhoodie','shockwavestrikerlightweighthoodie','shockwavestrikerpremiumoversizedsweatshirt',
                       'goalbunnyfrenzy','goalbunnyfrenzyclassicshirt','goalbunnyfrenzypremiumshirt','goalbunnyfrenzyoversizedshirt','goalbunnyfrenzysweatshirt','goalbunnyfrenzypremiumoversizedhoodie','goalbunnyfrenzylightweighthoodie','goalbunnyfrenzypremiumoversizedsweatshirt',
                       'goalkeepergonebananas','goalkeepergonebananasclassicshirt','goalkeepergonebananaspremiumshirt','goalkeepergonebananasoversizedshirt','goalkeepergonebananassweatshirt','goalkeepergonebananaspremiumoversizedhoodie','goalkeepergonebananaslightweighthoodie','goalkeepergonebananaspremiumoversizedsweatshirt',
-                      'lightningpawstriker','lightningpawstrikerclassicshirt','lightningpawstrikerpremiumshirt','lightningpawstrikeroversizedshirt','lightningpawstrikersweatshirt','lightningpawstrikerpremiumoversizedhoodie','lightningpawstrikerlightweighthoodie','lightningpawstrikerpremiumoversizedsweatshirt'];
+                      'lightningpawstriker','lightningpawstrikerclassicshirt','lightningpawstrikerpremiumshirt','lightningpawstrikeroversizedshirt','lightningpawstrikersweatshirt','lightningpawstrikerpremiumoversizedhoodie','lightningpawstrikerlightweighthoodie','lightningpawstrikerpremiumoversizedsweatshirt',
+                      'houndofthunder'];
 
 const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() || 'home';
 const pageName=lastPathSegment.replace(/\.html$/, '');
