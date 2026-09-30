@@ -11,7 +11,7 @@ const supportedPages=['about','shop','service','blog','contact',404,
                       'goalbunnyfrenzy','goalbunnyfrenzyclassicshirt','goalbunnyfrenzypremiumshirt','goalbunnyfrenzyoversizedshirt','goalbunnyfrenzysweatshirt','goalbunnyfrenzypremiumoversizedhoodie','goalbunnyfrenzylightweighthoodie','goalbunnyfrenzypremiumoversizedsweatshirt',
                       'goalkeepergonebananas','goalkeepergonebananasclassicshirt','goalkeepergonebananaspremiumshirt','goalkeepergonebananasoversizedshirt','goalkeepergonebananassweatshirt','goalkeepergonebananaspremiumoversizedhoodie','goalkeepergonebananaslightweighthoodie','goalkeepergonebananaspremiumoversizedsweatshirt',
                       'lightningpawstriker','lightningpawstrikerclassicshirt','lightningpawstrikerpremiumshirt','lightningpawstrikeroversizedshirt','lightningpawstrikersweatshirt','lightningpawstrikerpremiumoversizedhoodie','lightningpawstrikerlightweighthoodie','lightningpawstrikerpremiumoversizedsweatshirt',
-                      'houndofthunder','houndofthunderclassicshirt','houndofthunderpremiumshirt','houndofthunderoversizedshirt','houndofthundersweatshirt'];
+                      'houndofthunder','houndofthunderclassicshirt','houndofthunderpremiumshirt','houndofthunderoversizedshirt','houndofthundersweatshirt','houndofthunderpremiumoversizedhoodie'];
 
 const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() || 'home';
 const pageName=lastPathSegment.replace(/\.html$/, '');
