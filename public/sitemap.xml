@@ -347,7 +347,12 @@
   </url>
   <url>
     <loc>https://masterpiece-apparel.vercel.app/HoundOfThunder/houndofthunderpremiumoversizedsweatshirt</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masterpiece-apparel.vercel.app/stormfieldstriker</loc>
+    <lastmod>2026-10-01</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>

@@ -92,6 +92,7 @@ export function shopSection(search=""){
                 1,
                 1,
                 "Stormfield Striker",
+                "./stormfieldstriker"
         )
     ]
     

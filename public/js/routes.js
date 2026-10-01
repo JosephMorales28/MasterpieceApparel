@@ -69,6 +69,7 @@ import { houndofthundersweatshirtmain } from './pages/HoundOfThunder/houndofthun
 import { houndofthunderpremiumoversizedhoodiemain } from './pages/HoundOfThunder/houndofthunderpremiumoversizedhoodie.js';
 import { houndofthunderlightweighthoodiemain } from './pages/HoundOfThunder/houndofthunderlightweighthoodie.js';
 import { houndofthunderpremiumoversizedsweatshirtmain } from './pages/HoundOfThunder/houndofthunderpremiumoversizedsweatshirt.js';
+import { stormfieldstrikermain } from './pages/StormfieldStriker/StormfieldStriker.js';
 
 export const routes = {
     home: homePage,
@@ -149,5 +150,7 @@ export const routes = {
     houndofthundersweatshirt: houndofthundersweatshirtmain,
     houndofthunderpremiumoversizedhoodie: houndofthunderpremiumoversizedhoodiemain,
     houndofthunderlightweighthoodie: houndofthunderlightweighthoodiemain,
-    houndofthunderpremiumoversizedsweatshirt: houndofthunderpremiumoversizedsweatshirtmain
+    houndofthunderpremiumoversizedsweatshirt: houndofthunderpremiumoversizedsweatshirtmain,
+
+    stormfieldstriker: stormfieldstrikermain
 };

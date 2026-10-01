@@ -118,19 +118,19 @@ class StormfieldStrikerPremiumOversizedSweatshirtMainProduct{
     }
 }
 
-export function houndofthunder_main(){
+export function stormfieldstriker_main(){
     
-    const houndofthundermain_product=[
+    const stormfieldstrikermain_product=[
         new StormfieldStrikerMainProduct(
             "/img/idontfish.webp",
-            "Hound of Thunder",
+            "Stormfield Striker",
             0,
             0
         )
     ];
 
-    const houndofthunderinfo={
-        name:"Hound of Thunder</br>(Essential Shirt)",
+    const stormfieldstrikerinfo={
+        name:"Stormfield Striker</br>(Essential Shirt)",
         creator:"Joseph Morales",
         Price: 30.69,
         details:"Unleash the storm on the field with this electrifying design featuring a fearless hound striker mid‑air, powering a lightning‑charged header under stadium lights. Dressed in a navy‑blue to lime‑violet gradient drifit uniform with blossom patterns, this crazy‑smiling hound radiates pure energy and confidence.",
@@ -150,28 +150,28 @@ export function houndofthunder_main(){
         }
     };
     
-    const houndofthunderHTML=houndofthundermain_product.map(houndofthunderMP=>houndofthunderMP.getStormfieldStrikerMainProduct()).join('');
+    const stormfieldstrikerHTML=stormfieldstrikermain_product.map(stormfieldstrikerMP=>stormfieldstrikerMP.getStormfieldStrikerMainProduct()).join('');
     
-    const houndofthunderinfoHTML=`
-        <h1>${houndofthunderinfo.name}</h1>
-        <p>Created by : ${houndofthunderinfo.creator}</p>
-        <strong>$ ${houndofthunderinfo.Price.toFixed(2)}</strong>
+    const stormfieldstrikerinfoHTML=`
+        <h1>${stormfieldstrikerinfo.name}</h1>
+        <p>Created by : ${stormfieldstrikerinfo.creator}</p>
+        <strong>$ ${stormfieldstrikerinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${houndofthunderinfo.details}</p>
+        <p>${stormfieldstrikerinfo.details}</p>
         <h4>Type:</h4>
-        <p>${houndofthunderinfo.type} are ${houndofthunderinfo.fabric}</p>
+        <p>${stormfieldstrikerinfo.type} are ${stormfieldstrikerinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${houndofthunderinfo.size.s}, ${houndofthunderinfo.size.m}, ${houndofthunderinfo.size.l}, ${houndofthunderinfo.size.xl}, ${houndofthunderinfo.size.xxl}, ${houndofthunderinfo.size.xxxl}</p>
+        <p>${stormfieldstrikerinfo.size.s}, ${stormfieldstrikerinfo.size.m}, ${stormfieldstrikerinfo.size.l}, ${stormfieldstrikerinfo.size.xl}, ${stormfieldstrikerinfo.size.xxl}, ${stormfieldstrikerinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${houndofthunderHTML}
+                        ${stormfieldstrikerHTML}
                     </div>
                     <div>
-                         ${houndofthunderinfoHTML}
+                         ${stormfieldstrikerinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $26.07</button>
@@ -182,39 +182,39 @@ export function houndofthunder_main(){
            `;
 }
 
-export function houndofthundermain_gallery(){
+export function stormfieldstrikermain_gallery(){
 
-    const houndofthundergallery={
+    const stormfieldstrikergallery={
         img: "/img/gallery1.webp",
-        alt:"Hound of Thunder"
+        alt:"Stormfield Striker"
     }
     return `
-          <div id="houndofthundergallery">
+          <div id="stormfieldstrikergallery">
               <h1>Image Product</h1>
-              <div class="houndofthunder_gallery_flex">
-                 <img src="${houndofthundergallery.img}" alt="${houndofthundergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthundergallery.img}" alt="${houndofthundergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthundergallery.img}" alt="${houndofthundergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthundergallery.img}" alt="${houndofthundergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="stormfieldstriker_gallery_flex">
+                 <img src="${stormfieldstrikergallery.img}" alt="${stormfieldstrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikergallery.img}" alt="${stormfieldstrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikergallery.img}" alt="${stormfieldstrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikergallery.img}" alt="${stormfieldstrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 
 }
 
-export function houndofthunderclassic_main(){
+export function stormfieldstrikerclassic_main(){
    
-    const houndofthunderclassic_mainproduct=[
+    const stormfieldstrikerclassic_mainproduct=[
         new StormfieldStrikerClassicMainProduct(
             "/img/idontfish.webp",
-            "Hound of Thunder",
+            "Stormfield Striker",
             0,
             0
         )
     ];
 
-    const houndofthunderclassicinfo={
-        name:"Hound of Thunder</br>(Classic Shirt)",
+    const stormfieldstrikerclassicinfo={
+        name:"Stormfield Striker</br>(Classic Shirt)",
         creator:"Joseph Morales",
         Price: 32.00,
         details:"Unleash the storm on the field with this electrifying design featuring a fearless hound striker mid‑air, powering a lightning‑charged header under stadium lights. Dressed in a navy‑blue to lime‑violet gradient drifit uniform with blossom patterns, this crazy‑smiling hound radiates pure energy and confidence.",
@@ -234,28 +234,28 @@ export function houndofthunderclassic_main(){
         }
     };
 
-    const houndofthunderclassic_mainHTML=houndofthunderclassic_mainproduct.map(houndofthunderclassic_MainProducts=>houndofthunderclassic_MainProducts.getStormfieldStrikerClassicMainProduct()).join('')
+    const stormfieldstrikerclassic_mainHTML=stormfieldstrikerclassic_mainproduct.map(stormfieldstrikerclassic_MainProducts=>stormfieldstrikerclassic_MainProducts.getStormfieldStrikerClassicMainProduct()).join('')
     
-    const houndofthunderclassicinfoHTML=`
-        <h1>${houndofthunderclassicinfo.name}</h1>
-        <p>Created by : ${houndofthunderclassicinfo.creator}</p>
-        <strong>$ ${houndofthunderclassicinfo.Price.toFixed(2)}</strong>
+    const stormfieldstrikerclassicinfoHTML=`
+        <h1>${stormfieldstrikerclassicinfo.name}</h1>
+        <p>Created by : ${stormfieldstrikerclassicinfo.creator}</p>
+        <strong>$ ${stormfieldstrikerclassicinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${houndofthunderclassicinfo.details}</p>
+        <p>${stormfieldstrikerclassicinfo.details}</p>
         <h4>Type:</h4>
-        <p>${houndofthunderclassicinfo.type} are ${houndofthunderclassicinfo.fabric}</p>
+        <p>${stormfieldstrikerclassicinfo.type} are ${stormfieldstrikerclassicinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${houndofthunderclassicinfo.size.s}, ${houndofthunderclassicinfo.size.m}, ${houndofthunderclassicinfo.size.l}, ${houndofthunderclassicinfo.size.xl}, ${houndofthunderclassicinfo.size.xxl}, ${houndofthunderclassicinfo.size.xxxl}</p>
+        <p>${stormfieldstrikerclassicinfo.size.s}, ${stormfieldstrikerclassicinfo.size.m}, ${stormfieldstrikerclassicinfo.size.l}, ${stormfieldstrikerclassicinfo.size.xl}, ${stormfieldstrikerclassicinfo.size.xxl}, ${stormfieldstrikerclassicinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${houndofthunderclassic_mainHTML}
+                        ${stormfieldstrikerclassic_mainHTML}
                     </div>
                     <div>
-                         ${houndofthunderclassicinfoHTML}
+                         ${stormfieldstrikerclassicinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $27.20</button>
@@ -266,39 +266,39 @@ export function houndofthunderclassic_main(){
            `;
 }
 
-export function houndofthunderclassic_gallery(){
+export function stormfieldstrikerclassic_gallery(){
 
-    const houndofthunderclassicgallery={
+    const stormfieldstrikerclassicgallery={
         img: "/img/gallery1.webp",
-        alt:"Hound of Thunder"
+        alt:"Stormfield Striker"
     }
     return `
-          <div id="houndofthunderclassicgallery">
+          <div id="stormfieldstrikerclassicgallery">
               <h1>Image Product</h1>
-              <div class="houndofthunderclassic_gallery_flex">
-                 <img src="${houndofthunderclassicgallery.img}" alt="${houndofthunderclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderclassicgallery.img}" alt="${houndofthunderclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderclassicgallery.img}" alt="${houndofthunderclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderclassicgallery.img}" alt="${houndofthunderclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="stormfieldstrikerclassic_gallery_flex">
+                 <img src="${stormfieldstrikerclassicgallery.img}" alt="${stormfieldstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerclassicgallery.img}" alt="${stormfieldstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerclassicgallery.img}" alt="${stormfieldstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerclassicgallery.img}" alt="${stormfieldstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 
 }
 
-export function houndofthunderpremium_main(){
+export function stormfieldstrikerpremium_main(){
    
-    const houndofthunderpremium_mainproduct=[
+    const stormfieldstrikerpremium_mainproduct=[
         new StormfieldStrikerPremiumMainProduct(
             "/img/idontfish.webp",
-            "Hound of Thunder - Premium shirt",
+            "Stormfield Striker - Premium shirt",
             0,
             0
         )
     ];
 
-    const houndofthunderpremiuminfo={
-        name:"Hound of Thunder</br>(Premium Shirt)",
+    const stormfieldstrikerpremiuminfo={
+        name:"Stormfield Striker</br>(Premium Shirt)",
         creator:"Joseph Morales",
         Price: 46.35,
         details:"Unleash the storm on the field with this electrifying design featuring a fearless hound striker mid‑air, powering a lightning‑charged header under stadium lights. Dressed in a navy‑blue to lime‑violet gradient drifit uniform with blossom patterns, this crazy‑smiling hound radiates pure energy and confidence.",
@@ -318,28 +318,28 @@ export function houndofthunderpremium_main(){
         }
     };
 
-    const houndofthunderpremium_mainHTML=houndofthunderpremium_mainproduct.map(houndofthunderpremium_MainProducts=>houndofthunderpremium_MainProducts.getStormfieldStrikerPremiumMainProduct()).join('')
+    const stormfieldstrikerpremium_mainHTML=stormfieldstrikerpremium_mainproduct.map(stormfieldstrikerpremium_MainProducts=>stormfieldstrikerpremium_MainProducts.getStormfieldStrikerPremiumMainProduct()).join('')
     
-    const houndofthunderpremiuminfoHTML=`
-        <h1>${houndofthunderpremiuminfo.name}</h1>
-        <p>Created by : ${houndofthunderpremiuminfo.creator}</p>
-        <strong>$ ${houndofthunderpremiuminfo.Price.toFixed(2)}</strong>
+    const stormfieldstrikerpremiuminfoHTML=`
+        <h1>${stormfieldstrikerpremiuminfo.name}</h1>
+        <p>Created by : ${stormfieldstrikerpremiuminfo.creator}</p>
+        <strong>$ ${stormfieldstrikerpremiuminfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${houndofthunderpremiuminfo.details}</p>
+        <p>${stormfieldstrikerpremiuminfo.details}</p>
         <h4>Type:</h4>
-        <p>${houndofthunderpremiuminfo.type} are ${houndofthunderpremiuminfo.fabric}</p>
+        <p>${stormfieldstrikerpremiuminfo.type} are ${stormfieldstrikerpremiuminfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${houndofthunderpremiuminfo.size.s}, ${houndofthunderpremiuminfo.size.m}, ${houndofthunderpremiuminfo.size.l}, ${houndofthunderpremiuminfo.size.xl}, ${houndofthunderpremiuminfo.size.xxl}, ${houndofthunderpremiuminfo.size.xxxl}</p>
+        <p>${stormfieldstrikerpremiuminfo.size.s}, ${stormfieldstrikerpremiuminfo.size.m}, ${stormfieldstrikerpremiuminfo.size.l}, ${stormfieldstrikerpremiuminfo.size.xl}, ${stormfieldstrikerpremiuminfo.size.xxl}, ${stormfieldstrikerpremiuminfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${houndofthunderpremium_mainHTML}
+                        ${stormfieldstrikerpremium_mainHTML}
                     </div>
                     <div>
-                         ${houndofthunderpremiuminfoHTML}
+                         ${stormfieldstrikerpremiuminfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $46.35</button>
@@ -350,39 +350,39 @@ export function houndofthunderpremium_main(){
            `;
 }
 
-export function houndofthunderpremium_gallery(){
+export function stormfieldstrikerpremium_gallery(){
 
-    const houndofthunderpremiumgallery={
+    const stormfieldstrikerpremiumgallery={
         img: "/img/gallery1.webp",
-        alt:"Hound of Thunder"
+        alt:"Stormfield Striker"
     }
     return `
-          <div id="houndofthunderpremiumgallery">
+          <div id="stormfieldstrikerpremiumgallery">
               <h1>Image Product</h1>
-              <div class="houndofthunderpremium_gallery_flex">
-                 <img src="${houndofthunderpremiumgallery.img}" alt="${houndofthunderpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderpremiumgallery.img}" alt="${houndofthunderpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderpremiumgallery.img}" alt="${houndofthunderpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderpremiumgallery.img}" alt="${houndofthunderpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="stormfieldstrikerpremium_gallery_flex">
+                 <img src="${stormfieldstrikerpremiumgallery.img}" alt="${stormfieldstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerpremiumgallery.img}" alt="${stormfieldstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerpremiumgallery.img}" alt="${stormfieldstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerpremiumgallery.img}" alt="${stormfieldstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 
 }
 
-export function houndofthunderoversized_main(){
+export function stormfieldstrikeroversized_main(){
 
-    const houndofthunderoversizedmain_product=[
+    const stormfieldstrikeroversizedmain_product=[
         new StormfieldStrikerOversizedMainProduct(
             "/img/idontfish.webp",
-            "Hound of Thunder",
+            "Stormfield Striker",
             0,
             0
         )
     ];
 
-    const houndofthunderoversizedinfo={
-        name:"Hound of Thunder</br>(Oversized Shirt)",
+    const stormfieldstrikeroversizedinfo={
+        name:"Stormfield Striker</br>(Oversized Shirt)",
         creator:"Joseph Morales",
         Price: 37.00,
         details:"Unleash the storm on the field with this electrifying design featuring a fearless hound striker mid‑air, powering a lightning‑charged header under stadium lights. Dressed in a navy‑blue to lime‑violet gradient drifit uniform with blossom patterns, this crazy‑smiling hound radiates pure energy and confidence.",
@@ -402,28 +402,28 @@ export function houndofthunderoversized_main(){
         }
     };
 
-    const houndofthunderoversizedHTML=houndofthunderoversizedmain_product.map(houndofthunderoversizedMP=>houndofthunderoversizedMP.getStormfieldStrikerOversizedMainProduct()).join('');
+    const stormfieldstrikeroversizedHTML=stormfieldstrikeroversizedmain_product.map(stormfieldstrikeroversizedMP=>stormfieldstrikeroversizedMP.getStormfieldStrikerOversizedMainProduct()).join('');
 
-    const houndofthunderoversizedinfoHTML=`
-        <h1>${houndofthunderoversizedinfo.name}</h1>
-        <p>Created by : ${houndofthunderoversizedinfo.creator}</p>
-        <strong>$ ${houndofthunderoversizedinfo.Price.toFixed(2)}</strong>
+    const stormfieldstrikeroversizedinfoHTML=`
+        <h1>${stormfieldstrikeroversizedinfo.name}</h1>
+        <p>Created by : ${stormfieldstrikeroversizedinfo.creator}</p>
+        <strong>$ ${stormfieldstrikeroversizedinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${houndofthunderoversizedinfo.details}</p>
+        <p>${stormfieldstrikeroversizedinfo.details}</p>
         <h4>Type:</h4>
-        <p>${houndofthunderoversizedinfo.type} are ${houndofthunderoversizedinfo.fabric}</p>
+        <p>${stormfieldstrikeroversizedinfo.type} are ${stormfieldstrikeroversizedinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${houndofthunderoversizedinfo.size.s}, ${houndofthunderoversizedinfo.size.m}, ${houndofthunderoversizedinfo.size.l}, ${houndofthunderoversizedinfo.size.xl}, ${houndofthunderoversizedinfo.size.xxl}, ${houndofthunderoversizedinfo.size.xxxl}</p>
+        <p>${stormfieldstrikeroversizedinfo.size.s}, ${stormfieldstrikeroversizedinfo.size.m}, ${stormfieldstrikeroversizedinfo.size.l}, ${stormfieldstrikeroversizedinfo.size.xl}, ${stormfieldstrikeroversizedinfo.size.xxl}, ${stormfieldstrikeroversizedinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${houndofthunderoversizedHTML}
+                        ${stormfieldstrikeroversizedHTML}
                     </div>
                     <div>
-                         ${houndofthunderoversizedinfoHTML}
+                         ${stormfieldstrikeroversizedinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $27.75</button>
@@ -434,38 +434,38 @@ export function houndofthunderoversized_main(){
            `;
 }
 
-export function houndofthunderoversized_gallery(){
+export function stormfieldstrikeroversized_gallery(){
 
-    const houndofthunderoversizedgallery={
+    const stormfieldstrikeroversizedgallery={
         img: "/img/gallery1.webp",
-        alt:"Hound of Thunder"
+        alt:"Stormfield Striker"
     }
     return `
-          <div id="houndofthunderoversizedgallery">
+          <div id="stormfieldstrikeroversizedgallery">
               <h1>Image Product</h1>
-              <div class="houndofthunderoversized_gallery_flex">
-                 <img src="${houndofthunderoversizedgallery.img}" alt="${houndofthunderoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderoversizedgallery.img}" alt="${houndofthunderoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderoversizedgallery.img}" alt="${houndofthunderoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderoversizedgallery.img}" alt="${houndofthunderoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="stormfieldstrikeroversized_gallery_flex">
+                 <img src="${stormfieldstrikeroversizedgallery.img}" alt="${stormfieldstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikeroversizedgallery.img}" alt="${stormfieldstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikeroversizedgallery.img}" alt="${stormfieldstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikeroversizedgallery.img}" alt="${stormfieldstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function houndofthundersweatshirt_main(){
+export function stormfieldstrikersweatshirt_main(){
 
-    const houndofthundersweatshirtmain_product=[
+    const stormfieldstrikersweatshirtmain_product=[
         new StormfieldStrikerSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "Hound of Thunder",
+            "Stormfield Striker",
             0,
             0
         )
     ];
 
-    const houndofthundersweatshirtinfo={
-        name:"Hound of Thunder</br>(Sweat Shirt)",
+    const stormfieldstrikersweatshirtinfo={
+        name:"Stormfield Striker</br>(Sweat Shirt)",
         creator:"Joseph Morales",
         Price: 48.00,
         details:"Unleash the storm on the field with this electrifying design featuring a fearless hound striker mid‑air, powering a lightning‑charged header under stadium lights. Dressed in a navy‑blue to lime‑violet gradient drifit uniform with blossom patterns, this crazy‑smiling hound radiates pure energy and confidence.",
@@ -485,28 +485,28 @@ export function houndofthundersweatshirt_main(){
         }
     };
 
-    const houndofthundersweatshirtHTML=houndofthundersweatshirtmain_product.map(houndofthundersweatshirtMP=>houndofthundersweatshirtMP.getStormfieldStrikerSweatMainProduct()).join('');
+    const stormfieldstrikersweatshirtHTML=stormfieldstrikersweatshirtmain_product.map(stormfieldstrikersweatshirtMP=>stormfieldstrikersweatshirtMP.getStormfieldStrikerSweatMainProduct()).join('');
 
-    const houndofthundersweatshirtinfoHTML=`
-        <h1>${houndofthundersweatshirtinfo.name}</h1>
-        <p>Created by : ${houndofthundersweatshirtinfo.creator}</p>
-        <strong>$ ${houndofthundersweatshirtinfo.Price.toFixed(2)}</strong>
+    const stormfieldstrikersweatshirtinfoHTML=`
+        <h1>${stormfieldstrikersweatshirtinfo.name}</h1>
+        <p>Created by : ${stormfieldstrikersweatshirtinfo.creator}</p>
+        <strong>$ ${stormfieldstrikersweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${houndofthundersweatshirtinfo.details}</p>
+        <p>${stormfieldstrikersweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${houndofthundersweatshirtinfo.type} are ${houndofthundersweatshirtinfo.fabric}</p>
+        <p>${stormfieldstrikersweatshirtinfo.type} are ${stormfieldstrikersweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${houndofthundersweatshirtinfo.size.s}, ${houndofthundersweatshirtinfo.size.m}, ${houndofthundersweatshirtinfo.size.l}, ${houndofthundersweatshirtinfo.size.xl}, ${houndofthundersweatshirtinfo.size.xxl}, ${houndofthundersweatshirtinfo.size.xxxl}</p>
+        <p>${stormfieldstrikersweatshirtinfo.size.s}, ${stormfieldstrikersweatshirtinfo.size.m}, ${stormfieldstrikersweatshirtinfo.size.l}, ${stormfieldstrikersweatshirtinfo.size.xl}, ${stormfieldstrikersweatshirtinfo.size.xxl}, ${stormfieldstrikersweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${houndofthundersweatshirtHTML}
+                        ${stormfieldstrikersweatshirtHTML}
                     </div>
                     <div>
-                         ${houndofthundersweatshirtinfoHTML}
+                         ${stormfieldstrikersweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $38.40</button>
@@ -517,38 +517,38 @@ export function houndofthundersweatshirt_main(){
            `;
 }
 
-export function houndofthundersweatshirt_gallery(){
+export function stormfieldstrikersweatshirt_gallery(){
 
-    const houndofthundersweatshirtgallery={
+    const stormfieldstrikersweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"Hound of Thunder"
+        alt:"Stormfield Striker"
     }
     return `
-          <div id="houndofthundersweatshirtgallery">
+          <div id="stormfieldstrikersweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="houndofthundersweatshirt_gallery_flex">
-                 <img src="${houndofthundersweatshirtgallery.img}" alt="${houndofthundersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthundersweatshirtgallery.img}" alt="${houndofthundersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthundersweatshirtgallery.img}" alt="${houndofthundersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthundersweatshirtgallery.img}" alt="${houndofthundersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="stormfieldstrikersweatshirt_gallery_flex">
+                 <img src="${stormfieldstrikersweatshirtgallery.img}" alt="${stormfieldstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikersweatshirtgallery.img}" alt="${stormfieldstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikersweatshirtgallery.img}" alt="${stormfieldstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikersweatshirtgallery.img}" alt="${stormfieldstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function houndofthunderpremiumoversizedhoodie_main(){
+export function stormfieldstrikerpremiumoversizedhoodie_main(){
 
-    const houndofthunderpremiumoversizedhoodiemain_product=[
+    const stormfieldstrikerpremiumoversizedhoodiemain_product=[
         new StormfieldStrikerPremiumOversizedHoodieMainProduct(
             "/img/idontfish.webp",
-            "Hound of Thunder",
+            "Stormfield Striker",
             0,
             0
         )
     ];
 
-    const houndofthunderpremiumoversizedhoodieinfo={
-        name:"Hound of Thunder</br>( Premium Oversized Hoodie )",
+    const stormfieldstrikerpremiumoversizedhoodieinfo={
+        name:"Stormfield Striker</br>( Premium Oversized Hoodie )",
         creator:"Joseph Morales",
         Price: 68.00,
         details:"Unleash the storm on the field with this electrifying design featuring a fearless hound striker mid‑air, powering a lightning‑charged header under stadium lights. Dressed in a navy‑blue to lime‑violet gradient drifit uniform with blossom patterns, this crazy‑smiling hound radiates pure energy and confidence.",
@@ -568,28 +568,28 @@ export function houndofthunderpremiumoversizedhoodie_main(){
         }
     };
 
-    const houndofthunderpremiumoversizedhoodieHTML=houndofthunderpremiumoversizedhoodiemain_product.map(houndofthunderpremiumoversizedhoodieMP=>houndofthunderpremiumoversizedhoodieMP.getStormfieldStrikerPremiumOversizedHoodieMainProduct()).join('');
+    const stormfieldstrikerpremiumoversizedhoodieHTML=stormfieldstrikerpremiumoversizedhoodiemain_product.map(stormfieldstrikerpremiumoversizedhoodieMP=>stormfieldstrikerpremiumoversizedhoodieMP.getStormfieldStrikerPremiumOversizedHoodieMainProduct()).join('');
 
-    const houndofthunderpremiumoversizedhoodieinfoHTML=`
-        <h1>${houndofthunderpremiumoversizedhoodieinfo.name}</h1>
-        <p>Created by : ${houndofthunderpremiumoversizedhoodieinfo.creator}</p>
-        <strong>$ ${houndofthunderpremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
+    const stormfieldstrikerpremiumoversizedhoodieinfoHTML=`
+        <h1>${stormfieldstrikerpremiumoversizedhoodieinfo.name}</h1>
+        <p>Created by : ${stormfieldstrikerpremiumoversizedhoodieinfo.creator}</p>
+        <strong>$ ${stormfieldstrikerpremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${houndofthunderpremiumoversizedhoodieinfo.details}</p>
+        <p>${stormfieldstrikerpremiumoversizedhoodieinfo.details}</p>
         <h4>Type:</h4>
-        <p>${houndofthunderpremiumoversizedhoodieinfo.type} are ${houndofthunderpremiumoversizedhoodieinfo.fabric}</p>
+        <p>${stormfieldstrikerpremiumoversizedhoodieinfo.type} are ${stormfieldstrikerpremiumoversizedhoodieinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${houndofthunderpremiumoversizedhoodieinfo.size.s}, ${houndofthunderpremiumoversizedhoodieinfo.size.m}, ${houndofthunderpremiumoversizedhoodieinfo.size.l}, ${houndofthunderpremiumoversizedhoodieinfo.size.xl}, ${houndofthunderpremiumoversizedhoodieinfo.size.xxl}, ${houndofthunderpremiumoversizedhoodieinfo.size.xxxl}</p>
+        <p>${stormfieldstrikerpremiumoversizedhoodieinfo.size.s}, ${stormfieldstrikerpremiumoversizedhoodieinfo.size.m}, ${stormfieldstrikerpremiumoversizedhoodieinfo.size.l}, ${stormfieldstrikerpremiumoversizedhoodieinfo.size.xl}, ${stormfieldstrikerpremiumoversizedhoodieinfo.size.xxl}, ${stormfieldstrikerpremiumoversizedhoodieinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${houndofthunderpremiumoversizedhoodieHTML}
+                        ${stormfieldstrikerpremiumoversizedhoodieHTML}
                     </div>
                     <div>
-                         ${houndofthunderpremiumoversizedhoodieinfoHTML}
+                         ${stormfieldstrikerpremiumoversizedhoodieinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $40.80</button>
@@ -600,38 +600,38 @@ export function houndofthunderpremiumoversizedhoodie_main(){
            `;
 }
 
-export function houndofthunderpremiumoversizedhoodie_gallery(){
+export function stormfieldstrikerpremiumoversizedhoodie_gallery(){
 
-    const houndofthunderpremiumoversizedhoodiegallery={
+    const stormfieldstrikerpremiumoversizedhoodiegallery={
         img: "/img/gallery1.webp",
-        alt:"Hound of Thunder"
+        alt:"Stormfield Striker"
     }
     return `
-          <div id="houndofthunderpremiumoversizedhoodiegallery">
+          <div id="stormfieldstrikerpremiumoversizedhoodiegallery">
               <h1>Image Product</h1>
-              <div class="houndofthunderpremiumoversizedhoodie_gallery_flex">
-                 <img src="${houndofthunderpremiumoversizedhoodiegallery.img}" alt="${houndofthunderpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderpremiumoversizedhoodiegallery.img}" alt="${houndofthunderpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderpremiumoversizedhoodiegallery.img}" alt="${houndofthunderpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderpremiumoversizedhoodiegallery.img}" alt="${houndofthunderpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="stormfieldstrikerpremiumoversizedhoodie_gallery_flex">
+                 <img src="${stormfieldstrikerpremiumoversizedhoodiegallery.img}" alt="${stormfieldstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerpremiumoversizedhoodiegallery.img}" alt="${stormfieldstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerpremiumoversizedhoodiegallery.img}" alt="${stormfieldstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerpremiumoversizedhoodiegallery.img}" alt="${stormfieldstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function houndofthunderlightweighthoodie_main(){
+export function stormfieldstrikerlightweighthoodie_main(){
 
-    const houndofthunderlightweighthoodiemain_product=[
+    const stormfieldstrikerlightweighthoodiemain_product=[
         new StormfieldStrikerLightweightHoodieMainProduct(
             "/img/idontfish.webp",
-            "Hound of Thunder",
+            "Stormfield Striker",
             0,
             0
         )
     ];
 
-    const houndofthunderlightweighthoodieinfo={
-        name:"Hound of Thunder</br>(Lightweight Hoodie)",
+    const stormfieldstrikerlightweighthoodieinfo={
+        name:"Stormfield Striker</br>(Lightweight Hoodie)",
         creator:"Joseph Morales",
         Price: 62.21,
         details:"Unleash the storm on the field with this electrifying design featuring a fearless hound striker mid‑air, powering a lightning‑charged header under stadium lights. Dressed in a navy‑blue to lime‑violet gradient drifit uniform with blossom patterns, this crazy‑smiling hound radiates pure energy and confidence.",
@@ -651,28 +651,28 @@ export function houndofthunderlightweighthoodie_main(){
         }
     };
 
-    const houndofthunderlightweighthoodieHTML=houndofthunderlightweighthoodiemain_product.map(houndofthunderlightweighthoodieMP=>houndofthunderlightweighthoodieMP.getStormfieldStrikerLightweightHoodieMainProduct()).join('');
+    const stormfieldstrikerlightweighthoodieHTML=stormfieldstrikerlightweighthoodiemain_product.map(stormfieldstrikerlightweighthoodieMP=>stormfieldstrikerlightweighthoodieMP.getStormfieldStrikerLightweightHoodieMainProduct()).join('');
 
-    const houndofthunderlightweighthoodieinfoHTML=`
-        <h1>${houndofthunderlightweighthoodieinfo.name}</h1>
-        <p>Created by : ${houndofthunderlightweighthoodieinfo.creator}</p>
-        <strong>$ ${houndofthunderlightweighthoodieinfo.Price.toFixed(2)}</strong>
+    const stormfieldstrikerlightweighthoodieinfoHTML=`
+        <h1>${stormfieldstrikerlightweighthoodieinfo.name}</h1>
+        <p>Created by : ${stormfieldstrikerlightweighthoodieinfo.creator}</p>
+        <strong>$ ${stormfieldstrikerlightweighthoodieinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${houndofthunderlightweighthoodieinfo.details}</p>
+        <p>${stormfieldstrikerlightweighthoodieinfo.details}</p>
         <h4>Type:</h4>
-        <p>${houndofthunderlightweighthoodieinfo.type} are ${houndofthunderlightweighthoodieinfo.fabric}</p>
+        <p>${stormfieldstrikerlightweighthoodieinfo.type} are ${stormfieldstrikerlightweighthoodieinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${houndofthunderlightweighthoodieinfo.size.s}, ${houndofthunderlightweighthoodieinfo.size.m}, ${houndofthunderlightweighthoodieinfo.size.l}, ${houndofthunderlightweighthoodieinfo.size.xl}, ${houndofthunderlightweighthoodieinfo.size.xxl}, ${houndofthunderlightweighthoodieinfo.size.xxxl}</p>
+        <p>${stormfieldstrikerlightweighthoodieinfo.size.s}, ${stormfieldstrikerlightweighthoodieinfo.size.m}, ${stormfieldstrikerlightweighthoodieinfo.size.l}, ${stormfieldstrikerlightweighthoodieinfo.size.xl}, ${stormfieldstrikerlightweighthoodieinfo.size.xxl}, ${stormfieldstrikerlightweighthoodieinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${houndofthunderlightweighthoodieHTML}
+                        ${stormfieldstrikerlightweighthoodieHTML}
                     </div>
                     <div>
-                         ${houndofthunderlightweighthoodieinfoHTML}
+                         ${stormfieldstrikerlightweighthoodieinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $49.76</button>
@@ -683,38 +683,38 @@ export function houndofthunderlightweighthoodie_main(){
            `;
 }
 
-export function houndofthunderlightweighthoodie_gallery(){
+export function stormfieldstrikerlightweighthoodie_gallery(){
 
-    const houndofthunderlightweighthoodiegallery={
+    const stormfieldstrikerlightweighthoodiegallery={
         img: "/img/gallery1.webp",
-        alt:"Hound of Thunder"
+        alt:"Stormfield Striker"
     }
     return `
-          <div id="houndofthunderlightweighthoodiegallery">
+          <div id="stormfieldstrikerlightweighthoodiegallery">
               <h1>Image Product</h1>
-              <div class="houndofthunderlightweighthoodie_gallery_flex">
-                 <img src="${houndofthunderlightweighthoodiegallery.img}" alt="${houndofthunderlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderlightweighthoodiegallery.img}" alt="${houndofthunderlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderlightweighthoodiegallery.img}" alt="${houndofthunderlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderlightweighthoodiegallery.img}" alt="${houndofthunderlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="stormfieldstrikerlightweighthoodie_gallery_flex">
+                 <img src="${stormfieldstrikerlightweighthoodiegallery.img}" alt="${stormfieldstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerlightweighthoodiegallery.img}" alt="${stormfieldstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerlightweighthoodiegallery.img}" alt="${stormfieldstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerlightweighthoodiegallery.img}" alt="${stormfieldstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function houndofthunderpremiumoversizedsweatshirt_main(){
+export function stormfieldstrikerpremiumoversizedsweatshirt_main(){
 
-    const houndofthunderpremiumoversizedsweatshirtmain_product=[
+    const stormfieldstrikerpremiumoversizedsweatshirtmain_product=[
         new StormfieldStrikerPremiumOversizedSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "Hound of Thunder",
+            "Stormfield Striker",
             0,
             0
         )
     ];
 
-    const houndofthunderpremiumoversizedsweatshirtinfo={
-        name:"Hound of Thunder</br>(Premium Oversized Sweatshirt)",
+    const stormfieldstrikerpremiumoversizedsweatshirtinfo={
+        name:"Stormfield Striker</br>(Premium Oversized Sweatshirt)",
         creator:"Joseph Morales",
         Price: 62.00,
         details:"Unleash the storm on the field with this electrifying design featuring a fearless hound striker mid‑air, powering a lightning‑charged header under stadium lights. Dressed in a navy‑blue to lime‑violet gradient drifit uniform with blossom patterns, this crazy‑smiling hound radiates pure energy and confidence.",
@@ -734,28 +734,28 @@ export function houndofthunderpremiumoversizedsweatshirt_main(){
         }
     };
 
-    const houndofthunderpremiumoversizedsweatshirtHTML=houndofthunderpremiumoversizedsweatshirtmain_product.map(houndofthunderpremiumoversizedsweatshirtMP=>houndofthunderpremiumoversizedsweatshirtMP.getStormfieldStrikerPremiumOversizedSweatshirtMainProduct()).join('');
+    const stormfieldstrikerpremiumoversizedsweatshirtHTML=stormfieldstrikerpremiumoversizedsweatshirtmain_product.map(stormfieldstrikerpremiumoversizedsweatshirtMP=>stormfieldstrikerpremiumoversizedsweatshirtMP.getStormfieldStrikerPremiumOversizedSweatshirtMainProduct()).join('');
 
-    const houndofthunderpremiumoversizedsweatshirtinfoHTML=`
-        <h1>${houndofthunderpremiumoversizedsweatshirtinfo.name}</h1>
-        <p>Created by : ${houndofthunderpremiumoversizedsweatshirtinfo.creator}</p>
-        <strong>$ ${houndofthunderpremiumoversizedsweatshirtinfo.Price.toFixed(2)}</strong>
+    const stormfieldstrikerpremiumoversizedsweatshirtinfoHTML=`
+        <h1>${stormfieldstrikerpremiumoversizedsweatshirtinfo.name}</h1>
+        <p>Created by : ${stormfieldstrikerpremiumoversizedsweatshirtinfo.creator}</p>
+        <strong>$ ${stormfieldstrikerpremiumoversizedsweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${houndofthunderpremiumoversizedsweatshirtinfo.details}</p>
+        <p>${stormfieldstrikerpremiumoversizedsweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${houndofthunderpremiumoversizedsweatshirtinfo.type} are ${houndofthunderpremiumoversizedsweatshirtinfo.fabric}</p>
+        <p>${stormfieldstrikerpremiumoversizedsweatshirtinfo.type} are ${stormfieldstrikerpremiumoversizedsweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${houndofthunderpremiumoversizedsweatshirtinfo.size.s}, ${houndofthunderpremiumoversizedsweatshirtinfo.size.m}, ${houndofthunderpremiumoversizedsweatshirtinfo.size.l}, ${houndofthunderpremiumoversizedsweatshirtinfo.size.xl}, ${houndofthunderpremiumoversizedsweatshirtinfo.size.xxl}, ${houndofthunderpremiumoversizedsweatshirtinfo.size.xxxl}</p>
+        <p>${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.s}, ${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.m}, ${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.l}, ${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.xl}, ${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.xxl}, ${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${houndofthunderpremiumoversizedsweatshirtHTML}
+                        ${stormfieldstrikerpremiumoversizedsweatshirtHTML}
                     </div>
                     <div>
-                         ${houndofthunderpremiumoversizedsweatshirtinfoHTML}
+                         ${stormfieldstrikerpremiumoversizedsweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $37.20</button>
@@ -766,20 +766,20 @@ export function houndofthunderpremiumoversizedsweatshirt_main(){
            `;
 }
 
-export function houndofthunderpremiumoversizedsweatshirt_gallery(){
+export function stormfieldstrikerpremiumoversizedsweatshirt_gallery(){
 
-    const houndofthunderpremiumoversizedsweatshirtgallery={
+    const stormfieldstrikerpremiumoversizedsweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"Hound of Thunder"
+        alt:"Stormfield Striker"
     }
     return `
-          <div id="houndofthunderpremiumoversizedsweatshirtgallery">
+          <div id="stormfieldstrikerpremiumoversizedsweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="houndofthunderpremiumoversizedsweatshirt_gallery_flex">
-                 <img src="${houndofthunderpremiumoversizedsweatshirtgallery.img}" alt="${houndofthunderpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderpremiumoversizedsweatshirtgallery.img}" alt="${houndofthunderpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderpremiumoversizedsweatshirtgallery.img}" alt="${houndofthunderpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${houndofthunderpremiumoversizedsweatshirtgallery.img}" alt="${houndofthunderpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="stormfieldstrikerpremiumoversizedsweatshirt_gallery_flex">
+                 <img src="${stormfieldstrikerpremiumoversizedsweatshirtgallery.img}" alt="${stormfieldstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerpremiumoversizedsweatshirtgallery.img}" alt="${stormfieldstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerpremiumoversizedsweatshirtgallery.img}" alt="${stormfieldstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${stormfieldstrikerpremiumoversizedsweatshirtgallery.img}" alt="${stormfieldstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;

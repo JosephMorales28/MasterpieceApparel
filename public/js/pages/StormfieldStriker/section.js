@@ -18,7 +18,7 @@ class ImageSectionProduct{
     }
 }
 
-export function houndofthunder_section(){
+export function stormfieldstriker_section(){
 
     const imagesection_product=[
         new ImageSectionProduct(
@@ -27,7 +27,7 @@ export function houndofthunder_section(){
             0,
             0,
             "Classic Shirt",
-            "/StormfieldStriker/houndofthunderclassicshirt"
+            "/StormfieldStriker/stormfieldstrikerclassicshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -35,7 +35,7 @@ export function houndofthunder_section(){
             0,
             0,
             "Premium Shirt",
-            "/StormfieldStriker/houndofthunderpremiumshirt"
+            "/StormfieldStriker/stormfieldstrikerpremiumshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -43,7 +43,7 @@ export function houndofthunder_section(){
             0,
             0,
             "Oversized Shirt",
-            "/StormfieldStriker/houndofthunderoversizedshirt"
+            "/StormfieldStriker/stormfieldstrikeroversizedshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -51,7 +51,7 @@ export function houndofthunder_section(){
             0,
             0,
             "Sweat Shirt",
-            "/StormfieldStriker/houndofthundersweatshirt"
+            "/StormfieldStriker/stormfieldstrikersweatshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -59,7 +59,7 @@ export function houndofthunder_section(){
             0,
             0,
             "Premium Oversized Hoodie",
-            "/StormfieldStriker/houndofthunderpremiumoversizedhoodie"
+            "/StormfieldStriker/stormfieldstrikerpremiumoversizedhoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -67,7 +67,7 @@ export function houndofthunder_section(){
             0,
             0,
             "Lightweight Hoodie",
-            "/StormfieldStriker/houndofthunderlightweighthoodie"
+            "/StormfieldStriker/stormfieldstrikerlightweighthoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -75,7 +75,7 @@ export function houndofthunder_section(){
             0,
             0,
             "Premium Oversized Sweat Shirt",
-            "/StormfieldStriker/houndofthunderpremiumoversizedsweatshirt"
+            "/StormfieldStriker/stormfieldstrikerpremiumoversizedsweatshirt"
         )
     ];
 

@@ -264,6 +264,7 @@ main {
    #goalkeepergonebananasgallery,#goalkeepergonebananasclassicgallery,#goalkeepergonebananaspremiumgallery,#goalkeepergonebananasoversizedgallery,#goalkeepergonebananassweatshirtgallery,#goalkeepergonebananaspremiumoversizedhoodiegallery,#goalkeepergonebananaslightweighthoodiegallery,#goalkeepergonebananaspremiumoversizedsweatshirtgallery,
    #lightningpawstrikergallery,#lightningpawstrikerclassicgallery,#lightningpawstrikerpremiumgallery,#lightningpawstrikeroversizedgallery,#lightningpawstrikersweatshirtgallery,#lightningpawstrikerpremiumoversizedhoodiegallery,#lightningpawstrikerlightweighthoodiegallery,#lightningpawstrikerpremiumoversizedsweatshirtgallery,
    #houndofthundergallery,#houndofthunderclassicgallery,#houndofthunderpremiumgallery,#houndofthunderoversizedgallery,#houndofthundersweatshirtgallery,#houndofthunderpremiumoversizedhoodiegallery,#houndofthunderlightweighthoodiegallery,#houndofthunderpremiumoversizedsweatshirtgallery
+   #stormfieldstrikergallery
    ){
     margin:0 auto;
     width:min(1220px, 100%);
@@ -282,6 +283,7 @@ main {
        .goalkeepergonebananas_gallery_flex,.goalkeepergonebananasclassic_gallery_flex,.goalkeepergonebananaspremium_gallery_flex,.goalkeepergonebananasoversized_gallery_flex,.goalkeepergonebananassweatshirt_gallery_flex,.goalkeepergonebananaspremiumoversizedhoodie_gallery_flex,.goalkeepergonebananaslightweighthoodie_gallery_flex,.goalkeepergonebananaspremiumoversizedsweatshirt_gallery_flex,
        .lightningpawstriker_gallery_flex,.lightningpawstrikerclassic_gallery_flex,.lightningpawstrikerpremium_gallery_flex,.lightningpawstrikeroversized_gallery_flex,.lightningpawstrikersweatshirt_gallery_flex,.lightningpawstrikerpremiumoversizedhoodie_gallery_flex,.lightningpawstrikerlightweighthoodie_gallery_flex,.lightningpawstrikerpremiumoversizedsweatshirt_gallery_flex
        .houndofthunder_gallery_flex,.houndofthunderclassic_gallery_flex,.houndofthunderpremium_gallery_flex,.houndofthunderoversized_gallery_flex,.houndofthundersweatshirt_gallery_flex,.houndofthunderpremiumoversizedhoodie_gallery_flex,.houndofthunderlightweighthoodie_gallery_flex,.houndofthunderpremiumoversizedsweatshirt_gallery_flex
+       .stormfieldstriker_gallery_flex
        ){
       display:flex;
       flex-wrap: wrap;

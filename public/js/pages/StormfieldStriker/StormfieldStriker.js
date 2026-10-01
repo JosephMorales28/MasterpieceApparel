@@ -1,6 +1,6 @@
-import { houndofthunder_main, houndofthundermain_gallery } from "./main.js";
-import { houndofthunder_section } from "./section.js";
+import { stormfieldstriker_main, stormfieldstrikermain_gallery } from "./main.js";
+import { stormfieldstriker_section } from "./section.js";
 
-export function houndofthundermain(){
-    return houndofthunder_main() + houndofthundermain_gallery() + houndofthunder_section();
+export function stormfieldstrikermain(){
+    return stormfieldstriker_main() + stormfieldstrikermain_gallery() + stormfieldstriker_section();
 }
