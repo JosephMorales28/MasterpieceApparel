@@ -348,6 +348,10 @@
     {
       "source": "/StormfieldStriker/stormfieldstrikerclassicshirt",
       "destination": "/js/pages/StormfieldStriker/stormfieldstrikerclassicshirt"
+    },
+    {
+      "source": "/StormfieldStriker/stormfieldstrikerpremiumshirt",
+      "destination": "/js/pages/StormfieldStriker/stormfieldstrikerpremiumshirt"
     }
   ]
 }
