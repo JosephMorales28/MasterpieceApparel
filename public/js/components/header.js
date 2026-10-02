@@ -4,7 +4,7 @@ export function exp_header(page){
     return`
         <header>
             <div class="MonthSales">
-                 September 9,2026 Huge Discount Sales on Bermonth is Coming Soon!
+                 October 10,2026 Huge Discount Sales on Bermonth is Coming Soon!
             </div>
             <nav>
                 <div id="logo">
