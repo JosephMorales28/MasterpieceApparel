@@ -73,6 +73,7 @@ import { stormfieldstrikermain } from './pages/StormfieldStriker/StormfieldStrik
 import { stormfieldstrikerclassicmain } from './pages/StormfieldStriker/stormfieldstrikerclassic.js';
 import { stormfieldstrikerpremiummain } from './pages/StormfieldStriker/stormfieldstrikerpremium.js';
 import { stormfieldstrikeroversizedmain } from './pages/StormfieldStriker/stormfieldstrikeroversized.js';
+import { stormfieldstrikersweatshirtmain } from './pages/StormfieldStriker/stormfieldstrikersweatshirt.js';
 
 export const routes = {
     home: homePage,
@@ -158,5 +159,6 @@ export const routes = {
     stormfieldstriker: stormfieldstrikermain,
     stormfieldstrikerclassicshirt: stormfieldstrikerclassicmain,
     stormfieldstrikerpremiumshirt: stormfieldstrikerpremiummain,
-    stormfieldstrikeroversizedshirt: stormfieldstrikeroversizedmain
+    stormfieldstrikeroversizedshirt: stormfieldstrikeroversizedmain,
+    stormfieldstrikersweatshirt: stormfieldstrikersweatshirtmain
 };
