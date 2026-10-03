@@ -93,6 +93,30 @@ export function shopSection(search=""){
                 1,
                 "Stormfield Striker",
                 "./stormfieldstriker"
+        ),
+        new ImageProduct(
+                "./img/Corgi Wizard Stormpaw Ascendant.webp",
+                "Corgi Wizard Stormpaw Ascendant",
+                1,
+                1,
+                "Corgi Wizard Stormpaw Ascendant",
+                
+        ),
+        new ImageProduct(
+                "./img/Celestial Champion Corgi.webp",
+                "Celesdtial Champion Corgi",
+                1,
+                1,
+                "Celestial Champion Corgi",
+                
+        ),
+        new ImageProduct(
+                "./img/Crazy Swing Champ.webp",
+                "Crazy Swing Champ",
+                1,
+                1,
+                "Crazy Swing Champ",
+                
         )
     ]
     
