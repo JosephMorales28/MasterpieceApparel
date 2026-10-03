@@ -364,6 +364,10 @@
     {
       "source": "/StormfieldStriker/stormfieldstrikerpremiumoversizedhoodie",
       "destination": "/js/pages/StormfieldStriker/stormfieldstrikerpremiumoversizedhoodie"
+    },
+    {
+      "source": "/StormfieldStriker/stormfieldstrikerlightweighthoodie",
+      "destination": "/js/pages/StormfieldStriker/stormfieldstrikerlightweighthoodie"
     }
   ]
 }
