@@ -122,7 +122,7 @@ export function deepsea_main(){
     
     const imagemain_product=[
         new ImageMainProduct(
-            "./img/idontfish.webp",
+            "/img/idontfish.webp",
             "i don't fish for food i fish for vibes",
             0,
             0

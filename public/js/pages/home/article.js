@@ -33,7 +33,7 @@ export function homeArticle(){
                             alt:"Deep Sea Monster t-shirt by Masterpiece Apparel",
                             title:"Deep Sea Monster",
                             creator:"By: Joseph Morales",
-                            pages:"#",
+                            pages:"/pages/deepseamonster",
                             redbubble:"https://www.redbubble.com/people/...",
                             target:"_blank",
                             rel:"noopener noreferrer"
@@ -105,7 +105,7 @@ export function homeArticle(){
                <h1>Unisex Wear</h1>
                <div class="products">
                    ${product.map((item,index)=>`
-                      <a href="#">
+                      <a href="${item.pages}">
                       <div>
                         <img src="${item.image}" srcset="${item.srcset}" sizes="${item.sizes}" alt="${item.alt}" loading="${index===0 ? "eager":"lazy"}" fetchpriority="${index===0 ? "auto" : "high"}" decoding="async"/>
                         <p>${item.title}</p>
