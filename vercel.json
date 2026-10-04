@@ -400,6 +400,10 @@
     {
       "source": "/CorgiWizardStormpaw/corgiwizardstormpawlightweighthoodie",
       "destination": "/js/pages/CorgiWizardStormpaw/corgiwizardstormpawlightweighthoodie"
+    },
+    {
+      "source": "/CorgiWizardStormpaw/corgiwizardstormpawpremiumoversizedsweatshirt",
+      "destination": "/js/pages/CorgiWizardStormpaw/corgiwizardstormpawpremiumoversizedsweatshirt"
     }
   ]
 }

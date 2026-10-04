@@ -77,6 +77,7 @@ import { corgiwizardstormpawoversizedmain } from './CorgiWizardStormpaw/corgiwiz
 import { corgiwizardstormpawsweatshirtmain } from './CorgiWizardStormpaw/corgiwizardstormpawsweatshirt.js';
 import { corgiwizardstormpawpremiumoversizedhoodiemain } from './CorgiWizardStormpaw/corgiwizardstormpawpremiumoversizedhoodie.js';
 import { corgiwizardstormpawlightweighthoodiemain } from './CorgiWizardStormpaw/corgiwizardstormpawlightweighthoodie.js';
+import { corgiwizardstormpawpremiumoversizedsweatshirtmain } from './CorgiWizardStormpaw/corgiwizardstormpawpremiumoversizedsweatshirt.js';
 
 export const productRoutes ={
 idontfishforfoodifishforvibes: idontfishforfood,
@@ -166,5 +167,6 @@ idontfishforfoodifishforvibes: idontfishforfood,
     corgiwizardstormpawoversizedshirt: corgiwizardstormpawoversizedmain,
     corgiwizardstormpawsweatshirt: corgiwizardstormpawsweatshirtmain,
     corgiwizardstormpawpremiumoversizedhoodie: corgiwizardstormpawpremiumoversizedhoodiemain,
-    corgiwizardstormpawlightweighthoodie: corgiwizardstormpawlightweighthoodiemain
+    corgiwizardstormpawlightweighthoodie: corgiwizardstormpawlightweighthoodiemain,
+    corgiwizardstormpawpremiumoversizedsweatshirt: corgiwizardstormpawpremiumoversizedsweatshirtmain
 }
