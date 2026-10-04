@@ -376,6 +376,10 @@
     {
       "source": "/corgiwizardstormpaw",
       "destination": "/corgiwizardstormpaw"
+    },
+    {
+      "source": "/CorgiWizardStormpaw/corgiwizardstormpawclassicshirt",
+      "destination": "/js/pages/CorgiWizardStormpaw/corgiwizardstormpawclassicshirt"
     }
   ]
 }
