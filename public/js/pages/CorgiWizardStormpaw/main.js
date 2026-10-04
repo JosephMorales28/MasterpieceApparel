@@ -133,7 +133,7 @@ export function corgiwizardstormpaw_main(){
         name:"Corgi Wizard Stormpaw Ascendant</br>(Essential Shirt)",
         creator:"Joseph Morales",
         Price: 30.69,
-        details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
+        details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -217,7 +217,7 @@ export function corgiwizardstormpawclassic_main(){
         name:"Corgi Wizard Stormpaw Ascendant</br>(Classic Shirt)",
         creator:"Joseph Morales",
         Price: 32.00,
-        details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
+        details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -301,7 +301,7 @@ export function corgiwizardstormpawpremium_main(){
         name:"Corgi Wizard Stormpaw Ascendant</br>(Premium Shirt)",
         creator:"Joseph Morales",
         Price: 46.35,
-        details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
+        details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -385,7 +385,7 @@ export function corgiwizardstormpawoversized_main(){
         name:"Corgi Wizard Stormpaw Ascendant</br>(Oversized Shirt)",
         creator:"Joseph Morales",
         Price: 37.00,
-        details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
+        details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -468,7 +468,7 @@ export function corgiwizardstormpawsweatshirt_main(){
         name:"Corgi Wizard Stormpaw Ascendant</br>(Sweat Shirt)",
         creator:"Joseph Morales",
         Price: 48.00,
-        details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
+        details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -551,7 +551,7 @@ export function corgiwizardstormpawpremiumoversizedhoodie_main(){
         name:"Corgi Wizard Stormpaw Ascendant</br>( Premium Oversized Hoodie )",
         creator:"Joseph Morales",
         Price: 68.00,
-        details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
+        details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -634,7 +634,7 @@ export function corgiwizardstormpawlightweighthoodie_main(){
         name:"Corgi Wizard Stormpaw Ascendant</br>(Lightweight Hoodie)",
         creator:"Joseph Morales",
         Price: 62.21,
-        details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
+        details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
@@ -717,7 +717,7 @@ export function corgiwizardstormpawpremiumoversizedsweatshirt_main(){
         name:"Corgi Wizard Stormpaw Ascendant</br>(Premium Oversized Sweatshirt)",
         creator:"Joseph Morales",
         Price: 62.00,
-        details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
+        details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
         type:"Unisex, T-Shirts",
         fabric: "100% cotton",
         printtype:{
