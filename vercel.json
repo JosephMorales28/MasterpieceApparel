@@ -372,6 +372,10 @@
     {
       "source": "/StormfieldStriker/stormfieldstrikerpremiumoversizedsweatshirt",
       "destination": "/js/pages/StormfieldStriker/stormfieldstrikerpremiumoversizedsweatshirt"
+    },
+    {
+      "source": "/corgiwizardstormpaw",
+      "destination": "/corgiwizardstormpaw"
     }
   ]
 }

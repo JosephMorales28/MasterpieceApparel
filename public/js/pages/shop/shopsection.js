@@ -100,7 +100,7 @@ export function shopSection(search=""){
                 1,
                 1,
                 "Corgi Wizard Stormpaw Ascendant",
-                
+                "./corgiwizardstormpaw"
         ),
         new ImageProduct(
                 "./img/Celestial Champion Corgi.webp",

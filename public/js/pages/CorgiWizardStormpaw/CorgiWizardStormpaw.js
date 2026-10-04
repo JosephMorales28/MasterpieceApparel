@@ -1,6 +1,6 @@
-import { stormfieldstriker_main, stormfieldstrikermain_gallery } from "./main.js";
-import { stormfieldstriker_section } from "./section.js";
+import { corgiwizardstormpaw_main, corgiwizardstormpawmain_gallery } from "./main.js";
+import { corgiwizardstormpaw_section } from "./section.js";
 
-export function stormfieldstrikermain(){
-    return stormfieldstriker_main() + stormfieldstrikermain_gallery() + stormfieldstriker_section();
+export function corgiwizardstormpawmain(){
+    return corgiwizardstormpaw_main() + corgiwizardstormpawmain_gallery() + corgiwizardstormpaw_section();
 }

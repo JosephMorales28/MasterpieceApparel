@@ -12,7 +12,8 @@ const supportedPages=['about','shop','service','blog','contact',404,
                       'goalkeepergonebananas','goalkeepergonebananasclassicshirt','goalkeepergonebananaspremiumshirt','goalkeepergonebananasoversizedshirt','goalkeepergonebananassweatshirt','goalkeepergonebananaspremiumoversizedhoodie','goalkeepergonebananaslightweighthoodie','goalkeepergonebananaspremiumoversizedsweatshirt',
                       'lightningpawstriker','lightningpawstrikerclassicshirt','lightningpawstrikerpremiumshirt','lightningpawstrikeroversizedshirt','lightningpawstrikersweatshirt','lightningpawstrikerpremiumoversizedhoodie','lightningpawstrikerlightweighthoodie','lightningpawstrikerpremiumoversizedsweatshirt',
                       'houndofthunder','houndofthunderclassicshirt','houndofthunderpremiumshirt','houndofthunderoversizedshirt','houndofthundersweatshirt','houndofthunderpremiumoversizedhoodie','houndofthunderlightweighthoodie','houndofthunderpremiumoversizedsweatshirt',
-                      'stormfieldstriker','stormfieldstrikerclassicshirt','stormfieldstrikerpremiumshirt','stormfieldstrikeroversizedshirt','stormfieldstrikersweatshirt','stormfieldstrikerpremiumoversizedhoodie','stormfieldstrikerlightweighthoodie','stormfieldstrikerpremiumoversizedsweatshirt'
+                      'stormfieldstriker','stormfieldstrikerclassicshirt','stormfieldstrikerpremiumshirt','stormfieldstrikeroversizedshirt','stormfieldstrikersweatshirt','stormfieldstrikerpremiumoversizedhoodie','stormfieldstrikerlightweighthoodie','stormfieldstrikerpremiumoversizedsweatshirt',
+                      'corgiwizardstormpaw'
                       ];
 
 const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() || 'home';

@@ -18,7 +18,7 @@ class ImageSectionProduct{
     }
 }
 
-export function stormfieldstriker_section(){
+export function corgiwizardstormpaw_section(){
 
     const imagesection_product=[
         new ImageSectionProduct(
@@ -27,7 +27,7 @@ export function stormfieldstriker_section(){
             0,
             0,
             "Classic Shirt",
-            "/CorgiWizardStormpaw/stormfieldstrikerclassicshirt"
+            "/CorgiWizardStormpaw/corgiwizardstormpawclassicshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -35,7 +35,7 @@ export function stormfieldstriker_section(){
             0,
             0,
             "Premium Shirt",
-            "/CorgiWizardStormpaw/stormfieldstrikerpremiumshirt"
+            "/CorgiWizardStormpaw/corgiwizardstormpawpremiumshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -43,7 +43,7 @@ export function stormfieldstriker_section(){
             0,
             0,
             "Oversized Shirt",
-            "/CorgiWizardStormpaw/stormfieldstrikeroversizedshirt"
+            "/CorgiWizardStormpaw/corgiwizardstormpawoversizedshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -51,7 +51,7 @@ export function stormfieldstriker_section(){
             0,
             0,
             "Sweat Shirt",
-            "/CorgiWizardStormpaw/stormfieldstrikersweatshirt"
+            "/CorgiWizardStormpaw/corgiwizardstormpawsweatshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -59,7 +59,7 @@ export function stormfieldstriker_section(){
             0,
             0,
             "Premium Oversized Hoodie",
-            "/CorgiWizardStormpaw/stormfieldstrikerpremiumoversizedhoodie"
+            "/CorgiWizardStormpaw/corgiwizardstormpawpremiumoversizedhoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -67,7 +67,7 @@ export function stormfieldstriker_section(){
             0,
             0,
             "Lightweight Hoodie",
-            "/CorgiWizardStormpaw/stormfieldstrikerlightweighthoodie"
+            "/CorgiWizardStormpaw/corgiwizardstormpawlightweighthoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -75,7 +75,7 @@ export function stormfieldstriker_section(){
             0,
             0,
             "Premium Oversized Sweat Shirt",
-            "/CorgiWizardStormpaw/stormfieldstrikerpremiumoversizedsweatshirt"
+            "/CorgiWizardStormpaw/corgiwizardstormpawpremiumoversizedsweatshirt"
         )
     ];
 

@@ -118,19 +118,19 @@ class CorgiWizardStormpawPremiumOversizedSweatshirtMainProduct{
     }
 }
 
-export function stormfieldstriker_main(){
+export function corgiwizardstormpaw_main(){
     
-    const stormfieldstrikermain_product=[
+    const corgiwizardstormpawmain_product=[
         new CorgiWizardStormpawMainProduct(
             "/img/idontfish.webp",
-            "Stormfield Striker",
+            "Corgi Wizard Stormpaw Ascendant",
             0,
             0
         )
     ];
 
-    const stormfieldstrikerinfo={
-        name:"Stormfield Striker</br>(Essential Shirt)",
+    const corgiwizardstormpawinfo={
+        name:"Corgi Wizard Stormpaw Ascendant</br>(Essential Shirt)",
         creator:"Joseph Morales",
         Price: 30.69,
         details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
@@ -150,28 +150,28 @@ export function stormfieldstriker_main(){
         }
     };
     
-    const stormfieldstrikerHTML=stormfieldstrikermain_product.map(stormfieldstrikerMP=>stormfieldstrikerMP.getCorgiWizardStormpawMainProduct()).join('');
+    const corgiwizardstormpawHTML=corgiwizardstormpawmain_product.map(corgiwizardstormpawMP=>corgiwizardstormpawMP.getCorgiWizardStormpawMainProduct()).join('');
     
-    const stormfieldstrikerinfoHTML=`
-        <h1>${stormfieldstrikerinfo.name}</h1>
-        <p>Created by : ${stormfieldstrikerinfo.creator}</p>
-        <strong>$ ${stormfieldstrikerinfo.Price.toFixed(2)}</strong>
+    const corgiwizardstormpawinfoHTML=`
+        <h1>${corgiwizardstormpawinfo.name}</h1>
+        <p>Created by : ${corgiwizardstormpawinfo.creator}</p>
+        <strong>$ ${corgiwizardstormpawinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${stormfieldstrikerinfo.details}</p>
+        <p>${corgiwizardstormpawinfo.details}</p>
         <h4>Type:</h4>
-        <p>${stormfieldstrikerinfo.type} are ${stormfieldstrikerinfo.fabric}</p>
+        <p>${corgiwizardstormpawinfo.type} are ${corgiwizardstormpawinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${stormfieldstrikerinfo.size.s}, ${stormfieldstrikerinfo.size.m}, ${stormfieldstrikerinfo.size.l}, ${stormfieldstrikerinfo.size.xl}, ${stormfieldstrikerinfo.size.xxl}, ${stormfieldstrikerinfo.size.xxxl}</p>
+        <p>${corgiwizardstormpawinfo.size.s}, ${corgiwizardstormpawinfo.size.m}, ${corgiwizardstormpawinfo.size.l}, ${corgiwizardstormpawinfo.size.xl}, ${corgiwizardstormpawinfo.size.xxl}, ${corgiwizardstormpawinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${stormfieldstrikerHTML}
+                        ${corgiwizardstormpawHTML}
                     </div>
                     <div>
-                         ${stormfieldstrikerinfoHTML}
+                         ${corgiwizardstormpawinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $26.07</button>
@@ -182,39 +182,39 @@ export function stormfieldstriker_main(){
            `;
 }
 
-export function stormfieldstrikermain_gallery(){
+export function corgiwizardstormpawmain_gallery(){
 
-    const stormfieldstrikergallery={
+    const corgiwizardstormpawgallery={
         img: "/img/gallery1.webp",
-        alt:"Stormfield Striker"
+        alt:"Corgi Wizard Stormpaw Ascendant"
     }
     return `
-          <div id="stormfieldstrikergallery">
+          <div id="corgiwizardstormpawgallery">
               <h1>Image Product</h1>
-              <div class="stormfieldstriker_gallery_flex">
-                 <img src="${stormfieldstrikergallery.img}" alt="${stormfieldstrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikergallery.img}" alt="${stormfieldstrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikergallery.img}" alt="${stormfieldstrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikergallery.img}" alt="${stormfieldstrikergallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="corgiwizardstormpaw_gallery_flex">
+                 <img src="${corgiwizardstormpawgallery.img}" alt="${corgiwizardstormpawgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawgallery.img}" alt="${corgiwizardstormpawgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawgallery.img}" alt="${corgiwizardstormpawgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawgallery.img}" alt="${corgiwizardstormpawgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 
 }
 
-export function stormfieldstrikerclassic_main(){
+export function corgiwizardstormpawclassic_main(){
    
-    const stormfieldstrikerclassic_mainproduct=[
+    const corgiwizardstormpawclassic_mainproduct=[
         new CorgiWizardStormpawClassicMainProduct(
             "/img/idontfish.webp",
-            "Stormfield Striker",
+            "Corgi Wizard Stormpaw Ascendant",
             0,
             0
         )
     ];
 
-    const stormfieldstrikerclassicinfo={
-        name:"Stormfield Striker</br>(Classic Shirt)",
+    const corgiwizardstormpawclassicinfo={
+        name:"Corgi Wizard Stormpaw Ascendant</br>(Classic Shirt)",
         creator:"Joseph Morales",
         Price: 32.00,
         details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
@@ -234,28 +234,28 @@ export function stormfieldstrikerclassic_main(){
         }
     };
 
-    const stormfieldstrikerclassic_mainHTML=stormfieldstrikerclassic_mainproduct.map(stormfieldstrikerclassic_MainProducts=>stormfieldstrikerclassic_MainProducts.getCorgiWizardStormpawClassicMainProduct()).join('')
+    const corgiwizardstormpawclassic_mainHTML=corgiwizardstormpawclassic_mainproduct.map(corgiwizardstormpawclassic_MainProducts=>corgiwizardstormpawclassic_MainProducts.getCorgiWizardStormpawClassicMainProduct()).join('')
     
-    const stormfieldstrikerclassicinfoHTML=`
-        <h1>${stormfieldstrikerclassicinfo.name}</h1>
-        <p>Created by : ${stormfieldstrikerclassicinfo.creator}</p>
-        <strong>$ ${stormfieldstrikerclassicinfo.Price.toFixed(2)}</strong>
+    const corgiwizardstormpawclassicinfoHTML=`
+        <h1>${corgiwizardstormpawclassicinfo.name}</h1>
+        <p>Created by : ${corgiwizardstormpawclassicinfo.creator}</p>
+        <strong>$ ${corgiwizardstormpawclassicinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${stormfieldstrikerclassicinfo.details}</p>
+        <p>${corgiwizardstormpawclassicinfo.details}</p>
         <h4>Type:</h4>
-        <p>${stormfieldstrikerclassicinfo.type} are ${stormfieldstrikerclassicinfo.fabric}</p>
+        <p>${corgiwizardstormpawclassicinfo.type} are ${corgiwizardstormpawclassicinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${stormfieldstrikerclassicinfo.size.s}, ${stormfieldstrikerclassicinfo.size.m}, ${stormfieldstrikerclassicinfo.size.l}, ${stormfieldstrikerclassicinfo.size.xl}, ${stormfieldstrikerclassicinfo.size.xxl}, ${stormfieldstrikerclassicinfo.size.xxxl}</p>
+        <p>${corgiwizardstormpawclassicinfo.size.s}, ${corgiwizardstormpawclassicinfo.size.m}, ${corgiwizardstormpawclassicinfo.size.l}, ${corgiwizardstormpawclassicinfo.size.xl}, ${corgiwizardstormpawclassicinfo.size.xxl}, ${corgiwizardstormpawclassicinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${stormfieldstrikerclassic_mainHTML}
+                        ${corgiwizardstormpawclassic_mainHTML}
                     </div>
                     <div>
-                         ${stormfieldstrikerclassicinfoHTML}
+                         ${corgiwizardstormpawclassicinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $27.20</button>
@@ -266,39 +266,39 @@ export function stormfieldstrikerclassic_main(){
            `;
 }
 
-export function stormfieldstrikerclassic_gallery(){
+export function corgiwizardstormpawclassic_gallery(){
 
-    const stormfieldstrikerclassicgallery={
+    const corgiwizardstormpawclassicgallery={
         img: "/img/gallery1.webp",
-        alt:"Stormfield Striker"
+        alt:"Corgi Wizard Stormpaw Ascendant"
     }
     return `
-          <div id="stormfieldstrikerclassicgallery">
+          <div id="corgiwizardstormpawclassicgallery">
               <h1>Image Product</h1>
-              <div class="stormfieldstrikerclassic_gallery_flex">
-                 <img src="${stormfieldstrikerclassicgallery.img}" alt="${stormfieldstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerclassicgallery.img}" alt="${stormfieldstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerclassicgallery.img}" alt="${stormfieldstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerclassicgallery.img}" alt="${stormfieldstrikerclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="corgiwizardstormpawclassic_gallery_flex">
+                 <img src="${corgiwizardstormpawclassicgallery.img}" alt="${corgiwizardstormpawclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawclassicgallery.img}" alt="${corgiwizardstormpawclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawclassicgallery.img}" alt="${corgiwizardstormpawclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawclassicgallery.img}" alt="${corgiwizardstormpawclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 
 }
 
-export function stormfieldstrikerpremium_main(){
+export function corgiwizardstormpawpremium_main(){
    
-    const stormfieldstrikerpremium_mainproduct=[
+    const corgiwizardstormpawpremium_mainproduct=[
         new CorgiWizardStormpawPremiumMainProduct(
             "/img/idontfish.webp",
-            "Stormfield Striker - Premium shirt",
+            "Corgi Wizard Stormpaw Ascendant - Premium shirt",
             0,
             0
         )
     ];
 
-    const stormfieldstrikerpremiuminfo={
-        name:"Stormfield Striker</br>(Premium Shirt)",
+    const corgiwizardstormpawpremiuminfo={
+        name:"Corgi Wizard Stormpaw Ascendant</br>(Premium Shirt)",
         creator:"Joseph Morales",
         Price: 46.35,
         details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
@@ -318,28 +318,28 @@ export function stormfieldstrikerpremium_main(){
         }
     };
 
-    const stormfieldstrikerpremium_mainHTML=stormfieldstrikerpremium_mainproduct.map(stormfieldstrikerpremium_MainProducts=>stormfieldstrikerpremium_MainProducts.getCorgiWizardStormpawPremiumMainProduct()).join('')
+    const corgiwizardstormpawpremium_mainHTML=corgiwizardstormpawpremium_mainproduct.map(corgiwizardstormpawpremium_MainProducts=>corgiwizardstormpawpremium_MainProducts.getCorgiWizardStormpawPremiumMainProduct()).join('')
     
-    const stormfieldstrikerpremiuminfoHTML=`
-        <h1>${stormfieldstrikerpremiuminfo.name}</h1>
-        <p>Created by : ${stormfieldstrikerpremiuminfo.creator}</p>
-        <strong>$ ${stormfieldstrikerpremiuminfo.Price.toFixed(2)}</strong>
+    const corgiwizardstormpawpremiuminfoHTML=`
+        <h1>${corgiwizardstormpawpremiuminfo.name}</h1>
+        <p>Created by : ${corgiwizardstormpawpremiuminfo.creator}</p>
+        <strong>$ ${corgiwizardstormpawpremiuminfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${stormfieldstrikerpremiuminfo.details}</p>
+        <p>${corgiwizardstormpawpremiuminfo.details}</p>
         <h4>Type:</h4>
-        <p>${stormfieldstrikerpremiuminfo.type} are ${stormfieldstrikerpremiuminfo.fabric}</p>
+        <p>${corgiwizardstormpawpremiuminfo.type} are ${corgiwizardstormpawpremiuminfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${stormfieldstrikerpremiuminfo.size.s}, ${stormfieldstrikerpremiuminfo.size.m}, ${stormfieldstrikerpremiuminfo.size.l}, ${stormfieldstrikerpremiuminfo.size.xl}, ${stormfieldstrikerpremiuminfo.size.xxl}, ${stormfieldstrikerpremiuminfo.size.xxxl}</p>
+        <p>${corgiwizardstormpawpremiuminfo.size.s}, ${corgiwizardstormpawpremiuminfo.size.m}, ${corgiwizardstormpawpremiuminfo.size.l}, ${corgiwizardstormpawpremiuminfo.size.xl}, ${corgiwizardstormpawpremiuminfo.size.xxl}, ${corgiwizardstormpawpremiuminfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${stormfieldstrikerpremium_mainHTML}
+                        ${corgiwizardstormpawpremium_mainHTML}
                     </div>
                     <div>
-                         ${stormfieldstrikerpremiuminfoHTML}
+                         ${corgiwizardstormpawpremiuminfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $46.35</button>
@@ -350,39 +350,39 @@ export function stormfieldstrikerpremium_main(){
            `;
 }
 
-export function stormfieldstrikerpremium_gallery(){
+export function corgiwizardstormpawpremium_gallery(){
 
-    const stormfieldstrikerpremiumgallery={
+    const corgiwizardstormpawpremiumgallery={
         img: "/img/gallery1.webp",
-        alt:"Stormfield Striker"
+        alt:"Corgi Wizard Stormpaw Ascendant"
     }
     return `
-          <div id="stormfieldstrikerpremiumgallery">
+          <div id="corgiwizardstormpawpremiumgallery">
               <h1>Image Product</h1>
-              <div class="stormfieldstrikerpremium_gallery_flex">
-                 <img src="${stormfieldstrikerpremiumgallery.img}" alt="${stormfieldstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerpremiumgallery.img}" alt="${stormfieldstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerpremiumgallery.img}" alt="${stormfieldstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerpremiumgallery.img}" alt="${stormfieldstrikerpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="corgiwizardstormpawpremium_gallery_flex">
+                 <img src="${corgiwizardstormpawpremiumgallery.img}" alt="${corgiwizardstormpawpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawpremiumgallery.img}" alt="${corgiwizardstormpawpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawpremiumgallery.img}" alt="${corgiwizardstormpawpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawpremiumgallery.img}" alt="${corgiwizardstormpawpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 
 }
 
-export function stormfieldstrikeroversized_main(){
+export function corgiwizardstormpawoversized_main(){
 
-    const stormfieldstrikeroversizedmain_product=[
+    const corgiwizardstormpawoversizedmain_product=[
         new CorgiWizardStormpawOversizedMainProduct(
             "/img/idontfish.webp",
-            "Stormfield Striker",
+            "Corgi Wizard Stormpaw Ascendant",
             0,
             0
         )
     ];
 
-    const stormfieldstrikeroversizedinfo={
-        name:"Stormfield Striker</br>(Oversized Shirt)",
+    const corgiwizardstormpawoversizedinfo={
+        name:"Corgi Wizard Stormpaw Ascendant</br>(Oversized Shirt)",
         creator:"Joseph Morales",
         Price: 37.00,
         details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
@@ -402,28 +402,28 @@ export function stormfieldstrikeroversized_main(){
         }
     };
 
-    const stormfieldstrikeroversizedHTML=stormfieldstrikeroversizedmain_product.map(stormfieldstrikeroversizedMP=>stormfieldstrikeroversizedMP.getCorgiWizardStormpawOversizedMainProduct()).join('');
+    const corgiwizardstormpawoversizedHTML=corgiwizardstormpawoversizedmain_product.map(corgiwizardstormpawoversizedMP=>corgiwizardstormpawoversizedMP.getCorgiWizardStormpawOversizedMainProduct()).join('');
 
-    const stormfieldstrikeroversizedinfoHTML=`
-        <h1>${stormfieldstrikeroversizedinfo.name}</h1>
-        <p>Created by : ${stormfieldstrikeroversizedinfo.creator}</p>
-        <strong>$ ${stormfieldstrikeroversizedinfo.Price.toFixed(2)}</strong>
+    const corgiwizardstormpawoversizedinfoHTML=`
+        <h1>${corgiwizardstormpawoversizedinfo.name}</h1>
+        <p>Created by : ${corgiwizardstormpawoversizedinfo.creator}</p>
+        <strong>$ ${corgiwizardstormpawoversizedinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${stormfieldstrikeroversizedinfo.details}</p>
+        <p>${corgiwizardstormpawoversizedinfo.details}</p>
         <h4>Type:</h4>
-        <p>${stormfieldstrikeroversizedinfo.type} are ${stormfieldstrikeroversizedinfo.fabric}</p>
+        <p>${corgiwizardstormpawoversizedinfo.type} are ${corgiwizardstormpawoversizedinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${stormfieldstrikeroversizedinfo.size.s}, ${stormfieldstrikeroversizedinfo.size.m}, ${stormfieldstrikeroversizedinfo.size.l}, ${stormfieldstrikeroversizedinfo.size.xl}, ${stormfieldstrikeroversizedinfo.size.xxl}, ${stormfieldstrikeroversizedinfo.size.xxxl}</p>
+        <p>${corgiwizardstormpawoversizedinfo.size.s}, ${corgiwizardstormpawoversizedinfo.size.m}, ${corgiwizardstormpawoversizedinfo.size.l}, ${corgiwizardstormpawoversizedinfo.size.xl}, ${corgiwizardstormpawoversizedinfo.size.xxl}, ${corgiwizardstormpawoversizedinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${stormfieldstrikeroversizedHTML}
+                        ${corgiwizardstormpawoversizedHTML}
                     </div>
                     <div>
-                         ${stormfieldstrikeroversizedinfoHTML}
+                         ${corgiwizardstormpawoversizedinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $27.75</button>
@@ -434,38 +434,38 @@ export function stormfieldstrikeroversized_main(){
            `;
 }
 
-export function stormfieldstrikeroversized_gallery(){
+export function corgiwizardstormpawoversized_gallery(){
 
-    const stormfieldstrikeroversizedgallery={
+    const corgiwizardstormpawoversizedgallery={
         img: "/img/gallery1.webp",
-        alt:"Stormfield Striker"
+        alt:"Corgi Wizard Stormpaw Ascendant"
     }
     return `
-          <div id="stormfieldstrikeroversizedgallery">
+          <div id="corgiwizardstormpawoversizedgallery">
               <h1>Image Product</h1>
-              <div class="stormfieldstrikeroversized_gallery_flex">
-                 <img src="${stormfieldstrikeroversizedgallery.img}" alt="${stormfieldstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikeroversizedgallery.img}" alt="${stormfieldstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikeroversizedgallery.img}" alt="${stormfieldstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikeroversizedgallery.img}" alt="${stormfieldstrikeroversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="corgiwizardstormpawoversized_gallery_flex">
+                 <img src="${corgiwizardstormpawoversizedgallery.img}" alt="${corgiwizardstormpawoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawoversizedgallery.img}" alt="${corgiwizardstormpawoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawoversizedgallery.img}" alt="${corgiwizardstormpawoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawoversizedgallery.img}" alt="${corgiwizardstormpawoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function stormfieldstrikersweatshirt_main(){
+export function corgiwizardstormpawsweatshirt_main(){
 
-    const stormfieldstrikersweatshirtmain_product=[
+    const corgiwizardstormpawsweatshirtmain_product=[
         new CorgiWizardStormpawSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "Stormfield Striker",
+            "Corgi Wizard Stormpaw Ascendant",
             0,
             0
         )
     ];
 
-    const stormfieldstrikersweatshirtinfo={
-        name:"Stormfield Striker</br>(Sweat Shirt)",
+    const corgiwizardstormpawsweatshirtinfo={
+        name:"Corgi Wizard Stormpaw Ascendant</br>(Sweat Shirt)",
         creator:"Joseph Morales",
         Price: 48.00,
         details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
@@ -485,28 +485,28 @@ export function stormfieldstrikersweatshirt_main(){
         }
     };
 
-    const stormfieldstrikersweatshirtHTML=stormfieldstrikersweatshirtmain_product.map(stormfieldstrikersweatshirtMP=>stormfieldstrikersweatshirtMP.getCorgiWizardStormpawSweatMainProduct()).join('');
+    const corgiwizardstormpawsweatshirtHTML=corgiwizardstormpawsweatshirtmain_product.map(corgiwizardstormpawsweatshirtMP=>corgiwizardstormpawsweatshirtMP.getCorgiWizardStormpawSweatMainProduct()).join('');
 
-    const stormfieldstrikersweatshirtinfoHTML=`
-        <h1>${stormfieldstrikersweatshirtinfo.name}</h1>
-        <p>Created by : ${stormfieldstrikersweatshirtinfo.creator}</p>
-        <strong>$ ${stormfieldstrikersweatshirtinfo.Price.toFixed(2)}</strong>
+    const corgiwizardstormpawsweatshirtinfoHTML=`
+        <h1>${corgiwizardstormpawsweatshirtinfo.name}</h1>
+        <p>Created by : ${corgiwizardstormpawsweatshirtinfo.creator}</p>
+        <strong>$ ${corgiwizardstormpawsweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${stormfieldstrikersweatshirtinfo.details}</p>
+        <p>${corgiwizardstormpawsweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${stormfieldstrikersweatshirtinfo.type} are ${stormfieldstrikersweatshirtinfo.fabric}</p>
+        <p>${corgiwizardstormpawsweatshirtinfo.type} are ${corgiwizardstormpawsweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${stormfieldstrikersweatshirtinfo.size.s}, ${stormfieldstrikersweatshirtinfo.size.m}, ${stormfieldstrikersweatshirtinfo.size.l}, ${stormfieldstrikersweatshirtinfo.size.xl}, ${stormfieldstrikersweatshirtinfo.size.xxl}, ${stormfieldstrikersweatshirtinfo.size.xxxl}</p>
+        <p>${corgiwizardstormpawsweatshirtinfo.size.s}, ${corgiwizardstormpawsweatshirtinfo.size.m}, ${corgiwizardstormpawsweatshirtinfo.size.l}, ${corgiwizardstormpawsweatshirtinfo.size.xl}, ${corgiwizardstormpawsweatshirtinfo.size.xxl}, ${corgiwizardstormpawsweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${stormfieldstrikersweatshirtHTML}
+                        ${corgiwizardstormpawsweatshirtHTML}
                     </div>
                     <div>
-                         ${stormfieldstrikersweatshirtinfoHTML}
+                         ${corgiwizardstormpawsweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $38.40</button>
@@ -517,38 +517,38 @@ export function stormfieldstrikersweatshirt_main(){
            `;
 }
 
-export function stormfieldstrikersweatshirt_gallery(){
+export function corgiwizardstormpawsweatshirt_gallery(){
 
-    const stormfieldstrikersweatshirtgallery={
+    const corgiwizardstormpawsweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"Stormfield Striker"
+        alt:"Corgi Wizard Stormpaw Ascendant"
     }
     return `
-          <div id="stormfieldstrikersweatshirtgallery">
+          <div id="corgiwizardstormpawsweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="stormfieldstrikersweatshirt_gallery_flex">
-                 <img src="${stormfieldstrikersweatshirtgallery.img}" alt="${stormfieldstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikersweatshirtgallery.img}" alt="${stormfieldstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikersweatshirtgallery.img}" alt="${stormfieldstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikersweatshirtgallery.img}" alt="${stormfieldstrikersweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="corgiwizardstormpawsweatshirt_gallery_flex">
+                 <img src="${corgiwizardstormpawsweatshirtgallery.img}" alt="${corgiwizardstormpawsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawsweatshirtgallery.img}" alt="${corgiwizardstormpawsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawsweatshirtgallery.img}" alt="${corgiwizardstormpawsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawsweatshirtgallery.img}" alt="${corgiwizardstormpawsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function stormfieldstrikerpremiumoversizedhoodie_main(){
+export function corgiwizardstormpawpremiumoversizedhoodie_main(){
 
-    const stormfieldstrikerpremiumoversizedhoodiemain_product=[
+    const corgiwizardstormpawpremiumoversizedhoodiemain_product=[
         new CorgiWizardStormpawPremiumOversizedHoodieMainProduct(
             "/img/idontfish.webp",
-            "Stormfield Striker",
+            "Corgi Wizard Stormpaw Ascendant",
             0,
             0
         )
     ];
 
-    const stormfieldstrikerpremiumoversizedhoodieinfo={
-        name:"Stormfield Striker</br>( Premium Oversized Hoodie )",
+    const corgiwizardstormpawpremiumoversizedhoodieinfo={
+        name:"Corgi Wizard Stormpaw Ascendant</br>( Premium Oversized Hoodie )",
         creator:"Joseph Morales",
         Price: 68.00,
         details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
@@ -568,28 +568,28 @@ export function stormfieldstrikerpremiumoversizedhoodie_main(){
         }
     };
 
-    const stormfieldstrikerpremiumoversizedhoodieHTML=stormfieldstrikerpremiumoversizedhoodiemain_product.map(stormfieldstrikerpremiumoversizedhoodieMP=>stormfieldstrikerpremiumoversizedhoodieMP.getCorgiWizardStormpawPremiumOversizedHoodieMainProduct()).join('');
+    const corgiwizardstormpawpremiumoversizedhoodieHTML=corgiwizardstormpawpremiumoversizedhoodiemain_product.map(corgiwizardstormpawpremiumoversizedhoodieMP=>corgiwizardstormpawpremiumoversizedhoodieMP.getCorgiWizardStormpawPremiumOversizedHoodieMainProduct()).join('');
 
-    const stormfieldstrikerpremiumoversizedhoodieinfoHTML=`
-        <h1>${stormfieldstrikerpremiumoversizedhoodieinfo.name}</h1>
-        <p>Created by : ${stormfieldstrikerpremiumoversizedhoodieinfo.creator}</p>
-        <strong>$ ${stormfieldstrikerpremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
+    const corgiwizardstormpawpremiumoversizedhoodieinfoHTML=`
+        <h1>${corgiwizardstormpawpremiumoversizedhoodieinfo.name}</h1>
+        <p>Created by : ${corgiwizardstormpawpremiumoversizedhoodieinfo.creator}</p>
+        <strong>$ ${corgiwizardstormpawpremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${stormfieldstrikerpremiumoversizedhoodieinfo.details}</p>
+        <p>${corgiwizardstormpawpremiumoversizedhoodieinfo.details}</p>
         <h4>Type:</h4>
-        <p>${stormfieldstrikerpremiumoversizedhoodieinfo.type} are ${stormfieldstrikerpremiumoversizedhoodieinfo.fabric}</p>
+        <p>${corgiwizardstormpawpremiumoversizedhoodieinfo.type} are ${corgiwizardstormpawpremiumoversizedhoodieinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${stormfieldstrikerpremiumoversizedhoodieinfo.size.s}, ${stormfieldstrikerpremiumoversizedhoodieinfo.size.m}, ${stormfieldstrikerpremiumoversizedhoodieinfo.size.l}, ${stormfieldstrikerpremiumoversizedhoodieinfo.size.xl}, ${stormfieldstrikerpremiumoversizedhoodieinfo.size.xxl}, ${stormfieldstrikerpremiumoversizedhoodieinfo.size.xxxl}</p>
+        <p>${corgiwizardstormpawpremiumoversizedhoodieinfo.size.s}, ${corgiwizardstormpawpremiumoversizedhoodieinfo.size.m}, ${corgiwizardstormpawpremiumoversizedhoodieinfo.size.l}, ${corgiwizardstormpawpremiumoversizedhoodieinfo.size.xl}, ${corgiwizardstormpawpremiumoversizedhoodieinfo.size.xxl}, ${corgiwizardstormpawpremiumoversizedhoodieinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${stormfieldstrikerpremiumoversizedhoodieHTML}
+                        ${corgiwizardstormpawpremiumoversizedhoodieHTML}
                     </div>
                     <div>
-                         ${stormfieldstrikerpremiumoversizedhoodieinfoHTML}
+                         ${corgiwizardstormpawpremiumoversizedhoodieinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $40.80</button>
@@ -600,38 +600,38 @@ export function stormfieldstrikerpremiumoversizedhoodie_main(){
            `;
 }
 
-export function stormfieldstrikerpremiumoversizedhoodie_gallery(){
+export function corgiwizardstormpawpremiumoversizedhoodie_gallery(){
 
-    const stormfieldstrikerpremiumoversizedhoodiegallery={
+    const corgiwizardstormpawpremiumoversizedhoodiegallery={
         img: "/img/gallery1.webp",
-        alt:"Stormfield Striker"
+        alt:"Corgi Wizard Stormpaw Ascendant"
     }
     return `
-          <div id="stormfieldstrikerpremiumoversizedhoodiegallery">
+          <div id="corgiwizardstormpawpremiumoversizedhoodiegallery">
               <h1>Image Product</h1>
-              <div class="stormfieldstrikerpremiumoversizedhoodie_gallery_flex">
-                 <img src="${stormfieldstrikerpremiumoversizedhoodiegallery.img}" alt="${stormfieldstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerpremiumoversizedhoodiegallery.img}" alt="${stormfieldstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerpremiumoversizedhoodiegallery.img}" alt="${stormfieldstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerpremiumoversizedhoodiegallery.img}" alt="${stormfieldstrikerpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="corgiwizardstormpawpremiumoversizedhoodie_gallery_flex">
+                 <img src="${corgiwizardstormpawpremiumoversizedhoodiegallery.img}" alt="${corgiwizardstormpawpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawpremiumoversizedhoodiegallery.img}" alt="${corgiwizardstormpawpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawpremiumoversizedhoodiegallery.img}" alt="${corgiwizardstormpawpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawpremiumoversizedhoodiegallery.img}" alt="${corgiwizardstormpawpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function stormfieldstrikerlightweighthoodie_main(){
+export function corgiwizardstormpawlightweighthoodie_main(){
 
-    const stormfieldstrikerlightweighthoodiemain_product=[
+    const corgiwizardstormpawlightweighthoodiemain_product=[
         new CorgiWizardStormpawLightweightHoodieMainProduct(
             "/img/idontfish.webp",
-            "Stormfield Striker",
+            "Corgi Wizard Stormpaw Ascendant",
             0,
             0
         )
     ];
 
-    const stormfieldstrikerlightweighthoodieinfo={
-        name:"Stormfield Striker</br>(Lightweight Hoodie)",
+    const corgiwizardstormpawlightweighthoodieinfo={
+        name:"Corgi Wizard Stormpaw Ascendant</br>(Lightweight Hoodie)",
         creator:"Joseph Morales",
         Price: 62.21,
         details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
@@ -651,28 +651,28 @@ export function stormfieldstrikerlightweighthoodie_main(){
         }
     };
 
-    const stormfieldstrikerlightweighthoodieHTML=stormfieldstrikerlightweighthoodiemain_product.map(stormfieldstrikerlightweighthoodieMP=>stormfieldstrikerlightweighthoodieMP.getCorgiWizardStormpawLightweightHoodieMainProduct()).join('');
+    const corgiwizardstormpawlightweighthoodieHTML=corgiwizardstormpawlightweighthoodiemain_product.map(corgiwizardstormpawlightweighthoodieMP=>corgiwizardstormpawlightweighthoodieMP.getCorgiWizardStormpawLightweightHoodieMainProduct()).join('');
 
-    const stormfieldstrikerlightweighthoodieinfoHTML=`
-        <h1>${stormfieldstrikerlightweighthoodieinfo.name}</h1>
-        <p>Created by : ${stormfieldstrikerlightweighthoodieinfo.creator}</p>
-        <strong>$ ${stormfieldstrikerlightweighthoodieinfo.Price.toFixed(2)}</strong>
+    const corgiwizardstormpawlightweighthoodieinfoHTML=`
+        <h1>${corgiwizardstormpawlightweighthoodieinfo.name}</h1>
+        <p>Created by : ${corgiwizardstormpawlightweighthoodieinfo.creator}</p>
+        <strong>$ ${corgiwizardstormpawlightweighthoodieinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${stormfieldstrikerlightweighthoodieinfo.details}</p>
+        <p>${corgiwizardstormpawlightweighthoodieinfo.details}</p>
         <h4>Type:</h4>
-        <p>${stormfieldstrikerlightweighthoodieinfo.type} are ${stormfieldstrikerlightweighthoodieinfo.fabric}</p>
+        <p>${corgiwizardstormpawlightweighthoodieinfo.type} are ${corgiwizardstormpawlightweighthoodieinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${stormfieldstrikerlightweighthoodieinfo.size.s}, ${stormfieldstrikerlightweighthoodieinfo.size.m}, ${stormfieldstrikerlightweighthoodieinfo.size.l}, ${stormfieldstrikerlightweighthoodieinfo.size.xl}, ${stormfieldstrikerlightweighthoodieinfo.size.xxl}, ${stormfieldstrikerlightweighthoodieinfo.size.xxxl}</p>
+        <p>${corgiwizardstormpawlightweighthoodieinfo.size.s}, ${corgiwizardstormpawlightweighthoodieinfo.size.m}, ${corgiwizardstormpawlightweighthoodieinfo.size.l}, ${corgiwizardstormpawlightweighthoodieinfo.size.xl}, ${corgiwizardstormpawlightweighthoodieinfo.size.xxl}, ${corgiwizardstormpawlightweighthoodieinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${stormfieldstrikerlightweighthoodieHTML}
+                        ${corgiwizardstormpawlightweighthoodieHTML}
                     </div>
                     <div>
-                         ${stormfieldstrikerlightweighthoodieinfoHTML}
+                         ${corgiwizardstormpawlightweighthoodieinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $49.76</button>
@@ -683,38 +683,38 @@ export function stormfieldstrikerlightweighthoodie_main(){
            `;
 }
 
-export function stormfieldstrikerlightweighthoodie_gallery(){
+export function corgiwizardstormpawlightweighthoodie_gallery(){
 
-    const stormfieldstrikerlightweighthoodiegallery={
+    const corgiwizardstormpawlightweighthoodiegallery={
         img: "/img/gallery1.webp",
-        alt:"Stormfield Striker"
+        alt:"Corgi Wizard Stormpaw Ascendant"
     }
     return `
-          <div id="stormfieldstrikerlightweighthoodiegallery">
+          <div id="corgiwizardstormpawlightweighthoodiegallery">
               <h1>Image Product</h1>
-              <div class="stormfieldstrikerlightweighthoodie_gallery_flex">
-                 <img src="${stormfieldstrikerlightweighthoodiegallery.img}" alt="${stormfieldstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerlightweighthoodiegallery.img}" alt="${stormfieldstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerlightweighthoodiegallery.img}" alt="${stormfieldstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerlightweighthoodiegallery.img}" alt="${stormfieldstrikerlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="corgiwizardstormpawlightweighthoodie_gallery_flex">
+                 <img src="${corgiwizardstormpawlightweighthoodiegallery.img}" alt="${corgiwizardstormpawlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawlightweighthoodiegallery.img}" alt="${corgiwizardstormpawlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawlightweighthoodiegallery.img}" alt="${corgiwizardstormpawlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawlightweighthoodiegallery.img}" alt="${corgiwizardstormpawlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function stormfieldstrikerpremiumoversizedsweatshirt_main(){
+export function corgiwizardstormpawpremiumoversizedsweatshirt_main(){
 
-    const stormfieldstrikerpremiumoversizedsweatshirtmain_product=[
+    const corgiwizardstormpawpremiumoversizedsweatshirtmain_product=[
         new CorgiWizardStormpawPremiumOversizedSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "Stormfield Striker",
+            "Corgi Wizard Stormpaw Ascendant",
             0,
             0
         )
     ];
 
-    const stormfieldstrikerpremiumoversizedsweatshirtinfo={
-        name:"Stormfield Striker</br>(Premium Oversized Sweatshirt)",
+    const corgiwizardstormpawpremiumoversizedsweatshirtinfo={
+        name:"Corgi Wizard Stormpaw Ascendant</br>(Premium Oversized Sweatshirt)",
         creator:"Joseph Morales",
         Price: 62.00,
         details:"Unleash pure tournament energy with this electrifying Jaguar Striker design — a wild fusion of power, speed, and painterly artistry. This full‑body jaguar athlete charges the field in a navy‑blue to lime‑green drifit gradient uniform, marked with a bold crosshair pattern that screams precision and dominance. Caught mid‑strike, the jaguar flexes a devastating power kick, sending the ball forward wrapped in crackling lightning. His glowing eyes, crazed grin, and charged stance capture the raw intensity of a player ready to conquer the world stage. Set on an international soccer arena, the ground erupts with energy as lightning tears through the turf — a perfect symbol of unstoppable momentum. Rendered in expressive painterly brushstrokes and delivered in crisp, high‑quality resolution, this artwork is made for athletes, fans, and anyone who loves fierce, dynamic character designs.",
@@ -734,28 +734,28 @@ export function stormfieldstrikerpremiumoversizedsweatshirt_main(){
         }
     };
 
-    const stormfieldstrikerpremiumoversizedsweatshirtHTML=stormfieldstrikerpremiumoversizedsweatshirtmain_product.map(stormfieldstrikerpremiumoversizedsweatshirtMP=>stormfieldstrikerpremiumoversizedsweatshirtMP.getCorgiWizardStormpawPremiumOversizedSweatshirtMainProduct()).join('');
+    const corgiwizardstormpawpremiumoversizedsweatshirtHTML=corgiwizardstormpawpremiumoversizedsweatshirtmain_product.map(corgiwizardstormpawpremiumoversizedsweatshirtMP=>corgiwizardstormpawpremiumoversizedsweatshirtMP.getCorgiWizardStormpawPremiumOversizedSweatshirtMainProduct()).join('');
 
-    const stormfieldstrikerpremiumoversizedsweatshirtinfoHTML=`
-        <h1>${stormfieldstrikerpremiumoversizedsweatshirtinfo.name}</h1>
-        <p>Created by : ${stormfieldstrikerpremiumoversizedsweatshirtinfo.creator}</p>
-        <strong>$ ${stormfieldstrikerpremiumoversizedsweatshirtinfo.Price.toFixed(2)}</strong>
+    const corgiwizardstormpawpremiumoversizedsweatshirtinfoHTML=`
+        <h1>${corgiwizardstormpawpremiumoversizedsweatshirtinfo.name}</h1>
+        <p>Created by : ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.creator}</p>
+        <strong>$ ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${stormfieldstrikerpremiumoversizedsweatshirtinfo.details}</p>
+        <p>${corgiwizardstormpawpremiumoversizedsweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${stormfieldstrikerpremiumoversizedsweatshirtinfo.type} are ${stormfieldstrikerpremiumoversizedsweatshirtinfo.fabric}</p>
+        <p>${corgiwizardstormpawpremiumoversizedsweatshirtinfo.type} are ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.s}, ${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.m}, ${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.l}, ${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.xl}, ${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.xxl}, ${stormfieldstrikerpremiumoversizedsweatshirtinfo.size.xxxl}</p>
+        <p>${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.s}, ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.m}, ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.l}, ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.xl}, ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.xxl}, ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${stormfieldstrikerpremiumoversizedsweatshirtHTML}
+                        ${corgiwizardstormpawpremiumoversizedsweatshirtHTML}
                     </div>
                     <div>
-                         ${stormfieldstrikerpremiumoversizedsweatshirtinfoHTML}
+                         ${corgiwizardstormpawpremiumoversizedsweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $37.20</button>
@@ -766,20 +766,20 @@ export function stormfieldstrikerpremiumoversizedsweatshirt_main(){
            `;
 }
 
-export function stormfieldstrikerpremiumoversizedsweatshirt_gallery(){
+export function corgiwizardstormpawpremiumoversizedsweatshirt_gallery(){
 
-    const stormfieldstrikerpremiumoversizedsweatshirtgallery={
+    const corgiwizardstormpawpremiumoversizedsweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"Stormfield Striker"
+        alt:"Corgi Wizard Stormpaw Ascendant"
     }
     return `
-          <div id="stormfieldstrikerpremiumoversizedsweatshirtgallery">
+          <div id="corgiwizardstormpawpremiumoversizedsweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="stormfieldstrikerpremiumoversizedsweatshirt_gallery_flex">
-                 <img src="${stormfieldstrikerpremiumoversizedsweatshirtgallery.img}" alt="${stormfieldstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerpremiumoversizedsweatshirtgallery.img}" alt="${stormfieldstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerpremiumoversizedsweatshirtgallery.img}" alt="${stormfieldstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${stormfieldstrikerpremiumoversizedsweatshirtgallery.img}" alt="${stormfieldstrikerpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="corgiwizardstormpawpremiumoversizedsweatshirt_gallery_flex">
+                 <img src="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.img}" alt="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.img}" alt="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.img}" alt="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.img}" alt="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;

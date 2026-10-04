@@ -70,6 +70,7 @@ import { stormfieldstrikersweatshirtmain } from './StormfieldStriker/stormfields
 import { stormfieldstrikerpremiumoversizedhoodiemain } from './StormfieldStriker/stormfieldstrikerpremiumoversizedhoodie.js';
 import { stormfieldstrikerlightweighthoodiemain } from './StormfieldStriker/stormfieldstrikerlightweighthoodie.js';
 import { stormfieldstrikerpremiumoversizedsweatshirtmain } from './StormfieldStriker/stormfieldstrikerpremiumoversizedsweatshirt.js';
+import { corgiwizardstormpawmain } from './CorgiWizardStormpaw/CorgiWizardStormpaw.js';
 
 export const productRoutes ={
 idontfishforfoodifishforvibes: idontfishforfood,
@@ -151,5 +152,7 @@ idontfishforfoodifishforvibes: idontfishforfood,
     stormfieldstrikersweatshirt: stormfieldstrikersweatshirtmain,
     stormfieldstrikerpremiumoversizedhoodie: stormfieldstrikerpremiumoversizedhoodiemain,
     stormfieldstrikerlightweighthoodie: stormfieldstrikerlightweighthoodiemain,
-    stormfieldstrikerpremiumoversizedsweatshirt: stormfieldstrikerpremiumoversizedsweatshirtmain    
+    stormfieldstrikerpremiumoversizedsweatshirt: stormfieldstrikerpremiumoversizedsweatshirtmain,
+    
+    corgiwizardstormpaw: corgiwizardstormpawmain
 }
