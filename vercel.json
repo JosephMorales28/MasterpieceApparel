@@ -380,6 +380,10 @@
     {
       "source": "/CorgiWizardStormpaw/corgiwizardstormpawclassicshirt",
       "destination": "/js/pages/CorgiWizardStormpaw/corgiwizardstormpawclassicshirt"
+    },
+    {
+      "source": "/CorgiWizardStormpaw/corgiwizardstormpawpremiumshirt",
+      "destination": "/js/pages/CorgiWizardStormpaw/corgiwizardstormpawpremiumshirt"
     }
   ]
 }
