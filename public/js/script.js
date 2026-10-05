@@ -13,7 +13,8 @@ const supportedPages=['about','shop','service','blog','contact',404,
                       'lightningpawstriker','lightningpawstrikerclassicshirt','lightningpawstrikerpremiumshirt','lightningpawstrikeroversizedshirt','lightningpawstrikersweatshirt','lightningpawstrikerpremiumoversizedhoodie','lightningpawstrikerlightweighthoodie','lightningpawstrikerpremiumoversizedsweatshirt',
                       'houndofthunder','houndofthunderclassicshirt','houndofthunderpremiumshirt','houndofthunderoversizedshirt','houndofthundersweatshirt','houndofthunderpremiumoversizedhoodie','houndofthunderlightweighthoodie','houndofthunderpremiumoversizedsweatshirt',
                       'stormfieldstriker','stormfieldstrikerclassicshirt','stormfieldstrikerpremiumshirt','stormfieldstrikeroversizedshirt','stormfieldstrikersweatshirt','stormfieldstrikerpremiumoversizedhoodie','stormfieldstrikerlightweighthoodie','stormfieldstrikerpremiumoversizedsweatshirt',
-                      'corgiwizardstormpaw','corgiwizardstormpawclassicshirt','corgiwizardstormpawpremiumshirt','corgiwizardstormpawoversizedshirt','corgiwizardstormpawsweatshirt','corgiwizardstormpawpremiumoversizedhoodie','corgiwizardstormpawlightweighthoodie','corgiwizardstormpawpremiumoversizedsweatshirt'
+                      'corgiwizardstormpaw','corgiwizardstormpawclassicshirt','corgiwizardstormpawpremiumshirt','corgiwizardstormpawoversizedshirt','corgiwizardstormpawsweatshirt','corgiwizardstormpawpremiumoversizedhoodie','corgiwizardstormpawlightweighthoodie','corgiwizardstormpawpremiumoversizedsweatshirt',
+                      'celestialchampioncorgi'
                       ];
 
 const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() || 'home';

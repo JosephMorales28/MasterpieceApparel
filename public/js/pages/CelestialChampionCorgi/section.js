@@ -18,7 +18,7 @@ class ImageSectionProduct{
     }
 }
 
-export function corgiwizardstormpaw_section(){
+export function celestialchampioncorgi_section(){
 
     const imagesection_product=[
         new ImageSectionProduct(
@@ -27,7 +27,7 @@ export function corgiwizardstormpaw_section(){
             0,
             0,
             "Classic Shirt",
-            "/CelestialChampionCorgi/corgiwizardstormpawclassicshirt"
+            "/CelestialChampionCorgi/celestialchampioncorgiclassicshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -35,7 +35,7 @@ export function corgiwizardstormpaw_section(){
             0,
             0,
             "Premium Shirt",
-            "/CelestialChampionCorgi/corgiwizardstormpawpremiumshirt"
+            "/CelestialChampionCorgi/celestialchampioncorgipremiumshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -43,7 +43,7 @@ export function corgiwizardstormpaw_section(){
             0,
             0,
             "Oversized Shirt",
-            "/CelestialChampionCorgi/corgiwizardstormpawoversizedshirt"
+            "/CelestialChampionCorgi/celestialchampioncorgioversizedshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -51,7 +51,7 @@ export function corgiwizardstormpaw_section(){
             0,
             0,
             "Sweat Shirt",
-            "/CelestialChampionCorgi/corgiwizardstormpawsweatshirt"
+            "/CelestialChampionCorgi/celestialchampioncorgisweatshirt"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -59,7 +59,7 @@ export function corgiwizardstormpaw_section(){
             0,
             0,
             "Premium Oversized Hoodie",
-            "/CelestialChampionCorgi/corgiwizardstormpawpremiumoversizedhoodie"
+            "/CelestialChampionCorgi/celestialchampioncorgipremiumoversizedhoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -67,7 +67,7 @@ export function corgiwizardstormpaw_section(){
             0,
             0,
             "Lightweight Hoodie",
-            "/CelestialChampionCorgi/corgiwizardstormpawlightweighthoodie"
+            "/CelestialChampionCorgi/celestialchampioncorgilightweighthoodie"
         ),
         new ImageSectionProduct(
             "/img/gallery1.webp",
@@ -75,7 +75,7 @@ export function corgiwizardstormpaw_section(){
             0,
             0,
             "Premium Oversized Sweat Shirt",
-            "/CelestialChampionCorgi/corgiwizardstormpawpremiumoversizedsweatshirt"
+            "/CelestialChampionCorgi/celestialchampioncorgipremiumoversizedsweatshirt"
         )
     ];
 

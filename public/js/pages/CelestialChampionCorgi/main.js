@@ -118,19 +118,19 @@ class CelestialChampionCorgiPremiumOversizedSweatshirtMainProduct{
     }
 }
 
-export function corgiwizardstormpaw_main(){
+export function celestialchampioncorgi_main(){
     
-    const corgiwizardstormpawmain_product=[
+    const celestialchampioncorgimain_product=[
         new CelestialChampionCorgiMainProduct(
             "/img/idontfish.webp",
-            "Corgi Wizard Stormpaw Ascendant",
+            "Celestial Champion Corgi",
             0,
             0
         )
     ];
 
-    const corgiwizardstormpawinfo={
-        name:"Corgi Wizard Stormpaw Ascendant</br>(Essential Shirt)",
+    const celestialchampioncorgiinfo={
+        name:"Celestial Champion Corgi</br>(Essential Shirt)",
         creator:"Joseph Morales",
         Price: 30.69,
         details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
@@ -150,28 +150,28 @@ export function corgiwizardstormpaw_main(){
         }
     };
     
-    const corgiwizardstormpawHTML=corgiwizardstormpawmain_product.map(corgiwizardstormpawMP=>corgiwizardstormpawMP.getCelestialChampionCorgiMainProduct()).join('');
+    const celestialchampioncorgiHTML=celestialchampioncorgimain_product.map(celestialchampioncorgiMP=>celestialchampioncorgiMP.getCelestialChampionCorgiMainProduct()).join('');
     
-    const corgiwizardstormpawinfoHTML=`
-        <h1>${corgiwizardstormpawinfo.name}</h1>
-        <p>Created by : ${corgiwizardstormpawinfo.creator}</p>
-        <strong>$ ${corgiwizardstormpawinfo.Price.toFixed(2)}</strong>
+    const celestialchampioncorgiinfoHTML=`
+        <h1>${celestialchampioncorgiinfo.name}</h1>
+        <p>Created by : ${celestialchampioncorgiinfo.creator}</p>
+        <strong>$ ${celestialchampioncorgiinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${corgiwizardstormpawinfo.details}</p>
+        <p>${celestialchampioncorgiinfo.details}</p>
         <h4>Type:</h4>
-        <p>${corgiwizardstormpawinfo.type} are ${corgiwizardstormpawinfo.fabric}</p>
+        <p>${celestialchampioncorgiinfo.type} are ${celestialchampioncorgiinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${corgiwizardstormpawinfo.size.s}, ${corgiwizardstormpawinfo.size.m}, ${corgiwizardstormpawinfo.size.l}, ${corgiwizardstormpawinfo.size.xl}, ${corgiwizardstormpawinfo.size.xxl}, ${corgiwizardstormpawinfo.size.xxxl}</p>
+        <p>${celestialchampioncorgiinfo.size.s}, ${celestialchampioncorgiinfo.size.m}, ${celestialchampioncorgiinfo.size.l}, ${celestialchampioncorgiinfo.size.xl}, ${celestialchampioncorgiinfo.size.xxl}, ${celestialchampioncorgiinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${corgiwizardstormpawHTML}
+                        ${celestialchampioncorgiHTML}
                     </div>
                     <div>
-                         ${corgiwizardstormpawinfoHTML}
+                         ${celestialchampioncorgiinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $26.07</button>
@@ -182,39 +182,39 @@ export function corgiwizardstormpaw_main(){
            `;
 }
 
-export function corgiwizardstormpawmain_gallery(){
+export function celestialchampioncorgimain_gallery(){
 
-    const corgiwizardstormpawgallery={
+    const celestialchampioncorgigallery={
         img: "/img/gallery1.webp",
-        alt:"Corgi Wizard Stormpaw Ascendant"
+        alt:"Celestial Champion Corgi"
     }
     return `
-          <div id="corgiwizardstormpawgallery">
+          <div id="celestialchampioncorgigallery">
               <h1>Image Product</h1>
-              <div class="corgiwizardstormpaw_gallery_flex">
-                 <img src="${corgiwizardstormpawgallery.img}" alt="${corgiwizardstormpawgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawgallery.img}" alt="${corgiwizardstormpawgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawgallery.img}" alt="${corgiwizardstormpawgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawgallery.img}" alt="${corgiwizardstormpawgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="celestialchampioncorgi_gallery_flex">
+                 <img src="${celestialchampioncorgigallery.img}" alt="${celestialchampioncorgigallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgigallery.img}" alt="${celestialchampioncorgigallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgigallery.img}" alt="${celestialchampioncorgigallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgigallery.img}" alt="${celestialchampioncorgigallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 
 }
 
-export function corgiwizardstormpawclassic_main(){
+export function celestialchampioncorgiclassic_main(){
    
-    const corgiwizardstormpawclassic_mainproduct=[
+    const celestialchampioncorgiclassic_mainproduct=[
         new CelestialChampionCorgiClassicMainProduct(
             "/img/idontfish.webp",
-            "Corgi Wizard Stormpaw Ascendant",
+            "Celestial Champion Corgi",
             0,
             0
         )
     ];
 
-    const corgiwizardstormpawclassicinfo={
-        name:"Corgi Wizard Stormpaw Ascendant</br>(Classic Shirt)",
+    const celestialchampioncorgiclassicinfo={
+        name:"Celestial Champion Corgi</br>(Classic Shirt)",
         creator:"Joseph Morales",
         Price: 32.00,
         details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
@@ -234,28 +234,28 @@ export function corgiwizardstormpawclassic_main(){
         }
     };
 
-    const corgiwizardstormpawclassic_mainHTML=corgiwizardstormpawclassic_mainproduct.map(corgiwizardstormpawclassic_MainProducts=>corgiwizardstormpawclassic_MainProducts.getCelestialChampionCorgiClassicMainProduct()).join('')
+    const celestialchampioncorgiclassic_mainHTML=celestialchampioncorgiclassic_mainproduct.map(celestialchampioncorgiclassic_MainProducts=>celestialchampioncorgiclassic_MainProducts.getCelestialChampionCorgiClassicMainProduct()).join('')
     
-    const corgiwizardstormpawclassicinfoHTML=`
-        <h1>${corgiwizardstormpawclassicinfo.name}</h1>
-        <p>Created by : ${corgiwizardstormpawclassicinfo.creator}</p>
-        <strong>$ ${corgiwizardstormpawclassicinfo.Price.toFixed(2)}</strong>
+    const celestialchampioncorgiclassicinfoHTML=`
+        <h1>${celestialchampioncorgiclassicinfo.name}</h1>
+        <p>Created by : ${celestialchampioncorgiclassicinfo.creator}</p>
+        <strong>$ ${celestialchampioncorgiclassicinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${corgiwizardstormpawclassicinfo.details}</p>
+        <p>${celestialchampioncorgiclassicinfo.details}</p>
         <h4>Type:</h4>
-        <p>${corgiwizardstormpawclassicinfo.type} are ${corgiwizardstormpawclassicinfo.fabric}</p>
+        <p>${celestialchampioncorgiclassicinfo.type} are ${celestialchampioncorgiclassicinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${corgiwizardstormpawclassicinfo.size.s}, ${corgiwizardstormpawclassicinfo.size.m}, ${corgiwizardstormpawclassicinfo.size.l}, ${corgiwizardstormpawclassicinfo.size.xl}, ${corgiwizardstormpawclassicinfo.size.xxl}, ${corgiwizardstormpawclassicinfo.size.xxxl}</p>
+        <p>${celestialchampioncorgiclassicinfo.size.s}, ${celestialchampioncorgiclassicinfo.size.m}, ${celestialchampioncorgiclassicinfo.size.l}, ${celestialchampioncorgiclassicinfo.size.xl}, ${celestialchampioncorgiclassicinfo.size.xxl}, ${celestialchampioncorgiclassicinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${corgiwizardstormpawclassic_mainHTML}
+                        ${celestialchampioncorgiclassic_mainHTML}
                     </div>
                     <div>
-                         ${corgiwizardstormpawclassicinfoHTML}
+                         ${celestialchampioncorgiclassicinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $27.20</button>
@@ -266,39 +266,39 @@ export function corgiwizardstormpawclassic_main(){
            `;
 }
 
-export function corgiwizardstormpawclassic_gallery(){
+export function celestialchampioncorgiclassic_gallery(){
 
-    const corgiwizardstormpawclassicgallery={
+    const celestialchampioncorgiclassicgallery={
         img: "/img/gallery1.webp",
-        alt:"Corgi Wizard Stormpaw Ascendant"
+        alt:"Celestial Champion Corgi"
     }
     return `
-          <div id="corgiwizardstormpawclassicgallery">
+          <div id="celestialchampioncorgiclassicgallery">
               <h1>Image Product</h1>
-              <div class="corgiwizardstormpawclassic_gallery_flex">
-                 <img src="${corgiwizardstormpawclassicgallery.img}" alt="${corgiwizardstormpawclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawclassicgallery.img}" alt="${corgiwizardstormpawclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawclassicgallery.img}" alt="${corgiwizardstormpawclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawclassicgallery.img}" alt="${corgiwizardstormpawclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="celestialchampioncorgiclassic_gallery_flex">
+                 <img src="${celestialchampioncorgiclassicgallery.img}" alt="${celestialchampioncorgiclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgiclassicgallery.img}" alt="${celestialchampioncorgiclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgiclassicgallery.img}" alt="${celestialchampioncorgiclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgiclassicgallery.img}" alt="${celestialchampioncorgiclassicgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 
 }
 
-export function corgiwizardstormpawpremium_main(){
+export function celestialchampioncorgipremium_main(){
    
-    const corgiwizardstormpawpremium_mainproduct=[
+    const celestialchampioncorgipremium_mainproduct=[
         new CelestialChampionCorgiPremiumMainProduct(
             "/img/idontfish.webp",
-            "Corgi Wizard Stormpaw Ascendant - Premium shirt",
+            "Celestial Champion Corgi - Premium shirt",
             0,
             0
         )
     ];
 
-    const corgiwizardstormpawpremiuminfo={
-        name:"Corgi Wizard Stormpaw Ascendant</br>(Premium Shirt)",
+    const celestialchampioncorgipremiuminfo={
+        name:"Celestial Champion Corgi</br>(Premium Shirt)",
         creator:"Joseph Morales",
         Price: 46.35,
         details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
@@ -318,28 +318,28 @@ export function corgiwizardstormpawpremium_main(){
         }
     };
 
-    const corgiwizardstormpawpremium_mainHTML=corgiwizardstormpawpremium_mainproduct.map(corgiwizardstormpawpremium_MainProducts=>corgiwizardstormpawpremium_MainProducts.getCelestialChampionCorgiPremiumMainProduct()).join('')
+    const celestialchampioncorgipremium_mainHTML=celestialchampioncorgipremium_mainproduct.map(celestialchampioncorgipremium_MainProducts=>celestialchampioncorgipremium_MainProducts.getCelestialChampionCorgiPremiumMainProduct()).join('')
     
-    const corgiwizardstormpawpremiuminfoHTML=`
-        <h1>${corgiwizardstormpawpremiuminfo.name}</h1>
-        <p>Created by : ${corgiwizardstormpawpremiuminfo.creator}</p>
-        <strong>$ ${corgiwizardstormpawpremiuminfo.Price.toFixed(2)}</strong>
+    const celestialchampioncorgipremiuminfoHTML=`
+        <h1>${celestialchampioncorgipremiuminfo.name}</h1>
+        <p>Created by : ${celestialchampioncorgipremiuminfo.creator}</p>
+        <strong>$ ${celestialchampioncorgipremiuminfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${corgiwizardstormpawpremiuminfo.details}</p>
+        <p>${celestialchampioncorgipremiuminfo.details}</p>
         <h4>Type:</h4>
-        <p>${corgiwizardstormpawpremiuminfo.type} are ${corgiwizardstormpawpremiuminfo.fabric}</p>
+        <p>${celestialchampioncorgipremiuminfo.type} are ${celestialchampioncorgipremiuminfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${corgiwizardstormpawpremiuminfo.size.s}, ${corgiwizardstormpawpremiuminfo.size.m}, ${corgiwizardstormpawpremiuminfo.size.l}, ${corgiwizardstormpawpremiuminfo.size.xl}, ${corgiwizardstormpawpremiuminfo.size.xxl}, ${corgiwizardstormpawpremiuminfo.size.xxxl}</p>
+        <p>${celestialchampioncorgipremiuminfo.size.s}, ${celestialchampioncorgipremiuminfo.size.m}, ${celestialchampioncorgipremiuminfo.size.l}, ${celestialchampioncorgipremiuminfo.size.xl}, ${celestialchampioncorgipremiuminfo.size.xxl}, ${celestialchampioncorgipremiuminfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${corgiwizardstormpawpremium_mainHTML}
+                        ${celestialchampioncorgipremium_mainHTML}
                     </div>
                     <div>
-                         ${corgiwizardstormpawpremiuminfoHTML}
+                         ${celestialchampioncorgipremiuminfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $46.35</button>
@@ -350,39 +350,39 @@ export function corgiwizardstormpawpremium_main(){
            `;
 }
 
-export function corgiwizardstormpawpremium_gallery(){
+export function celestialchampioncorgipremium_gallery(){
 
-    const corgiwizardstormpawpremiumgallery={
+    const celestialchampioncorgipremiumgallery={
         img: "/img/gallery1.webp",
-        alt:"Corgi Wizard Stormpaw Ascendant"
+        alt:"Celestial Champion Corgi"
     }
     return `
-          <div id="corgiwizardstormpawpremiumgallery">
+          <div id="celestialchampioncorgipremiumgallery">
               <h1>Image Product</h1>
-              <div class="corgiwizardstormpawpremium_gallery_flex">
-                 <img src="${corgiwizardstormpawpremiumgallery.img}" alt="${corgiwizardstormpawpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawpremiumgallery.img}" alt="${corgiwizardstormpawpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawpremiumgallery.img}" alt="${corgiwizardstormpawpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawpremiumgallery.img}" alt="${corgiwizardstormpawpremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="celestialchampioncorgipremium_gallery_flex">
+                 <img src="${celestialchampioncorgipremiumgallery.img}" alt="${celestialchampioncorgipremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgipremiumgallery.img}" alt="${celestialchampioncorgipremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgipremiumgallery.img}" alt="${celestialchampioncorgipremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgipremiumgallery.img}" alt="${celestialchampioncorgipremiumgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 
 }
 
-export function corgiwizardstormpawoversized_main(){
+export function celestialchampioncorgioversized_main(){
 
-    const corgiwizardstormpawoversizedmain_product=[
+    const celestialchampioncorgioversizedmain_product=[
         new CelestialChampionCorgiOversizedMainProduct(
             "/img/idontfish.webp",
-            "Corgi Wizard Stormpaw Ascendant",
+            "Celestial Champion Corgi",
             0,
             0
         )
     ];
 
-    const corgiwizardstormpawoversizedinfo={
-        name:"Corgi Wizard Stormpaw Ascendant</br>(Oversized Shirt)",
+    const celestialchampioncorgioversizedinfo={
+        name:"Celestial Champion Corgi</br>(Oversized Shirt)",
         creator:"Joseph Morales",
         Price: 37.00,
         details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
@@ -402,28 +402,28 @@ export function corgiwizardstormpawoversized_main(){
         }
     };
 
-    const corgiwizardstormpawoversizedHTML=corgiwizardstormpawoversizedmain_product.map(corgiwizardstormpawoversizedMP=>corgiwizardstormpawoversizedMP.getCelestialChampionCorgiOversizedMainProduct()).join('');
+    const celestialchampioncorgioversizedHTML=celestialchampioncorgioversizedmain_product.map(celestialchampioncorgioversizedMP=>celestialchampioncorgioversizedMP.getCelestialChampionCorgiOversizedMainProduct()).join('');
 
-    const corgiwizardstormpawoversizedinfoHTML=`
-        <h1>${corgiwizardstormpawoversizedinfo.name}</h1>
-        <p>Created by : ${corgiwizardstormpawoversizedinfo.creator}</p>
-        <strong>$ ${corgiwizardstormpawoversizedinfo.Price.toFixed(2)}</strong>
+    const celestialchampioncorgioversizedinfoHTML=`
+        <h1>${celestialchampioncorgioversizedinfo.name}</h1>
+        <p>Created by : ${celestialchampioncorgioversizedinfo.creator}</p>
+        <strong>$ ${celestialchampioncorgioversizedinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${corgiwizardstormpawoversizedinfo.details}</p>
+        <p>${celestialchampioncorgioversizedinfo.details}</p>
         <h4>Type:</h4>
-        <p>${corgiwizardstormpawoversizedinfo.type} are ${corgiwizardstormpawoversizedinfo.fabric}</p>
+        <p>${celestialchampioncorgioversizedinfo.type} are ${celestialchampioncorgioversizedinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${corgiwizardstormpawoversizedinfo.size.s}, ${corgiwizardstormpawoversizedinfo.size.m}, ${corgiwizardstormpawoversizedinfo.size.l}, ${corgiwizardstormpawoversizedinfo.size.xl}, ${corgiwizardstormpawoversizedinfo.size.xxl}, ${corgiwizardstormpawoversizedinfo.size.xxxl}</p>
+        <p>${celestialchampioncorgioversizedinfo.size.s}, ${celestialchampioncorgioversizedinfo.size.m}, ${celestialchampioncorgioversizedinfo.size.l}, ${celestialchampioncorgioversizedinfo.size.xl}, ${celestialchampioncorgioversizedinfo.size.xxl}, ${celestialchampioncorgioversizedinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${corgiwizardstormpawoversizedHTML}
+                        ${celestialchampioncorgioversizedHTML}
                     </div>
                     <div>
-                         ${corgiwizardstormpawoversizedinfoHTML}
+                         ${celestialchampioncorgioversizedinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $27.75</button>
@@ -434,38 +434,38 @@ export function corgiwizardstormpawoversized_main(){
            `;
 }
 
-export function corgiwizardstormpawoversized_gallery(){
+export function celestialchampioncorgioversized_gallery(){
 
-    const corgiwizardstormpawoversizedgallery={
+    const celestialchampioncorgioversizedgallery={
         img: "/img/gallery1.webp",
-        alt:"Corgi Wizard Stormpaw Ascendant"
+        alt:"Celestial Champion Corgi"
     }
     return `
-          <div id="corgiwizardstormpawoversizedgallery">
+          <div id="celestialchampioncorgioversizedgallery">
               <h1>Image Product</h1>
-              <div class="corgiwizardstormpawoversized_gallery_flex">
-                 <img src="${corgiwizardstormpawoversizedgallery.img}" alt="${corgiwizardstormpawoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawoversizedgallery.img}" alt="${corgiwizardstormpawoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawoversizedgallery.img}" alt="${corgiwizardstormpawoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawoversizedgallery.img}" alt="${corgiwizardstormpawoversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="celestialchampioncorgioversized_gallery_flex">
+                 <img src="${celestialchampioncorgioversizedgallery.img}" alt="${celestialchampioncorgioversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgioversizedgallery.img}" alt="${celestialchampioncorgioversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgioversizedgallery.img}" alt="${celestialchampioncorgioversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgioversizedgallery.img}" alt="${celestialchampioncorgioversizedgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function corgiwizardstormpawsweatshirt_main(){
+export function celestialchampioncorgisweatshirt_main(){
 
-    const corgiwizardstormpawsweatshirtmain_product=[
+    const celestialchampioncorgisweatshirtmain_product=[
         new CelestialChampionCorgiSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "Corgi Wizard Stormpaw Ascendant",
+            "Celestial Champion Corgi",
             0,
             0
         )
     ];
 
-    const corgiwizardstormpawsweatshirtinfo={
-        name:"Corgi Wizard Stormpaw Ascendant</br>(Sweat Shirt)",
+    const celestialchampioncorgisweatshirtinfo={
+        name:"Celestial Champion Corgi</br>(Sweat Shirt)",
         creator:"Joseph Morales",
         Price: 48.00,
         details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
@@ -485,28 +485,28 @@ export function corgiwizardstormpawsweatshirt_main(){
         }
     };
 
-    const corgiwizardstormpawsweatshirtHTML=corgiwizardstormpawsweatshirtmain_product.map(corgiwizardstormpawsweatshirtMP=>corgiwizardstormpawsweatshirtMP.getCelestialChampionCorgiSweatMainProduct()).join('');
+    const celestialchampioncorgisweatshirtHTML=celestialchampioncorgisweatshirtmain_product.map(celestialchampioncorgisweatshirtMP=>celestialchampioncorgisweatshirtMP.getCelestialChampionCorgiSweatMainProduct()).join('');
 
-    const corgiwizardstormpawsweatshirtinfoHTML=`
-        <h1>${corgiwizardstormpawsweatshirtinfo.name}</h1>
-        <p>Created by : ${corgiwizardstormpawsweatshirtinfo.creator}</p>
-        <strong>$ ${corgiwizardstormpawsweatshirtinfo.Price.toFixed(2)}</strong>
+    const celestialchampioncorgisweatshirtinfoHTML=`
+        <h1>${celestialchampioncorgisweatshirtinfo.name}</h1>
+        <p>Created by : ${celestialchampioncorgisweatshirtinfo.creator}</p>
+        <strong>$ ${celestialchampioncorgisweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${corgiwizardstormpawsweatshirtinfo.details}</p>
+        <p>${celestialchampioncorgisweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${corgiwizardstormpawsweatshirtinfo.type} are ${corgiwizardstormpawsweatshirtinfo.fabric}</p>
+        <p>${celestialchampioncorgisweatshirtinfo.type} are ${celestialchampioncorgisweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${corgiwizardstormpawsweatshirtinfo.size.s}, ${corgiwizardstormpawsweatshirtinfo.size.m}, ${corgiwizardstormpawsweatshirtinfo.size.l}, ${corgiwizardstormpawsweatshirtinfo.size.xl}, ${corgiwizardstormpawsweatshirtinfo.size.xxl}, ${corgiwizardstormpawsweatshirtinfo.size.xxxl}</p>
+        <p>${celestialchampioncorgisweatshirtinfo.size.s}, ${celestialchampioncorgisweatshirtinfo.size.m}, ${celestialchampioncorgisweatshirtinfo.size.l}, ${celestialchampioncorgisweatshirtinfo.size.xl}, ${celestialchampioncorgisweatshirtinfo.size.xxl}, ${celestialchampioncorgisweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${corgiwizardstormpawsweatshirtHTML}
+                        ${celestialchampioncorgisweatshirtHTML}
                     </div>
                     <div>
-                         ${corgiwizardstormpawsweatshirtinfoHTML}
+                         ${celestialchampioncorgisweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $38.40</button>
@@ -517,38 +517,38 @@ export function corgiwizardstormpawsweatshirt_main(){
            `;
 }
 
-export function corgiwizardstormpawsweatshirt_gallery(){
+export function celestialchampioncorgisweatshirt_gallery(){
 
-    const corgiwizardstormpawsweatshirtgallery={
+    const celestialchampioncorgisweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"Corgi Wizard Stormpaw Ascendant"
+        alt:"Celestial Champion Corgi"
     }
     return `
-          <div id="corgiwizardstormpawsweatshirtgallery">
+          <div id="celestialchampioncorgisweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="corgiwizardstormpawsweatshirt_gallery_flex">
-                 <img src="${corgiwizardstormpawsweatshirtgallery.img}" alt="${corgiwizardstormpawsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawsweatshirtgallery.img}" alt="${corgiwizardstormpawsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawsweatshirtgallery.img}" alt="${corgiwizardstormpawsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawsweatshirtgallery.img}" alt="${corgiwizardstormpawsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="celestialchampioncorgisweatshirt_gallery_flex">
+                 <img src="${celestialchampioncorgisweatshirtgallery.img}" alt="${celestialchampioncorgisweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgisweatshirtgallery.img}" alt="${celestialchampioncorgisweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgisweatshirtgallery.img}" alt="${celestialchampioncorgisweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgisweatshirtgallery.img}" alt="${celestialchampioncorgisweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function corgiwizardstormpawpremiumoversizedhoodie_main(){
+export function celestialchampioncorgipremiumoversizedhoodie_main(){
 
-    const corgiwizardstormpawpremiumoversizedhoodiemain_product=[
+    const celestialchampioncorgipremiumoversizedhoodiemain_product=[
         new CelestialChampionCorgiPremiumOversizedHoodieMainProduct(
             "/img/idontfish.webp",
-            "Corgi Wizard Stormpaw Ascendant",
+            "Celestial Champion Corgi",
             0,
             0
         )
     ];
 
-    const corgiwizardstormpawpremiumoversizedhoodieinfo={
-        name:"Corgi Wizard Stormpaw Ascendant</br>( Premium Oversized Hoodie )",
+    const celestialchampioncorgipremiumoversizedhoodieinfo={
+        name:"Celestial Champion Corgi</br>( Premium Oversized Hoodie )",
         creator:"Joseph Morales",
         Price: 68.00,
         details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
@@ -568,28 +568,28 @@ export function corgiwizardstormpawpremiumoversizedhoodie_main(){
         }
     };
 
-    const corgiwizardstormpawpremiumoversizedhoodieHTML=corgiwizardstormpawpremiumoversizedhoodiemain_product.map(corgiwizardstormpawpremiumoversizedhoodieMP=>corgiwizardstormpawpremiumoversizedhoodieMP.getCelestialChampionCorgiPremiumOversizedHoodieMainProduct()).join('');
+    const celestialchampioncorgipremiumoversizedhoodieHTML=celestialchampioncorgipremiumoversizedhoodiemain_product.map(celestialchampioncorgipremiumoversizedhoodieMP=>celestialchampioncorgipremiumoversizedhoodieMP.getCelestialChampionCorgiPremiumOversizedHoodieMainProduct()).join('');
 
-    const corgiwizardstormpawpremiumoversizedhoodieinfoHTML=`
-        <h1>${corgiwizardstormpawpremiumoversizedhoodieinfo.name}</h1>
-        <p>Created by : ${corgiwizardstormpawpremiumoversizedhoodieinfo.creator}</p>
-        <strong>$ ${corgiwizardstormpawpremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
+    const celestialchampioncorgipremiumoversizedhoodieinfoHTML=`
+        <h1>${celestialchampioncorgipremiumoversizedhoodieinfo.name}</h1>
+        <p>Created by : ${celestialchampioncorgipremiumoversizedhoodieinfo.creator}</p>
+        <strong>$ ${celestialchampioncorgipremiumoversizedhoodieinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${corgiwizardstormpawpremiumoversizedhoodieinfo.details}</p>
+        <p>${celestialchampioncorgipremiumoversizedhoodieinfo.details}</p>
         <h4>Type:</h4>
-        <p>${corgiwizardstormpawpremiumoversizedhoodieinfo.type} are ${corgiwizardstormpawpremiumoversizedhoodieinfo.fabric}</p>
+        <p>${celestialchampioncorgipremiumoversizedhoodieinfo.type} are ${celestialchampioncorgipremiumoversizedhoodieinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${corgiwizardstormpawpremiumoversizedhoodieinfo.size.s}, ${corgiwizardstormpawpremiumoversizedhoodieinfo.size.m}, ${corgiwizardstormpawpremiumoversizedhoodieinfo.size.l}, ${corgiwizardstormpawpremiumoversizedhoodieinfo.size.xl}, ${corgiwizardstormpawpremiumoversizedhoodieinfo.size.xxl}, ${corgiwizardstormpawpremiumoversizedhoodieinfo.size.xxxl}</p>
+        <p>${celestialchampioncorgipremiumoversizedhoodieinfo.size.s}, ${celestialchampioncorgipremiumoversizedhoodieinfo.size.m}, ${celestialchampioncorgipremiumoversizedhoodieinfo.size.l}, ${celestialchampioncorgipremiumoversizedhoodieinfo.size.xl}, ${celestialchampioncorgipremiumoversizedhoodieinfo.size.xxl}, ${celestialchampioncorgipremiumoversizedhoodieinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${corgiwizardstormpawpremiumoversizedhoodieHTML}
+                        ${celestialchampioncorgipremiumoversizedhoodieHTML}
                     </div>
                     <div>
-                         ${corgiwizardstormpawpremiumoversizedhoodieinfoHTML}
+                         ${celestialchampioncorgipremiumoversizedhoodieinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $40.80</button>
@@ -600,38 +600,38 @@ export function corgiwizardstormpawpremiumoversizedhoodie_main(){
            `;
 }
 
-export function corgiwizardstormpawpremiumoversizedhoodie_gallery(){
+export function celestialchampioncorgipremiumoversizedhoodie_gallery(){
 
-    const corgiwizardstormpawpremiumoversizedhoodiegallery={
+    const celestialchampioncorgipremiumoversizedhoodiegallery={
         img: "/img/gallery1.webp",
-        alt:"Corgi Wizard Stormpaw Ascendant"
+        alt:"Celestial Champion Corgi"
     }
     return `
-          <div id="corgiwizardstormpawpremiumoversizedhoodiegallery">
+          <div id="celestialchampioncorgipremiumoversizedhoodiegallery">
               <h1>Image Product</h1>
-              <div class="corgiwizardstormpawpremiumoversizedhoodie_gallery_flex">
-                 <img src="${corgiwizardstormpawpremiumoversizedhoodiegallery.img}" alt="${corgiwizardstormpawpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawpremiumoversizedhoodiegallery.img}" alt="${corgiwizardstormpawpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawpremiumoversizedhoodiegallery.img}" alt="${corgiwizardstormpawpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawpremiumoversizedhoodiegallery.img}" alt="${corgiwizardstormpawpremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="celestialchampioncorgipremiumoversizedhoodie_gallery_flex">
+                 <img src="${celestialchampioncorgipremiumoversizedhoodiegallery.img}" alt="${celestialchampioncorgipremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgipremiumoversizedhoodiegallery.img}" alt="${celestialchampioncorgipremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgipremiumoversizedhoodiegallery.img}" alt="${celestialchampioncorgipremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgipremiumoversizedhoodiegallery.img}" alt="${celestialchampioncorgipremiumoversizedhoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function corgiwizardstormpawlightweighthoodie_main(){
+export function celestialchampioncorgilightweighthoodie_main(){
 
-    const corgiwizardstormpawlightweighthoodiemain_product=[
+    const celestialchampioncorgilightweighthoodiemain_product=[
         new CelestialChampionCorgiLightweightHoodieMainProduct(
             "/img/idontfish.webp",
-            "Corgi Wizard Stormpaw Ascendant",
+            "Celestial Champion Corgi",
             0,
             0
         )
     ];
 
-    const corgiwizardstormpawlightweighthoodieinfo={
-        name:"Corgi Wizard Stormpaw Ascendant</br>(Lightweight Hoodie)",
+    const celestialchampioncorgilightweighthoodieinfo={
+        name:"Celestial Champion Corgi</br>(Lightweight Hoodie)",
         creator:"Joseph Morales",
         Price: 62.21,
         details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
@@ -651,28 +651,28 @@ export function corgiwizardstormpawlightweighthoodie_main(){
         }
     };
 
-    const corgiwizardstormpawlightweighthoodieHTML=corgiwizardstormpawlightweighthoodiemain_product.map(corgiwizardstormpawlightweighthoodieMP=>corgiwizardstormpawlightweighthoodieMP.getCelestialChampionCorgiLightweightHoodieMainProduct()).join('');
+    const celestialchampioncorgilightweighthoodieHTML=celestialchampioncorgilightweighthoodiemain_product.map(celestialchampioncorgilightweighthoodieMP=>celestialchampioncorgilightweighthoodieMP.getCelestialChampionCorgiLightweightHoodieMainProduct()).join('');
 
-    const corgiwizardstormpawlightweighthoodieinfoHTML=`
-        <h1>${corgiwizardstormpawlightweighthoodieinfo.name}</h1>
-        <p>Created by : ${corgiwizardstormpawlightweighthoodieinfo.creator}</p>
-        <strong>$ ${corgiwizardstormpawlightweighthoodieinfo.Price.toFixed(2)}</strong>
+    const celestialchampioncorgilightweighthoodieinfoHTML=`
+        <h1>${celestialchampioncorgilightweighthoodieinfo.name}</h1>
+        <p>Created by : ${celestialchampioncorgilightweighthoodieinfo.creator}</p>
+        <strong>$ ${celestialchampioncorgilightweighthoodieinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${corgiwizardstormpawlightweighthoodieinfo.details}</p>
+        <p>${celestialchampioncorgilightweighthoodieinfo.details}</p>
         <h4>Type:</h4>
-        <p>${corgiwizardstormpawlightweighthoodieinfo.type} are ${corgiwizardstormpawlightweighthoodieinfo.fabric}</p>
+        <p>${celestialchampioncorgilightweighthoodieinfo.type} are ${celestialchampioncorgilightweighthoodieinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${corgiwizardstormpawlightweighthoodieinfo.size.s}, ${corgiwizardstormpawlightweighthoodieinfo.size.m}, ${corgiwizardstormpawlightweighthoodieinfo.size.l}, ${corgiwizardstormpawlightweighthoodieinfo.size.xl}, ${corgiwizardstormpawlightweighthoodieinfo.size.xxl}, ${corgiwizardstormpawlightweighthoodieinfo.size.xxxl}</p>
+        <p>${celestialchampioncorgilightweighthoodieinfo.size.s}, ${celestialchampioncorgilightweighthoodieinfo.size.m}, ${celestialchampioncorgilightweighthoodieinfo.size.l}, ${celestialchampioncorgilightweighthoodieinfo.size.xl}, ${celestialchampioncorgilightweighthoodieinfo.size.xxl}, ${celestialchampioncorgilightweighthoodieinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${corgiwizardstormpawlightweighthoodieHTML}
+                        ${celestialchampioncorgilightweighthoodieHTML}
                     </div>
                     <div>
-                         ${corgiwizardstormpawlightweighthoodieinfoHTML}
+                         ${celestialchampioncorgilightweighthoodieinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $49.76</button>
@@ -683,38 +683,38 @@ export function corgiwizardstormpawlightweighthoodie_main(){
            `;
 }
 
-export function corgiwizardstormpawlightweighthoodie_gallery(){
+export function celestialchampioncorgilightweighthoodie_gallery(){
 
-    const corgiwizardstormpawlightweighthoodiegallery={
+    const celestialchampioncorgilightweighthoodiegallery={
         img: "/img/gallery1.webp",
-        alt:"Corgi Wizard Stormpaw Ascendant"
+        alt:"Celestial Champion Corgi"
     }
     return `
-          <div id="corgiwizardstormpawlightweighthoodiegallery">
+          <div id="celestialchampioncorgilightweighthoodiegallery">
               <h1>Image Product</h1>
-              <div class="corgiwizardstormpawlightweighthoodie_gallery_flex">
-                 <img src="${corgiwizardstormpawlightweighthoodiegallery.img}" alt="${corgiwizardstormpawlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawlightweighthoodiegallery.img}" alt="${corgiwizardstormpawlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawlightweighthoodiegallery.img}" alt="${corgiwizardstormpawlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawlightweighthoodiegallery.img}" alt="${corgiwizardstormpawlightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="celestialchampioncorgilightweighthoodie_gallery_flex">
+                 <img src="${celestialchampioncorgilightweighthoodiegallery.img}" alt="${celestialchampioncorgilightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgilightweighthoodiegallery.img}" alt="${celestialchampioncorgilightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgilightweighthoodiegallery.img}" alt="${celestialchampioncorgilightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgilightweighthoodiegallery.img}" alt="${celestialchampioncorgilightweighthoodiegallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;
 }
 
-export function corgiwizardstormpawpremiumoversizedsweatshirt_main(){
+export function celestialchampioncorgipremiumoversizedsweatshirt_main(){
 
-    const corgiwizardstormpawpremiumoversizedsweatshirtmain_product=[
+    const celestialchampioncorgipremiumoversizedsweatshirtmain_product=[
         new CelestialChampionCorgiPremiumOversizedSweatshirtMainProduct(
             "/img/idontfish.webp",
-            "Corgi Wizard Stormpaw Ascendant",
+            "Celestial Champion Corgi",
             0,
             0
         )
     ];
 
-    const corgiwizardstormpawpremiumoversizedsweatshirtinfo={
-        name:"Corgi Wizard Stormpaw Ascendant</br>(Premium Oversized Sweatshirt)",
+    const celestialchampioncorgipremiumoversizedsweatshirtinfo={
+        name:"Celestial Champion Corgi</br>(Premium Oversized Sweatshirt)",
         creator:"Joseph Morales",
         Price: 62.00,
         details:"Unleash the chaos of magic and fur! This high‑energy design features a corgi mage floating mid‑air, flexing both paws as lightning storms crackle around him. Dressed in golden battle robes and crowned with thunder, this fearless hero channels madness and might in a clash of good versus evil",
@@ -734,28 +734,28 @@ export function corgiwizardstormpawpremiumoversizedsweatshirt_main(){
         }
     };
 
-    const corgiwizardstormpawpremiumoversizedsweatshirtHTML=corgiwizardstormpawpremiumoversizedsweatshirtmain_product.map(corgiwizardstormpawpremiumoversizedsweatshirtMP=>corgiwizardstormpawpremiumoversizedsweatshirtMP.getCelestialChampionCorgiPremiumOversizedSweatshirtMainProduct()).join('');
+    const celestialchampioncorgipremiumoversizedsweatshirtHTML=celestialchampioncorgipremiumoversizedsweatshirtmain_product.map(celestialchampioncorgipremiumoversizedsweatshirtMP=>celestialchampioncorgipremiumoversizedsweatshirtMP.getCelestialChampionCorgiPremiumOversizedSweatshirtMainProduct()).join('');
 
-    const corgiwizardstormpawpremiumoversizedsweatshirtinfoHTML=`
-        <h1>${corgiwizardstormpawpremiumoversizedsweatshirtinfo.name}</h1>
-        <p>Created by : ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.creator}</p>
-        <strong>$ ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.Price.toFixed(2)}</strong>
+    const celestialchampioncorgipremiumoversizedsweatshirtinfoHTML=`
+        <h1>${celestialchampioncorgipremiumoversizedsweatshirtinfo.name}</h1>
+        <p>Created by : ${celestialchampioncorgipremiumoversizedsweatshirtinfo.creator}</p>
+        <strong>$ ${celestialchampioncorgipremiumoversizedsweatshirtinfo.Price.toFixed(2)}</strong>
         <h4>Details</h4>
-        <p>${corgiwizardstormpawpremiumoversizedsweatshirtinfo.details}</p>
+        <p>${celestialchampioncorgipremiumoversizedsweatshirtinfo.details}</p>
         <h4>Type:</h4>
-        <p>${corgiwizardstormpawpremiumoversizedsweatshirtinfo.type} are ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.fabric}</p>
+        <p>${celestialchampioncorgipremiumoversizedsweatshirtinfo.type} are ${celestialchampioncorgipremiumoversizedsweatshirtinfo.fabric}</p>
         <h4>Size Available</h4>
-        <p>${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.s}, ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.m}, ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.l}, ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.xl}, ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.xxl}, ${corgiwizardstormpawpremiumoversizedsweatshirtinfo.size.xxxl}</p>
+        <p>${celestialchampioncorgipremiumoversizedsweatshirtinfo.size.s}, ${celestialchampioncorgipremiumoversizedsweatshirtinfo.size.m}, ${celestialchampioncorgipremiumoversizedsweatshirtinfo.size.l}, ${celestialchampioncorgipremiumoversizedsweatshirtinfo.size.xl}, ${celestialchampioncorgipremiumoversizedsweatshirtinfo.size.xxl}, ${celestialchampioncorgipremiumoversizedsweatshirtinfo.size.xxxl}</p>
         `;
 
     return `<main>
               <div id="product_main">
                  <div class="production_flex">
                     <div>
-                        ${corgiwizardstormpawpremiumoversizedsweatshirtHTML}
+                        ${celestialchampioncorgipremiumoversizedsweatshirtHTML}
                     </div>
                     <div>
-                         ${corgiwizardstormpawpremiumoversizedsweatshirtinfoHTML}
+                         ${celestialchampioncorgipremiumoversizedsweatshirtinfoHTML}
 
                          <h4>Price Avaiable at:</h4>
                          <button class="redbubble_btn">Redbubble Price: $37.20</button>
@@ -766,20 +766,20 @@ export function corgiwizardstormpawpremiumoversizedsweatshirt_main(){
            `;
 }
 
-export function corgiwizardstormpawpremiumoversizedsweatshirt_gallery(){
+export function celestialchampioncorgipremiumoversizedsweatshirt_gallery(){
 
-    const corgiwizardstormpawpremiumoversizedsweatshirtgallery={
+    const celestialchampioncorgipremiumoversizedsweatshirtgallery={
         img: "/img/gallery1.webp",
-        alt:"Corgi Wizard Stormpaw Ascendant"
+        alt:"Celestial Champion Corgi"
     }
     return `
-          <div id="corgiwizardstormpawpremiumoversizedsweatshirtgallery">
+          <div id="celestialchampioncorgipremiumoversizedsweatshirtgallery">
               <h1>Image Product</h1>
-              <div class="corgiwizardstormpawpremiumoversizedsweatshirt_gallery_flex">
-                 <img src="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.img}" alt="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.img}" alt="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.img}" alt="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
-                 <img src="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.img}" alt="${corgiwizardstormpawpremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+              <div class="celestialchampioncorgipremiumoversizedsweatshirt_gallery_flex">
+                 <img src="${celestialchampioncorgipremiumoversizedsweatshirtgallery.img}" alt="${celestialchampioncorgipremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgipremiumoversizedsweatshirtgallery.img}" alt="${celestialchampioncorgipremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgipremiumoversizedsweatshirtgallery.img}" alt="${celestialchampioncorgipremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
+                 <img src="${celestialchampioncorgipremiumoversizedsweatshirtgallery.img}" alt="${celestialchampioncorgipremiumoversizedsweatshirtgallery.alt}" loading="lazy" fetchpriority="high" decoding="async"/>
                  </div>
           </div>
     `;

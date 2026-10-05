@@ -404,6 +404,10 @@
     {
       "source": "/CorgiWizardStormpaw/corgiwizardstormpawpremiumoversizedsweatshirt",
       "destination": "/js/pages/CorgiWizardStormpaw/corgiwizardstormpawpremiumoversizedsweatshirt"
+    },
+    {
+      "source": "/celestialchampioncorgi",
+      "destination": "/celestialchampioncorgi"
     }
   ]
 }

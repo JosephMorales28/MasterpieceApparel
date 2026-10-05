@@ -1,6 +1,6 @@
-import { corgiwizardstormpaw_main, corgiwizardstormpawmain_gallery } from "./main.js";
-import { corgiwizardstormpaw_section } from "./section.js";
+import { celestialchampioncorgi_main, celestialchampioncorgimain_gallery } from "./main.js";
+import { celestialchampioncorgi_section } from "./section.js";
 
-export function corgiwizardstormpawmain(){
-    return corgiwizardstormpaw_main() + corgiwizardstormpawmain_gallery() + corgiwizardstormpaw_section();
+export function celestialchampioncorgimain(){
+    return celestialchampioncorgi_main() + celestialchampioncorgimain_gallery() + celestialchampioncorgi_section();
 }
