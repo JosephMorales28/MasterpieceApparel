@@ -408,6 +408,10 @@
     {
       "source": "/celestialchampioncorgi",
       "destination": "/celestialchampioncorgi"
+    },
+    {
+      "source": "/CelestialChampionCorgi/celestialchampioncorgiclassicshirt",
+      "destination": "/js/pages/CelestialChampionCorgi/celestialchampioncorgiclassicshirt"
     }
   ]
 }

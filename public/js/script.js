@@ -14,7 +14,7 @@ const supportedPages=['about','shop','service','blog','contact',404,
                       'houndofthunder','houndofthunderclassicshirt','houndofthunderpremiumshirt','houndofthunderoversizedshirt','houndofthundersweatshirt','houndofthunderpremiumoversizedhoodie','houndofthunderlightweighthoodie','houndofthunderpremiumoversizedsweatshirt',
                       'stormfieldstriker','stormfieldstrikerclassicshirt','stormfieldstrikerpremiumshirt','stormfieldstrikeroversizedshirt','stormfieldstrikersweatshirt','stormfieldstrikerpremiumoversizedhoodie','stormfieldstrikerlightweighthoodie','stormfieldstrikerpremiumoversizedsweatshirt',
                       'corgiwizardstormpaw','corgiwizardstormpawclassicshirt','corgiwizardstormpawpremiumshirt','corgiwizardstormpawoversizedshirt','corgiwizardstormpawsweatshirt','corgiwizardstormpawpremiumoversizedhoodie','corgiwizardstormpawlightweighthoodie','corgiwizardstormpawpremiumoversizedsweatshirt',
-                      'celestialchampioncorgi'
+                      'celestialchampioncorgi','celestialchampioncorgiclassicshirt'
                       ];
 
 const lastPathSegment=window.location.pathname.split('/').filter(Boolean).pop() || 'home';
