@@ -412,6 +412,10 @@
     {
       "source": "/CelestialChampionCorgi/celestialchampioncorgiclassicshirt",
       "destination": "/js/pages/CelestialChampionCorgi/celestialchampioncorgiclassicshirt"
+    },
+    {
+      "source": "/CelestialChampionCorgi/celestialchampioncorgipremiumshirt",
+      "destination": "/js/pages/CelestialChampionCorgi/celestialchampioncorgipremiumshirt"
     }
   ]
 }
